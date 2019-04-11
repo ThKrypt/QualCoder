@@ -1,6 +1,6 @@
 # Welcome to the QualCoder wiki
 
-![QualCoder Icon](![QualCoder icon](https://qualcoder.files.whttps://qualcoder.files.wordpress.com/2019/01/qualcoder.png?resize=219%2C219ordpress.com/2019/01/qualcoder.png?resize=219%2C219))
+![QualCoder Icon](https://qualcoder.files.wordpress.com/2019/01/qualcoder.png?w=500)
 
 ## What is QualCoder?
 QualCoder is free, open source software for qualitative data analysis. 
