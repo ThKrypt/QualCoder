@@ -8,7 +8,7 @@ Under the Project menu click on Project memo. This is a memo about your project.
 
 The main window displays various changes that are made when using QualCoder. You will notice the main window displays the following, with a menu bar at the top:
 
-IMAGE
+![main screen](https://qualcoder.files.wordpress.com/2019/01/main_screen.png)
 
 # Settings
 
