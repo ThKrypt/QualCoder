@@ -88,11 +88,11 @@ Select Code text from the Coding menu. This is the central dialog for assigning 
 
 Select a code, then select some text. Right-click and mark the text to assign it to the selected code. Hover the mouse pointer over coded text to see a tooltip of the code. Coded text can be uncoded by clicking on the text segment and pressing the Unmark button.
 
-IMAGE
+![Coding text](https://qualcoder.files.wordpress.com/2019/01/coding1.png?w=990)
 
 Add an annotation (like a memo for a text segment) to a text selection. The text will become **bold** to mark the position of the annotation.
 
-IMAGE
+![annotation](https://qualcoder.files.wordpress.com/2019/01/annotation.png?w=429&h=240)
 
 You can also automatically code text segments using the Auto Code button. Enter the text you want to autocode. A dialog asks for one or more files to autocode. All matching text will be assigned the selected code.
 
@@ -102,13 +102,13 @@ Categories are used to organise codes. Categories are organised hierarchically i
 
 You can move codes into categories and move categories into larger categories. You can move categories and codes out of their current position. Codes and categories can be merged by dropping a code onto a code or a category onto a category.
 
-IMAGE
+![categories and codes](https://qualcoder.files.wordpress.com/2019/01/category_with_codes.png)
 
 ##  Coding images
 
 Images can be coded in a similar way to text coding. Select a code. Left-click and drag to highlight the area you want to assign to the code. Right-click will open a menu where you can remove the coding or add a memo. At the bottom of the screen there is a slider control to re-size the image.
 
-IMAGE
+![coding image](https://qualcoder.files.wordpress.com/2019/01/image_coding.png?w=618&h=445)
 
 ## Coding audio and video
 
@@ -116,11 +116,9 @@ When coding audio or video, two windows are displayed, shown below. One window h
 
 Once a segment is made using the _Start segment/Stop segment_ button this can be assigned to a code by right clicking on the relevant code and assigning the segment. 
 
-IMAGE
+![coding a/v](https://qualcoder.files.wordpress.com/2019/03/pic9.png?w=990)
 
-Coding stripes for the coded segments are shown in the upper pane. Hovering the mouse over each stripe shows the code name, time segment and any memo attached to that coded segment. Right clicking on a coded segment stripe shows a menu that can be used to edit he memo or delete the coded segment. Coded stripes are shown on various lines so that they do not overlap. An example of coding stripes and mouse hover is shown below.
-
-IMAGE
+Coding stripes for the coded segments are shown in the upper pane. Hovering the mouse over each stripe shows the code name, time segment and any memo attached to that coded segment. Right clicking on a coded segment stripe shows a menu that can be used to edit he memo or delete the coded segment. Coded stripes are shown on various lines so that they do not overlap. 
 
 ##  Codebook
 
@@ -132,7 +130,7 @@ A graph of categories and codes is displayed. There are several options to chang
 
 Each code or category can be moved around by clicking near the edge of the box and dragging it around. Clicking on the text allows you to temporarily change the code or category wording. Right-clicking in a code gives a menu of options such as displaying the memo, or displaying all the case or file text that has been coded with the selected code.
 
-IMAGE
+![Node graph](https://qualcoder.files.wordpress.com/2019/01/node-graph.png)
 
 
 
