@@ -15,6 +15,7 @@ Firstly, QualCoder is free. You do not need to pay for a commercial software lic
 Download the latest QualCoder from GitHub: https://github.com/ccbogel/QualCoder. Unzip the folder. The main program code is in the QualCoder folder. The Examples folder contains some example files which can be loaded into a test QualCoder project. There are an install.sh and a QualCoder.desktop file which are used to create a Linux Launcher.
 
 **Microsoft Windows**
+
 You will need to download and install Python 3. Then install PyQt5, lxml and Pillow modules. A Python 3 release can be obtained here: https://www.python.org/downloads/windows/. Finally, you need to have the VLC media player installed. You can get this from the Windows Store or from their website: https://www.videolan.org/vlc/download-windows.html 
 Once a Python 3 release is installed you should be able to install the modules PyQT5, lxml and Pillow using the following commands in the Windows Command prompt (The prompt is under Windows System):
 
@@ -25,6 +26,7 @@ python -m pip install lxml
 python -m pip install Pillow
 
 **Linux**
+
 I have created a QualCoder.deb package for easy install on Debian/Ubuntu systems. (It may not always install well depending on your system).
 
 If you want to install manually, follow these instructions to create a program launcher:
@@ -51,9 +53,14 @@ sudo apt install qpdf
 
 **MacOS**
 
+Install Python3 and VLC. Install the Python dependencies using pip:
+
+pip install pyqt5 lxml pillow six
+
+There is no desktop icon launch right now for QualCoder. Open a new Terminal window in the directory and launch with python qualcoder.py.
 
 
-1. Edition April 2019 Author: Colin Curtain ccbogel@hotmail.com
+Edition April 2019 Author: Colin Curtain ccbogel@hotmail.com
 
 **Copyright Notice**
 The MIT License (MIT)
