@@ -10,7 +10,7 @@ QualCoder is written in python 3 using Qt for the graphical interface. A Sqlite 
 There is also a wordpress site for QualCoder at https://qualcoder.wordpress.com/.
 
 ###  Why use QualCoder?
-Firstly, QualCoder is free. You do not need to pay for a commercial software license. QualCoder is easy to use and contains the core functionalities required for qualitative analysis. You use Linux. QualCoder has been developed on Linux and also works on Windows. There are many Free Open Source Software (FOSS) supporters who are willing to use and support FLOSS development.
+Firstly, QualCoder is free. You do not need to pay for a commercial software license. QualCoder is easy to use and contains the core functionalities required for qualitative analysis. You use Linux. QualCoder has been developed on Linux and also works on Windows and MacOS. There are many Free/Libre Open Source Software (FLOSS) supporters who are willing to use and support FLOSS development.
 
 ## Downloading files and dependencies
 Download the latest QualCoder from GitHub: https://github.com/ccbogel/QualCoder. Unzip the folder. The main program code is in the QualCoder folder. The Examples folder contains some example files which can be loaded into a test QualCoder project. There are an install.sh and a QualCoder.desktop file which are used to create a Linux Launcher.
