@@ -12,7 +12,7 @@ The main window displays various changes that are made when using QualCoder. You
 
 # Settings
 
-The settings dialog allows you to change the coder name. Multiple coders can code the same text. Checking the Show IDs box displays ID columns for data stored in various tables.The default language of QualCoder is English. Currently French and German are alternative options.
+The settings dialog allows you to change the coder name. Multiple coders can code the same text. Checking the Show IDs box displays ID columns for data stored in various tables.The default language of QualCoder is English. Currently French and German are alternative options which are being developed but not fully implemented yet. Nor have the translations been checked for accuracy.
 
 ![settings](https://qualcoder.files.wordpress.com/2019/04/settings.png)
 
