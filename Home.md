@@ -59,6 +59,27 @@ pip install pyqt5 lxml pillow six
 
 There is no desktop icon launch right now for QualCoder. Open a new Terminal window in the directory and launch with python qualcoder.py.
 
+# Starting QualCoder
+
+### Linux
+If you have successfully installed the debian package or sucessfully run the install.sh script there will be a program launcher. Double-click to start.
+
+Alternatively, using the terminal, move to the inner QualCoder folder and open the qualcoder.py file:
+
+python3 qualcoder.py
+
+### Windows
+In Windows create a shortcut to the qualcoder.py file and double click to open. Alternatively, using the command prompt, move to the directory and open the qualcoder.py file:
+
+python3 qualcoder.py
+
+### Mac OS
+There is no desktop icon launch right now for QualCoder. Open a new Terminal window in the directory and launch with python qualcoder.py.
+
+## Backups
+
+QualCoder does make a backup of a project when the project is first opened. I recommend that you make a backup before doing any substantial changes, such as reorganising codes and categories.
+
 
 Edition April 2019 Author: Colin Curtain ccbogel@hotmail.com
 
