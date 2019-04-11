@@ -54,7 +54,7 @@ Try automatically assigning text to ID1 by selecting case ID1 then clicking the 
 
 ![Auto-assign start and end marks](https://qualcoder.files.wordpress.com/2019/01/automarking_case.png?w=443&h=232)
 
-Now select the case ID1 and see the assigned text.clicking in a code gives a menu of options such as displaying the memo, or displaying all the case or file text that has been coded with the selected code.
+Now select the case ID1 and see the assigned text.
 
 ![Transcript portions assigned to a case](https://qualcoder.files.wordpress.com/2019/01/autocase_highlighted.png)
 
