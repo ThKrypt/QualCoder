@@ -1,9 +1,16 @@
 ![QualCoder icon](https://qualcoder.files.whttps://qualcoder.files.wordpress.com/2019/01/qualcoder.png?resize=219%2C219ordpress.com/2019/01/qualcoder.png?resize=219%2C219)
 
 # Welcome to the QualCoder wiki!
-## QualCoder is free software for qualitative data analysis 
+## What is QualCoder?
+QualCoder is free, open source software for qualitative data analysis. 
+With QualCoder you can code text and images, write journal notes and memos. You can categorise codes into a tree-like hierarchical categorisation scheme. Coding for audio and video is under development and requires the VLC media player.
+Reports can be generated for text coding and for coder comparison using the Cohen’s Kappa statistic. A graph displaying codes and categories can be generated to visualise the coding hierarchy. Most reports can be exported at html, open document text (ODT) or as plain text files.
+QualCoder is written in python 3 using Qt for the graphical interface. A Sqlite database is used to store the coding data.
+There is also a wordpress site for QualCoder at https://qualcoder.wordpress.com/.
 
 
+1. Edition April 2019
+Author: Colin Curtain ccbogel@hotmail.com
 
 **Copyright Notice**
 The MIT License (MIT)
