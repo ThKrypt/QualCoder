@@ -14,7 +14,7 @@ The main window displays various changes that are made when using QualCoder. You
 
 The settings dialog allows you to change the coder name. Multiple coders can code the same text. Checking the Show IDs box displays ID columns for data stored in various tables.The default language of QualCoder is English. Currently French and German are alternative options.
 
-IMAGE
+![settings](https://qualcoder.files.wordpress.com/2019/04/settings.png)
 
 # Files and Cases Menu
 ##  Manage Files
@@ -26,19 +26,17 @@ Filenames should only contain typical filename characters, e.g. a-z 0-9 _ - spac
 
 Attributes are variables that can be used to describe or classify the files. These can be added here or through the Manage Attributes menu option.
 
-IMAGE
+![manage files dialog](https://qualcoder.files.wordpress.com/2019/01/manage_files.png)
 
 As a practical example: Open the Manage Files dialog. In the Examples folder import the following files: ID1.docx, ID2.odt, transcript.txt and the miguel-henriques.jpg.
 
 You can open an audio or video file to view. This opens two windows, one for viewing the video and one for the controls and a transcript, shown below. The transcript text file must have the same name as the video file, but have a '.transcribed' suffix.
 
-IMAGE
-
 # Manage cases
 
 Open the Manage Cases dialog, shown here:
 
-IMAGE
+![Manage cases dialog](https://qualcoder.files.wordpress.com/2019/01/cases.png?w=990)
 
 Cases are useful for seeing text and imaged linked to particular cases and for assigning attributes such as age and gender to interview participants. You can add a memo of notes to each case and rename a case by double-clicking on a case name.
 
@@ -50,15 +48,15 @@ Use the Open file to view and assign text to case button and open file ID1.docx 
 
 Now open the transcript.txt file. Notice the transcript begins with a student id inside square brackets [ ].
 
-IMAGE
+![Transcript](https://qualcoder.files.wordpress.com/2019/01/cases_trans_1.png)
 
 Try automatically assigning text to ID1 by selecting case ID1 then clicking the Auto assign file text button. You will be asked which file or files to assign the case to. Select transcript.txt from the list. Next you need to enter the start and end marks. The start mark will be ‘[id1]’ and the end mark will be ‘[‘, note this is case sensitive so that is why you use the lower case here.
 
-IMAGE
+![Auto-assign start and end marks](https://qualcoder.files.wordpress.com/2019/01/automarking_case.png?w=443&h=232)
 
 Now select the case ID1 and see the assigned text.clicking in a code gives a menu of options such as displaying the memo, or displaying all the case or file text that has been coded with the selected code.
 
-IMAGE
+![Transcript portions assigned to a case](https://qualcoder.files.wordpress.com/2019/01/autocase_highlighted.png)
 
 You can also select a case, manually highlight text, and right-click to mark – or assign -the text to the selected case.
 
@@ -72,7 +70,7 @@ This asks for a CSV file to be imported. You can try importing the survey.csv fi
 
 Survey files must be in a CSV format, that is comma delimited format, or another delimiter (tabs are commonly used too). For tab-delimited files type ta, tb, or tab in the Delimiter box so that QualCoder knows the csv file is tab delimited. The first row must contain the headings for attributes. The first column must contain the unique identifiers for each survey respondent. QualCoder will determine if the other columns (attributes) are Numeric or Character. QualCoder cannot determine if an attribute is qualitative data. You must right-click and change the field type from character to qualitative for those fields that need to be qualitative. 
 
-IMAGE
+![Import survey dialog](https://qualcoder.files.wordpress.com/2019/01/change_to_qual.png)
 
 When you click on the OK button, the cases and their attributes will be added. The qualitative column will be converted to a file which will be named with the column name plus the current date and time. Each respondent's row will be prepended with [the unique id] so that you can identify each respondent. Also, the text for each respondent will be automatically linked to the corresponding case.
 
@@ -82,7 +80,7 @@ Attributes are variables associated with files or cases. They can be useful to a
 
 It is not the intention for QualCoder to perform statistical analyses of the attributes. It would be preferable to use dedicated statistical software such as R (https://www.r-project.org/) or other such software.
 
-IMAGE
+![Attributes dialog](https://qualcoder.files.wordpress.com/2019/01/manage_attributes.png)
 
 ##  Coding text
 
