@@ -1,6 +1,7 @@
-![QualCoder icon](https://qualcoder.files.whttps://qualcoder.files.wordpress.com/2019/01/qualcoder.png?resize=219%2C219ordpress.com/2019/01/qualcoder.png?resize=219%2C219)
+# Welcome to the QualCoder wiki
 
-# Welcome to the QualCoder wiki!
+![QualCoder Icon](![QualCoder icon](https://qualcoder.files.whttps://qualcoder.files.wordpress.com/2019/01/qualcoder.png?resize=219%2C219ordpress.com/2019/01/qualcoder.png?resize=219%2C219))
+
 ## What is QualCoder?
 QualCoder is free, open source software for qualitative data analysis. 
 With QualCoder you can code text and images, write journal notes and memos. You can categorise codes into a tree-like hierarchical categorisation scheme. Coding for audio and video is under development and requires the VLC media player.
