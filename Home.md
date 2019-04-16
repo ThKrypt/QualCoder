@@ -30,7 +30,7 @@ python -m pip install Pillow
 
 I have created a QualCoder.deb package for easy install on Debian/Ubuntu systems. (It may not always install well depending on your system). You can try a re-install too.
 
-If you want to install using the install.sh script, follow these instructions to create a program launcher:
+If you want to install using the _install.sh_ script, follow these instructions to create a program launcher:
 Go to your downloads folder. The example script below assumes you have downloaded the QualCoder-master.zip. Unzip QualCoder-master.zip. Open the uzipped folder and make the _install.sh_ script executable.  Open a terminal and type the following to install QualCoder:
 
 cd Downloads/QualCoder-master
