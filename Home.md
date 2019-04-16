@@ -28,28 +28,16 @@ python -m pip install Pillow
 
 **Linux**
 
-I have created a QualCoder.deb package for easy install on Debian/Ubuntu systems. (It may not always install well depending on your system).
+I have created a QualCoder.deb package for easy install on Debian/Ubuntu systems. (It may not always install well depending on your system). You can try a re-install too.
 
-If you want to install manually, follow these instructions to create a program launcher:
-Go to your downloads folder. Make the install.sh script executable. The example script below assumes you are in your home directory. Open a terminal and type the following to install QualCoder:
+If you want to install using the install.sh script, follow these instructions to create a program launcher:
+Go to your downloads folder. The example script below assumes you have downloaded the QualCoder-master.zip. Unzip QualCoder-master.zip. Open the uzipped folder and make the _install.sh_ script executable.  Open a terminal and type the following to install QualCoder:
 
-cd Downloads/QualCoder
+cd Downloads/QualCoder-master
 
-Run the install.sh file. The install process will ask for your permission to install QualCoder into the /usr/share directory. It will also download the additional python modules.
+Run the _install.sh_ file. The install process will ask for your permission to install QualCoder into the /usr/share directory. It will also download the additional dependencies.
 
 ./install.sh
-
-The install.sh script will also install the pyqt5sudo apt install vlc qtwayland5, lxml and Pillow modules as well as the VLC media player. If you do not use the install script, you need to run these commands to install the modules:
-
-sudo apt install python3-pyqt5
-
-sudo apt install python3-lxml
-
-sudo apt install python3-pil
-
-sudo apt install vlc qtwayland5
-
-sudo apt install qpdf
 
 
 **MacOS**
