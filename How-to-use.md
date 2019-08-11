@@ -130,7 +130,7 @@ When coding audio or video, two windows are displayed, shown below. One window h
 
 Once a segment is made using the _Start segment/Stop segment_ button this can be assigned to a code by right clicking on the relevant code and assigning the segment. 
 
-![coding a/v](https://qualcoder.files.wordpress.com/2019/08/video-coding.png?resize=219%2C219)
+![coding a/v](https://qualcoder.files.wordpress.com/2019/08/video-coding.png)
 
 Coding stripes for the coded segments are shown in the upper pane. Hovering the mouse over each stripe shows the code name, time segment and any memo attached to that coded segment. Right clicking on a coded segment stripe shows a menu that can be used to edit he memo or delete the coded segment. Coded stripes are shown on various lines so that they do not overlap. 
 
