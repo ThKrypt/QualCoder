@@ -1,3 +1,17 @@
+# Multiple dialog windows
+
+It is possible to have multiple dialog windows open. This is useful if you have run a report, or have a file open for coding, and you want to enter your thoughts into a journal entry. **However there are some limitations**.
+
+Some dialog windows are priority windows, so swapping between windows will not be possible, these restricted windows are: Management of attributes, survey import and confirmation dialogs (e.g. confirm delete).
+
+The second limitation is that changes in one dialog will not be reflected in the other dialogs. An example here is adding a code in a coding dialog, the added code will not be shown in other coding or reports windows. If you do make changes to highlighting and codes and categories, it is recommended to close and then re-open the other dialog window that you need. This is to ensure that any changes made show up in the other dialog windows. Similarly, highlighting text on the same file in two opened dialog will not be reflected in the other window. A warning, if you have the same journal entry open in two windows, the last window that is closed will be the entry that is saved.
+
+One software/programming quirk is, if you close a dialog (e.g. manage files dialog) and then immediately try to re-open the dialog, it may not open. To get around open and close another dialog, then try opening the manage files dialog.
+
+[Multiple dialog windows](https://qualcoder.files.wordpress.com/2019/08/multiple_dialogs.png?resize=219%2C219)
+
+# Data structures
+
 The qda data folder contains folders for imported documents, images and audio and video. It also contains the sqlite database, named data.qda, to store coding data.
 
 QualCoder creates QualCoder.log and QualCoder_settings.txt files in a .qualcoder folder in your home directory. The settings file contains the name of the current coder, a default working directory and choice of font. The log file records program errors and some user actions.
@@ -35,9 +49,9 @@ Reports:
 
 General:
 
-* Multi-language support
+* Multi-language support - some work done on French and German
 
-* Add open standard for import and export to other software.
+* Add REFI-QDA open standard for import and export to other software.
 
 #  About the author
 
