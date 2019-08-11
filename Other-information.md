@@ -8,7 +8,7 @@ The second limitation is that changes in one dialog will not be reflected in the
 
 One software/programming quirk is, if you close a dialog (e.g. manage files dialog) and then immediately try to re-open the dialog, it may not open. To get around open and close another dialog, then try opening the manage files dialog.
 
-[Multiple dialog windows](https://qualcoder.files.wordpress.com/2019/08/multiple_dialogs.png?resize=219%2C219)
+[Multiple dialog windows](https://qualcoder.files.wordpress.com/2019/08/multiple_dialogs.png)
 
 # Data structures
 
