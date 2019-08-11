@@ -8,14 +8,14 @@ Under the Project menu click on Project memo. This is a memo about your project.
 
 The main window displays various changes that are made when using QualCoder. You will notice the main window displays the following, with a menu bar at the top:
 
-![main screen](https://qualcoder.files.wordpress.com/2019/01/main_screen.png)
+![main screen](https://qualcoder.files.wordpress.com/2019/08/main_screen.png)
 
 # Settings
 
 The settings dialog allows you to change the coder name. Multiple coders can code the same text. Checking the Show IDs box displays ID columns for data stored in various tables. The default language of QualCoder is English. Currently French and German are alternative options. These alternatives have not been thoroughly reviewed for accuracy of translations.
 Project backup options are set here too. When the backup every time project is opened is checked, an additional option is to choose to backup the audio/video files. For completeness of backups it is recommended to back up audio and video, however this may slow down opening of the software if you have many large files.
 
-![settings](https://qualcoder.files.wordpress.com/2019/04/settings.png)
+![settings](https://qualcoder.files.wordpress.com/2019/08/settings.png)
 
 # Files and Cases Menu
 ##  Manage Files
@@ -130,7 +130,7 @@ When coding audio or video, two windows are displayed, shown below. One window h
 
 Once a segment is made using the _Start segment/Stop segment_ button this can be assigned to a code by right clicking on the relevant code and assigning the segment. 
 
-![coding a/v](https://qualcoder.files.wordpress.com/2019/03/pic9.png?w=990)
+![coding a/v](https://qualcoder.files.wordpress.com/2019/08/video-coding.png?resize=219%2C219)
 
 Coding stripes for the coded segments are shown in the upper pane. Hovering the mouse over each stripe shows the code name, time segment and any memo attached to that coded segment. Right clicking on a coded segment stripe shows a menu that can be used to edit he memo or delete the coded segment. Coded stripes are shown on various lines so that they do not overlap. 
 
