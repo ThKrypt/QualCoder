@@ -8,11 +8,11 @@ The Search Text box also limits the reported codings. The search text looks for 
 
 The Attribute selection button opens a dialog window where you can select attributes for files and cases, for example: only interview files for people aged > 60.
 
-[Attribute selection](https://qualcoder.files.wordpress.com/2019/02/attribute_selection.png)
+![Attribute selection](https://qualcoder.files.wordpress.com/2019/02/attribute_selection.png)
 
 If you are creating a report based on Case selection, then the code tree pane is hidden. Instead two panes are shown. The left pane shows the codings in a list, the right pane shows a matrix with one case on each row and top-level categories in each column, shown as below:
 
-[Case report showing three panes](https://qualcoder.files.wordpress.com/2019/08/report_panes-1.png)
+![Case report showing three panes](https://qualcoder.files.wordpress.com/2019/08/report_panes-1.png)
 
 Each of the three panes can be widened or narrowed by dragging with the mouse on the bar that splits each section.
 Reports can be exported to text, open document (ODT) or html files. Currently case matrices are not able to be exported.
@@ -30,7 +30,7 @@ Disagree % shows the percentage of all the coded and non-coded text that did not
 
 Cohen’s Kappa is calculated based on the information in Wikipedia https://en.wikipedia.org/wiki/Cohen%27s_kappa
 
-[Coder comparison](https://qualcoder.files.wordpress.com/2019/01/coder-comparison.png)
+![Coder comparison](https://qualcoder.files.wordpress.com/2019/01/coder-comparison.png)
 
 #  SQL Statements Dialog
 
@@ -40,10 +40,14 @@ Most table fields are text. The following fields are integer: anid, avid, attrid
 
 #  Multiple dialog windows
 
-It is possible to have multiple dialog windows open. This is useful if you have run a report, or have a file open for coding, and you want to enter your thoughts into a journal entry. However there are some limitations.
+It is possible to have multiple dialog windows open. This is useful if you have run a report, or have a file open for coding, and you want to enter your thoughts into a journal entry. **However there are some limitations**.
  
 Some dialog windows are priority windows, so swapping between windows will not be possible, these restricted windows are: Management of files, cases or attributes, survey import and confirmation dialogs (e.g. confirm delete). 
 
 The second limitation is that changes in one dialog will not be reflected in the other dialogs. An example here is adding a code in a coding dialog, the added code will not be shown in other coding or reports windows. If you do make changes to highlighting and codes and categories, it is recommended to close and then re-open the other dialog window that you need. This is to ensure that any changes made show up in the other dialog windows. Similarly, highlighting text on the same file in two opened dialog will not be reflected in the other window. A warning, if you have the same journal entry open in two windows, the last window that is closed will be the entry that is saved.
+
+A programming quirk is if you open a dialog (e.g. manage files dialog) close it,then immediately try to re-open it. The dialog will not be visible. To get around this, open a different dialog, close it, then open the manage files dialog again.
+
+![Multiple dialogs](https://qualcoder.files.wordpress.com/2019/08/multiple_dialogs.png)
 
 
