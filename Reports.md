@@ -8,17 +8,17 @@ The Search Text box also limits the reported codings. The search text looks for 
 
 The Attribute selection button opens a dialog window where you can select attributes for files and cases, for example: only interview files for people aged > 60.
 
-IMAGE
+[Attribute selection](https://qualcoder.files.wordpress.com/2019/02/attribute_selection.png)
 
 If you are creating a report based on Case selection, then the code tree pane is hidden. Instead two panes are shown. The left pane shows the codings in a list, the right pane shows a matrix with one case on each row and top-level categories in each column, shown as below:
 
-IMAGE
+[Case report showing three panes](https://qualcoder.files.wordpress.com/2019/08/report_panes-1.png)
 
 Each of the three panes can be widened or narrowed by dragging with the mouse on the bar that splits each section.
 Reports can be exported to text, open document (ODT) or html files. Currently case matrices are not able to be exported.
 
 ##  Coding Comparison
-This option shows the similarities and differences between two coders. Select two coders and click the run comparisons button. This option is only available for coded text, not coded media files. For each code:
+This option shows the similarities and differences between two coders. Select two coders and click the run comparisons button. The statistics created here are only for coded text, not coded media files. For each code:
 
 Agreement % shows agreement for a combination of coded and non-coded text characters.
 
@@ -30,13 +30,11 @@ Disagree % shows the percentage of all the coded and non-coded text that did not
 
 Cohen’s Kappa is calculated based on the information in Wikipedia https://en.wikipedia.org/wiki/Cohen%27s_kappa
 
-IMAGE
+[Coder comparison](https://qualcoder.files.wordpress.com/2019/01/coder-comparison.png)
 
 #  SQL Statements Dialog
 
 This dialog contains three panes. The top pane is where SQL statements are entered and the bottom pane contains the results of queries. The left pane contains tables and field names. Double-clicking on a field name adds it to the SQL statement. Results can be exported to a text file. If you are not familiar with SQL take care as you will be able to update and delete the data as well as select data. Note: Some Unicode symbols are not converted to plain text and are ignored.
-
-IMAGE
 
 Most table fields are text. The following fields are integer: anid, avid, attrid, caseid,catid, cid, fid, id, imid, jid, pos0,pos1, x1, y1, width, height.
 
