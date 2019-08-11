@@ -12,7 +12,8 @@ The main window displays various changes that are made when using QualCoder. You
 
 # Settings
 
-The settings dialog allows you to change the coder name. Multiple coders can code the same text. Checking the Show IDs box displays ID columns for data stored in various tables.The default language of QualCoder is English. Currently French and German are alternative options which are being developed but not fully implemented yet. Nor have the translations been checked for accuracy.
+The settings dialog allows you to change the coder name. Multiple coders can code the same text. Checking the Show IDs box displays ID columns for data stored in various tables. The default language of QualCoder is English. Currently French and German are alternative options. These alternatives have not been thoroughly reviewed for accuracy of translations.
+Project backup options are set here too. When the backup every time project is opened is checked, an additional option is to choose to backup the audio/video files. For completeness of backups it is recommended to back up audio and video, however this may slow down opening of the software if you have many large files.
 
 ![settings](https://qualcoder.files.wordpress.com/2019/04/settings.png)
 
