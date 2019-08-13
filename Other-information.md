@@ -26,13 +26,9 @@ Reports:
 
     • Possibly look at text mining functionality
 
-    • Possibly have an html report with embedded audio/video.
-
     • Some statistics: word count, possibly add bar or pie charts for some attributes.
 
     • Word clouds, word visualisations
-
-    • Word counts
 
     • Look at alternative ways to visualise codes
 
@@ -40,7 +36,7 @@ General:
 
 * Multi-language support - some work done on French and German
 
-* Add REFI-QDA open standard for import and export to other software.
+* Add REFI-QDA open standard for import and export to other software. Some partly-tested work done with Codebook import and export.
 
 #  About the author
 
