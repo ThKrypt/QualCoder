@@ -15,7 +15,7 @@ If you are creating a report based on Case selection, then the code tree pane is
 ![Case report showing three panes](https://qualcoder.files.wordpress.com/2019/08/report_panes-1.png)
 
 Each of the three panes can be widened or narrowed by dragging with the mouse on the bar that splits each section.
-Reports can be exported to text, open document (ODT) or html files. Currently case matrices are not able to be exported.
+Reports can be exported to text, open document (ODT), html or csv files. Currently case matrices are not able to be exported.
 
 ##  Coding Comparison
 This option shows the similarities and differences between two coders. Select two coders and click the run comparisons button. The statistics created here are only for coded text, not coded media files. For each code:
