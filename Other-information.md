@@ -16,9 +16,6 @@ In Windows, reports exported in ODT format are okay, but some images may overlap
 
 Some potential plans for the future are to add functionality:
 
-Coding: 
-
-    • Possibly add alternative ways to view text coding.
 
 Reports: 
 
