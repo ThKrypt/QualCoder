@@ -37,13 +37,21 @@ If you have a .srt file (a translation file that is read by VLC) you can place t
 
 Transcriptions should ideally contain timestamps indicating when the text is being pronounced during the video. The following formats are recognised by QualCoder, where SSS are milliseconds:
 
-[hh:mm:ss] [mm:ss] [hh.mm.ss] [mm.ss] 
+[hh:mm:ss] 
+
+[mm:ss] 
+
+[hh.mm.ss] 
+
+[mm.ss] 
 
 #hh:mm:ss.SSS# 
 
 hh:mm:ss,SSS --> hh:mm:ss,SSS
 
 The video file might contain multiple audio tracks. There is a drop down box that allows you to choose another audio track.
+
+Text files can be easily edited if they have no codes, annotations or cases assigned to them. Once these has been assigned, editing is limited to short text segments up to 20 characters long. To edit, select the text and right click to get a menu option to edit the text segment.
 
 
 # Manage cases
