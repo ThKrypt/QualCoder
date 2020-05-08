@@ -20,7 +20,7 @@ Download the latest QualCoder from GitHub: https://github.com/ccbogel/QualCoder.
 You will need to download and install Python 3. Then install PyQt5, lxml and Pillow modules. A Python 3 release can be obtained here: https://www.python.org/downloads/windows/. Finally, you need to have the VLC media player installed. Please ensure that the Python and VLC downloads are in the same architecture – that is – 32 bit or 64 bit for both. Otherwise QualCoder will not work.You can get this from the Windows Store or from their website: https://www.videolan.org/vlc/download-windows.html 
 Once a Python 3 release is installed you should be able to install the modules using the following commands in the Windows Command prompt (The prompt is under Windows System):
 
-`python -m pip install pyqt5 lxml Pillow ebooklib ply chardet click pikepdf pdfminer.six`
+`python -m pip install pyqt5 lxml Pillow ebooklib ply chardet pdfminer.six`
 
 To run QualCoder - double click on the qualcoder.py file which is located inside the qualcoder directory. You can make a shortcut to this file on the Desktop.
 
@@ -42,7 +42,7 @@ Run the _install.sh_ file. The install process will ask for your permission to i
 
 Install Python3 and VLC. Install the Python dependencies using pip:
 
-`pip install pyqt5 lxml pillow sixebooklib ply chardet click pikepdf pdfminer.six`
+`pip install pyqt5 lxml pillow sixebooklib ply chardet pdfminer.six`
 
 There is no desktop icon launch right now for QualCoder. Open a new Terminal window in the directory and launch with python qualcoder.py.
 
