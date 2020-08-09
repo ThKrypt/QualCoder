@@ -21,19 +21,21 @@ Reports:
 
     • Some statistics: word count, possibly add bar or pie charts for some attributes.
 
-    • Possibly look at text mining functionality
+   • The RQDA Relation functionand Profile Matrix function.
 
-    • Some statistics: word count, possibly add bar or pie charts for some attributes.
+    • Text mining functionality - maybe.
 
-    • Word clouds, word visualisations
+    • Some statistics: word count, possibly add bar or pie charts for some attributes - maybe.
+
+    • Word clouds, word visualisations - maybe.
 
     • Look at alternative ways to visualise codes
 
 General:
 
-* Multi-language support - some work done on French and German
+* Multi-language support - some work done on French. Spanish and German
 
-* Add REFI-QDA open standard for import and export to other software. Some partly-tested work done with Codebook import and export.
+* Improve REFI-QDA open standard for import and export to other software. Codebook import and export seems OK. Project import and export is experimental.
 
 #  About the author
 
