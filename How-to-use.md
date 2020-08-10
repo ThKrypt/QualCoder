@@ -1,3 +1,5 @@
+CURRENTLY NEEDS TO BE UPDATED (August 2020) See the manual.
+
 There are a few sample files in the Examples folder. These can be used to test importing files of different document formats and of importing an image. There are also example files to test importing case attributes, and for importing a survey.
 
 #  Create a new project
