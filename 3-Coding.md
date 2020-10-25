@@ -1,10 +1,6 @@
 #  Categories and codes
 
-Categories are used to organise codes. Categories are organised hierarchically in a tree structure.
-
-You can move codes into categories and move categories into larger categories. You can move categories and codes out of their current position. Codes and categories can be merged by dropping a code onto a code or a category onto a category.
-
-![categories and codes](https://qualcoder.files.wordpress.com/2019/01/category_with_codes.png)
+Categories are used to organise codes. Categories are organised hierarchically in a tree structure. You can move codes into categories and move categories into larger categories. You can move categories and codes out of their current position. Codes and categories can be merged by dropping a code onto a code or a category onto a category. Categories and codes can be assigned memos. Right-click on a category or code to rename. Right click on a code to change the color.
 
 # Coding Text
 
