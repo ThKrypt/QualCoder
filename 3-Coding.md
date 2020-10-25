@@ -36,17 +36,6 @@ Coding stripes for the coded segments are shown in the upper pane. Hovering the 
 
 The transcript text can also be coded and annotated in this dialog. However, when the Scroll transcript check box is checked, this cannot be performed. Playing the video when this is check will scroll the transcript using the timestamps in time with the video.
 
-##  Codebook
-
-A codebook is a list of your codes. Each code memo should detail the reasons for the purpose of each code. The codebook can be exported to a text file. The codebook also shows the frequency of the codes used (from all coders). Example codebook output is shown below. As codes and categories are put in a tree like structure the double minus ‘–‘ indicates the subordinate codes and categories within a category.
-
-##  Node graph
-
-A graph of categories and codes is displayed. There are several options to change what is shown – such as Black and White, All or selected categories.
-
-Each code or category can be moved around by clicking near the edge of the box and dragging it around. Clicking on the text allows you to temporarily change the code or category wording. Right-clicking in a code gives a menu of options such as displaying the memo, or displaying all the case or file text that has been coded with the selected code.
-
-![Node graph](https://qualcoder.files.wordpress.com/2019/01/node-graph.png)
 
 
 
