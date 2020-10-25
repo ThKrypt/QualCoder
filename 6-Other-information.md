@@ -52,6 +52,6 @@ Hello, my name is Colin Curtain and I am a pharmacist and lecturer from Australi
 
 Originally when doing my PhD I analysed qualitative survey data via a thematic approach using RQDA. I then thought this could be reproduced in Python, so I scripted an earlier version called PyQDA which worked OK at the time.
 
-I thought I would share QualCoder in the hope that it may help others. This is still an early version so bugs are possible and functionality could be further extended. I also generally work on Linux machines, and sometimes Windows, so this software probably needs further tweaking for best use on Windows. I work on the programming for this in my spare time, it is not my full time job for me.
+I thought I would share QualCoder in the hope that it may help others. Software bugs are possible and functionality could be further extended. I also generally work on Linux machines, and sometimes Windows, so this software probably needs further tweaking for best use on Windows. I work on the programming for this in my spare time, it is not my full time job for me.
 
 If and when you use QualCoder and publish your results, I would really appreciate it if you let me know the bibliographic information of your work.
