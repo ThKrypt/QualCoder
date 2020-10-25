@@ -8,11 +8,14 @@
 
 # Coding Reports
 
-This dialog gives a list of coded text based on your selections. One or more codes need to be selected and one or both of coder 1 and coder 2 need to be selected. The Search button will present the results. If a category is selected all codes in that category are also selected. Multiple categories can be selected using the mouse and the ‘ctrl’ button. Codes and categories can be sorted to help find the codes of interest.
+This dialog gives a list of coded text based on your selections. One or more codes need to be selected. If a category is selected all codes in that category are also selected. Multiple categories can be selected using the mouse and the ‘ctrl’ button. 
 
-Codings can be narrowed down by using the File selection Case selection or Attribute selection buttons. Only codings within the selected files or cases will be presented. If text is entered into the Search text field, only codings which contain the matching text will be presented. Codings can also be narrowed down to case selections using the Case selection button. Note that when case selections are used, file selections are ignored. Also when file selections are used, case selections are ignored.
+The Search button will present the results.
 
-The Search Text box also limits the reported codings. The search text looks for any codings in text that contain the search text. The search text also looks for matching text in memos for coded image areas and coded audio/video segments. The search text function must be used in combination with File selection, Case selection or Attribute selection.
+Coding results can be narrowed down by using the File selection, Case selection or Attribute selection buttons. Only codings within the selected files or cases will be presented. When case selections are used, file selections are ignored. Also when file selections are used, case selections are ignored. 
+
+If text is entered into the Search text field, only codings which contain the matching text will be presented. 
+The search text also looks for matching text in memos for coded image areas and coded audio/video segments. The search text function must be used in combination with File selection, Case selection or Attribute selection.
 
 The Attribute selection button opens a dialog window where you can select attributes for files and cases, for example: only interview files for people aged > 60.
 
