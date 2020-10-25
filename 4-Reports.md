@@ -77,6 +77,8 @@ Most table fields are text. The following fields are integer: anid, avid, attrid
 
 #  Codebook
 
+This is an option under the Project Menu > Exports.
+
 A codebook is a list of your codes. Each code memo should detail the reasons for the purpose of each code. The codebook can be exported to a text file. The codebook also shows the frequency of the codes used (from all coders). Example codebook output is shown below. As codes and categories are put in a tree like structure the double minus ‘–‘ indicates the subordinate codes and categories within a category.
 
 
