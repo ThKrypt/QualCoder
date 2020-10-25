@@ -43,13 +43,23 @@ You can also right-click on a code and select change start position or change en
 
 #  Coding images
 
-Images can be coded in a similar way to text coding. Select a code. Left-click and drag to highlight the area you want to assign to the code. Right-click will open a menu where you can remove the coding or add a memo. At the bottom of the screen there is a slider control to re-size the image.
+Images can be coded in a similar way to text coding. Select a code. Left-click and drag to highlight the area you want to assign to the code. Right-click will open a menu where you can remove the coding or add a memo. At the bottom of the screen there is a slider control to re-size the image. Coded rectangles are coloured to match the code colour.
 
 ![coding image](https://qualcoder.files.wordpress.com/2019/01/image_coding.png?w=618&h=445)
 
-## Coding audio and video
+# Coding audio and video
 
 When coding audio or video, two windows are displayed, shown below. One window has the audio or video playing. The other window has the controls and a button to begin and end a coded segment. The controls window shows the codes in the bottom left pane and the .transcribed file text is shown in the bottom right pane. The transcription text can also be coded and annotated in this window. Right-clicking on a timestamp will give you a menu option to go to that section of the video. If a video has multiple audio tracks, you can cane the audio track too. Checking the scroll checkbox allows the transcript to scroll in time with the video, based on detected timestamps, however, you need to uncheck the scroll to be able to code the transcript.
+
+## Keyboard shortcuts
+
+* Ctrl R and Alt R are shortcuts to rewind 5 or 30 seconds
+* Ctrl F will forward 30 seconds
+* Ctrl S and Ctrl P will stop/start (play/pause)
+* Ctrl Shift < will slow play rate down to a minimum of 0.1
+* Ctrl Shift > will increase play rate up to two times.
+
+## Audio Video segments
 
 Once a segment is made using the _Start segment/Stop segment_ button this can be assigned to a code by right clicking on the relevant code and assigning the segment. 
 
@@ -59,10 +69,25 @@ Coding stripes for the coded segments are shown in the upper pane. Hovering the 
 
 The transcript text can also be coded and annotated in this dialog. However, when the Scroll transcript check box is checked, this cannot be performed. Playing the video when this is check will scroll the transcript using the timestamps in time with the video.
 
+**Linking text to coded segments**
+
+There are two ways to link text and coded segments. One way is to select text (it can be coded or preferably uncoded) then assign it to a segment. First select the text and right-click Prepare text link to segment. Then right-click on the receiving segment, choose Link text to segment, to assign the text.
+
+A second way is to select a segment and link it to a text selection via a similar process.
 
 
+## Modifying code positions in the text area
 
+When in the text area, click on a code with the mouse (Note the code must not be overlapping with another code at that position). Press the following key combinations to extend or shrink the coded text segment.
+* Shift + left arrow            Extends coded text to the left
+* Shift + right arrow          Extends coded text to the right
+* Alt + left arrow               Shrinks coded text from the right hand side towards the left
+* Alt + right arrow            Shrinks coded text from the left hand side towards the right
+You can also right-click on a code and select change start position or change end position by  a number of characters.
 
+## The video window
+
+On the video window you can right-click and have options to change the window size, in pixels. You can also export a screenshot. The screenshot will be save as Frame_yyyymmdd_hh_mm_ss.jpg in the directory listed in the Settings.
 
 
 
