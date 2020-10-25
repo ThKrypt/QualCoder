@@ -38,16 +38,26 @@ This dialog contains three panes. The top pane is where SQL statements are enter
 
 Most table fields are text. The following fields are integer: anid, avid, attrid, caseid,catid, cid, fid, id, imid, jid, pos0,pos1, x1, y1, width, height.
 
+
+#  Codebook
+
+A codebook is a list of your codes. Each code memo should detail the reasons for the purpose of each code. The codebook can be exported to a text file. The codebook also shows the frequency of the codes used (from all coders). Example codebook output is shown below. As codes and categories are put in a tree like structure the double minus ‘–‘ indicates the subordinate codes and categories within a category.
+
+#  Node graph
+
+A graph of categories and codes is displayed. There are several options to change what is shown – such as Black and White, All or selected categories.
+
+Each code or category can be moved around by clicking near the edge of the box and dragging it around. Clicking on the text allows you to temporarily change the code or category wording. Right-clicking in a code gives a menu of options such as displaying the memo, or displaying all the case or file text that has been coded with the selected code.
+
+![Node graph](https://qualcoder.files.wordpress.com/2019/01/node-graph.png)
+
 #  Multiple dialog windows
 
 It is possible to have multiple dialog windows open. This is useful if you have run a report, or have a file open for coding, and you want to enter your thoughts into a journal entry. **However there are some limitations**.
  
 Some dialog windows are priority windows, so swapping between windows will not be possible, these restricted windows are: Management of files, cases or attributes, survey import and confirmation dialogs (e.g. confirm delete). 
 
-The second limitation is that changes in one dialog will not be reflected in the other dialogs. An example here is adding a code in a coding dialog, the added code will not be shown in other coding or reports windows. If you do make changes to highlighting and codes and categories, it is recommended to close and then re-open the other dialog window that you need. This is to ensure that any changes made show up in the other dialog windows. Similarly, highlighting text on the same file in two opened dialog will not be reflected in the other window. A warning, if you have the same journal entry open in two windows, the last window that is closed will be the entry that is saved.
+The second limitation is that changes in one dialog will not be reflected in the other dialogs. An example here is adding a code in a coding dialog, the added code will not be shown in other coding or reports windows. If you do make changes to highlighting and codes and categories, it is recommended to close and then re-open the other dialog window that you need. This is to ensure that any changes made show up in the other dialog windows.
 
-A programming quirk is if you open a dialog (e.g. manage files dialog) close it,then immediately try to re-open it. The dialog will not be visible. To get around this, open a different dialog, close it, then open the manage files dialog again.
-
-![Multiple dialogs](https://qualcoder.files.wordpress.com/2019/08/multiple_dialogs.png)
 
 
