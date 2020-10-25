@@ -9,7 +9,7 @@ QualCoder is written in python 3 using Qt for the graphical interface. A Sqlite 
 
 # Future plans
 
-Currently QualCoder has only used on Ubuntu, Linux Mint, Lubuntu and Windows 10, with some testing on MacOS. Further testing on different operating systems is required.
+Currently QualCoder has only used on Ubuntu, Linux Mint, Lubuntu and Windows 10, with some testing on MacOS. Further testing is required.
 
 In Windows, reports exported in ODT format are okay, but some images may overlap when the ODT file opened with Microsoft Word rather than opened with LibreOffice.
 
@@ -33,7 +33,7 @@ Reports:
 
 General:
 
-* Multi-language support - some work done on French. Spanish and German
+* Multi-language support - some work done on French, German, Japanese, Spanish.
 
 * Improve REFI-QDA open standard for import and export to other software. Codebook import and export seems OK. Project import and export is experimental.
 
