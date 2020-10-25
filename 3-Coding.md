@@ -1,3 +1,11 @@
+#  Categories and codes
+
+Categories are used to organise codes. Categories are organised hierarchically in a tree structure.
+
+You can move codes into categories and move categories into larger categories. You can move categories and codes out of their current position. Codes and categories can be merged by dropping a code onto a code or a category onto a category.
+
+![categories and codes](https://qualcoder.files.wordpress.com/2019/01/category_with_codes.png)
+
 # Coding Text
 
 Select Code text from the Coding menu. This is the central dialog for assigning codes to text. Once text segments are coded, hovering the mouse over the coding shows the code name as a tooltip. Clicking on the coded segment also shows the code name. Press the View File button to select a file to open for coding. Create a new code by right-clicking in the left hand window. Codes can also be assigned a colour by right-clicking on the code and selecting the change code colour option. Other options from the right-click menu include adding a memo to the code, deleting the code, renaming, adding a new code, and adding a new category.
@@ -12,13 +20,7 @@ Add an annotation (like a memo for a text segment) to a text selection. The text
 
 You can also automatically code text segments using the Auto Code button. Enter the text you want to autocode. A dialog asks for one or more files to autocode. All matching text will be assigned the selected code.
 
-##  Categories and codes
 
-Categories are used to organise codes. Categories are organised hierarchically in a tree structure. The cat symbol denotes a category, whereas the writing-paper symbol denotes a code.
-
-You can move codes into categories and move categories into larger categories. You can move categories and codes out of their current position. Codes and categories can be merged by dropping a code onto a code or a category onto a category.
-
-![categories and codes](https://qualcoder.files.wordpress.com/2019/01/category_with_codes.png)
 
 ##  Coding images
 
