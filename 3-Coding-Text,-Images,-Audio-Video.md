@@ -79,10 +79,12 @@ A second way is to select a segment and link it to a text selection via a simila
 ## Modifying code positions in the text area
 
 When in the text area, click on a code with the mouse (Note the code must not be overlapping with another code at that position). Press the following key combinations to extend or shrink the coded text segment.
+
 * Shift + left arrow            Extends coded text to the left
 * Shift + right arrow          Extends coded text to the right
 * Alt + left arrow               Shrinks coded text from the right hand side towards the left
 * Alt + right arrow            Shrinks coded text from the left hand side towards the right
+
 You can also right-click on a code and select change start position or change end position by  a number of characters.
 
 ## The video window
