@@ -34,6 +34,12 @@ Attributes are variables that can be used to describe or classify the files. The
 
 As a practical example: Open the Manage Files dialog. In the Examples folder import the following files: ID1.docx, ID2.odt, transcript.txt and the miguel-henriques.jpg.
 
+### Text files
+
+Text files can be easily edited if they have no codes, annotations or cases assigned to them. Once these has been assigned, editing is limited to short text segments up to 20 characters long. To edit, select the text and right click to get a menu option to edit the text segment.
+
+### Audio and Video files
+
 You can open an audio or video file to view. This opens two windows, one for viewing the video and one for the controls and a transcript, shown below. The transcript text file must have the same name as the video file, but have a '.transcribed' suffix. The transcribed text file is stored within the sqlite database, but can be exported to a text file. 
 
 If you have a .srt file (a translation file that is read by VLC) you can place this alongside the video inside the project folder, in the video folder, shown in the image below. When the video is played, the translation wording will be shown as subtitles in the video. Also, if you open the .srt file in a text editor, copy and paste this into the video.mp4.transcribed text file. Then this text will be shown as the transcription for the video. 
@@ -56,7 +62,32 @@ hh:mm:ss,SSS --> hh:mm:ss,SSS
 
 The video file might contain multiple audio tracks. There is a drop down box that allows you to choose another audio track.
 
-Text files can be easily edited if they have no codes, annotations or cases assigned to them. Once these has been assigned, editing is limited to short text segments up to 20 characters long. To edit, select the text and right click to get a menu option to edit the text segment.
+### Transcribing audio and video
+
+Speaker names are bracketed in this format: [name] or {name}. Dots ‘.’ and colons ‘:’ cannot be used in speaker names.
+Manually transcribing audio and video is helped with some keyboard shortcuts. Transcribing and adding or editing text can only occur if the existing text has no codes or annotations.
+
+The shortcuts available are:
+
+ctrl R		Rewind 5 seconds
+
+Alt R		Rewind 30 seconds
+
+Alt F		Forward 30 seconds
+
+Ctrl S or Ctrl P	Stop/Start toggle audio/video. From stop to play will rewind 2 seconds.
+
+Ctrl T		Insert timestamp in this format: [hh.mm.ss]
+
+Ctrl +N		Add a speaker name. This also pauses the audio/video.
+
+Ctrl D		Delete one or more speaker names.
+
+Ctrl 1 to 8	Insert speaker name in this format: [name]
+
+Ctrl Shift > Increase play rate up to 2 times
+
+Ctrl Shift < Decrease play rate down to 0.1 
 
 
 # Manage cases
