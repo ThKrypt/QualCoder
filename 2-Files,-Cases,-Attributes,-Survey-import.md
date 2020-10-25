@@ -95,13 +95,17 @@ Open the Manage Cases dialog, shown here:
 
 ![Manage cases dialog](https://qualcoder.files.wordpress.com/2019/01/cases.png?w=990)
 
+A table lists the cases. On the right had side the text of a case is displayed. Case memos and attributes are shown here. The number of files associated with a case is shown. Click on the files cell in the table to add or changes files associated with a case. This displays the case file manager dialog, described below.
+
 Cases are useful for seeing text and imaged linked to particular cases and for assigning attributes such as age and gender to interview participants. You can add a memo of notes to each case and rename a case by double-clicking on a case name.
 
 Practical example: Add the three students (or cases) here by clicking the Add case button. Call each student: ID1, ID2 and ID3.
 
 Now, add each student’s file to each student. Click on a case, say ID1, then click the Add file to case button. Select the ID1.docx file. Add the ID2.odt file to ID2 and add the miguel-henriques.jpg to ID3.
 
-Use the Open file to view and assign text to case button and open file ID1.docx and select case ID1. You will see the text will be underlined in red which indicates this text is associated with this case.
+Now, add each student’s file to each student. Click on the cell in the Files column for case ID 1 for example. This opens the _case file manager dialog_.
+
+In the _case file manager_, click on a case, say ID3, then click  Add selected files to case button. Select one or more files in the files list. Add the file(s) to the case. For  example add the miguel-henriques.jpg to ID3. You can remove files and view the files associated with the case. You will see file text will be underlined in red which indicates this text is associated with this case.
 
 Now open the transcript.txt file. Notice the transcript begins with a student id inside square brackets [ ].
 
@@ -121,9 +125,9 @@ Importing attributes for the cases. You can import attributes from a CSV file. T
 
 For this example – delete all the cases shown. Then, import the attributes from the attributes.csv file through the Import Attributes dialog. You will again need to link the files and file text to each case.
 
-## Import survey
+# Import survey
 
-This asks for a CSV file to be imported. You can try importing the survey.csv file in the Examples folder. 
+This asks for a CSV or Excel (xlsx format) file to be imported. You can try importing the survey.csv file in the Examples folder.
 
 Survey files must be in a CSV format, that is comma delimited format, or another delimiter (tabs are commonly used too). For tab-delimited files type ta, tb, or tab in the Delimiter box so that QualCoder knows the csv file is tab delimited. The first row must contain the headings for attributes. The first column must contain the unique identifiers for each survey respondent. QualCoder will determine if the other columns (attributes) are Numeric or Character. QualCoder cannot determine if an attribute is qualitative data. You must right-click and change the field type from character to qualitative for those fields that need to be qualitative. 
 
@@ -131,7 +135,7 @@ Survey files must be in a CSV format, that is comma delimited format, or another
 
 When you click on the OK button, the cases and their attributes will be added. The qualitative column will be converted to a file which will be named with the column name plus the current date and time. Each respondent's row will be prepended with [the unique id] so that you can identify each respondent. Also, the text for each respondent will be automatically linked to the corresponding case.
 
-## Attributes menu
+# Attributes menu
 
 Attributes are variables associated with files or cases. They can be useful to add context to the text analysis. Open the Manage Attributes dialog. You can add, delete, rename and add memo notes to attributes.
 
