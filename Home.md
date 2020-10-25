@@ -78,9 +78,10 @@ Select 3.9 as an answer
 
 To run QualCoder:
 
-cd "/Applications/QualCoder-master/qualcoder" python3 qualcoder.py
-There is no desktop icon launch right now for QualCoder on Mac OS. Open a new Terminal window in the directory and launch with:
-`python3 qualcoder.py`
+`cd "/Applications/QualCoder-master/qualcoder"'
+
+'python3 qualcoder.py`
+
 
 # Starting QualCoder
 
