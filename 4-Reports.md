@@ -1,3 +1,11 @@
+# Reports menu options
+* Coding reports
+* Coding comparison
+* Code frequencies
+* View graph
+* Code relations
+* SQL dialog
+
 # Coding Reports
 
 This dialog gives a list of coded text based on your selections. One or more codes need to be selected and one or both of coder 1 and coder 2 need to be selected. The Search button will present the results. If a category is selected all codes in that category are also selected. Multiple categories can be selected using the mouse and the ‘ctrl’ button. Codes and categories can be sorted to help find the codes of interest.
@@ -32,7 +40,19 @@ Cohen’s Kappa is calculated based on the information in Wikipedia https://en.w
 
 ![Coder comparison](https://qualcoder.files.wordpress.com/2019/01/coder-comparison.png)
 
-#  SQL Statements Dialog
+# Code relations
+
+This dialog show the relations between two or more codes. This can only be applied to text files. 
+The relations are:
+
+* Proximity – Two codes do not overlap. The distance in  number of characters is shown.
+* Overlap – Two codes partially overlap. The lowest and highest character positions of the combination are shown. The union of the overlapping section is shown in character positions.
+* Inclusion – One code is included within another code. The lowest and highest character positions of the combination are shown. The union of the overlapping section is shown in character positions.
+* Exact – Both codes match in their start and end positions. The lowest and highest character positions of the combination are shown. The union of the overlapping section is shown in character positions.
+
+A csv file can be exported.
+
+#  SQL Dialog
 
 This dialog contains three panes. The top pane is where SQL statements are entered and the bottom pane contains the results of queries. The left pane contains tables and field names. Double-clicking on a field name adds it to the SQL statement. Results can be exported to a text file. If you are not familiar with SQL take care as you will be able to update and delete the data as well as select data. Note: Some Unicode symbols are not converted to plain text and are ignored.
 
