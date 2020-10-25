@@ -78,9 +78,9 @@ Select 3.9 as an answer
 
 To run QualCoder:
 
-`cd "/Applications/QualCoder-master/qualcoder"'
+`cd "/Applications/QualCoder-master/qualcoder"`
 
-'python3 qualcoder.py`
+`python3 qualcoder.py`
 
 
 # Starting QualCoder
