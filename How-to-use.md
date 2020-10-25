@@ -14,8 +14,9 @@ The main window displays various changes that are made when using QualCoder. You
 
 # Settings
 
-The settings dialog allows you to change the coder name. Multiple coders can code the same text. Checking the Show IDs box displays ID columns for data stored in various tables. The default language of QualCoder is English. Currently French and German are alternative options. These alternatives have not been thoroughly reviewed for accuracy of translations.
-Project backup options are set here too. When the backup every time project is opened is checked, an additional option is to choose to backup the audio/video files. For completeness of backups it is recommended to back up audio and video, however this may slow down opening of the software if you have many large files.
+The settings dialog allows you to change the coder name. Multiple coders can code the same text. Checking the Show IDs box displays ID columns for data stored in various tables. The default language of QualCoder is English. Currently French, German, Japanese, Spanish are alternative options. These alternatives have not been thoroughly reviewed for accuracy of translations.
+Project backup options are set here too. When the backups are set, an additional option is to choose to backup the audio/video files. For completeness of backups it is recommended to back up audio and video, however this may slow down opening of the software if you have many large files.
+Backups occur every hours, with QualCoder keeping the most recent five backups. Rename or move to another location particular backups that you need to keep.
 
 ![settings](https://qualcoder.files.wordpress.com/2019/08/settings.png)
 
@@ -46,6 +47,7 @@ Transcriptions should ideally contain timestamps indicating when the text is bei
 [hh.mm.ss] 
 
 [mm.ss] 
+For the above, brackets can be []  or {}. These can be changed in the Settings menu.
 
 #hh:mm:ss.SSS# 
 
