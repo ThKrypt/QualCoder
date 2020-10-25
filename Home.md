@@ -37,7 +37,7 @@ Run the _install.sh_ file. The install process will ask for your permission to i
 
 `./install.sh`
 
-**LinuxFedora/CentOS/RHEL**
+**Linux Fedora/CentOS/RHEL**
 
 Retrieve the current package code from this repository
 
@@ -45,7 +45,7 @@ Retrieve the current package code from this repository
 
 Install dependencies
 
-'sudo dnf install python3-pip python3-lxml python3-ply python3-six python3-chardet python3-qt5 python3-pillow'
+`sudo dnf install python3-pip python3-lxml python3-ply python3-six python3-chardet python3-qt5 python3-pillow'
 
 QualCoder uses an Ebook library that you can currently install via a work-around, specified at https://github.com/ccbogel/QualCoder/issues/72#issuecomment-695962784 
 
