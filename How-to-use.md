@@ -47,6 +47,7 @@ Transcriptions should ideally contain timestamps indicating when the text is bei
 [hh.mm.ss] 
 
 [mm.ss] 
+
 For the above, brackets can be []  or {}. These can be changed in the Settings menu.
 
 #hh:mm:ss.SSS# 
