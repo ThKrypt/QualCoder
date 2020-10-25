@@ -24,7 +24,7 @@ Once a Python 3 release is installed you should be able to install the modules u
 
 To run QualCoder - double click on the qualcoder.py file which is located inside the qualcoder directory. You can make a shortcut to this file on the Desktop.
 
-**Linux Ubuntu/Debian **
+**Linux Ubuntu/Debian**
 
 QualCoder can be installed using the latest Debian file found here: https://github.com/ccbogel/QualCoder-Debians
 
@@ -37,7 +37,7 @@ Run the _install.sh_ file. The install process will ask for your permission to i
 
 `./install.sh`
 
-** LinuxFedora/CentOS/RHEL **
+**LinuxFedora/CentOS/RHEL**
 
 Retrieve the current package code from this repository
 
@@ -51,7 +51,7 @@ QualCoder uses an Ebook library that you can currently install via a work-around
 
 The UNTESTED install_fedora.sh should install the dependencies and a desktop start icon for Fedora. The script is for python version 3.8.
 
-** MacOS **
+**MacOS**
 
 Install Python3 and VLC. 
 
