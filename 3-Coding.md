@@ -4,9 +4,15 @@ Categories are used to organise codes. Categories are organised hierarchically i
 
 # Coding Text
 
-Select Code text from the Coding menu. This is the central dialog for assigning codes to text. Once text segments are coded, hovering the mouse over the coding shows the code name as a tooltip. Clicking on the coded segment also shows the code name. Press the View File button to select a file to open for coding. Create a new code by right-clicking in the left hand window. Codes can also be assigned a colour by right-clicking on the code and selecting the change code colour option. Other options from the right-click menu include adding a memo to the code, deleting the code, renaming, adding a new code, and adding a new category.
+text segments are coded, hovering the mouse over the coding shows the code name as a tooltip. Clicking on the coded segment also shows the code name. Press the View File button to select a file to open for coding. Create a new code by right-clicking in the left hand window. 
 
-Select a code, then select some text. Right-click and mark the text to assign it to the selected code. Hover the mouse pointer over coded text to see a tooltip of the code. Coded text can be uncoded by clicking on the text segment and pressing the Unmark button.
+Codes can  be assigned a colour by right-clicking on the code and selecting the change code colour option. Other options from the right-click menu include adding a memo to the code, deleting the code, renaming, adding a new code, and adding a new category.
+
+The easiest way to code text, is to select some text, then left-click with the mouse on a code.
+
+A second way is to select a code, then select some text. Right-click and mark the text to assign it to the selected code. Hover the mouse pointer over coded text to see a tooltip of the code. Coded text can be uncoded by clicking on the text segment and pressing the Unmark button.
+
+Overlapping codes can be difficult to view clearly. Overlaps have an overline above the text to show overlapping sections. Mouse hover will show coded text, including overlaps. Clicking in an overlap shows a selection box at the top of the screen where you can select to view one or the other highlighted coded text.
 
 ![Coding text](https://qualcoder.files.wordpress.com/2019/01/coding1.png?w=990)
 
@@ -14,11 +20,28 @@ Add an annotation (like a memo for a text segment) to a text selection. The text
 
 ![annotation](https://qualcoder.files.wordpress.com/2019/01/annotation.png?w=429&h=240)
 
-You can also automatically code text segments using the Auto Code button. Enter the text you want to autocode. A dialog asks for one or more files to autocode. All matching text will be assigned the selected code.
+You can also automatically code text segments using the Auto Code button. Enter the text you want to autocode. A dialog asks for one or more files to autocode. All matching text will be assigned the selected code. Multiple sections of text can be assigned by autocode using the pipe ‘|’ symbol. For example, politics|politicians can be assigned to the same code at the same time.
+
+## Convenience methods for loading text files
+
+Some projects may have many text files and the view file dialog may present too many files to open. Right-click on the View File button to select options such as: 
+the next file alphabetically, 
+select the file which was most recently coded, 
+or go to a bookmarked location in a file. To create a bookmark, right click in some text when coding and select the bookmark option. The bookmark works for only one project at a time, so if you opened a different project, the bookmark would be incorrect or might not work at all.
+
+## Modifying code positions
+
+When in the text area, click on a code with the mouse (Note the code must not be overlapping with another code at that position). Press the following key combinations to extend or shrink the coded text segment.
+
+* Shift + left arrow            Extends coded text to the left
+* Shift + right arrow          Extends coded text to the right
+* Alt + left arrow               Shrinks coded text from the right hand side towards the left
+* Alt + right arrow            Shrinks coded text from the left hand side towards the right
+
+You can also right-click on a code and select change start position or change end position by  a number of characters.
 
 
-
-##  Coding images
+#  Coding images
 
 Images can be coded in a similar way to text coding. Select a code. Left-click and drag to highlight the area you want to assign to the code. Right-click will open a menu where you can remove the coding or add a memo. At the bottom of the screen there is a slider control to re-size the image.
 
