@@ -24,7 +24,7 @@ Once a Python 3 release is installed you should be able to install the modules u
 
 To run QualCoder - double click on the qualcoder.py file which is located inside the qualcoder directory. You can make a shortcut to this file on the Desktop.
 
-**Linux**
+**Linux Ubuntu/Debian **
 
 QualCoder can be installed using the latest Debian file found here: https://github.com/ccbogel/QualCoder-Debians
 
@@ -37,14 +37,42 @@ Run the _install.sh_ file. The install process will ask for your permission to i
 
 `./install.sh`
 
+** LinuxFedora/CentOS/RHEL **
 
-**MacOS**
+Retrieve the current package code from this repository
 
-Install Python3 and VLC. Install the Python dependencies using pip:
+`git clone https://github.com/ccbogel/QualCoder.git`
 
-`pip install pyqt5 lxml pillow sixebooklib ply chardet pdfminer.six openpyxl`
+Install dependencies
 
-There is no desktop icon launch right now for QualCoder. Open a new Terminal window in the directory and launch with python qualcoder.py.
+'sudo dnf install python3-pip python3-lxml python3-ply python3-six python3-chardet python3-qt5 python3-pillow'
+
+QualCoder uses an Ebook library that you can currently install via a work-around, specified at https://github.com/ccbogel/QualCoder/issues/72#issuecomment-695962784 
+
+The UNTESTED install_fedora.sh should install the dependencies and a desktop start icon for Fedora. The script is for python version 3.8.
+
+** MacOS **
+
+Install Python3 and VLC. 
+
+Download Qualcoder-master Zip file and copy it into /Applications
+In a Terminal run these commands to use python 3.9:
+
+`curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py python3 --version`
+Select 3.9 as an answer
+`python3 get-pip.py`
+`cd /usr/local/bin`
+`udo ln -s ../../../Library/Frameworks/Python.framework/Versions/3.9/bin/pip pip`
+`pip install pyserial`
+`pip install pyqt5 lxml pillow six ebooklib ply chardet pdfminer.six openpyxl`
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
+`brew install qpdf`
+
+To run QualCoder:
+
+cd "/Applications/QualCoder-master/qualcoder" python3 qualcoder.py
+There is no desktop icon launch right now for QualCoder on Mac OS. Open a new Terminal window in the directory and launch with:
+`python3 qualcoder.py`
 
 # Starting QualCoder
 
@@ -61,7 +89,8 @@ In Windows create a shortcut to the qualcoder.py file and double click to open. 
 `python3 qualcoder.py`
 
 ### Mac OS
-There is no desktop icon launch right now for QualCoder. Open a new Terminal window in the directory and launch with python qualcoder.py.
+There is no desktop icon launch right now for QualCoder. Open a new Terminal window in the directory and launch with 
+`python3 qualcoder.py`
 
 ## Backups
 
