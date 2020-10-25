@@ -59,13 +59,21 @@ Download Qualcoder-master Zip file and copy it into /Applications
 In a Terminal run these commands to use python 3.9:
 
 `curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py python3 --version`
+
 Select 3.9 as an answer
+
 `python3 get-pip.py`
+
 `cd /usr/local/bin`
+
 `udo ln -s ../../../Library/Frameworks/Python.framework/Versions/3.9/bin/pip pip`
+
 `pip install pyserial`
+
 `pip install pyqt5 lxml pillow six ebooklib ply chardet pdfminer.six openpyxl`
+
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
+
 `brew install qpdf`
 
 To run QualCoder:
