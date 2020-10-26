@@ -21,9 +21,9 @@ The default project directory is where many file operations will default to, for
 
 #  Create a new project
 
-Create a new project under the ‘Project’ menu, call it test. The project wil be saved as test.qda. Test.qda is actually a folder containing subfolders which hold the database and other files. Additionally, in your home folder QualCoder will create a .qualcoder folder with a QualCoder.log file for logging events, including hopefully all software errors and exceptions and a QualCoder_settings.txt file which will contain the current coder’s name, preferred fonts and a preferred working directory.
+Create a new project under the ‘Project’ menu, call it test. The project will be saved as test.qda. Test.qda is actually a folder containing subfolders which hold the database and other files. Additionally, in your home folder QualCoder will create a .qualcoder folder with a QualCoder.log file for logging events and a config.ini file which will contain a lot of settings such as the current coder’s name, preferred fonts, language and a preferred working directory.
 
-Under the Project menu click on Project memo. This is a memo about your project. Type “A test QDA project” and click the OK button.
+Under the Project menu click on Project memo. This is where you can put notes about your project. Type “A test QDA project” and click the OK button.
 
 The main window displays various changes that are made when using QualCoder. You will notice the main window displays the following, with a menu bar at the top:
 
