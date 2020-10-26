@@ -105,7 +105,7 @@ Ctrl Shift < Decrease play rate down to 0.1
 
 Open the Manage Cases dialog, shown here:
 
-![Manage cases dialog](https://qualcoder.files.wordpress.com/2020/10/cases.png?resize=219%2C219)
+![Manage cases dialog](https://qualcoder.files.wordpress.com/2020/10/cases.png)
 
 A table lists the cases and their attributes. On the right had side the text of a case is displayed. The number of files associated with a case is shown. Click on the files cell in the table to add or changes files associated with a case. This displays the case file manager dialog, described below.
 
@@ -117,11 +117,11 @@ Now, add each student’s file to each student. Click on a case, say ID1, then c
 
 Now, add each student’s file to each student. Click on the cell in the Files column for case ID 1 for example. This opens the _case file manager dialog_.
 
+[Case File Manager](https://qualcoder.files.wordpress.com/2020/08/case-file-manager.png)
+
 In the _case file manager_, click on a case, say ID3, then click  Add selected files to case button. Select one or more files in the files list. Add the file(s) to the case. For  example add the miguel-henriques.jpg to ID3. You can remove files and view the files associated with the case. You will see file text will be underlined in red which indicates this text is associated with this case.
 
 Now open the transcript.txt file. Notice the transcript begins with a student id inside square brackets [ ].
-
-![Transcript](https://qualcoder.files.wordpress.com/2019/01/cases_trans_1.png)
 
 Try automatically assigning text to ID1 by selecting case ID1 then clicking the Auto assign file text button. You will be asked which file or files to assign the case to. Select transcript.txt from the list. Next you need to enter the start and end marks. The start mark will be ‘[id1]’ and the end mark will be ‘[‘, note this is case sensitive so that is why you use the lower case here.
 
