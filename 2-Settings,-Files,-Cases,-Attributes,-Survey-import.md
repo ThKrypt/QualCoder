@@ -27,7 +27,7 @@ Under the Project menu click on Project memo. This is where you can put notes ab
 
 The main window displays various changes that are made when using QualCoder. You will notice the main window displays the following, with a menu bar at the top:
 
-![main screen](https://qualcoder.files.wordpress.com/2019/08/main_screen.png)
+![main screen](https://qualcoder.files.wordpress.com/2020/08/mainscreen.png)
 
 There are a few sample files in the Examples folder. These can be used to test importing files of different document formats and of importing an image. There are also example files to test importing case attributes, and for importing a survey.
 
