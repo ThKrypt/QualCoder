@@ -26,3 +26,7 @@ Projects made with RQDA (http://rqda.r-forge.r-project.org/) can be directly imp
 Close any opened project. Then in the Main Menu under Project click on RQDA Project import. You will be asked to create a new project- so enter a name. Then you will be asked to select the RQDA project file. QualCoder will then import the data.
 
 If no coded data is visible, you may need to change the current coder's name in Settings.
+
+# Survey Import
+
+Surveys in csv ans Excel (xlsx format) are avaiable under the imports menu. 
