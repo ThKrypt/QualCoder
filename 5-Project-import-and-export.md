@@ -29,4 +29,4 @@ If no coded data is visible, you may need to change the current coder's name in 
 
 # Survey Import
 
-Surveys in csv ans Excel (xlsx format) are avaiable under the imports menu. 
+Surveys in csv and Excel (xlsx format) are available under the imports menu. 
