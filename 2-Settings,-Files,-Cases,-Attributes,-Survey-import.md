@@ -143,7 +143,7 @@ This asks for a CSV or Excel (xlsx format) file to be imported. You can try impo
 
 Survey files must be in a CSV format, that is comma delimited format, or another delimiter (tabs are commonly used too). For tab-delimited files type ta, tb, or tab in the Delimiter box so that QualCoder knows the csv file is tab delimited. The first row must contain the headings for attributes. The first column must contain the unique identifiers for each survey respondent. QualCoder will determine if the other columns (attributes) are Numeric or Character. QualCoder cannot determine if an attribute is qualitative data. You must right-click and change the field type from character to qualitative for those fields that need to be qualitative. 
 
-![Import survey dialog](https://qualcoder.files.wordpress.com/2019/01/change_to_qual.png)
+![Import survey dialog](https://qualcoder.files.wordpress.com/2020/10/import_survey.png?)
 
 When you click on the OK button, the cases and their attributes will be added. The qualitative column will be converted to a file which will be named with the column name plus the current date and time. Each respondent's row will be prepended with [the unique id] so that you can identify each respondent. Also, the text for each respondent will be automatically linked to the corresponding case.
 
