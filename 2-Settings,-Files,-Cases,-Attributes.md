@@ -137,13 +137,16 @@ Importing attributes for the cases. You can import attributes from a CSV file. T
 
 For this example – delete all the cases shown. Then, import the attributes from the attributes.csv file through the Import Attributes dialog. You will again need to link the files and file text to each case.
 
-# Attributes menu
+# Attributes
 
 Attributes are variables associated with files or cases. They can be useful to add context to the text analysis. Open the Manage Attributes dialog. You can add, delete, rename and add memo notes to attributes.
 
 It is not the intention for QualCoder to perform statistical analyses of the attributes. It would be preferable to use dedicated statistical software such as R (https://www.r-project.org/) or other such software.
 
 ![Attributes dialog](https://qualcoder.files.wordpress.com/2019/01/manage_attributes.png)
+
+# Journals
+You can record your thoughts when coding your data in journals. Make use of these to develop ideas and themes.
 
 
 
