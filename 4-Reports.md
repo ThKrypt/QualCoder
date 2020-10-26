@@ -73,7 +73,7 @@ This dialog contains three panes. The top pane is where SQL statements are enter
 
 Most table fields are text. The following fields are integer: anid, avid, attrid, caseid,catid, cid, fid, id, imid, jid, pos0,pos1, x1, y1, width, height.
 
-
+![SQL dialog](https://qualcoder.files.wordpress.com/2019/01/sql-statements2.png?resize=219%2C219)
 
 
 
