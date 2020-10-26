@@ -5,7 +5,6 @@
 * View graph
 * Code relations
 * SQL dialog
-* Codebook export (Project Menu option)
 
 # Coding Reports
 
@@ -75,11 +74,6 @@ This dialog contains three panes. The top pane is where SQL statements are enter
 Most table fields are text. The following fields are integer: anid, avid, attrid, caseid,catid, cid, fid, id, imid, jid, pos0,pos1, x1, y1, width, height.
 
 
-#  Codebook
-
-This is an option under the Project Menu > Exports.
-
-A codebook is a list of your codes. Each code memo should detail the reasons for the purpose of each code. The codebook can be exported to a text file. The codebook also shows the frequency of the codes used (from all coders). Example codebook output is shown below. As codes and categories are put in a tree like structure the double minus ‘–‘ indicates the subordinate codes and categories within a category.
 
 
 
