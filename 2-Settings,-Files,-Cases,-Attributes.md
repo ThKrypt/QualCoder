@@ -137,18 +137,6 @@ Importing attributes for the cases. You can import attributes from a CSV file. T
 
 For this example – delete all the cases shown. Then, import the attributes from the attributes.csv file through the Import Attributes dialog. You will again need to link the files and file text to each case.
 
-# Import survey
-
-This requires a CSV or Excel (xlsx format) file. You can try importing the survey.csv file in the Examples folder.
-
-Survey files in a CSV format, are comma delimited, another delimiter can be chosen. For tab-delimited files type ta, tb, or tab in the Delimiter box so that QualCoder knows the csv file is tab delimited. **The first row must contain the headings for attributes. The first column must contain the unique identifiers for each survey respondent. **
-
-QualCoder will determine if the other columns (attributes) are Numeric or Character. QualCoder cannot determine if an attribute is qualitative data. You must right-click and change the field type from character to qualitative for those fields that need to be qualitative. 
-
-![Import survey dialog](https://qualcoder.files.wordpress.com/2020/10/import_survey.png?)
-
-When you click on the OK button, the cases and their attributes will be added. The qualitative column will be converted to a file which will be named with the column name plus the current date and time. Each respondent's row will be prepended with [the unique id] so that you can identify each respondent. Also, the text for each respondent will be automatically linked to the corresponding case.
-
 # Attributes menu
 
 Attributes are variables associated with files or cases. They can be useful to add context to the text analysis. Open the Manage Attributes dialog. You can add, delete, rename and add memo notes to attributes.
@@ -156,6 +144,8 @@ Attributes are variables associated with files or cases. They can be useful to a
 It is not the intention for QualCoder to perform statistical analyses of the attributes. It would be preferable to use dedicated statistical software such as R (https://www.r-project.org/) or other such software.
 
 ![Attributes dialog](https://qualcoder.files.wordpress.com/2019/01/manage_attributes.png)
+
+
 
 
 
