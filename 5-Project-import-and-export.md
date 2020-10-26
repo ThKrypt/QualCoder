@@ -27,6 +27,9 @@ Close any opened project. Then in the Main Menu under Project click on RQDA Proj
 
 If no coded data is visible, you may need to change the current coder's name in Settings.
 
-# Survey Import
+# Survey import
 
-Importing surveys in csv and Excel (xlsx format) are available under the imports menu. Detailed instructions on importing surveys are on page 2 of the wiki: _2 Files, Cases, Attributes, Survey import_
+This requires a CSV or Excel (xlsx format) file. You can try importing the survey.csv file in the Examples folder.
+Survey files in a CSV format, that is comma delimited format, or another delimiter (tabs are commonly used too). For tab-delimited files type ta, tb, or tab in the Delimiter box so that QualCoder knows the csv file is tab delimited. The first row must contain the headings for attributes. The first column must contain the unique identifiers for each survey respondent. 
+QualCoder will determine if the other columns (attributes) are Numeric or Character. QualCoder cannot determine if an attribute is qualitative data. You must right-click and change the field type from character to qualitative for those fields that need to be qualitative. 
+
