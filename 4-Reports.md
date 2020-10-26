@@ -53,7 +53,7 @@ A graph of categories and codes is displayed. There are several options to chang
 
 Each code or category can be moved around by clicking near the edge of the box and dragging it around. Clicking on the text allows you to temporarily change the code or category wording. Right-clicking in a code gives a menu of options such as displaying the memo, or displaying all the case or file text that has been coded with the selected code.
 
-![Node graph](https://qualcoder.files.wordpress.com/2019/01/node-graph.png)
+![Node graph](https://qualcoder.files.wordpress.com/2020/08/node-graph.png)
 
 # Code relations
 
