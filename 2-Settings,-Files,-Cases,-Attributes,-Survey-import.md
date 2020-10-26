@@ -117,7 +117,7 @@ Now, add each student’s file to each student. Click on a case, say ID1, then c
 
 Now, add each student’s file to each student. Click on the cell in the Files column for case ID 1 for example. This opens the _case file manager dialog_.
 
-[Case File Manager](https://qualcoder.files.wordpress.com/2020/08/case-file-manager.png)
+![Case File Manager](https://qualcoder.files.wordpress.com/2020/08/case-file-manager.png)
 
 In the _case file manager_, click on a case, say ID3, then click  Add selected files to case button. Select one or more files in the files list. Add the file(s) to the case. For  example add the miguel-henriques.jpg to ID3. You can remove files and view the files associated with the case. You will see file text will be underlined in red which indicates this text is associated with this case.
 
