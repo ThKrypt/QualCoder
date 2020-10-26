@@ -105,11 +105,11 @@ Ctrl Shift < Decrease play rate down to 0.1
 
 Open the Manage Cases dialog, shown here:
 
-![Manage cases dialog](https://qualcoder.files.wordpress.com/2019/01/cases.png?w=990)
+![Manage cases dialog](https://qualcoder.files.wordpress.com/2020/10/cases.png?resize=219%2C219)
 
-A table lists the cases. On the right had side the text of a case is displayed. Case memos and attributes are shown here. The number of files associated with a case is shown. Click on the files cell in the table to add or changes files associated with a case. This displays the case file manager dialog, described below.
+A table lists the cases and their attributes. On the right had side the text of a case is displayed. The number of files associated with a case is shown. Click on the files cell in the table to add or changes files associated with a case. This displays the case file manager dialog, described below.
 
-Cases are useful for seeing text and imaged linked to particular cases and for assigning attributes such as age and gender to interview participants. You can add a memo of notes to each case and rename a case by double-clicking on a case name.
+Cases are useful for seeing text and images linked to particular cases and for assigning attributes such as age and gender to interview participants. You can add a memo of notes to each case and rename a case by double-clicking on a case name.
 
 Practical example: Add the three students (or cases) here by clicking the Add case button. Call each student: ID1, ID2 and ID3.
 
