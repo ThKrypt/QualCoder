@@ -17,7 +17,7 @@ The settings dialog allows you to change the coder name. Multiple coders can cod
 Project backup options are set here too. When the backups are set, an additional option is to choose to backup the audio/video files. For completeness of backups it is recommended to back up audio and video, however this may slow down opening of the software if you have many large files.
 Backups occur every hours, with QualCoder keeping the most recent five backups. Rename or move to another location particular backups that you need to keep.
 
-![settings](https://qualcoder.files.wordpress.com/2020/08/settings.png?resize=219%2C219)
+![settings](https://qualcoder.files.wordpress.com/2020/08/settings.png)
 
 # Files and Cases Menu
 ##  Manage Files
