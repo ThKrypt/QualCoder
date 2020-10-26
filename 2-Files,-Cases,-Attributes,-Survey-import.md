@@ -17,7 +17,7 @@ The settings dialog allows you to change several features including language, co
 
 Multiple coders can code the same text. A new coder name can be entered in the text box. You can choose an existing coder from the drop down box.
 
-The default language of QualCoder is English. Currently French, German, Japanese, Spanish are alternative languages. These languages have not been thoroughly reviewed for accuracy of translations.
+The default language of QualCoder is English. Currently French, German, Japanese, Spanish are alternative languages. These languages have not been thoroughly reviewed for accuracy of translations. When changing a language, you need to close then reopen QualCoder for the change to occur.
 
 Checking the Show IDs box displays the numeric IDs for each code in the codes tree.
 
