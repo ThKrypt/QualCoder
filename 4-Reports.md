@@ -69,11 +69,20 @@ A csv file can be exported.
 
 #  SQL Dialog
 
-This dialog contains three panes. The top pane is where SQL statements are entered and the bottom pane contains the results of queries. The left pane contains tables and field names. Double-clicking on a field name adds it to the SQL statement. Results can be exported to a text file. If you are not familiar with SQL take care as you will be able to update and delete the data as well as select data. Note: Some Unicode symbols are not converted to plain text and are ignored.
+This dialog contains three panes. The top pane is where SQL statements are entered and the bottom pane contains the results of queries. The left pane contains tables and field names. Double-clicking on a field name adds it to the SQL statement. Results can be exported to a delimited file. If you are not familiar with SQL take care as you will be able to update and delete the data as well as select data. Note: Some Unicode symbols are not converted to plain text and are ignored.
+
+There are several prepared join statements listed:
+* Case text
+* Codes fileid and coded text
+* Coded text with each case
 
 Most table fields are text. The following fields are integer: anid, avid, attrid, caseid,catid, cid, fid, id, imid, jid, pos0,pos1, x1, y1, width, height.
 
-![SQL dialog](https://qualcoder.files.wordpress.com/2019/01/sql-statements2.png?resize=219%2C219)
+Right-click in the results table for filtering options.
+
+Right click in the SQL window give you various options such as select all, copy, paste.
+
+![SQL dialog](https://qualcoder.files.wordpress.com/2019/01/sql-statements2.png)
 
 
 
