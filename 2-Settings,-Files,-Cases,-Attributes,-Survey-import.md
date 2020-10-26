@@ -139,9 +139,11 @@ For this example – delete all the cases shown. Then, import the attributes fro
 
 # Import survey
 
-This asks for a CSV or Excel (xlsx format) file to be imported. You can try importing the survey.csv file in the Examples folder.
+This requires a CSV or Excel (xlsx format) file. You can try importing the survey.csv file in the Examples folder.
 
-Survey files must be in a CSV format, that is comma delimited format, or another delimiter (tabs are commonly used too). For tab-delimited files type ta, tb, or tab in the Delimiter box so that QualCoder knows the csv file is tab delimited. The first row must contain the headings for attributes. The first column must contain the unique identifiers for each survey respondent. QualCoder will determine if the other columns (attributes) are Numeric or Character. QualCoder cannot determine if an attribute is qualitative data. You must right-click and change the field type from character to qualitative for those fields that need to be qualitative. 
+Survey files in a CSV format, are comma delimited, another delimiter can be chosen. For tab-delimited files type ta, tb, or tab in the Delimiter box so that QualCoder knows the csv file is tab delimited. **The first row must contain the headings for attributes. The first column must contain the unique identifiers for each survey respondent. **
+
+QualCoder will determine if the other columns (attributes) are Numeric or Character. QualCoder cannot determine if an attribute is qualitative data. You must right-click and change the field type from character to qualitative for those fields that need to be qualitative. 
 
 ![Import survey dialog](https://qualcoder.files.wordpress.com/2020/10/import_survey.png?)
 
