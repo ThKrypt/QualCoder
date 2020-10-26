@@ -1,17 +1,14 @@
 
 # Settings
 
-The settings dialog allows you to change several features including language, coder name and font type and font size. 
-
-Multiple coders can code the same text. A new coder name can be entered in the text box. You can choose an existing coder from the drop down box.
+The settings dialog allows you to change several features including language, coder name and font type and font size. Multiple coders can code the same text. A new coder name can be entered in the text box. You can choose an existing coder from the drop down box.
 
 The default language of QualCoder is English. Currently French, German, Japanese, Spanish are alternative languages. These languages have not been thoroughly reviewed for accuracy of translations. When changing a language, you need to close then reopen QualCoder for the change to occur.
 
-Checking the Show IDs box displays the numeric IDs for each code in the codes tree.
+Checking the Show IDs box displays the numeric IDs for each code in the codes tree. For transcribing audio and video, The time format and bracket type cane be selected.
 
-For transcribing audio and video, The time format and bracket type cane be selected.
-
-Project backup can be set to automatically backup every hour, or no backup. QualCoder keeping the most recent five backups with a date and hour time stamp. Rename or move to another location particular backups that you need to keep. When the backups are set, an additional option is to choose to backup the audio/video files. For completeness of backups it is recommended to back up audio and video, however this may slow down opening of the software if you have many large files. 
+Project backup can be set to automatically backup every hour, or no backup. QualCoder keeping the most recent five backups with a date and hour time stamp. The backup name is: _projectname_BKP_yyyymmdd_hh.qda_  Where _hh_ is 24 hour time. This also means multiple backups are not done within an hour. So a new backup cannot overwrite another backup created within the same hour. Up to five backups are kept, older ones are deleted. 
+Rename or move to another location particular backups that you need to keep. When the backups are set, an additional option is to choose to backup the audio/video files. For completeness of backups it is recommended to back up audio and video, however this may slow down opening of the software if you have many large files.
 
 The default project directory is where many file operations will default to, for export or looking to import files.
 
