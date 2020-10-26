@@ -57,7 +57,7 @@ Each code or category can be moved around by clicking near the edge of the box a
 
 # Code relations
 
-This dialog show the relations between two or more codes. This can only be applied to text files. 
+This dialog shows the relations between two or more codes. This can only be applied to text files. 
 The relations are:
 
 * Proximity – Two codes do not overlap. The distance in  number of characters is shown.
