@@ -29,6 +29,4 @@ If no coded data is visible, you may need to change the current coder's name in 
 
 # Survey Import
 
-Importing surveys in csv and Excel (xlsx format) are available under the imports menu. Detailed instructions on importing surveys are on page 2. 
-
-_2 Files, Cases, Attributes, Survey import_
+Importing surveys in csv and Excel (xlsx format) are available under the imports menu. Detailed instructions on importing surveys are on page 2 of the wiki: _2 Files, Cases, Attributes, Survey import_
