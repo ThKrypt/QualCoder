@@ -25,6 +25,8 @@ For transcribing audio and video, The time format and bracket type cane be selec
 
 Project backup can be set to automatically backup every hour, or no backup. QualCoder keeping the most recent five backups with a date and hour time stamp. Rename or move to another location particular backups that you need to keep. When the backups are set, an additional option is to choose to backup the audio/video files. For completeness of backups it is recommended to back up audio and video, however this may slow down opening of the software if you have many large files. 
 
+The default project directory is where many file operations will default to, for export or looking to import files.
+
 ![settings](https://qualcoder.files.wordpress.com/2020/08/settings.png)
 
 # Files and Cases Menu
