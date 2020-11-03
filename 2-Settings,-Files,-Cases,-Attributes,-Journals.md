@@ -59,7 +59,7 @@ You can open an audio or video file to view. for video, this opens two windows, 
 
 If you have a .srt file (a translation file that is read by VLC) you can place this alongside the video inside the project folder, in the video folder, shown in the image below. When the video is played, the translation wording will be shown as subtitles in the video. Also, if you open the .srt file in a text editor, copy and paste this into the video.mp4.transcribed text file. Then this text will be shown as the transcription for the video. 
 
-Transcriptions should ideally contain timestamps indicating when the text is being pronounced during the video. The following formats are recognised by QualCoder, where SSS are milliseconds:
+QualCoder does not have an audio to text feature. Other services such as otter.ai or the python module vosk may assist you. Transcriptions should ideally contain timestamps indicating when the text is being pronounced during the video. The following formats are recognised by QualCoder, where SSS are milliseconds:
 
 [hh:mm:ss] 
 
