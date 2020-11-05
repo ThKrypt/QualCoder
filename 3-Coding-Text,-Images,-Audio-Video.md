@@ -22,7 +22,11 @@ Add an annotation (like a memo for a text segment) to a text selection. The text
 
 ![annotation](https://qualcoder.files.wordpress.com/2019/01/annotation.png?w=429&h=240)
 
+**Autocode**
+
 You can also automatically code text segments using the Auto Code button. Enter the text you want to autocode. A dialog asks for one or more files to autocode. All matching text will be assigned the selected code. Multiple sections of text can be assigned by autocode using the pipe ‘|’ symbol. For example, politics|politicians can be assigned to the same code at the same time.
+
+You can right-click on the Auto code button to have additional autocode options. These options allow you to code an entire sentence based on the text you enter into the text box, only in the Current text file, or in All text files. You must also define the end of a sentence, there is a default setting with a period and space.  (From version 2.2 up)
 
 ## Convenience methods for loading text files
 
