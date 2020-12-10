@@ -6,7 +6,7 @@
 QualCoder is free, open source software for qualitative data analysis. 
 With QualCoder you can code text, images, audio and video, write journal notes and memos. You can categorise codes into a tree-like hierarchical categorisation scheme. Coding for audio and video requires the VLC media player.
 Coder comparison reports can be generated for text coding using the Cohen’s Kappa statistic. A graph displaying codes and categories can be generated to visualise the coding hierarchy. Most reports can be exported at html, open document text (ODT) or as plain text files.
-QualCoder is written in python 3 using Qt5 for the graphical interface. A Sqlite database is used to store the coding data.
+QualCoder is written in python 3 (version 3.6 and up) using Qt5 for the graphical interface. A Sqlite database is used to store the coding data.
 There is also a wordpress site for QualCoder at https://qualcoder.wordpress.com/.
 
 ###  Why use QualCoder?
@@ -17,7 +17,7 @@ Download the latest QualCoder from GitHub: https://github.com/ccbogel/QualCoder.
 
 **Microsoft Windows**
 
-You will need to download and install Python 3. Then install python modules. A Python 3 release can be obtained here: https://www.python.org/downloads/windows/. Finally, you need to have the VLC media player installed. Please ensure that the Python and VLC downloads are in the same architecture – that is – 32 bit or 64 bit for both. Otherwise QualCoder will not work.You can get this from the Windows Store or from their website: https://www.videolan.org/vlc/download-windows.html 
+You will need to download and install Python 3 (the minimum version is python 3.6, or a newer version). Then install python modules. Python 3 releases can be obtained here: https://www.python.org/downloads/windows/. Finally, you need to have the VLC media player installed. Please ensure that the Python and VLC downloads are in the same architecture – that is – 32 bit or 64 bit for both. Otherwise QualCoder will not work.You can get this from the Windows Store or from their website: https://www.videolan.org/vlc/download-windows.html 
 Once a Python 3 release is installed you should be able to install the modules using the following commands in the Windows Command prompt (The prompt is under Windows System):
 
 `python -m pip install pyqt5 lxml Pillow ebooklib ply chardet pdfminer.six openpyxl`
@@ -53,10 +53,10 @@ The UNTESTED install_fedora.sh should install the dependencies and a desktop sta
 
 **MacOS**
 
-Install Python3 and VLC. 
+Install Python3 (minimum version is 3.6) and VLC. 
 
 Download Qualcoder-master Zip file and copy it into /Applications
-In a Terminal run these commands to use python 3.9:
+In a Terminal run these commands to use (for example) python 3.9:
 
 `curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py python3 --version`
 
