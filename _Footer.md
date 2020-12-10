@@ -1,0 +1,1 @@
+![QualCoder icon](https://qualcoder.files.wordpress.com/2019/01/qualcoder.png?resize=219%2C219)
