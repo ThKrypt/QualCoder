@@ -6,29 +6,31 @@ To reduce the number of codes shown in the code tree. In the coding windows (cod
 
 # Coding Text
 
-Select Code text from the Coding menu. This is the central dialog for assigning codes to text. Once text segments are coded, hovering the mouse over the coding shows the code name as a tooltip. Clicking on the coded segment also shows the code name. Press the View File button to select a file to open for coding. Create a new code by right-clicking in the left hand window.  
+Select Code text from the Coding menu. This is the central dialog for assigning codes to text. Once text segments are coded, hovering the mouse over the coding shows the code name as a tooltip. Clicking on the coded segment also shows the code name. 
 
-Codes can  be assigned a colour by right-clicking on the code and selecting the change code colour option. Other options from the right-click menu include adding a memo to the code, deleting the code, renaming, adding a new code, and adding a new category.
+![Coding text dialog](https://qualcoder.files.wordpress.com/2020/12/code_text.png?resize=219%2C219)
 
-The easiest way to code text, is to select some text, then left-click with the mouse on a code.
+Select a file for coding from the selection list on the left. The file selection list contains buttons that allow you to move to the next file, to move to the most recently coded file and to go to a bookmarked position in a file. There is also a button to view the file memo.
 
-A second way is to select a code, then select some text. Right-click and mark the text to assign it to the selected code. Hover the mouse pointer over coded text to see a tooltip of the code. Coded text can be uncoded by clicking on the text segment and pressing the Unmark button.
+Create a new code by right-clicking in the left hand window. Codes can  be assigned a colour by right-clicking on the code and selecting the change code colour option. Other options from the right-click menu include adding a memo to the code, deleting the code, renaming, adding a new code, and adding a new category.
 
-The tooltip is shown in the below image.
+The easiest way to code text, is to select some text, then left-click with the mouse on a code. A second way is to select a code, then select some text. Right-click and mark the text to assign it to the selected code. Hover the mouse pointer over coded text to see a tooltip of the code. Coded text can be uncoded by clicking on the text segment and pressing the Unmark button.
+
+The tooltip is shown in the below image of overlapping codes.
 
 Overlapping codes can be difficult to view clearly. Overlaps have an overline above the text to show overlapping sections. Mouse hover will show coded text, including overlaps. Clicking in an overlap shows a selection box at the top of the screen where you can select to view one or the other highlighted coded text.
 
 ![overlapping codes](https://qualcoder.files.wordpress.com/2020/11/overlapping-codes.png)
 
-Add an annotation (like a memo for a text segment) to a text selection. The text will become **bold** to mark the position of the annotation.
+
+**Annotations**
+Add an annotation (like a memo for a text segment) to a text selection. The text will become bold to mark the position of the annotation. To re-open an annotation, select some of the bolded-text and right-click to get the Annotate option. Alternatively, click the notepad and pencil icon on the left.
 
 ![annotation](https://qualcoder.files.wordpress.com/2019/01/annotation.png?w=429&h=240)
 
-**Autocode**
+**Auto-code**
 
-You can also automatically code text segments using the Auto Code button. Enter the text you want to autocode. A dialog asks for one or more files to autocode. All matching text will be assigned the selected code. Multiple sections of text can be assigned by autocode using the pipe ‘|’ symbol. For example, politics|politicians can be assigned to the same code at the same time.
-
-You can right-click on the Auto code button to have additional autocode options. These options allow you to code an entire sentence based on the text you enter into the text box, only in the Current text file, or in All text files. You must also define the end of a sentence, there is a default setting with a period and space.  (From version 2.2 up)
+The top right of the dialog has icons for auto-coding text. You can auto-code exact text, auto-code sentences based on a text fragment in the current file, and auto-code sentences based on a text fragment for all files. You must also define the end of a sentence, there is a default setting with a period and space. For auto-coding exact text matches, multiple sections of text can be assigned by auto code using the pipe ‘|’ symbol. For example, politics|politicians can be assigned to the same code at the same time (for exact auto code text matches only). There is an undo option to undo recently performed auto-coding. Although if the project is closed and reopened, the undo option will be lost.
 
 ## Convenience methods for loading text files
 
