@@ -4,7 +4,7 @@
 * Manage attributes
 * Manage journals
 ##  Manage Files
-You will usually want to load text files into QualCoder prior to coding. You can import text from plain text documents, docx, odt, epub and pdf documents. Pdf importing can be problematic and may need editing as formatting is lost. Large Pdf files take a long time to import. You can also manually enter text from within QualCoder, by pressing the Create button. You can image files in the following formats: jpg, jpeg and png. 
+You will usually want to load text files into QualCoder prior to coding. You can import text from plain text documents, docx, odt, epub and pdf documents. Pdf importing can be problematic and may need editing as formatting is lost. Large Pdf files take a long time to import. You can image files in the following formats: jpg, jpeg and png. You can also create and enter text into a file stored in the database, by pressing the Create pencil icon. 
 
 There are a few sample files in the Examples folder. These can be used to test importing files of different document formats and of importing an image. There are also example files to test importing case attributes, and for importing a survey.
 
@@ -14,9 +14,13 @@ A right-click context menu allows you to view, export, delete a current file. Th
 
 The red folder X icon is an option to select multiple files for deletion.
 
+Files can be linked to rather than imported into the QualCoder project folder. The diagonal link icon performs this task. The two other icons with links allow you to import a linked files into the project folder, and to remove a file from the project folder but keep a link to the file.
+
+Attributes are variables that can be used to describe or classify the files. These can be added here (using the blue + icon) or through the Manage Attributes menu option.
+
 ![manage files dialog](https://qualcoder.files.wordpress.com/2020/12/manage_files.png)
 
-Attributes are variables that can be used to describe or classify the files. These can be added here or through the Manage Attributes menu option.
+Files can be viewed either by right-click menu on the file, or by clicking the eye icon. This is where transcripts for audio and video can be entered, when viewing an audio or video file.
 
 As a practical example: Open the Manage Files dialog. In the Examples folder import the following files: ID1.docx, ID2.odt, transcript.txt and the miguel-henriques.jpg.
 
@@ -29,6 +33,8 @@ Text files can be easily edited if they have no codes, annotations or cases assi
 You can open an audio or video file to view. for video, this opens two windows, one for viewing the video and one for the controls and a transcript, shown below. The transcript text file must have the same name as the video file, but have a '.transcribed' suffix. The transcribed text file is stored within the sqlite database, but can be exported to a text file. 
 
 If you have a .srt file (a translation file that is read by VLC) you can place this alongside the video inside the project folder, in the video folder, shown in the image below. When the video is played, the translation wording will be shown as subtitles in the video. Also, if you open the .srt file in a text editor, copy and paste this into the video.mp4.transcribed text file. Then this text will be shown as the transcription for the video. 
+
+![Audio Video viewing dialog](https://qualcoder.files.wordpress.com/2020/12/viewav3.png)
 
 ### Transcribing audio and video
 
@@ -57,13 +63,19 @@ Manually transcribing audio and video is helped with some keyboard shortcuts. Tr
 
 The shortcuts available are:
 
-ctrl R		Rewind 5 seconds
+Ctrl R		Rewind 5 seconds
 
 Alt R		Rewind 30 seconds
 
 Alt F		Forward 30 seconds
 
 Ctrl S or Ctrl P	Stop/Start toggle audio/video. From stop to play will rewind 2 seconds.
+
+Ctrl Shift > Increase play rate up to 2 times
+
+Ctrl Shift < Decrease play rate down to 0.1 
+
+The above controls are also available from the toolbar icons.
 
 Ctrl T		Insert timestamp in this format: [hh.mm.ss]
 
@@ -72,10 +84,6 @@ Ctrl +N		Add a speaker name. This also pauses the audio/video.
 Ctrl D		Delete one or more speaker names.
 
 Ctrl 1 to 8	Insert speaker name in this format: [name]
-
-Ctrl Shift > Increase play rate up to 2 times
-
-Ctrl Shift < Decrease play rate down to 0.1 
 
 
 # Manage cases
