@@ -88,7 +88,7 @@ Cases are useful for seeing text and images linked to a particular circumstance 
 
 A table lists the cases and their attributes. On the right had side the text of a case is displayed. The number of files associated with a case is shown. Click on the files cell in the table to add or changes files associated with a case. This displays the case file manager dialog, described below.
 
-![Manage cases dialog](https://qualcoder.files.wordpress.com/2020/12/manage-cases.png?resize=219%2C219)
+![Manage cases dialog](https://qualcoder.files.wordpress.com/2020/12/manage-cases.png)
 
 Practical example: Add the three students (or cases) by clicking the Add case icon. Name each student: ID1, ID2 and ID3.
 
