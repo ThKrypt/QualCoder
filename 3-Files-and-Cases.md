@@ -85,21 +85,20 @@ Ctrl 1 to 8	Insert speaker name in this format: [name]
 
 Cases are useful for seeing text and images linked to a particular circumstance or person and for assigning attributes such as age and gender to interview participants. You can add a memo of notes to each case and rename a case by double-clicking on a case name.
 
-![Manage cases dialog](https://qualcoder.files.wordpress.com/2020/10/cases.png)
 
 A table lists the cases and their attributes. On the right had side the text of a case is displayed. The number of files associated with a case is shown. Click on the files cell in the table to add or changes files associated with a case. This displays the case file manager dialog, described below.
 
+![Manage cases dialog](https://qualcoder.files.wordpress.com/2020/12/manage-cases.png?resize=219%2C219)
 
+Practical example: Add the three students (or cases) by clicking the Add case icon. Name each student: ID1, ID2 and ID3.
 
-Practical example: Add the three students (or cases) here by clicking the Add case button. Call each student: ID1, ID2 and ID3.
+## Case file manager
 
-Now, add each student’s file to each student. Click on a case, say ID1, then click the Add file to case button. Select the ID1.docx file. Add the ID2.odt file to ID2 and add the miguel-henriques.jpg to ID3.
-
-Now, add each student’s file to each student. Click on the cell in the Files column for case ID 1 for example. This opens the _case file manager dialog_.
+Now, add each student’s file to each student. Click on the cell in the Files column for case ID3 for example. This opens the _case file manager dialog_. Alternatively, click on the documents icon which will also open the case file manager.
 
 ![Case File Manager](https://qualcoder.files.wordpress.com/2020/08/case-file-manager.png)
 
-In the _case file manager_, click on a case, say ID3, then click  Add selected files to case button. Select one or more files in the files list. Add the file(s) to the case. For  example add the miguel-henriques.jpg to ID3. You can remove files and view the files associated with the case. You will see file text will be underlined in red which indicates this text is associated with this case.
+In the _case file manager_, click on a case, say ID3, then click  Add selected files to case button. Select one or more files in the files list. Add the files to the case. For  example add the miguel-henriques.jpg to ID3. You can remove files and view the files associated with the case. You will see file text will be underlined in red which indicates this text is associated with this case.
 
 Now open the transcript.txt file. Notice the transcript begins with a student id inside square brackets [ ].
 
@@ -112,6 +111,8 @@ Now select the case ID1 and see the assigned text.
 ![Transcript portions assigned to a case](https://qualcoder.files.wordpress.com/2019/01/autocase_highlighted.png)
 
 You can also select a case, manually highlight text, and right-click to mark – or assign -the text to the selected case.
+
+## Importing attributes
 
 Importing attributes for the cases. You can import attributes from a CSV file. The first row must contain the attribute headings. The first column must contain matching case names (for this example: ID1, ID2, ID3). Note that this is case sensitive. Open the attributes.csv file in the Examples folder to see how it is laid out.
 
