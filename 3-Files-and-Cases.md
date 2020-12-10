@@ -83,13 +83,13 @@ Ctrl 1 to 8	Insert speaker name in this format: [name]
 
 # Manage cases
 
-Open the Manage Cases dialog, shown here:
+Cases are useful for seeing text and images linked to a particular circumstance or person and for assigning attributes such as age and gender to interview participants. You can add a memo of notes to each case and rename a case by double-clicking on a case name.
 
 ![Manage cases dialog](https://qualcoder.files.wordpress.com/2020/10/cases.png)
 
 A table lists the cases and their attributes. On the right had side the text of a case is displayed. The number of files associated with a case is shown. Click on the files cell in the table to add or changes files associated with a case. This displays the case file manager dialog, described below.
 
-Cases are useful for seeing text and images linked to particular cases and for assigning attributes such as age and gender to interview participants. You can add a memo of notes to each case and rename a case by double-clicking on a case name.
+
 
 Practical example: Add the three students (or cases) here by clicking the Add case button. Call each student: ID1, ID2 and ID3.
 
