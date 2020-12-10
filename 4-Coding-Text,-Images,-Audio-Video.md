@@ -16,6 +16,8 @@ Create a new code by right-clicking in the left hand window. Codes can  be assig
 
 The easiest way to code text, is to select some text, then left-click with the mouse on a code. A second way is to select a code, then select some text. Right-click and mark the text to assign it to the selected code. Hover the mouse pointer over coded text to see a tooltip of the code. Coded text can be uncoded by clicking on the text segment and pressing the Unmark button.
 
+Coded text segments can be memoed - through the right-click menu or by clicking on the pencil and red notepad icon.
+
 The tooltip is shown in the below image of overlapping codes.
 
 Overlapping codes can be difficult to view clearly. Overlaps have an overline above the text to show overlapping sections. Mouse hover will show coded text, including overlaps. Clicking in an overlap shows a selection box at the top of the screen where you can select to view one or the other highlighted coded text.
@@ -53,9 +55,9 @@ You can also right-click on a code and select change start position or change en
 
 #  Coding images
 
-Images can be coded in a similar way to text coding. Select a code. Left-click and drag to highlight the area you want to assign to the code. Right-click will open a menu where you can remove the coding or add a memo. At the bottom of the screen there is a slider control to re-size the image. Coded rectangles are coloured to match the code colour.
+Images can be coded in a similar way to text coding. Select a code. Left-click and drag to highlight the area you want to assign to the code. Right-click will open a menu where you can remove the coding or add a memo. At the bottom of the screen there is a slider control to re-size the image. Coded rectangles are coloured to match the code colour. The top right of the dialog shows some details of a clicked on coded area - by showing the code name pixel positions and percentage area of the entire image.
 
-![coding image](https://qualcoder.files.wordpress.com/2019/01/image_coding.png?w=618&h=445)
+![coding image](https://qualcoder.files.wordpress.com/2020/12/image-coding.png)
 
 # Coding audio and video
 
