@@ -10,11 +10,11 @@ There are a few sample files in the Examples folder. These can be used to test i
 
 Video (mov, mp4, wmv format) and audio files (wav, mp3 format) can be imported. Loading an audio or video file will also automatically create a blank text transcribed file. This file will have the same name as the audio or video file, but have a '.transcribed' suffix. Initially, this text transcription will be empty. You can transcribe the file your self or get the file professionally transcribed and copy and paste the text into this file.
 
-![manage files dialog](https://qualcoder.files.wordpress.com/2020/12/manage_files.png)
-
 A right-click context menu allows you to view, export, delete a current file. The menu also allow you to re-order the files according to alphabet, date, and file-type and when right clicking in the name or date columns. You can show only selected attribute types, if the right-click occurs in an attribute column.
 
 The red X icon is an option to select multiple files for deletion.
+
+![manage files dialog](https://qualcoder.files.wordpress.com/2020/12/manage_files.png)
 
 Attributes are variables that can be used to describe or classify the files. These can be added here or through the Manage Attributes menu option.
 
