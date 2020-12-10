@@ -61,7 +61,7 @@ Images can be coded in a similar way to text coding. Select a code. Left-click a
 
 # Coding audio and video
 
-When coding audio or video, two windows are displayed, shown below. One window has the audio or video playing. The other window has the controls and a button to begin and end a coded segment. The controls window shows the codes in the bottom left pane and the .transcribed file text is shown in the bottom right pane. The transcription text can also be coded and annotated in this window. Right-clicking on a timestamp will give you a menu option to go to that section of the video. If a video has multiple audio tracks, you can cane the audio track too. Checking the scroll checkbox allows the transcript to scroll in time with the video, based on detected timestamps, however, you need to uncheck the scroll to be able to code the transcript.
+When coding audio or video, two windows are displayed, shown below. One window has the audio or video playing. The other window has the controls and a button to begin and end a coded segment. The controls window shows the codes in the bottom left pane and the .transcribed file text is shown in the bottom right pane. The transcription text can also be coded and annotated in this window. Right-clicking on a timestamp in the transcription will give you a menu option to go to that section of the video. If a video has multiple audio tracks, you can change the audio track too. Checking the scroll checkbox allows the transcript to scroll in time with the video, based on detected timestamps, however, you need to uncheck the scroll to be able to code the transcript.
 
 ## Keyboard shortcuts
 
@@ -70,6 +70,8 @@ When coding audio or video, two windows are displayed, shown below. One window h
 * Ctrl S and Ctrl P will stop/start (play/pause)
 * Ctrl Shift < will slow play rate down to a minimum of 0.1
 * Ctrl Shift > will increase play rate up to two times.
+
+These options are also available through the toolbar icons.
 
 ## Audio Video segments
 
