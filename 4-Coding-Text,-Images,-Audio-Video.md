@@ -61,7 +61,7 @@ Images can be coded in a similar way to text coding. Select a code. Left-click a
 
 # Coding audio and video
 
-When coding video, two dialogs are displayed, shown below. One dialog has the audio or video playing. The other dialog has the controls and a button to begin and end a coded segment. The controls window shows the codes in the bottom left pane and the .transcribed file text is shown in the bottom right pane. When coding audio, only the controls dialog is shown.
+When coding video, two dialogs are displayed, shown below. One dialog has the video playing. The other dialog has the controls and a button to begin and end a coded segment. The controls window shows the codes in the bottom left pane and the .transcribed file text is shown in the bottom right pane. When coding audio, only the controls dialog is shown.
 
 The transcription text can also be coded and annotated in this dialog window. Right-clicking on a timestamp in the transcription will give you a menu option to go to that section of the video. If a video has multiple audio tracks, you can change the audio track too. Checking the scroll checkbox allows the transcript to scroll in time with the video, based on detected timestamps, however, you need to uncheck the scroll to be able to code the transcript.
 
