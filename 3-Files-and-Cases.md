@@ -12,7 +12,7 @@ Video (mov, mp4, wmv format) and audio files (wav, mp3 format) can be imported. 
 
 A right-click context menu allows you to view, export, delete a current file. The menu also allow you to re-order the files according to alphabet, date, and file-type and when right clicking in the name or date columns. You can show only selected attribute types, if the right-click occurs in an attribute column.
 
-The red X icon is an option to select multiple files for deletion.
+The red folder X icon is an option to select multiple files for deletion.
 
 ![manage files dialog](https://qualcoder.files.wordpress.com/2020/12/manage_files.png)
 
