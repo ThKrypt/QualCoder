@@ -1,9 +1,4 @@
-# Files and Cases Menu
-* Manage files
-* Manage cases
-* Manage attributes
-* Manage journals
-##  Manage Files
+#  Manage Files
 You will usually want to load text files into QualCoder prior to coding. You can import text from plain text documents, docx, odt, epub and pdf documents. Pdf importing can be problematic and may need editing as formatting is lost. Large Pdf files take a long time to import. You can image files in the following formats: jpg, jpeg and png. You can also create and enter text into a file stored in the database, by pressing the Create pencil icon. 
 
 There are a few sample files in the Examples folder. These can be used to test importing files of different document formats and of importing an image. There are also example files to test importing case attributes, and for importing a survey.
@@ -24,11 +19,11 @@ Files can be viewed either by right-click menu on the file, or by clicking the e
 
 As a practical example: Open the Manage Files dialog. In the Examples folder import the following files: ID1.docx, ID2.odt, transcript.txt and the miguel-henriques.jpg.
 
-### Text files
+## Text files
 
 Text files can be easily edited if they have no codes, annotations or cases assigned to them. Once these have been assigned, editing is limited to short text segments up to 20 characters long. To edit, select the text and right click to get a menu option to edit the text segment.
 
-### Audio and Video files
+## Audio and Video files
 
 You can open an audio or video file to view. for video, this opens two windows, one for viewing the video and one for the controls and a transcript, shown below. The transcript text file must have the same name as the video file, but have a '.transcribed' suffix. The transcribed text file is stored within the sqlite database, but can be exported to a text file. 
 
@@ -36,7 +31,7 @@ If you have a .srt file (a translation file that is read by VLC) you can place t
 
 ![Audio Video viewing dialog](https://qualcoder.files.wordpress.com/2020/12/viewav3.png)
 
-### Transcribing audio and video
+## Transcribing audio and video
 
 QualCoder does not have an audio to text feature. Other services such as otter.ai or the python module vosk may assist you. Transcriptions should ideally contain timestamps indicating when the text is being pronounced during the video. The following formats are recognised by QualCoder, where SSS are milliseconds:
 
