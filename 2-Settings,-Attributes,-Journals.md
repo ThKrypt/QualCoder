@@ -36,10 +36,13 @@ Attributes are variables associated with files or cases. They can be useful to a
 
 It is not the intention for QualCoder to perform statistical analyses of the attributes. It would be preferable to use dedicated statistical software such as R (https://www.r-project.org/) or other such software.
 
-![Attributes dialog](https://qualcoder.files.wordpress.com/2020/12/manage_attributes.png?resize=219%2C219)
+![Attributes dialog](https://qualcoder.files.wordpress.com/2020/12/manage_attributes.png)
 
 # Journals
-You can record your thoughts when coding your data in journals. Make use of these to develop ideas and themes.
+You can record your thoughts when coding your data in journals. Make use of these to develop ideas and themes. 
+Journals can be exported and deleted.
+
+![Journals dialog](https://qualcoder.files.wordpress.com/2020/12/manage_journals.png)
 
 
 
