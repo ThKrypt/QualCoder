@@ -14,9 +14,9 @@ The Rotterdam Exchange Format Initiative (REFI) is an open standard for exportin
 
 Currently, QualCoder is able to export and import a codebook. 
 
-_Exportation of a project and importation of a project are experimental and do not meet the full REFI-QDA standard. Some experimentation has been performed with Nvivo, Atlas.ti, QuirkOS and MAXQDA REFI_QDA project files._
+_Exportation of a project and importation of a project are experimental and do not meet the full REFI-QDA standard. Some experimentation has been performed with Nvivo, Atlas.ti, Quirkos and MAXQDA REFI_QDA project files._ Importation into MAXQDA seems to require and additional line ending character regarding text coding - this is an option in the REFI-QDA project export from QualCoder. Import into Atlas.ti shifted codings by a character after each line ending, and has not yet been resolved. Importation of attributes from QualCoder does not work for Atlas.ti, MAXQDA, case attributes were not imported into Quirkos.
 
-Importation of project.qpdx files seems to work with the test text-based projects. Features such as sets and graphs cannot be imported as this functionality is not within QualCoder. Other data formats are not preserved, for example date or boolean would be converted to text data. 
+Features such as sets and graphs cannot be imported as this functionality is not within QualCoder. Other data formats are not preserved, for example date or boolean would be converted to text data. 
 
 For audio and video, importation of transcriptions and syncpoints is untested. Importation/linking of relative linked files has not been tested.
 
@@ -29,7 +29,7 @@ Projects made with RQDA (http://rqda.r-forge.r-project.org/) can be directly imp
 
 Close any opened project. Then in the Main Menu under Project click on RQDA Project import. You will be asked to create a new project- so enter a name. Then you will be asked to select the RQDA project file. QualCoder will then import the data.
 
-If no coded data is visible, you may need to change the current coder's name in Settings. Tr ythe drop down coder name box.
+If no coded data is visible, you may need to change the current coder's name in Settings. Try the drop down coder name box.
 
 # Survey import
 
