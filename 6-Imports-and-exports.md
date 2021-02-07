@@ -14,7 +14,7 @@ The Rotterdam Exchange Format Initiative (REFI) is an open standard for exportin
 
 Currently, QualCoder is able to export and import a codebook. 
 
-_Exportation of a project and importation of a project are experimental and do not meet the full REFI-QDA standard. Some experimentation has been performed with Nvivo and MAXQDA qdpx files._
+_Exportation of a project and importation of a project are experimental and do not meet the full REFI-QDA standard. Some experimentation has been performed with Nvivo, Atlas.ti, QuirkOS and MAXQDA REFI_QDA project files._
 
 Importation of project.qpdx files seems to work with the test text-based projects. Features such as sets and graphs cannot be imported as this functionality is not within QualCoder. Other data formats are not preserved, for example date or boolean would be converted to text data. 
 
