@@ -25,9 +25,9 @@ Create a new project under the ‘Project’ menu, call it test. The project wil
 
 Under the Project menu click on Project memo. This is where you can put notes about your overall project.
 
-The main window displays various changes that are made when using QualCoder. You will notice the main window has a menu bar at the top full of options. There is also another tab for typing any temporary notes that you wish to make. These notes are not stored.
+The main window displays various changes that are made when using QualCoder. You will notice the main window has a menu bar at the top full of options. There are four tabs for: _action log_, _manage_, _reports_ and _coding_ (text coding shown below).
 
-![main screen](https://qualcoder.files.wordpress.com/2020/08/mainscreen.png)
+![main screen](https://qualcoder.files.wordpress.com/2021/02/tabbed.png?resize=219%2C219)
 
 
 # Attributes
