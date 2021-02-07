@@ -21,12 +21,10 @@ The Attribute selection button opens a dialog window where you can select attrib
 
 ![Attribute selection](https://qualcoder.files.wordpress.com/2019/02/attribute_selection.png)
 
-If you are creating a report based on Case selection, then the code tree pane is hidden. Instead two panes are shown. The left pane shows the codings in a list, the right pane shows a matrix with one case on each row and top-level categories in each column, shown as below:
-
-![Case report showing three panes](https://qualcoder.files.wordpress.com/2019/08/report_panes-1.png)
+If you are creating a report based on Case selection, then the code tree pane is narrowed. Three panes are shown. The left pane shows the codings in a list, the middle pane shows the highlighted codes, the right pane shows a matrix with one case on each row in columns. The column types can be codes, categories, or top-level categories.
 
 Each of the three panes can be widened or narrowed by dragging with the mouse on the bar that splits each section.
-Reports can be exported to text, open document (ODT), html or csv files. Currently case matrices are not able to be exported.
+Reports can be exported to text, open document (ODT), html or csv files. Currently, case matrices are not able to be exported.
 
 ##  Coding Comparison
 This option shows the similarities and differences between two coders. Select two coders and click the run comparisons button. The statistics created here are only for coded text, not coded media files. For each code:
