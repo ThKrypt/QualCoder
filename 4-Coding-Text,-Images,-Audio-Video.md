@@ -2,7 +2,10 @@
 
 Categories are used to organise codes. Categories are organised hierarchically in a tree structure. You can move codes into categories and move categories into larger categories. You can move categories and codes out of their current position. Codes and categories can be merged by dropping a code onto a code or a category onto a category. Categories and codes can be assigned memos. Right-click on a category or code to rename. Right click on a code to change the color.
 
-To reduce the number of codes shown in the code tree. In the coding windows (code text, code, a/v or code image), right-click on the code tree and select Show codes like from the menu. Then enter text in the text box. This will then only show codes that contain that text. Enter nothing into the text box and press OK to show all codes again. (This feature is for Version 2.2 up)
+To reduce the number of codes shown in the code tree. In the coding windows (code text, code, a/v or code image), right-click on the code tree and select Show codes like from the menu. Then enter text in the text box. This will then only show codes that contain that text. Enter nothing into the text box and press OK to show all codes again.
+
+In the codes tree on the left, right clicking on a code opens a context menu for various options.
+One option is Show coded files - this shows everywhere you have coded with the selected code. Clicking on a particular coded section will open that code in the original context for further insight.
 
 # Coding Text
 
@@ -37,9 +40,11 @@ The top right of the dialog has icons for auto-coding text. You can auto-code ex
 ## Convenience methods for loading text files
 
 Some projects may have many text files and the view file dialog may present too many files to open. Right-click on the View File button to select options such as: 
-the next file alphabetically, 
-select the file which was most recently coded, 
-or go to a bookmarked location in a file. To create a bookmark, right click in some text when coding and select the bookmark option. The bookmark works for only one project at a time, so if you opened a different project, the bookmark would be incorrect or might not work at all.
+
+* The next file alphabetically, 
+
+* Select the file which was most recently coded, 
+* Go to a bookmarked location in a file. To create a bookmark, right click in some text when coding and select the bookmark option. The bookmark works for only one project at a time, so if you opened a different project, the bookmark would be incorrect or might not work at all.
 
 ## Modifying code positions
 
@@ -52,6 +57,31 @@ When in the text area, click on a code with the mouse (Note the code must not be
 
 You can also right-click on a code and select change start position or change end position by  a number of characters.
 
+**Other shortcut keys for text coding:**
+
+* Shortcut A to Annotate selected text
+
+* Shortcut B to bookmark the current location in the current text file.
+
+* Shortcut R to select Recent codes. (Must have a text selection)
+
+* Shortcut Q to Quick code with the most recent code. (Must have a text selection)
+
+* Shortcut M to memo a code. (Must click over a coded text segment)
+
+* Shortcut O to cycle through overlapping codes in situ. (Must click over an overlapping codes segment - denoted with an overline).
+
+**Search text**
+
+The coding text dialog contains a search for text function at the top middle, with tick boxes for searching case sensitive and for searching through all text files. When in the text area, selecting some text and pressing the shortcut key ‘s’ will fill the search text box and focus on the ‘next’ arrow button for quickly looking through the document for the selected text. The search requires a minimum of 3 characters. The Case sensitive check box will limit to case sensitive searching. The All files check box will continue the search through other text files.
+
+The search uses Regex functions. 
+
+* A dot ‘.’ is used as a wild card, e.g. ‘.ears’ will match ‘bears’ and ‘years’. 
+* A ‘?’ after a character will match one or none times that character, e.g. ‘bears?’ will match ‘bear’ and ‘bears’ 
+* A ‘*’ after a character will match zero or more times. 
+* ‘\. will match the dot symbol, ‘\?’ will match the question mark. ‘\n’ will match the line ending symbol. This Regex cheatsheet might assist: www.rexegg.com/regex-quickstart.html
+* \b word boundary, ‘\bbound\b’ will search for the full word ‘bound’, but not ‘boundary’
 
 #  Coding images
 
@@ -77,7 +107,19 @@ The transcription text can also be coded and annotated in this dialog window. Ri
 * Ctrl Shift < will slow play rate down to a minimum of 0.1
 * Ctrl Shift > will increase play rate up to two times.
 
-These options are also available through the toolbar icons.
+(These options are also available through the toolbar icons.)
+
+When the text area has focus:
+
+* Shortcut A to Annotate selected text
+
+* Shortcut M to memo a code. (Must click over a coded text segment)
+
+* Shortcut O to cycle through overlapping codes in situ. (Must click over an overlapping codes segment - denoted with an overline).
+
+* Shortcut Q to Quick code with the most recent code. (Must have a text selection)
+
+* Shortcut R to select Recent codes. (Must have a text selection)
 
 ## Audio Video segments
 
