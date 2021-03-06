@@ -25,7 +25,7 @@ Create a new project under the ‘Project’ menu, call it test. The project wil
 
 Under the Project menu click on Project memo. This is where you can put notes about your overall project.
 
-The main window displays various changes that are made when using QualCoder. You will notice the main window has a menu bar at the top full of options. There are four tabs for: _action log_, _manage_, _reports_ and _coding_ (text coding shown below).
+The Action Log tab displays various changes that are made when using QualCoder. The main window has a menu bar at the top full of options. There are four tabs for: _action log_, _manage_, _reports_ and _coding_ (text coding shown below).
 
 ![main screen](https://qualcoder.files.wordpress.com/2021/02/tabbed.png)
 
@@ -33,6 +33,8 @@ The main window displays various changes that are made when using QualCoder. You
 # Attributes
 
 Attributes are variables associated with files or cases. They can be useful to add context to the text analysis. Open the Manage Attributes dialog. You can add, delete, rename and add memo notes to attributes.
+
+An ERROR in the QualCoder-2.4 release. All attributes created are automatically designated as Numeric. Open Manage Attributes and right-click to convert to Character.
 
 It is not the intention for QualCoder to perform statistical analyses of the attributes. It would be preferable to use dedicated statistical software such as R (https://www.r-project.org/) or other such software.
 
