@@ -1,4 +1,4 @@
-# Welcome to the QualCoder wiki
+# QualCoder Installation instructions
 
 ![QualCoder Icon](https://qualcoder.files.wordpress.com/2019/01/qualcoder.png?w=500)
 
@@ -76,7 +76,9 @@ python3 get-pip.py
 pip install pyqt5 lxml pillow six ebooklib ply chardet pdfminer.six openpyxl
 ```
 
-6) Install system dependencies using Homebrew (aka `brew`) 
+
+6) Note step 6 is not essential on Mac, but may be useful of you are trying to import encrypted pdf text.
+Install system dependencies using Homebrew (aka `brew`) 
 
 6.1) Install `brew` if do not already have it (try typing `brew` and hit ENTER):
 
