@@ -70,7 +70,7 @@ python3 get-pip.py
 
 5) Install Python dependency modules using `pip`:
 
-(you might already have them, don't do this again if you just update QualCoder to a newer version)
+You might already have the modules. You do not need to do this again if you update QualCoder to a newer version.
 
 ```sh
 pip install pyqt5 lxml pillow six ebooklib ply chardet pdfminer.six openpyxl
