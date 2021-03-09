@@ -59,23 +59,19 @@ You can also right-click on a code and select change start position or change en
 
 **Other shortcut keys for text coding:**
 
-* Shortcut A to Annotate selected text
+* Shortcut A. Press a to Annotate selected text
 
-* Shortcut B to bookmark the current location in the current text file.
+* Shortcut B. Press b to bookmark the current location in the current text file.
 
-* Shortcut R to select Recent codes. (Must have a text selection)
+* Shortcut R. Press r to select Recent codes. (Must have a text selection)
 
-* Shortcut Q to Quick code with the most recent code. (Must have a text selection)
+* Shortcut Q. Press q to Quick code with the most recent code. (Must have a text selection)
 
-* Shortcut M to memo a code. (Must click over a coded text segment)
+* Shortcut M. Press m to memo a code. (Must click over a coded text segment)
 
-* Shortcut O to cycle through overlapping codes in situ. (Must click over an overlapping codes segment - denoted with an overline).
+* Shortcut O. Press o to cycle through overlapping codes in situ. (Must click over an overlapping codes segment - denoted with an overline).
 
-* h Pressing h will hide and unhide the top section of controls on the screen. This provides a bigger area to view the text and to code.
-
-* a Pressing a when text is selected will open the annotate screen.
-
-* m Pressing m when in a coded section of text will open the memo coded text screen.
+* Shortcut H. Press h will hide and unhide the top section of controls on the screen. This provides a bigger area to view the text and to code.
 
 **Search text**
 
