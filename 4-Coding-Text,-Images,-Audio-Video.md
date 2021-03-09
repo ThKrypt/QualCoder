@@ -91,6 +91,8 @@ Images can be coded in a similar way to text coding. Select a code. Left-click a
 
 The top right of the dialog shows some details of a clicked on coded area - by showing the code name pixel positions and percentage area of the entire image. Hovering the mouse over this space will show any memo for the coded area.
 
+* Shortcut H. Press h when on the image to hide and undie the top controls section of the screen.
+
 ![coding image](https://qualcoder.files.wordpress.com/2020/12/image-coding.png)
 
 # Coding audio and video
@@ -113,15 +115,15 @@ The transcription text can also be coded and annotated in this dialog window. Ri
 
 When the text area has focus:
 
-* Shortcut A to Annotate selected text
+* Shortcut A. Press a to Annotate selected text
 
-* Shortcut M to memo a code. (Must click over a coded text segment)
+* Shortcut M. Press m to memo a code. (Must click over a coded text segment)
 
-* Shortcut O to cycle through overlapping codes in situ. (Must click over an overlapping codes segment - denoted with an overline).
+* Shortcut O. Press o to cycle through overlapping codes in situ. (Must click over an overlapping codes segment - denoted with an overline).
 
-* Shortcut Q to Quick code with the most recent code. (Must have a text selection)
+* Shortcut Q. Press q to Quick code with the most recent code. (Must have a text selection)
 
-* Shortcut R to select Recent codes. (Must have a text selection)
+* Shortcut R. Press R to select Recent codes. (Must have a text selection)
 
 ## Audio Video segments
 
