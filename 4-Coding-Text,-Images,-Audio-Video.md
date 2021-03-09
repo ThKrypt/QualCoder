@@ -19,7 +19,7 @@ Create a new code by right-clicking in the left hand window. Codes can  be assig
 
 The easiest way to code text, is to select some text, then left-click with the mouse on a code. A second way is to select a code, then select some text. Right-click and mark the text to assign it to the selected code. Hover the mouse pointer over coded text to see a tooltip of the code. Coded text can be uncoded by clicking on the text segment and pressing the Unmark button.
 
-Coded text segments can be memoed - through the right-click menu or by clicking on the pencil and red notepad icon.
+Coded text segments can be memoed - through the right-click menu, by pressing 'm' or by clicking on the pencil and red notepad icon.
 
 The tooltip is shown in the below image of overlapping codes.
 
@@ -74,6 +74,8 @@ You can also right-click on a code and select change start position or change en
 * h Pressing h will hide and unhide the top section of controls on the screen. This provides a bigger area to view the text and to code.
 
 * a Pressing a when text is selected will open the annotate screen.
+
+* m Pressing m when in a coded section of text will open the memo coded text screen.
 
 **Search text**
 
