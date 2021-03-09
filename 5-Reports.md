@@ -26,6 +26,8 @@ If you are creating a report based on Case selection, then the code tree pane is
 Each of the three panes can be widened or narrowed by dragging with the mouse on the bar that splits each section.
 Reports can be exported to text, open document (ODT), html or csv files. Currently, case matrices are not able to be exported.
 
+* Shortcut H. Pressing h will hide and unhide the top controls section of the window.
+
 ##  Coding Comparison
 This option shows the similarities and differences between two coders. Select two coders and click the run comparisons button. The statistics created here are only for coded text, not coded media files. For each code:
 
