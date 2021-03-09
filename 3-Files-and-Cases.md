@@ -6,7 +6,7 @@ You can image files in the following formats: jpg, jpeg and png. You can also cr
 
 There are a few sample files in the Examples folder. These can be used to test importing files of different document formats and of importing an image. There are also example files to test importing case attributes, and for importing a survey.
 
-Video (mov, mp4, wmv format) and audio files (wav, mp3 format) can be imported. Loading an audio or video file will also automatically create a blank text transcribed file. This file will have the same name as the audio or video file, but have a '.transcribed' suffix. Initially, this text transcription will be empty. You can transcribe the file your self or get the file professionally transcribed and copy and paste the text into this file.
+Video (mov, mp4, wmv format) and audio files (wav, mp3 format) can be imported. Loading an audio or video file will also automatically create a blank text transcribed file. This file will have the same name as the audio or video file, but have a '.transcribed' suffix. Initially, this text transcription will be empty. You can transcribe the file yourself or get the file professionally transcribed and copy and paste the text into this file.
 
 A right-click context menu allows you to view, export, delete a current file. The menu also allow you to re-order the files according to alphabet, date, and file-type and when right clicking in the name or date columns. You can show only selected attribute types, if the right-click occurs in an attribute column.
 
@@ -90,6 +90,8 @@ Cases are useful for seeing text and images linked to a particular circumstance 
 
 
 A table lists the cases and their attributes. On the right had side the text of a case is displayed. The number of files associated with a case is shown. Click on the files cell in the table to add or changes files associated with a case. This displays the case file manager dialog, described below.
+
+When a survey is imported, each survey row is assigned to a case. The case name is the unique identifier in the first column of the csv or Excel spreadsheet. Large surveys (e.g. 1000 or more rows) can take a long time to import as cases take some time to create.
 
 ![Manage cases dialog](https://qualcoder.files.wordpress.com/2020/12/manage-cases.png)
 
