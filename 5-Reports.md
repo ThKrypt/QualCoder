@@ -68,6 +68,14 @@ The relations are:
 
 A csv file can be exported.
 
+# File Summary
+
+Click on a file to get a summary of that file. It describes media metadata, characters and word frequency. Attributes. It summarises the count of codes for that file. For text codings is summarises the average text length. For image codings it summarises the average pixel area. For audio/video codings it summarises the average segment length.
+
+# Code Summary
+
+Click on a code to get a summary of that code. The coders who have used the code. The number of codings in text, image and audio/video media. For text codings is summarises the average text length and the most common words. For image codings it summarises the average pixel area. For audio/video codings it summarises the average segment length.
+
 #  SQL Dialog
 
 This dialog contains three panes. The top pane is where SQL statements are entered and the bottom pane contains the results of queries. The left pane contains tables and field names. Double-clicking on a field name adds it to the SQL statement. Results can be exported to a delimited file. If you are not familiar with SQL take care as you will be able to update and delete the data as well as select data. Note: Some Unicode symbols are not converted to plain text and are ignored.
@@ -75,6 +83,7 @@ This dialog contains three panes. The top pane is where SQL statements are enter
 There are several prepared join statements listed:
 * Case text
 * Codes fileid and coded text
+* Get coding table - an implementation of an RQDA function that returns the code name, table, text length and text start and end positions.
 * Coded text with each case
 
 Most table fields are text. The following fields are integer: anid, avid, attrid, caseid,catid, cid, fid, id, imid, jid, pos0,pos1, x1, y1, width, height.
