@@ -113,8 +113,6 @@ Try automatically assigning text to ID1 by selecting case ID1 then clicking the 
 
 Now select the case ID1 and see the assigned text.
 
-![Transcript portions assigned to a case](https://qualcoder.files.wordpress.com/2019/01/autocase_highlighted.png)
-
 You can also select a case, manually highlight text, and right-click to mark – or assign -the text to the selected case.
 
 ## Importing cases
