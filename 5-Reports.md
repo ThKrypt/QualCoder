@@ -25,6 +25,7 @@ If you are creating a report based on Case selection, then the code tree pane is
 
 Each of the three panes can be widened or narrowed by dragging with the mouse on the bar that splits each section.
 Reports can be exported to text, open document (ODT), html or csv files. Currently, case matrices are not able to be exported.
+The second pane with show all the results in a list allows you to view the coded portion in context of the original text file, image, audio or video. To do this, click on the row of text that begins with [VIEW].
 
 * Shortcut H. Pressing h will hide and unhide the top controls section of the window.
 
