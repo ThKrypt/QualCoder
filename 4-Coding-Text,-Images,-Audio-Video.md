@@ -29,7 +29,7 @@ Overlapping codes can be difficult to view clearly. Overlaps have an overline ab
 
 
 **Annotations**
-Add an annotation (like a memo for a text segment) to a text selection. The text will become bold to mark the position of the annotation. To re-open an annotation, select some of the bolded-text and right-click to get the Annotate option. Alternatively, click the notepad and pencil icon on the left.
+Add an annotation (like a memo for a text segment) to a text selection. The text will become bold to mark the position of the annotation. To re-open an annotation, select some of the bolded-text and right-click to get the Annotate option. Alternatively, click the notepad and pencil icon on the left, or press the 'a' key.
 
 ![annotation](https://qualcoder.files.wordpress.com/2019/01/annotation.png?w=429&h=240)
 
@@ -72,6 +72,8 @@ You can also right-click on a code and select change start position or change en
 * Shortcut O to cycle through overlapping codes in situ. (Must click over an overlapping codes segment - denoted with an overline).
 
 * h Pressing h will hide and unhide the top section of controls on the screen. This provides a bigger area to view the text and to code.
+
+* a Pressing a when text is selected will open the annotate screen.
 
 **Search text**
 
