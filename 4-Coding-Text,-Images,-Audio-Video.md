@@ -71,6 +71,8 @@ You can also right-click on a code and select change start position or change en
 
 * Shortcut O to cycle through overlapping codes in situ. (Must click over an overlapping codes segment - denoted with an overline).
 
+* h Pressing h will hide and unhide the top section of controls on the screen. This provides a bigger area to view the text and to code.
+
 **Search text**
 
 The coding text dialog contains a search for text function at the top middle, with tick boxes for searching case sensitive and for searching through all text files. When in the text area, selecting some text and pressing the shortcut key ‘s’ will fill the search text box and focus on the ‘next’ arrow button for quickly looking through the document for the selected text. The search requires a minimum of 3 characters. The Case sensitive check box will limit to case sensitive searching. The All files check box will continue the search through other text files.
