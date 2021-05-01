@@ -13,8 +13,7 @@ Regex cheatsheet:
 www.rexegg.com/regex-quickstart.html
 
 
-![Journals dialog](https://qualcoder.files.wordpress.com/2020/12/manage_journals.png)
-TODO - update image
+TODO - image
 
 
 
