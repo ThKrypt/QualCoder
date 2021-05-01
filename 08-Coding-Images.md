@@ -4,7 +4,7 @@ Images can be coded in a similar way to text coding. Select a code. Left-click a
 
 The top right of the dialog shows some details of a clicked on coded area - by showing the code name pixel positions and percentage area of the entire image. Hovering the mouse over this space will show any memo for the coded area.
 
-* Shortcut H. Press h when on the image to hide and undie the top controls section of the screen.
+* Shortcut H. Press h when on the image to hide and unhide the top controls section of the screen.
 
 ![coding image](https://qualcoder.files.wordpress.com/2020/12/image-coding.png)
 
