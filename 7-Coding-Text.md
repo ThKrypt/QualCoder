@@ -85,15 +85,7 @@ The search uses Regex functions.
 * ‘\. will match the dot symbol, ‘\?’ will match the question mark. ‘\n’ will match the line ending symbol. This Regex cheatsheet might assist: www.rexegg.com/regex-quickstart.html
 * \b word boundary, ‘\bbound\b’ will search for the full word ‘bound’, but not ‘boundary’
 
-#  Coding images
 
-Images can be coded in a similar way to text coding. Select a code. Left-click and drag to highlight the area you want to assign to the code. Right-click will open a menu where you can remove the coding or add a memo. At the bottom of the screen there is a slider control to re-size the image. Coded rectangles are coloured to match the code colour. 
-
-The top right of the dialog shows some details of a clicked on coded area - by showing the code name pixel positions and percentage area of the entire image. Hovering the mouse over this space will show any memo for the coded area.
-
-* Shortcut H. Press h when on the image to hide and undie the top controls section of the screen.
-
-![coding image](https://qualcoder.files.wordpress.com/2020/12/image-coding.png)
 
 # Coding audio and video
 
