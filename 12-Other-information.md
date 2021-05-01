@@ -19,19 +19,13 @@ Some potential plans for the future are to add functionality:
 
 Reports: 
 
-    • Some statistics: word count, possibly add bar or pie charts for some attributes.
-
     • Text mining functionality - maybe.
-
-    • Some statistics: word count, possibly add bar or pie charts for some attributes - maybe.
-
-    • Word clouds, word visualisations - maybe.
 
     • Look at alternative ways to visualise codes
 
 General:
 
-* Multi-language support - some work done but review of eisting transliations is needed (Greek, Japanese, Spanish in particular)
+* Multi-language support - some work done but review of existing translations is needed
 
 * Improve REFI-QDA open standard for import and export to other software. Codebook import and export seems OK. Project import and export is experimental.
 
