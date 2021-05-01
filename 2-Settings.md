@@ -7,6 +7,8 @@ The default language of QualCoder is English. Currently French, German, Greek, I
 
 Checking the Show IDs box displays the numeric IDs for codes files cases and more. These IDs may be useful when writing sql queries.
 
+Checking the Dark mode box, changes the overall look of QualCoder from dark text on a light background, to light text on a dark background.
+
 For transcribing audio and video, the time format and bracket type can be selected.
 
 Project backup can be set to automatically backup every hour, or no backup. QualCoder keeping the most recent five backups with a date and hour time stamp. The backup name is: _projectname_BKP_yyyymmdd_hh.qda_  Where _hh_ is 24 hour time. This also means multiple backups are not done within an hour. So a new backup cannot overwrite another backup created within the same hour. Up to five backups are kept, **older backups are deleted**. 
@@ -29,22 +31,6 @@ The Action Log tab displays various changes that are made when using QualCoder. 
 
 ![main screen](https://qualcoder.files.wordpress.com/2021/02/tabbed.png)
 
-
-# Attributes
-
-Attributes are variables associated with files or cases. They can be useful to add context to the text analysis. Open the Manage Attributes dialog. You can add, delete, rename and add memo notes to attributes.
-
-An ERROR in the QualCoder-2.4 release. All attributes created are automatically designated as Numeric. Open Manage Attributes and right-click to convert to Character.
-
-It is not the intention for QualCoder to perform statistical analyses of the attributes. It would be preferable to use dedicated statistical software such as R (https://www.r-project.org/) or other such software.
-
-![Attributes dialog](https://qualcoder.files.wordpress.com/2020/12/manage_attributes.png)
-
-# Journals
-You can record your thoughts when coding your data in journals. Make use of these to develop ideas and themes. 
-Journals can be exported and deleted.
-
-![Journals dialog](https://qualcoder.files.wordpress.com/2020/12/manage_journals.png)
 
 
 
