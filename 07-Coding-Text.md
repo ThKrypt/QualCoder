@@ -14,7 +14,7 @@ Coded text segments can be memoed - through the right-click menu, by pressing 'm
 
 The tooltip is shown in the below image of overlapping codes.
 
-Overlapping codes can be difficult to view clearly. Overlaps have an overline above the text to show overlapping sections. Mouse hover will show coded text, including overlaps. Clicking in an overlap shows a selection box at the top of the screen where you can select to view one or the other highlighted coded text.
+Overlapping codes can be difficult to view clearly. Overlaps have an overline above the text to show overlapping sections and are italicised (coded text with a code memo is also italicised). Mouse hover will show coded text, including overlaps. Clicking in an overlap shows a selection box at the top of the screen where you can select to view one or the other highlighted coded text.
 
 ![overlapping codes](https://qualcoder.files.wordpress.com/2020/12/overlapping.png)
 
