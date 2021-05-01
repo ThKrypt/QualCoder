@@ -4,7 +4,7 @@ The qda data folder contains folders for imported documents, images and audio an
 
 QualCoder creates QualCoder.log and QualCoder_settings.txt files in a .qualcoder folder in your home directory. The settings file contains the name of the current coder, a default working directory and choice of font. The log file records program errors and some user actions.
 
-QualCoder is written in python 3 using Qt for the graphical interface. A Sqlite database is used to store the coding data.
+QualCoder is written in python 3(minimum 3.6 version) using Qt5 for the graphical interface.
 
 
 # Future plans
