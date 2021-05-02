@@ -22,7 +22,17 @@ Add an annotation (like a memo for a text segment) to a text selection. The text
 
 **Auto-code**
 
-The top right of the dialog has icons for auto-coding text. You can auto-code exact text, auto-code sentences based on a text fragment in the current file, and auto-code sentences based on a text fragment for all files. You must also define the end of a sentence, there is a default setting with a period and space. For auto-coding exact text matches, multiple sections of text can be assigned by auto code using the pipe ‘|’ symbol. For example, politics|politicians can be assigned to the same code at the same time (for exact auto code text matches only). There is an undo option to undo recently performed auto-coding. Although if the project is closed and reopened, the undo option will be lost.
+The top right of the dialog has icons for auto-coding text. The top right section has buttons for auto-coding text. 
+
+You can:
+* auto-code exact text
+* auto-code sentences based on a text fragment in the current file
+* auto-code sentences based on a text fragment for all files
+* auto-code the current file using start and end text marks. You can use ‘\n’ for a line ending character. The start mark text is included in the coded section.
+* Undo previous auto-coding
+
+Automatic coding is case sensitive. You must also define the end of a sentence, there is a default setting with a period and space. \n can be used also to denote a line ending character.
+For auto-coding exact text matches, multiple sections of text can be assigned by auto code using the pipe ‘|’ symbol. For example, politics|politicians can be assigned to the same code at the same time (for exact auto code text matches only). There is an undo option to undo recently performed auto-coding. Although if the project is closed and reopened, the undo option will be lost.
 
 ## Convenience methods for loading text files
 
