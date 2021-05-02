@@ -82,6 +82,12 @@ The search uses Regex functions.
 * ‘\. will match the dot symbol, ‘\?’ will match the question mark. ‘\n’ will match the line ending symbol. This Regex cheatsheet might assist: www.rexegg.com/regex-quickstart.html
 * \b word boundary, ‘\bbound\b’ will search for the full word ‘bound’, but not ‘boundary’
 
+## Moving through the text for one selected code
+
+Underneath the codes tree are three buttons , forward, back and a grid icon button (to exit the function).
+
+Select a code and then click on the forward and back arrows. These now traverse through the text document showing the selected coded text. All other coded text is hidden. To restore and show all the codes, click on the now coloured grid button.
+
 
 #  Categories and codes
 
