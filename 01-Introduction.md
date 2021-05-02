@@ -66,6 +66,8 @@ QualCoder uses an Ebook library that you can currently install via a work-around
 
 The UNTESTED install_fedora.sh should install the dependencies and a desktop start icon for Fedora. The script is for python version 3.8.
 
+Fedora uses wayland with does not work well with the Qt graphical interface (for now). I suggest you also install xwayland.
+
 **MacOS**
 
 1) Install recent versions of [Python3](https://www.python.org/downloads/) and [VLC](https://www.videolan.org/vlc/).
