@@ -15,7 +15,7 @@ The buttons here:
 * Delete a case
 * Help button
 
-![Manage cases tab](https://qualcoder.files.wordpress.com/2021/05/cases.png?resize=450%2C450)
+![Manage cases tab](https://qualcoder.files.wordpress.com/2021/05/cases.png?resize=550%2C550)
 
 Practical example: Add the three students (or cases) by clicking the Add case icon. Name each student: ID1, ID2 and ID3.
 
