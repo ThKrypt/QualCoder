@@ -106,10 +106,10 @@ brew install qpdf
 ```
 
 
-Assuming you downloaded the 2.4 version. You can now run with:
+Assuming you downloaded the 2.5 version. You can now run with:
 
 ```
-python3 /applications/QualCoder-2.4/qualcoder/qualcoder.py
+python3 /applications/QualCoder-2.5/qualcoder/qualcoder.py
 ```
 
 You can install QualCoder anywhere you want, so the path above depends on where you extracted the archive.
@@ -149,7 +149,6 @@ There is no desktop icon launch right now for QualCoder. Open a new Terminal win
 I recommend that you make a backup before doing any substantial changes, such as reorganising codes and categories. QualCoder does perform hourly backups (keeping the most recent five) if backups is set in the settings.
 
 
-Edition August 2020 Author: Colin Curtain ccbogel@hotmail.com
 
 # Notice
 
@@ -157,7 +156,7 @@ Edition August 2020 Author: Colin Curtain ccbogel@hotmail.com
 
 The MIT License (MIT)
 
-Copyright (c) 2020 Colin Curtain
+Copyright (c) 2021 Colin Curtain
 Permission is hereby granted, free of
  charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
