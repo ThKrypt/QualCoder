@@ -7,7 +7,7 @@ A table lists the cases and their attributes. On the right had side the text of 
 
 When a survey is imported, each survey row is assigned to a case. The case name is the unique identifier in the first column of the csv or Excel spreadsheet. Large surveys (e.g. 1000 or more rows) can take a long time to import as cases take some time to create.
 
-![Manage cases dialog](https://qualcoder.files.wordpress.com/2020/12/manage-cases.png)
+![Manage cases tab](https://qualcoder.files.wordpress.com/2021/05/cases.png?resize=450%2C450)
 
 Practical example: Add the three students (or cases) by clicking the Add case icon. Name each student: ID1, ID2 and ID3.
 
