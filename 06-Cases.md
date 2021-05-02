@@ -2,10 +2,18 @@
 
 Cases are useful for seeing text and images linked to a particular circumstance or person and for assigning attributes such as age and gender to interview participants. You can add a memo of notes to each case and rename a case by double-clicking on a case name.
 
-
 A table lists the cases and their attributes. On the right had side the text of a case is displayed. The number of files associated with a case is shown. Click on the files cell in the table to add or changes files associated with a case. This displays the case file manager dialog, described below.
 
 When a survey is imported, each survey row is assigned to a case. The case name is the unique identifier in the first column of the csv or Excel spreadsheet. Large surveys (e.g. 1000 or more rows) can take a long time to import as cases take some time to create.
+
+The buttons here:
+* Create a new case
+* Add a case attribute
+* Import cases from csv or xlsx file
+* Open the case-file manager
+* Export case attributes to csv file
+* Delete a case
+* Help button
 
 ![Manage cases tab](https://qualcoder.files.wordpress.com/2021/05/cases.png?resize=450%2C450)
 
