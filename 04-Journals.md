@@ -13,7 +13,7 @@ Regex cheatsheet:
 www.rexegg.com/regex-quickstart.html
 
 
-TODO - image
+![Journal tab](https://qualcoder.files.wordpress.com/2021/05/journal-2.png?resize=219%2C219)
 
 
 
