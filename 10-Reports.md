@@ -10,7 +10,7 @@
 
 This dialog gives a list of coded text based on your selections. One or more codes need to be selected. If a category is selected all codes in that category are also selected. Multiple categories can be selected using the mouse and the ‘ctrl’ button. 
 
-The Search button will present the results.
+The Search button (Button containing cogs) will present the results.
 
 Coding results can be narrowed down by using the File selection, Case selection or Attribute selection buttons. Only codings within the selected files or cases will be presented. When case selections are used, file selections are ignored. Also when file selections are used, case selections are ignored. 
 
