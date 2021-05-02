@@ -10,7 +10,7 @@ Video (mov, mp4, wmv format) and audio files (wav, mp3 format) can be imported. 
 
 A right-click context menu allows you to view, export, delete a current file. The menu also allow you to re-order the files according to alphabet, date, and file-type and when right clicking in the name or date columns. You can show only selected attribute types, if the right-click occurs in an attribute column.
 
-The red folder X icon is an option to select multiple files for deletion.
+The red X button is an option to select multiple files for deletion.
 
 Files can be linked to rather than imported into the QualCoder project folder. The diagonal link icon performs this task. The two other icons with links allow you to import a linked files into the project folder, and to remove a file from the project folder but keep a link to the file.
 
