@@ -2,7 +2,7 @@
 
 Select Code text from the Coding menu. This is the central dialog for assigning codes to text. Once text segments are coded, hovering the mouse over the coding shows the code name as a tooltip. Clicking on the coded segment also shows the code name. 
 
-![Code text tab](https://qualcoder.files.wordpress.com/2021/05/code_text.png?resize=550%2C500)
+![Code text tab](https://qualcoder.files.wordpress.com/2021/05/code_text.png?resize=600%2C500)
 
 Select a file for coding from the selection list on the left. The file selection list contains buttons that allow you to move to the next file, to move to the most recently coded file and to go to a bookmarked position in a file. There is also a button to view the file memo.
 
