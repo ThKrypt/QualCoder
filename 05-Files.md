@@ -16,7 +16,7 @@ Files can be linked to rather than imported into the QualCoder project folder. T
 
 Attributes are variables that can be used to describe or classify the files. These can be added here (using the blue + icon) or through the Manage Attributes menu option.
 
-![Manage Files tab](https://qualcoder.files.wordpress.com/2021/05/files.png?resize=500%2C500)
+![Manage Files tab](https://qualcoder.files.wordpress.com/2021/05/files.png?resize=550%2C500)
 
 
 Files can be viewed either by right-click menu on the file, or by clicking the eye icon. This is where transcripts for audio and video can be entered, when viewing an audio or video file.
