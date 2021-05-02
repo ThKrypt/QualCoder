@@ -46,6 +46,12 @@ Some projects may have many text files and the view file dialog may present too 
 * Select the file which was most recently coded, 
 * Go to a bookmarked location in a file. To create a bookmark, right click in some text when coding and select the bookmark option. The bookmark works for only one project at a time, so if you opened a different project, the bookmark would be incorrect or might not work at all.
 
+## Maximise screen area
+To hide the top control panel, click in the text area and press the 'h' key. To show the top panel, press 'h' again.
+
+## Large text files
+Large text files slow QualCoder. When opening a large text file (greater than 50,000 characters), right click on the file. A menu option allows you to get the first approximately 50,000 characters, subsequent clicks will open the next approximately 50,000 and so on. Approximately, because QualCoder looks for a line-ending (such as a paragraph or sentence ending) to more nicely section the start and end of text chunks.
+
 ## Modifying code positions
 
 When in the text area, click on a code with the mouse (Note the code must not be overlapping with another code at that position). Press the following key combinations to extend or shrink the coded text segment.
