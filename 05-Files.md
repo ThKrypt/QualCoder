@@ -14,7 +14,7 @@ The red X button is an option to select multiple files for deletion.
 
 Files can be linked to rather than imported into the QualCoder project folder. The diagonal link icon performs this task. The two other icons with links allow you to import a linked files into the project folder, and to remove a file from the project folder but keep a link to the file.
 
-Attributes are variables that can be used to describe or classify the files. These can be added here (using the blue + icon) or through the Manage Attributes menu option.
+Attributes are variables that can be used to describe or classify the files. These can be added here (using the blue + button) or through the Manage Attributes menu option.
 
 ![Manage Files tab](https://qualcoder.files.wordpress.com/2021/05/files.png?resize=550%2C500)
 
