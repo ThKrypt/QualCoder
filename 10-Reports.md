@@ -32,7 +32,7 @@ Each of the three panes can be widened or narrowed by dragging with the mouse on
 Reports can be exported to text, open document (ODT), html or csv files. Currently, case matrices are not able to be exported.
 The second pane with show all the results in a list allows you to view the coded portion in context of the original text file, image, audio or video. To do this, click on the row of text that begins with [VIEW].
 
-![Case selection in reports](https://qualcoder.files.wordpress.com/2021/05/coding_report_categories.png?resize=219%2C219)
+![Case selection in reports](https://qualcoder.files.wordpress.com/2021/05/coding_report_categories.png?resize=760%2C500)
 
 _When cases are selected, another pane is displayed showing a table of cases (in rows) and categories or codes in columns_
 
