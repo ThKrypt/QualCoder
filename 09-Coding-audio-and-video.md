@@ -4,7 +4,7 @@ When coding video, two dialogs are displayed, shown below. One dialog has the vi
 
 The transcription text can also be coded and annotated in this dialog window. Right-clicking on a timestamp in the transcription will give you a menu option to go to that section of the video. If a video has multiple audio tracks, you can change the audio track too. Checking the scroll checkbox allows the transcript to scroll in time with the video, based on detected timestamps, however, you need to uncheck the scroll to be able to code the transcript.
 
-![Coding audio and video dialogs](https://qualcoder.files.wordpress.com/2020/12/code_video.png)
+![Coding audio and video](https://qualcoder.files.wordpress.com/2021/05/code_av.png?resize=219%2C219)
 
 ## Keyboard shortcuts
 
