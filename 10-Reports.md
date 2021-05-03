@@ -21,6 +21,8 @@ Coding results can be narrowed down by using the File selection, Case selection 
 If text is entered into the Search text field, only codings which contain the matching text will be presented. 
 The search text also looks for matching text in memos for coded image areas and coded audio/video segments. The search text function must be used in combination with File selection, Case selection or Attribute selection.
 
+## Attribute selection in reports
+
 The Attribute selection button opens a dialog window where you can select attributes for files and cases, for example: only interview files for people aged > 60.
 
 ![Attribute selection](https://qualcoder.files.wordpress.com/2019/02/attribute_selection.png)
@@ -38,7 +40,7 @@ _When cases are selected, another pane is displayed showing a table of cases (in
 
 * Shortcut H. Pressing h will hide and unhide the top controls section of the window.
 
-##  Coding Comparison
+#  Coding Comparison
 This option shows the similarities and differences between two coders. Select two coders and click the run comparisons button. The statistics created here are only for coded text, not coded media files. For each code:
 
 Agreement % shows agreement for a combination of coded and non-coded text characters.
