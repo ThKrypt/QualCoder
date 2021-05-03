@@ -59,7 +59,7 @@ Cohen’s Kappa is calculated based on the information in Wikipedia https://en.w
 
 This window shows all the codes and categories and the frequency of use for each coder. Code frequencies can be selected for specific files.
 
-![Code frequencies report](https://qualcoder.files.wordpress.com/2021/05/code_frequencies.png?resize=600%2C450)
+![Code frequencies report](https://qualcoder.files.wordpress.com/2021/05/code_frequencies.png?resize=650%2C400)
 
 #  Node graph
 
