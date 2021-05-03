@@ -89,6 +89,8 @@ Click on a file to get a summary of that file. It describes media metadata, char
 
 Click on a code to get a summary of that code. The coders who have used the code. The number of codings in text, image and audio/video media. For text codings is summarises the average text length and the most common words. For image codings it summarises the average pixel area. For audio/video codings it summarises the average segment length.
 
+![Code summary](https://qualcoder.files.wordpress.com/2021/05/code_summary_report.png?resize=700%2C500)
+
 #  SQL Dialog
 
 This dialog contains three panes. The top pane is where SQL statements are entered and the bottom pane contains the results of queries. The left pane contains tables and field names. Double-clicking on a field name adds it to the SQL statement. Results can be exported to a delimited file. If you are not familiar with SQL take care as you will be able to update and delete the data as well as select data. Note: Some Unicode symbols are not converted to plain text and are ignored.
