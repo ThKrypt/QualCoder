@@ -12,6 +12,10 @@ This dialog gives a list of coded text based on your selections. One or more cod
 
 The Search button (Button containing cogs) will present the results.
 
+![Coding report in dark mode](https://qualcoder.files.wordpress.com/2021/05/coding_report.png?resize=219%2C219)
+
+_Coding report showing results of coded text and images, in dark mode_
+
 Coding results can be narrowed down by using the File selection, Case selection or Attribute selection buttons. Only codings within the selected files or cases will be presented. When case selections are used, file selections are ignored. Also when file selections are used, case selections are ignored. 
 
 If text is entered into the Search text field, only codings which contain the matching text will be presented. 
