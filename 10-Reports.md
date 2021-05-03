@@ -28,7 +28,7 @@ The Attribute selection button opens a dialog window where you can select attrib
 ![Attribute selection](https://qualcoder.files.wordpress.com/2019/02/attribute_selection.png)
 
 ## Case selection in reports
-If you are creating a report based on Case selection, then the code tree pane is narrowed. Three panes are shown. The left pane shows the codings in a list, the middle pane shows the highlighted codes, the right pane shows a matrix with one case on each row in columns. The column types can be codes, categories, or top-level categories.
+If you are creating a report and selecting cases, then the code tree pane is narrowed. Three panes are shown. The left pane shows the codings in a list, the middle pane shows the highlighted codes, the right pane shows a matrix with one case on each row in columns. The column types can be codes, categories, or top-level categories.
 
 Each of the three panes can be widened or narrowed by dragging with the mouse on the bar that splits each section.
 Reports can be exported to text, open document (ODT), html or csv files. Currently, case matrices are not able to be exported.
