@@ -95,9 +95,13 @@ The search uses Regex functions.
 
 ## Moving through the text for one selected code
 
-Underneath the codes tree are three buttons , forward, back and a grid icon button (to exit the function).
+Underneath the codes tree are the buttons: forward, back and a grid icon button (to exit the function).
 
 Select a code and then click on the forward and back arrows. These now traverse through the text document showing the selected coded text. All other coded text is hidden. To restore and show all the codes, click on the now coloured grid button.
+
+** Show only important coded text
+
+Under the codes tree is a button with a star symbol. This button toggles between showing all coded text and the coded text flagged as Important.
 
 
 #  Categories and codes
