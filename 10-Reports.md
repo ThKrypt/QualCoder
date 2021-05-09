@@ -21,6 +21,9 @@ Coding results can be narrowed down by using the File selection, Case selection 
 If text is entered into the Search text field, only codings which contain the matching text will be presented. 
 The search text also looks for matching text in memos for coded image areas and coded audio/video segments. The search text function must be used in combination with File selection, Case selection or Attribute selection.
 
+** Important coded text, images, segments
+There is a tick box to select only the Important codings. This is useful for quickly finding those important exemplars that you may use in a written report.
+
 ## Attribute selection in reports
 
 The Attribute selection button opens a dialog window where you can select attributes for files and cases, for example: only interview files for people aged > 60.
