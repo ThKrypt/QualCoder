@@ -12,6 +12,8 @@ The easiest way to code text, is to select some text, then left-click with the m
 
 Coded text segments can be memoed - through the right-click menu, by pressing 'm' or by clicking on the pencil and red notepad icon. Text under a code with a memo is italicised.
 
+Important coded texts, such as exemplars for a report, cane be flagged Important by using the right-click menu when on the codeed text and selecting Important.
+
 ## Overlapping codes
 
 Overlapping codes can be difficult to view clearly. Overlaps have an overline above the text to show overlapping sections and are italicised (coded text with a code memo is also italicised). Mouse hover will show coded text, including overlaps. Clicking in an overlap shows a selection box at the top of the screen where you can select to view one or the other highlighted coded text.
