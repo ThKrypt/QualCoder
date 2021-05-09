@@ -12,7 +12,7 @@ The easiest way to code text, is to select some text, then left-click with the m
 
 Coded text segments can be memoed - through the right-click menu, by pressing 'm' or by clicking on the pencil and red notepad icon. Text under a code with a memo is italicised.
 
-Important coded texts, such as exemplars for a report, cane be flagged Important by using the right-click menu when on the codeed text and selecting Important.
+Important coded texts, such as exemplars for a report, can be flagged Important by using the right-click menu when on the codeed text and selecting Important.
 
 ## Overlapping codes
 
