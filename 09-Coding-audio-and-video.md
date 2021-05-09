@@ -38,7 +38,9 @@ Coding stripes for the coded segments are shown in the upper pane. Hovering the 
 
 The transcript text can also be coded and annotated in this dialog. However, when the Scroll transcript check box is checked, this cannot be performed. Playing the video when this is check will scroll the transcript using the timestamps in time with the video.
 
-Important coded texts, such as exemplars for a report, can be flagged Important by using the right-click menu when on the codeed text and selecting Important.
+## Important coded text and segments
+
+Important coded texts, such as exemplars for a report, can be flagged Important by using the right-click menu when on the coded text and selecting Important. Similarly, code segments can be flagged Important. At the top of the screen is a button with a star symbol. This toggles between showing all coded text and segments or Important coded text and segments.
 
 **Linking text to coded segments**
 
