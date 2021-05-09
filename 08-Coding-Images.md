@@ -4,7 +4,8 @@ Images can be coded in a similar way to text coding. Select a code. Left-click a
 
 The top right of the dialog shows some details of a clicked on coded area - by showing the code name pixel positions and percentage area of the entire image. Hovering the mouse over this space will show any memo for the coded area.
 
-Important coded areas, such as exemplars for a report, can be flagged Important by using the right-click menu when on the codeed areand selecting Important.
+## Important coded areas
+Important coded areas, such as exemplars for a report, can be flagged Important by using the right-click menu when on the coded areas and selecting Important. At the top of the screen is a button with a star symbol. This button toggles between showing all coded areas and the coded areas flagged as Important.
 
 * Shortcut H. Press h when on the image to hide and unhide the top controls section of the screen.
 
