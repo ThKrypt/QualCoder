@@ -27,7 +27,7 @@ General:
 
 * Multi-language support - some work done but review of existing translations is needed
 
-* Improve REFI-QDA open standard for import and export to other software. Codebook import and export seems OK. Project import and export is experimental.
+* Improve REFI-QDA open standard for import and export to other software. Codebook import and export seems OK. Project import and export is experimental. Definitely need to review attribute import/export. A/V coded segments, AV sync-points. Use of Cases / Sets. Memos to text.
 
 #  About the author
 
