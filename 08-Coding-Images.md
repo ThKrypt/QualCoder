@@ -11,6 +11,13 @@ Important coded areas, such as exemplars for a report, can be flagged Important 
 
 ![coding image](https://qualcoder.files.wordpress.com/2020/12/image-coding.png)
 
+### Convenience buttons underneath the files list
+
+* Load the next file
+* Load the file with the latest coding
+* Open the file memo of the selected file
+* Use a filter function show only those files that meet certain criteria. These can be from file attributes, or if files are associated with certain cases.
+
 #  Categories and codes
 
 Categories are used to organise codes. Categories are organised hierarchically in a tree structure. You can move codes into categories and move categories into larger categories. You can move categories and codes out of their current position. Codes and categories can be merged by dropping a code onto a code or a category onto a category. Categories and codes can be assigned memos. Right-click on a category or code to rename. Right click on a code to change the color.
