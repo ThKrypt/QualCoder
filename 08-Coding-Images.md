@@ -11,7 +11,7 @@ Important coded areas, such as exemplars for a report, can be flagged Important 
 
 ![coding image](https://qualcoder.files.wordpress.com/2020/12/image-coding.png)
 
-### Convenience buttons underneath the files list
+## Convenience buttons underneath the files list
 
 * Load the next file
 * Load the file with the latest coding
