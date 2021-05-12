@@ -9,7 +9,7 @@ Important coded areas, such as exemplars for a report, can be flagged Important 
 
 * Shortcut H. Press h when on the image to hide and unhide the top controls section of the screen.
 
-![coding image](https://qualcoder.files.wordpress.com/2020/12/image-coding.png)
+![Code image screen](https://qualcoder.files.wordpress.com/2021/05/code_image.png)
 
 ## Convenience buttons underneath the files list
 
