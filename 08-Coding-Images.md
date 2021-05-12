@@ -16,7 +16,7 @@ Important coded areas, such as exemplars for a report, can be flagged Important 
 * Load the next file
 * Load the file with the latest coding
 * Open the file memo of the selected file
-* Use a filter function show only those files that meet certain criteria. These can be from file attributes, or if files are associated with certain cases.
+* Use a filter function show only those files that meet certain criteria. These can be from file attributes, or if files are associated with certain cases. (Button that displays a tag)
 
 #  Categories and codes
 
