@@ -58,7 +58,7 @@ Some projects may have many text files and the view file dialog may present too 
 * Open the file memo of the selected file
 * Use a filter function show only those files that meet certain criteria. These can be from file attributes, or if files are associated with certain cases. (Image below)
 
-![Code text and selecting parameters to show only the matching files](https://qualcoder.files.wordpress.com/2021/05/code_text_parameters.png?resize=219%2C219)
+![Code text and selecting parameters to show only the matching files](https://qualcoder.files.wordpress.com/2021/05/code_text_parameters.png?resize=700%2C500)
 
 
 ## Large text files
