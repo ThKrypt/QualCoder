@@ -39,14 +39,23 @@ You can:
 Automatic coding is case sensitive. You must also define the end of a sentence, there is a default setting with a period and space. \n can be used also to denote a line ending character.
 For auto-coding exact text matches, multiple sections of text can be assigned by auto code using the pipe ‘|’ symbol. For example, politics|politicians can be assigned to the same code at the same time (for exact auto code text matches only). There is an undo option to undo recently performed auto-coding. Although if the project is closed and reopened, the undo option will be lost.
 
-## Convenience methods for loading text files
+## Convenience methods for loading text files in the files list pane.
 
-Some projects may have many text files and the view file dialog may present too many files to open. Right-click on the View File button to select options such as: 
+Some projects may have many text files and the view file dialog may present too many files to open. Right-click on the files in the file tree button to go to the next file, go to the bookmarked file or go to the file with the latest codings: 
 
 * The next file alphabetically, 
 
 * Select the file which was most recently coded, 
 * Go to a bookmarked location in a file. To create a bookmark, right click in some text when coding and select the bookmark option. The bookmark works for only one project at a time, so if you opened a different project, the bookmark would be incorrect or might not work at all.
+
+### Convenience buttons underneath the files list
+
+* Load the next file
+* Load the file with the latest coding
+* Go to the currently bookmarked file
+* Open the file memo of the selected file
+* Use a filter function show only those files that meet certain criteria. These can be from file attributes, or if files are associated with certain cases.
+
 
 ## Maximise screen area
 To hide the top control panel, click in the text area and press the 'h' key. To show the top panel, press 'h' again.
