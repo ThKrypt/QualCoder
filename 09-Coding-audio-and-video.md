@@ -65,9 +65,12 @@ You can also right-click on a code and select change start position or change en
 On the video window you can right-click and have options to change the window size, in pixels. You can also export a screenshot. The screenshot will be save as Frame_yyyymmdd_hh_mm_ss.jpg in the directory listed in the Settings.
 
 
+## Convenience buttons underneath the files list
 
-
-
+* Load the next file
+* Load the file with the latest coding
+* Open the file memo of the selected file
+* Use a filter function show only those files that meet certain criteria. These can be from file attributes, or if files are associated with certain cases.
 
 #  Categories and codes
 
