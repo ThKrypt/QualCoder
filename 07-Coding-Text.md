@@ -39,6 +39,9 @@ You can:
 Automatic coding is case sensitive. You must also define the end of a sentence, there is a default setting with a period and space. \n can be used also to denote a line ending character.
 For auto-coding exact text matches, multiple sections of text can be assigned by auto code using the pipe ‘|’ symbol. For example, politics|politicians can be assigned to the same code at the same time (for exact auto code text matches only). There is an undo option to undo recently performed auto-coding. Although if the project is closed and reopened, the undo option will be lost.
 
+## Maximise screen area
+To hide the top control panel, click in the text area and press the 'h' key. To show the top panel, press 'h' again.
+
 ## Convenience methods for loading text files in the files list pane.
 
 Some projects may have many text files and the view file dialog may present too many files to open. Right-click on the files in the file tree button to go to the next file, go to the bookmarked file or go to the file with the latest codings: 
@@ -56,9 +59,6 @@ Some projects may have many text files and the view file dialog may present too 
 * Open the file memo of the selected file
 * Use a filter function show only those files that meet certain criteria. These can be from file attributes, or if files are associated with certain cases.
 
-
-## Maximise screen area
-To hide the top control panel, click in the text area and press the 'h' key. To show the top panel, press 'h' again.
 
 ## Large text files
 Large text files slow QualCoder. When opening a large text file (greater than 50,000 characters), right click on the file. A menu option allows you to get the first approximately 50,000 characters, subsequent clicks will open the next approximately 50,000 and so on. Approximately, because QualCoder looks for a line-ending (such as a paragraph or sentence ending) to more nicely section the start and end of text chunks.
