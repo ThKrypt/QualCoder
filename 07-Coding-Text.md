@@ -12,13 +12,12 @@ The easiest way to code text, is to select some text, then left-click with the m
 
 Coded text segments can be memoed - through the right-click menu, by pressing 'm' or by clicking on the pencil and red notepad icon. Text under a code with a memo is italicised.
 
-Important coded texts, such as exemplars for a report, can be flagged Important by using the right-click menu when on the codeed text and selecting Important.
+Important coded texts, such as exemplars for a report, can be flagged Important by using the right-click menu when on the coded text and selecting Important. The button wit hthe start underneath the codes tree toggles between showing all coded text and coded text flagged as important.
 
 ## Overlapping codes
 
 Overlapping codes can be difficult to view clearly. Overlaps have an overline above the text to show overlapping sections and are italicised (coded text with a code memo is also italicised). Mouse hover will show coded text, including overlaps. Clicking in an overlap shows a selection box at the top of the screen where you can select to view one or the other highlighted coded text.
 You can also press 'O' after clicking on an overlapping section to cycle through the codes there.
-
 
 ## Annotations
 Add an annotation (like a memo for a text segment) to a text selection. The text will become bold to mark the position of the annotation. To re-open an annotation, select some of the bolded-text and right-click to get the Annotate option. Alternatively, click the notepad and pencil icon on the left, or press the 'a' key.
