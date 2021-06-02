@@ -30,6 +30,8 @@ Text files can be edited providing no coding or annotations or case assignment h
 
 If the file has already had some coding or annotations assigned, the sections of the text file will be shown underlined in red. Editing text is now restricted to small text selections up to 20 characters. This is achieved by selecting some text then right click and select the edit text option.
 
+NOTE: CURRENTLY WORKING ON A WAY TO EDIT TEXT FILES AND KEEP THE TEXT POSITIONS  OF CODINGS, ANNOTATIONS AND ASSIGNEMNT TO CASES INTACT.
+
 ## Audio and Video files
 
 You can open an audio or video file to view. for video, this opens two windows, one for viewing the video and one for the controls and a transcript, shown below. The transcript text file must have the same name as the video file, but have a '.transcribed' suffix. The transcribed text file is stored within the sqlite database, but can be exported to a text file. 
