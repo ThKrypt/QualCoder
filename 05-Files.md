@@ -32,7 +32,7 @@ Text files can be edited providing no coding or annotations or case assignment h
 
 Release 2.5 and below: If the file has already had some coding or annotations assigned, the sections of the text file will be shown underlined in red. Editing text is now restricted to small text selections up to 20 characters. This is achieved by selecting some text then right click and select the edit text option.
 
-Current (8 June 2021) and future releases 2.6 and up: Sections of the text file or audio/video transcribed file will have sections of text underlined in green (case assigned), yellow (annotation) or red (coded). Text can be edited even after the text is coded or annotated or assigned (fully or partially) to a case. 
+Current (not in a release at 8 June 2021) and future releases 2.6 and up: Sections of the text file or audio/video transcribed file will have sections of text underlined in green (case assigned), yellow (annotation) or red (coded). Text can be edited even after the text is coded or annotated or assigned (fully or partially) to a case. 
 
 **There are some limitations: It is best to avoid selecting sections of text to delete (or to paste over) if those sections have a combination of not underlined (not coded/annotated/case-assigned) and underlined (coded, annotated, case-assigned). The reason is that positions of the underlying codes/annotations/case-assigned may not correctly match as intended. If you have made a change that you think has affected these coded/annotated/case-assigned positions badly, exit the text editing window by pressing the Cancel button.**
 
@@ -100,7 +100,7 @@ Ctrl 1 to 8	Insert speaker name in this format: [name]
 
 ### Transcriptions that have codes, annotations and / or case-assigned
 
-Current (8 June 2021) and future releases 2.6 and up: Sections of the text file or audio/video transcribed file will have sections of text underlined in green (case assigned), yellow (annotation) or red (coded). Text can be edited even after the text is coded or annotated or assigned (fully or partially) to a case. 
+Current (not in a release at 8 June 2021) and future releases 2.6 and up: Sections of the text file or audio/video transcribed file will have sections of text underlined in green (case assigned), yellow (annotation) or red (coded). Text can be edited even after the text is coded or annotated or assigned (fully or partially) to a case. 
 
 **There are some limitations: It is best to avoid selecting sections of text to delete (or to paste over) if those sections have a combination of not underlined (not coded/annotated/case-assigned) and underlined (coded, annotated, case-assigned). The reason is that positions of the underlying codes/annotations/case-assigned may not correctly match as intended. If you have made a change that you think has affected these coded/annotated/case-assigned positions badly, exit the text editing window by pressing the Cancel button.**
 
