@@ -26,11 +26,14 @@ As a practical example: Open the Manage Files dialog. In the Examples folder imp
 
 ## Text files creation and editing
 
+Manage Files > Create text file or View text file. Manage files View Audio/Video (with the transcribed text file shown).
+
 Text files can be edited providing no coding or annotations or case assignment have been performed with the text file. Copying and pasting text from elsewhere (e.g. web page) may show formatting from the copy/paste (e.g. bold, italic, foreground and background colours) until the text file is re-opened.
 
-If the file has already had some coding or annotations assigned, the sections of the text file will be shown underlined in red. Editing text is now restricted to small text selections up to 20 characters. This is achieved by selecting some text then right click and select the edit text option.
+Release 2.5 and below: If the file has already had some coding or annotations assigned, the sections of the text file will be shown underlined in red. Editing text is now restricted to small text selections up to 20 characters. This is achieved by selecting some text then right click and select the edit text option.
 
-NOTE: CURRENTLY WORKING ON A WAY TO EDIT TEXT FILES AND KEEP THE TEXT POSITIONS  OF CODINGS, ANNOTATIONS AND ASSIGNEMNT TO CASES INTACT.
+Current (8 June 2021) and newer releases 2.6 and up: Sections of the text file or audio/video transcribed file will have sections of text underlined in green (case assigned), yellow (annotation) or red (coded). Text can be edited even after the text is coded or annotated or assigned (fully or partially) to a case. **There are some limitations: It is best to avoid selecting sections of text to delete (or to paste over) if those sections have a combination of not underlined (not coded/annotated/case-assigned) and underlined (coded, annotated, case-assigned).** The reason is that positions of the underlying codes/annotations/case-assigned may not correctly match as intended. You can select text that is not underlined and cope replace without problems. You can click on a position (without selecting text) to then type, delete, or paste text in.
+
 
 ## Audio and Video files
 
