@@ -91,6 +91,8 @@ You can also right-click on a code and select change start position or change en
 
 * Shortcut H. Press h will hide and unhide the top section of controls on the screen. This provides a bigger area to view the text and to code.
 
+* Ctrl E. Enter and exit text edit mode.
+
 ## Search text
 
 The coding text dialog contains a search for text function at the top middle, with tick boxes for searching case sensitive and for searching through all text files. When in the text area, selecting some text and pressing the shortcut key ‘s’ will fill the search text box and focus on the ‘next’ arrow button for quickly looking through the document for the selected text. The search requires a minimum of 3 characters. The Case sensitive check box will limit to case sensitive searching. The All files check box will continue the search through other text files.
@@ -112,6 +114,17 @@ Select a code and then click on the forward and back arrows. These now traverse 
 ** Show only important coded text
 
 Under the codes tree is a button with a star symbol. This button toggles between showing all coded text and the coded text flagged as Important.
+
+# Editing text (Ctrl E)
+
+Text can be edited even after the text is coded or annotated or assigned (fully or partially) to a case. Click on the text area and press Ctrl E to enter and exit text mode.
+This feature is in the current code and will be in future releases 2.6 and up: Sections of the text file or audio/video transcribed file will have sections of text underlined in green (case assigned), yellow (annotation) or red (coded) by ALL coders. 
+
+When entering the edit mode, the entire file is loaded for editing. Other functions such as the codes tree and file list are deactivated.
+
+You can select text that is not underlined and copy/replace without problems. You can click on a position (without selecting text) to then type, delete, or paste text. This can occur in underlined (coded, annotated, case-assigned) or not underlined (not coded/annotated/case-assigned) text locations. You will see the underlines shift as text is added or removed.
+
+There are some limitations: It is best to avoid selecting sections of text to delete (or to type or paste over) if those sections have a combination of not underlined (not coded/annotated/case-assigned) and underlined (coded, annotated, case-assigned). The reason is that positions of the underlying codes/annotations/case-assigned may not correctly match as intended. If you have made a change that you think has affected these coded/annotated/case-assigned positions badly, exit the text editing window by pressing the Cancel button.
 
 
 #  Categories and codes
