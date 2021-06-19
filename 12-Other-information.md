@@ -29,6 +29,14 @@ General:
 
 * Improve REFI-QDA open standard for import and export to other software. Codebook import and export seems OK. Project import and export is experimental. Definitely need to review attribute import/export. A/V coded segments, AV sync-points. Use of Cases / Sets. Memos to text.
 
+# Some videos of QualCoder
+
+https://www.youtube.com/watch?v=9teZO-KVwqk
+
+https://www.youtube.com/watch?v=D2vks2n9d1g&t=928s
+
+https://www.youtube.com/watch?v=cqAy_RJkhvY
+
 #  About the author
 
 Hello, my name is Colin Curtain and I am a pharmacist and lecturer from Australia. I have many interests including clinical pharmacy, computer programming, research, statistics and clinical decision support. I completed a PhD evaluating computerised clinical decision support in 2014. When doing my PhD I used R as the statistics program of choice. This is where my interest in qualitative data analysis and the use of RQDA came from, which ultimately led to this project.
