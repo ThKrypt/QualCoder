@@ -116,6 +116,8 @@ Open the Terminal App and move to the unzipped Qualcoder-Master directory, then 
 
 # Starting QualCoder
 
+## Instructions for release 2.5 and earlier
+
 ### Linux
 If you have successfully installed the debian package or sucessfully run the install.sh script there will be a program launcher. Double-click to start.
 
