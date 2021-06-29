@@ -17,7 +17,7 @@ IMORTANT: in the first window of the installation mark the option "Add Python 3.
 
 The final step is to install extra modules to Python. Type the letters "cmd" in the Windows Start searching engine, and click on the black software "cmd.exe" - this is the command console for Windows. In the console paste, using the right-click context menu (ctrl+v does not work) the following:
 
-`python -m pip install pyqt5 lxml Pillow ebooklib ply chardet pdfminer.six openpyxl`
+`py -m pip install pyqt5 lxml Pillow ebooklib ply chardet pdfminer.six openpyxl`
 
 Then click enter. Wait, until all modules are installed (the command phrase should be again visible: "C:\Users[Your Windows account name]> or similar).
 
@@ -126,7 +126,7 @@ Alternatively, using the terminal, move to the inner QualCoder folder and open t
 ### Windows
 In Windows create a shortcut to the qualcoder.py file and double click to open. Alternatively, using the command prompt, move to the directory and open the qualcoder.py file:
 
-`python3 qualcoder.py`
+`py qualcoder.py` or `python3 qualcoder.py`
 
 ### Mac OS
 There is no desktop icon launch right now for QualCoder. Open a new Terminal window in the directory and launch with 
