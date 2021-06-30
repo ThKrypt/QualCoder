@@ -4,7 +4,7 @@ The current v3 data structure is described to assist with developing sql queries
 
 **anid** integer  A unique auto-number
 
-**fid** integer Links to the source.id. Annotations are only for text files.
+**fid** integer Links to the source.id to identify the text file. Annotations are only for text files.
 
 **pos0** integer  The starting character position in the text file.
 
