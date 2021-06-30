@@ -23,11 +23,11 @@ The final step is to install extra modules to Python. Type the letters "cmd" in 
 
 Then click enter. Wait, until all modules are installed (the command phrase should be again visible: "C:\Users[Your Windows account name]> or similar).
 
-**For 2.5 and lower releases:**
+**Running for 2.5 and lower releases:**
 
 To run QualCoder - double click on the qualcoder.py file which is located inside the qualcoder directory. You can make a shortcut to this file on the Desktop.
 
-**For the most current and 2.6 and up releases:**
+**Running for the most current, 2.6 and up releases:**
 
 Run QualCoder from cmd.exe
 Move to the correct Drive letter, e.g. C: or P: the drive for where qualcoder is stored. 
@@ -67,7 +67,7 @@ The UNTESTED install_fedora.sh should install the dependencies and a desktop sta
 Fedora uses wayland with does not work well with the Qt graphical interface (for now). I suggest you also install xwayland.
 
 
-**For releases higher than 2.5 on Ubuntu (Debian distros) and maybe? Fedora:**
+**Install and running for releases higher than 2.5 on Ubuntu (Debian distros) and maybe? Fedora:**
 
 Open the terminal. Install qualcoder by going to the QualCoder-Master folder and running:
 
