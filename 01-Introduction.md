@@ -27,7 +27,7 @@ Then click enter. Wait, until all modules are installed (the command phrase shou
 
 To run QualCoder - double click on the qualcoder.py file which is located inside the qualcoder directory. You can make a shortcut to this file on the Desktop.
 
-** For the most current and 2.6 and up releases:**
+**For the most current and 2.6 and up releases:**
 
 Run QualCoder from cmd.exe
 Move to the correct Drive letter, e.g. C: or P: the drive for where qualcoder is stored. 
