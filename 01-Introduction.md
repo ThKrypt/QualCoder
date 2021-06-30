@@ -23,11 +23,11 @@ The final step is to install extra modules to Python. Type the letters "cmd" in 
 
 Then click enter. Wait, until all modules are installed (the command phrase should be again visible: "C:\Users[Your Windows account name]> or similar).
 
-**For 2.5 and lower releases: **
+** For 2.5 and lower releases: **
 
 To run QualCoder - double click on the qualcoder.py file which is located inside the qualcoder directory. You can make a shortcut to this file on the Desktop.
 
-**For the most current and 2.6 and up releases:**
+** For the most current and 2.6 and up releases:**
 
 Run QualCoder from cmd.exe
 Move to the correct Drive letter, e.g. C: or P: the drive for where qualcoder is stored. 
