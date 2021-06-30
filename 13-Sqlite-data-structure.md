@@ -1,10 +1,10 @@
 The current v3 data structure is described to assist with developing sql queries. Tables are listed alphabetically.
 
-**Table: annotation**
+# # Table: annotation
 
 anid integer  A unique auto-number
 
-fid integer links to the source.id. These are only for text files.
+fid integer links to the source.id. Annotations are only for text files.
 
 pos0 integer  The starting character position in the text file.
 
@@ -16,25 +16,25 @@ owner text  The coder who created the entry.
 
 date text  The date and time the entry was created, format yyyy-mm-dd hh:mm:ss
 
-**Table: attribute**
+# # Table: attribute
 
-attrid
+attrid integer  A unique auto-number.
 
-name
+name text The name of the attribute. This will match the name in attribute_type.
 
-attr_type
+attr_type text  This is either 'case' or 'file'
 
-value
+value text This store the attribute value as text, even if it is meant to be a numeric value. You may need to cast(value as real)
 
-id
+id integer This field represents a source id or a case id.
 
 owner text  The coder who created the entry.
 
 date text  The date and time the entry was created, format yyyy-mm-dd hh:mm:ss
 
-**Table: attribute_type**
+# Table: attribute_type
 
-name
+name text  The unique name of the attribute.
 
 owner text  The coder who created the entry.
 
@@ -42,11 +42,11 @@ date text  The date and time the entry was created, format yyyy-mm-dd hh:mm:ss
 
 memo text  Contains a memo about the attribute type.
 
-caseOrFile
+caseOrFile text  This is either 'case' or 'file' 
 
-valuetype
+valuetype text  This is either 'character' or 'numeric'
 
-**Table: case_text**
+# Table: case_text
 
 id integer Unique autonumber.
 
@@ -64,24 +64,24 @@ owner text  The coder who created the entry.
 
 date text  The date and time the entry was created, format yyyy-mm-dd hh:mm:ss
 
-**Table: cases**
+# Table: cases
 
-**Table: code_av**
+# Table: code_av
 
-**Table: code_cat**
+# Table: code_cat
 
-**Table: code_image**
+# Table: code_image
 
-**Table: code_name**
+# Table: code_name
 
-**Table: code_text**
+# Table: code_text
 
-**Table: journal**
+# Table: journal
 
-**Table: links_type**
+# Table: links_type
 
-**Table: project**
+# Table: project
 
-**Table: source**
+# Table: source
 
 
