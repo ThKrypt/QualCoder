@@ -5,7 +5,7 @@
 ## Downloading files and dependencies
 Download the latest QualCoder from GitHub: https://github.com/ccbogel/QualCoder. Unzip the folder. The main program code is in the inner qualcoder folder. The Examples folder contains some example files which can be loaded into a test QualCoder project. 
 
-**Microsoft Windows**
+### Microsoft Windows
 
 Download the QualCoder software from: https://github.com/ccbogel/QualCoder. This is the newest, but not yet officially released, version of code. Alternatively, choose the most recent release. Click the green button "Code", and then "Download ZIP". Then, unpack the file in a selected place (e.g. desktop).
 
@@ -17,15 +17,25 @@ IMORTANT: in the first window of the installation mark the option "Add Python 3.
 
 The final step is to install extra modules to Python. Type the letters "cmd" in the Windows Start searching engine, and click on the black software "cmd.exe" - this is the command console for Windows. In the console paste, using the right-click context menu (ctrl+v does not work) the following:
 
-`py -m pip install pyqt5 lxml Pillow ebooklib ply chardet pdfminer.six openpyxl`
+`py -m pip install pyqt5 lxml Pillow ebooklib ply chardet pdfminer.six openpyxl py2exe`
+
+(You can skip the py2exe instruction for now, it is not actively used yet)
 
 Then click enter. Wait, until all modules are installed (the command phrase should be again visible: "C:\Users[Your Windows account name]> or similar).
 
-Now, you should be able to run QualCoder by double-clicking the desktop shortcut.
+For 2.5 and lower releases: 
 
 To run QualCoder - double click on the qualcoder.py file which is located inside the qualcoder directory. You can make a shortcut to this file on the Desktop.
 
-**Linux Ubuntu/Debian**
+For the most current and 2.6 and up releases:
+
+Run QualCoder from cmd.exe
+Move to the correct Drive letter, e.g. C: or P: the drive for where qualcoder is stored. 
+Then type py -m qualcoder 
+
+### Linux Ubuntu/Debian
+
+For releases 2.5 and earlier:
 
 QualCoder can be installed using the latest Debian file found here: https://github.com/ccbogel/QualCoder-Debians
 
@@ -54,7 +64,16 @@ The UNTESTED install_fedora.sh should install the dependencies and a desktop sta
 
 Fedora uses wayland with does not work well with the Qt graphical interface (for now). I suggest you also install xwayland.
 
-**MacOS**
+### For releases higher than 2.5:
+Open the terminal. Install qualcoder by going to the QualCoder-Master folder and running:
+
+`sudo python3 setup.py install`
+
+Running, anytime the terminal is opened:
+
+`qualcoder`
+
+### MacOS
 
 1) Install recent versions of [Python3](https://www.python.org/downloads/) and [VLC](https://www.videolan.org/vlc/).
 
