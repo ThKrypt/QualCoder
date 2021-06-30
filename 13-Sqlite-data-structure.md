@@ -1,0 +1,1 @@
+The current v3 data structure is described to assist with developing sql queries.
