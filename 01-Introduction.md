@@ -1,4 +1,4 @@
-# QualCoder Installation instructions
+# QualCoder Installation and running instructions
 
 ![QualCoder Icon](https://qualcoder.files.wordpress.com/2019/01/qualcoder.png?w=500)
 
@@ -13,9 +13,9 @@ Open the unpacked folder "QualCoder-master", then open the inner folder "qualcod
 
 The software is written in Python and does not have an exe file for Windows. Download and install the Python programming language. The minimum version is 3.6. Newer is better, e.g. 3.8.7 (https://www.python.org/downloads/release/python-387/). Download the file (at the bottom of the web site) "Windows installer (64-bit)" (or 32-bit if you have an older system) and install Python.
 
-IMORTANT: in the first window of the installation mark the option "Add Python 3.8 to PATH" - it makes the last step easier.
+IMORTANT: in the first window of the python installation mark the option "Add Python 3.8 to PATH" - it makes the last step easier.
 
-The final step is to install extra modules to Python. Type the letters "cmd" in the Windows Start searching engine, and click on the black software "cmd.exe" - this is the command console for Windows. In the console paste, using the right-click context menu (ctrl+v does not work) the following:
+Install extra modules to Python. Type the letters "cmd" in the Windows Start searching engine, and click on the black software "cmd.exe" - this is the command console for Windows. In the console paste, using the right-click context menu (ctrl+v does not work) the following:
 
 `py -m pip install pyqt5 lxml Pillow ebooklib ply chardet pdfminer.six openpyxl py2exe`
 
@@ -27,13 +27,13 @@ Then click enter. Wait, until all modules are installed (the command phrase shou
 
 To run QualCoder - double click on the qualcoder.py file which is located inside the qualcoder directory. You can make a shortcut to this file on the Desktop.
 
-**Running for the most current, 2.6 and up releases:**
+**Running for the most current, 2.6 and higher releases:**
 
 Run QualCoder from cmd.exe
-Move to the correct Drive letter, e.g. C: or P: the drive for where qualcoder is stored. 
+Move (cd) to the QualCoder-Master folder, or the release folder if you downloaded the release (e.g. QualCoder-2.6 folder). 
 Then type:
 
-`py -m qualcoder `
+`py -m qualcoder`
 
 Run by mouse double-click
 Open the QualCoder-master\qualcoder folder. Double-click the __main__.py file to run. You can make a shortcut to this file and keep the shortcut on the desktop.
