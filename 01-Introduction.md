@@ -24,7 +24,7 @@ Install extra modules to Python. Type the letters "cmd" in the Windows Start sea
 Then click enter. Wait, until all modules are installed (the command phrase should be again visible: "C:\Users[Your Windows account name]> or similar).
 
 
-###Running for the most current, 2.6 and higher releases:
+### Running for the most current, 2.6 and higher releases:
 
 Run QualCoder from cmd.exe
 Move (cd) to the QualCoder-Master folder, or the release folder if you downloaded the release (e.g. QualCoder-2.6 folder). 
@@ -35,13 +35,13 @@ Then type:
 Run by mouse double-click
 Open the QualCoder-master\qualcoder folder. Double-click the \_\_main\_\_.py file to run. You can make a shortcut to this file and keep the shortcut on the desktop.
 
-**Running for 2.5 and lower releases:**
+### Running for 2.5 and lower releases
 
 To run QualCoder - double click on the qualcoder.py file which is located in the inner qualcoder folder. You can make a shortcut to this file on the Desktop.
 
-### Linux Ubuntu/Debian
+## Linux Ubuntu/Debian
 
-###Install and running for releases 2.6 and higher on Ubuntu (Debian distros) and maybe Fedora:
+### Install and running for releases 2.6 and higher on Ubuntu (Debian distros) (and maybe Fedora - to be tested)
 
 Open the terminal. Install qualcoder by going to the QualCoder-Master folder and running:
 
@@ -51,7 +51,7 @@ Running, anytime the terminal is opened:
 
 `qualcoder`
 
-###For releases 2.5 and earlier
+### For releases 2.5 and earlier (Ubuntu, Debian)
 
 QualCoder can be installed using the latest Debian file found here: https://github.com/ccbogel/QualCoder-Debians
 
@@ -64,9 +64,9 @@ Run the _install.sh_ file. The install process will ask for your permission to i
 
 `./install.sh`
 
-##Linux Fedora/CentOS/RHEL
+## Linux Fedora/CentOS/RHEL
 
-Retrieve the current package code from this repository
+For releases 2.5 and earlier. Retrieve the current package code from this repository.
 
 `git clone https://github.com/ccbogel/QualCoder.git`
 
@@ -121,11 +121,14 @@ brew install qpdf
 ```
 
 
-Assuming you downloaded the 2.5 version. You can now run with:
+### Running the 2.5 version. You can now run with:
 
 ```
 python3 /applications/QualCoder-2.5/qualcoder/qualcoder.py
 ```
+
+### Running the 2.6 and higher versions (untested):
+python3 /applications/QualCoder-2.5/qualcoder/\_\_main\_\_.py
 
 You can install QualCoder anywhere you want, so the path above depends on where you extracted the archive.
 
@@ -140,26 +143,6 @@ Open the Terminal App and move to the unzipped Qualcoder-Master directory, then 
 
 `python3 setup.py py2app` 
 
-
-# Starting QualCoder
-
-## Instructions for release 2.5 and earlier
-
-### Linux
-If you have successfully installed the debian package or sucessfully run the install.sh script there will be a program launcher. Double-click to start.
-
-Alternatively, using the terminal, move to the inner QualCoder folder and open the qualcoder.py file:
-
-`python3 qualcoder.py`
-
-### Windows
-In Windows create a shortcut to the qualcoder.py file and double click to open. Alternatively, using the command prompt, move to the directory and open the qualcoder.py file:
-
-`py qualcoder.py` or `python3 qualcoder.py`
-
-### Mac OS
-There is no desktop icon launch right now for QualCoder. Open a new Terminal window in the directory and launch with 
-`python3 qualcoder.py`
 
 ## Backups
 
