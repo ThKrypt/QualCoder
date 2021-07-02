@@ -23,9 +23,6 @@ Install extra modules to Python. Type the letters "cmd" in the Windows Start sea
 
 Then click enter. Wait, until all modules are installed (the command phrase should be again visible: "C:\Users[Your Windows account name]> or similar).
 
-**Running for 2.5 and lower releases:**
-
-To run QualCoder - double click on the qualcoder.py file which is located inside the qualcoder directory. You can make a shortcut to this file on the Desktop.
 
 **Running for the most current, 2.6 and higher releases:**
 
@@ -37,6 +34,10 @@ Then type:
 
 Run by mouse double-click
 Open the QualCoder-master\qualcoder folder. Double-click the __main__.py file to run. You can make a shortcut to this file and keep the shortcut on the desktop.
+
+**Running for 2.5 and lower releases:**
+
+To run QualCoder - double click on the qualcoder.py file which is located in the inner qualcoder folder. You can make a shortcut to this file on the Desktop.
 
 ### Linux Ubuntu/Debian
 
