@@ -3,7 +3,7 @@
 ![QualCoder Icon](https://qualcoder.files.wordpress.com/2019/01/qualcoder.png?w=500)
 
 ## Downloading files and dependencies
-Download the latest QualCoder from GitHub: https://github.com/ccbogel/QualCoder. Unzip the folder. The main program code is in the inner qualcoder folder. The Examples folder contains some example files which can be loaded into a test QualCoder project. 
+Download the latest Qualcoder release from https://github.com/ccbogel/QualCoder/releases or the latest development from https://github.com/ccbogel/QualCoder. Unzip the folder. The main program code is in the inner qualcoder folder. The Examples folder contains some example files which can be loaded into a test QualCoder project. 
 
 ## Microsoft Windows
 
