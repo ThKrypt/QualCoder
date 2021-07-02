@@ -41,6 +41,16 @@ To run QualCoder - double click on the qualcoder.py file which is located in the
 
 ### Linux Ubuntu/Debian
 
+**Install and running for releases 2.6 and higher on Ubuntu (Debian distros) and maybe? Fedora:**
+
+Open the terminal. Install qualcoder by going to the QualCoder-Master folder and running:
+
+`sudo python3 setup.py install`
+
+Running, anytime the terminal is opened:
+
+`qualcoder`
+
 **For releases 2.5 and earlier:**
 
 QualCoder can be installed using the latest Debian file found here: https://github.com/ccbogel/QualCoder-Debians
@@ -70,16 +80,6 @@ The UNTESTED install_fedora.sh should install the dependencies and a desktop sta
 
 Fedora uses wayland with does not work well with the Qt graphical interface (for now). I suggest you also install xwayland.
 
-
-**Install and running for releases higher than 2.5 on Ubuntu (Debian distros) and maybe? Fedora:**
-
-Open the terminal. Install qualcoder by going to the QualCoder-Master folder and running:
-
-`sudo python3 setup.py install`
-
-Running, anytime the terminal is opened:
-
-`qualcoder`
 
 ### MacOS
 
