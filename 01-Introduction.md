@@ -24,7 +24,7 @@ Install extra modules to Python. Type the letters "cmd" in the Windows Start sea
 Then click enter. Wait, until all modules are installed (the command phrase should be again visible: "C:\Users[Your Windows account name]> or similar).
 
 
-### Running for the most current, 2.6 and higher releases:
+### Running for 2.6 and higher releases:
 
 Run QualCoder from cmd.exe
 Move (cd) to the QualCoder-Master folder, or the release folder if you downloaded the release (e.g. QualCoder-2.6 folder). 
@@ -41,9 +41,9 @@ To run QualCoder - double click on the qualcoder.py file which is located in the
 
 ## Linux Ubuntu/Debian
 
-### Install and running for releases 2.6 and higher on Ubuntu (Debian distros) (and maybe Fedora - to be tested)
+### Install and running for 2.6 and higher releases on Ubuntu/Debian distros (maybe Fedora/RHEL - to be tested)
 
-Open the terminal. Install qualcoder by going to the QualCoder-Master folder and running:
+Open the terminal. Install QualCoder by moving to the QualCoder-Master folder or the release folder, e.g. QualCoder-2.6 and running:
 
 `sudo python3 setup.py install`
 
