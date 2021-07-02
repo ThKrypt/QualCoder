@@ -5,7 +5,7 @@
 ## Downloading files and dependencies
 Download the latest QualCoder from GitHub: https://github.com/ccbogel/QualCoder. Unzip the folder. The main program code is in the inner qualcoder folder. The Examples folder contains some example files which can be loaded into a test QualCoder project. 
 
-### Microsoft Windows
+## Microsoft Windows
 
 Download the QualCoder software from: https://github.com/ccbogel/QualCoder. This is the newest, but not yet officially released, version of code. Alternatively, choose the most recent release. Click the green button "Code", and then "Download ZIP". Then, unpack the file in a selected place (e.g. desktop).
 
@@ -24,7 +24,7 @@ Install extra modules to Python. Type the letters "cmd" in the Windows Start sea
 Then click enter. Wait, until all modules are installed (the command phrase should be again visible: "C:\Users[Your Windows account name]> or similar).
 
 
-**Running for the most current, 2.6 and higher releases:**
+###Running for the most current, 2.6 and higher releases:
 
 Run QualCoder from cmd.exe
 Move (cd) to the QualCoder-Master folder, or the release folder if you downloaded the release (e.g. QualCoder-2.6 folder). 
@@ -41,7 +41,7 @@ To run QualCoder - double click on the qualcoder.py file which is located in the
 
 ### Linux Ubuntu/Debian
 
-**Install and running for releases 2.6 and higher on Ubuntu (Debian distros) and maybe? Fedora:**
+###Install and running for releases 2.6 and higher on Ubuntu (Debian distros) and maybe Fedora:
 
 Open the terminal. Install qualcoder by going to the QualCoder-Master folder and running:
 
@@ -51,7 +51,7 @@ Running, anytime the terminal is opened:
 
 `qualcoder`
 
-**For releases 2.5 and earlier:**
+###For releases 2.5 and earlier
 
 QualCoder can be installed using the latest Debian file found here: https://github.com/ccbogel/QualCoder-Debians
 
@@ -64,7 +64,7 @@ Run the _install.sh_ file. The install process will ask for your permission to i
 
 `./install.sh`
 
-**Linux Fedora/CentOS/RHEL**
+##Linux Fedora/CentOS/RHEL
 
 Retrieve the current package code from this repository
 
