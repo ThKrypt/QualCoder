@@ -32,6 +32,10 @@ Then type:
 
 `py -m qualcoder`
 
+Or running and hiding the command line box:
+
+`C:\Windows\pyw.exe -m qualcoder`
+
 Run by mouse double-click
 Open the QualCoder-master\qualcoder folder. Double-click the \_\_main\_\_.py file to run. You can make a shortcut to this file and keep the shortcut on the desktop.
 
