@@ -24,10 +24,10 @@ Install extra modules to Python. Type the letters "cmd" in the Windows Start sea
 Then click enter. Wait, until all modules are installed (the command phrase should be again visible: "C:\Users[Your Windows account name]> or similar).
 
 
-### Running for 2.6 and higher releases:
+### Running for 2.7 and higher releases:
 
 Run QualCoder from cmd.exe
-Move (cd) to the QualCoder-Master folder, or the release folder if you downloaded the release (e.g. QualCoder-2.6 folder). 
+Move (cd) to the QualCoder-Master folder, or the release folder if you downloaded the release (e.g. QualCoder-2.7 folder). 
 Then type:
 
 `py -m qualcoder`
@@ -45,7 +45,7 @@ To run QualCoder - double click on the qualcoder.py file which is located in the
 
 ## Linux Ubuntu/Debian
 
-### Install and running for 2.6 and higher releases
+### Install and running for 2.7 and higher releases
 
 Install these modules from the terminal
 
@@ -59,7 +59,7 @@ You also need to run this command from the terminal:
 
 `sudo python3 -m pip install pdfminer.six openpyxl ebooklib`
 
-Install QualCoder by moving to the QualCoder-Master folder or the release folder, e.g. QualCoder-2.6:
+Install QualCoder by moving to the QualCoder-Master folder or the release folder, e.g. QualCoder-2.7:
 
 `sudo python3 setup.py install`
 
@@ -96,13 +96,13 @@ The UNTESTED install_fedora.sh should install the dependencies and a desktop sta
 
 Fedora uses wayland with does not work well with the Qt graphical interface (for now). I suggest you also install xwayland.
 
-### Running 2.6 and newer releases (untested).
+### Running 2.7 and newer releases (untested).
 
 `sudo dnf install python3-pip python3-lxml python3-ply python3-pdfminer python3-six python3-chardet python3-qt5 python3-pillow`
 
 QualCoder uses an Ebook library that you can currently install via a work-around, specified at https://github.com/ccbogel/QualCoder/issues/72#issuecomment-695962784 
 
-Move to the Qualcoder-master folder (or the release folder, if this was downloaded, e.g. QualCoder-2.6) and run:
+Move to the Qualcoder-master folder (or the release folder, if this was downloaded, e.g. QualCoder-2.7) and run:
 
 `python3 setup.py install`
 
