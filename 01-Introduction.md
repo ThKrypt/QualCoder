@@ -43,7 +43,19 @@ To run QualCoder - double click on the qualcoder.py file which is located in the
 
 ### Install and running for 2.6 and higher releases on Ubuntu/Debian distros (maybe Fedora/RHEL - to be tested)
 
-Open the terminal. Install QualCoder by moving to the QualCoder-Master folder or the release folder, e.g. QualCoder-2.6 and running:
+Install these modules from the termnal
+
+`sudo apt install python3-lxml python3-ply python3-six python3-pdfminer python3-chardet python3-qt5 python3-pillow`
+
+On some Linux versions you will need to install pip
+
+`sudo apt install python3-pip`
+
+You also need to run this command from the terminal:
+
+`sudo python3 -m pip install pdfminer.six openpyxl ebooklib`
+
+Install QualCoder by moving to the QualCoder-Master folder or the release folder, e.g. QualCoder-2.6:
 
 `sudo python3 setup.py install`
 
