@@ -14,8 +14,9 @@ There is a search option to search through journal text. The search uses regex s
 Regex cheatsheet: 
 www.rexegg.com/regex-quickstart.html
 
+![Journals screenshot](https://qualcoder.files.wordpress.com/2021/07/journals.png)
 
-![Journal tab](https://qualcoder.files.wordpress.com/2021/05/journal-2.png?resize=500%2C450)
+
 
 
 
