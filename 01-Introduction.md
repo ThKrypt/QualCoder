@@ -41,7 +41,7 @@ To run QualCoder - double click on the qualcoder.py file which is located in the
 
 ## Linux Ubuntu/Debian
 
-### Install and running for 2.6 and higher releases on Ubuntu/Debian distros (maybe Fedora/RHEL - to be tested)
+### Install and running for 2.6 and higher releases on Ubuntu/Debian distros
 
 Install these modules from the termnal
 
@@ -78,7 +78,7 @@ Run the _install.sh_ file. The install process will ask for your permission to i
 
 ## Linux Fedora/CentOS/RHEL
 
-For releases 2.5 and earlier. Retrieve the current package code from this repository.
+### For releases 2.5 and earlier. Retrieve the current package code from this repository.
 
 `git clone https://github.com/ccbogel/QualCoder.git`
 
@@ -92,8 +92,17 @@ The UNTESTED install_fedora.sh should install the dependencies and a desktop sta
 
 Fedora uses wayland with does not work well with the Qt graphical interface (for now). I suggest you also install xwayland.
 
+### Running 2.6 and newer releases
 
-### MacOS
+`sudo dnf install python3-pip python3-lxml python3-ply python3-pdfminer python3-six python3-chardet python3-qt5 python3-pillow`
+
+QualCoder uses an Ebook library that you can currently install via a work-around, specified at https://github.com/ccbogel/QualCoder/issues/72#issuecomment-695962784 
+
+Move to the Qualcoder-master folder (or the release folder, if this was downloaded, e.g. QualCoder-2.6) and run:
+
+`python3 setup.py install`
+
+## MacOS
 
 1) Install recent versions of [Python3](https://www.python.org/downloads/) and [VLC](https://www.videolan.org/vlc/).
 
