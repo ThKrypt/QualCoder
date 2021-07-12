@@ -110,6 +110,8 @@ Run by typing:
 
 ## MacOS
 
+Note: I do not often have access to a Mac to test these installation instructions.
+
 1) Install recent versions of [Python3](https://www.python.org/downloads/) and [VLC](https://www.videolan.org/vlc/).
 
 2) Download the latest release "Source code" version in ZIP format, from the releases section of the project here on Github: https://github.com/ccbogel/QualCoder/releasesDownload and extract it into /Applications
