@@ -7,11 +7,7 @@ Download the latest Qualcoder release from https://github.com/ccbogel/QualCoder/
 
 ## Microsoft Windows
 
-**For ease of use. The QualCoder 2.7 release has an exe for Windows 64 bit computers: https://github.com/ccbogel/QualCoder/releases/tag/2.7**
-
-**Please ensure you have the VLC installed as well, for QualCoder to work. The QualCoder exe file bundles up all the python modules needed to run.**
-
-**Currently the translation files for use in other languages do not work with the exe, so English only is displayed in the software. A solution is coming.**
+**For ease of use. The QualCoder 2.7 release has an exe for Windows 64 bit computers: https://github.com/ccbogel/QualCoder/releases/tag/2.7 Please ensure you have the VLC installed as well, for QualCoder to work. The QualCoder exe file bundles up all the python modules needed to run. Currently the translation files for use in other languages do not work with the exe, so English only is displayed in the software. A solution is coming.**
 
 Alternative installation instructions for Windows:
 
