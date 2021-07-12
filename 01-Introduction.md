@@ -11,6 +11,8 @@ Download the latest Qualcoder release from https://github.com/ccbogel/QualCoder/
 
 **Please ensure you have the VLC installed as well, for QualCoder to work. The QualCoder exe file bundles up all the python modules needed to run.**
 
+**Currently the translation files for use in other languages do not work with the exe, so English only is displayed in the software. A solution is coming.**
+
 Alternative installation instructions for Windows:
 
 Download the QualCoder software from: https://github.com/ccbogel/QualCoder. This is the newest, but not yet officially released, version of code. Alternatively, choose the most recent release. Click the green button "Code", and then "Download ZIP". Then, unpack the file in a selected place (e.g. desktop).
