@@ -6,7 +6,7 @@
 
 **For ease of use. The QualCoder 2.7 release has an exe for Windows 64 bit computers - this works on Windows 10 and does work on Windows 7: https://github.com/ccbogel/QualCoder/releases/tag/2.7 Please ensure you have VLC installed as well, for QualCoder to work. The QualCoder exe file bundles up all the python modules needed to run. Currently the translation files for use in other languages do not work with the exe, so English only is displayed in the software. A solution is coming.**
 
-Alternative installation instructions for Windows:
+### Alternative installation instructions for Windows:
 
 Download the QualCoder software from: https://github.com/ccbogel/QualCoder. This is the newest, but not yet officially released, version of code. Alternatively, choose the most recent release. Click the green button "Code", and then "Download ZIP". Then, unpack the file in a selected place (e.g. desktop).
 
