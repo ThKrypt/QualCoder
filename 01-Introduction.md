@@ -156,7 +156,7 @@ brew install qpdf
 python3 /applications/QualCoder-2.5/qualcoder/qualcoder.py
 ```
 
-### Running the 2.6 and higher versions (untested):
+### Running the 2.7 and higher versions (untested):
 python3 /applications/QualCoder-2.5/qualcoder/\_\_main\_\_.py
 
 You can install QualCoder anywhere you want, so the path above depends on where you extracted the archive.
