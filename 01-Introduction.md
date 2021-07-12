@@ -2,9 +2,6 @@
 
 ![QualCoder Icon](https://qualcoder.files.wordpress.com/2019/01/qualcoder.png?w=500)
 
-## Downloading files and dependencies
-Download the latest Qualcoder release from https://github.com/ccbogel/QualCoder/releases or the latest development from https://github.com/ccbogel/QualCoder. Unzip the folder. The main program code is in the inner qualcoder folder. The Examples folder contains some example files which can be loaded into a test QualCoder project. 
-
 ## Microsoft Windows
 
 **For ease of use. The QualCoder 2.7 release has an exe for Windows 64 bit computers: https://github.com/ccbogel/QualCoder/releases/tag/2.7 Please ensure you have VLC installed as well, for QualCoder to work. The QualCoder exe file bundles up all the python modules needed to run. Currently the translation files for use in other languages do not work with the exe, so English only is displayed in the software. A solution is coming.**
