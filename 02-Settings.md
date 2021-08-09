@@ -32,6 +32,8 @@ The Action Log tab displays various changes that are made when using QualCoder. 
 
 ![Main screen, action log tab](https://qualcoder.files.wordpress.com/2021/05/actionlog-2.png?resize=400%2C400)
 
+![Settings, files, cases, journals YouTube video](https://www.youtube.com/watch?v=plwGHLw3Q2U)
+
 
 
 
