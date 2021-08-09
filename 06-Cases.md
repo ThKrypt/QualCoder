@@ -42,3 +42,5 @@ You can also select a case, manually highlight text, and right-click to mark –
 You can import attributes from a CSV or XLSX file. The first row must contain the attribute headings. The first column must contain matching case names (for this example: ID1, ID2, ID3). Note that this is case sensitive. Open the cases.csv file in the Examples folder to see how it is laid out.
 
 For this example – delete all the cases shown. Then, import the attributes from the cases.csv file through the Import Attributes dialog. You will again need to link the files and file text to each case.
+
+[YouTube QualCoder 2.7 - Settings, files, cases, journals](https://www.youtube.com/watch?v=plwGHLw3Q2U)
