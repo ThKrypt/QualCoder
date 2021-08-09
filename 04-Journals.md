@@ -16,6 +16,9 @@ www.rexegg.com/regex-quickstart.html
 
 ![Journals screenshot](https://qualcoder.files.wordpress.com/2021/07/journals.png)
 
+[YouTube Video QualCoder 2.7 - Settings, files, cases, journals](https://www.youtube.com/watch?v=plwGHLw3Q2U)
+
+
 
 
 
