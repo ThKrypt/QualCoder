@@ -110,3 +110,5 @@ You can select text that is not underlined and copy/replace without problems. Yo
 
 **There are some limitations: It is best to avoid selecting sections of text to delete (or to type or paste over) if those sections have a combination of not underlined (not coded/annotated/case-assigned) and underlined (coded, annotated, case-assigned). The reason is that positions of the underlying codes/annotations/case-assigned may not correctly match as intended. If you have made a change that you think has affected these coded/annotated/case-assigned positions badly, exit the text editing window by pressing the Cancel button.**
 
+[YouTube QualCoder 2.7 - Settings, files, cases, journals](https://www.youtube.com/watch?v=plwGHLw3Q2U)
+
