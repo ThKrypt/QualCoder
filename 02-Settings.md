@@ -32,7 +32,7 @@ The Action Log tab displays various changes that are made when using QualCoder. 
 
 ![Main screen, action log tab](https://qualcoder.files.wordpress.com/2021/05/actionlog-2.png?resize=400%2C400)
 
-[YouTube - Settings, files, cases, journals](https://www.youtube.com/watch?v=plwGHLw3Q2U)
+[YouTube QualCoder 2.7 - Settings, files, cases, journals](https://www.youtube.com/watch?v=plwGHLw3Q2U)
 
 
 
