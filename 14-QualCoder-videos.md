@@ -1,4 +1,4 @@
-# YouTube videos showing QualCoder
+# YouTube videos showing how to use QualCoder
 
 ## QualCoder 2.7
 
