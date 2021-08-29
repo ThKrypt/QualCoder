@@ -44,7 +44,9 @@ _When cases are selected, another pane is displayed showing a table of cases (in
 * Shortcut H. Pressing h will hide and unhide the top controls section of the window.
 
 #  Coding Comparison
-This option shows the similarities and differences between two coders. Select two coders and click the run comparisons button. The statistics created here are only for coded text, not coded media files. For each code:
+This option shows the overall similarities and differences between two coders across all text files. Select two coders and click the run comparisons button. The statistics created here are only for coded text, not coded image nor media files. 
+
+For each code:
 
 Agreement % shows agreement for a combination of coded and non-coded text characters.
 
@@ -57,6 +59,12 @@ Disagree % shows the percentage of all the coded and non-coded text that did not
 Cohen’s Kappa is calculated based on the information in Wikipedia https://en.wikipedia.org/wiki/Cohen%27s_kappa
 
 ![Coder comparison](https://qualcoder.files.wordpress.com/2019/01/coder-comparison.png)
+
+#  Coding Comparison by file
+
+Versions greater than Qualcoder 2.7 release. (current development (Aug 2021) code here https://github.com/ccbogel/QualCoder).
+This option shows the overall similarities and differences between two coders in ONE selected file. Select one file, one code and two coders. Then click the run comparisons button. The statistics and comparisons for audio/video coded segments are in development. 
+Overall agreement, disagreement and Cohens Kappa are calculated for text and images. An image file is displayed in a separate window showing the two coders selections in yellow or blue boxed areas. Mouse hover provides additional information.
 
 # Code frequencies
 
