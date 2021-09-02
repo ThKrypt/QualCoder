@@ -1,4 +1,4 @@
-The current v3 data structure is described to assist with developing sql queries. Tables are listed alphabetically.
+The current v5 data structure is described to assist with developing sql queries. Tables are listed alphabetically.
 
 # Table: annotation
 
@@ -202,6 +202,8 @@ Should contain one row. Currently the current coder name is not in this table. I
 
 **bookmarkpos** _integer_  The character position in the text file. Used for jumping to the bookmark.
 
+** codername** _text_ The current coder name. 
+
 # Table: source
 
 **id** _integer_  A unique auto-number.
@@ -218,6 +220,8 @@ Should contain one row. Currently the current coder name is not in this table. I
 
 **mediapath** _text_  
 
+**av_text_id** _integer_ A link for an audio/video source to the corresponding text file transcript.
+
 
 
 If the mediapath is empty it is an internally stored text file within the project folder.
@@ -228,4 +232,12 @@ If the mediapath begins with: '/images/' , '/audio/', '/video/' the image, audio
 
 If the mediapath begins with: 'images:' , 'audio:', 'video:' the image, audio or video file is linked to externally. The full path to the file is stored.
 
+# Table: stored_sql
 
+**title** _text_  The title of the sql.
+
+**description** _text_  A detailed description of the sql function.
+
+**group** _text_  Potential to organise sql into groups.
+
+**ssql** _text_  The user generated sql.
