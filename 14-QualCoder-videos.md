@@ -12,6 +12,8 @@ QualCoder 2.7 image coding [https://www.youtube.com/watch?v=raUQ6ISWtqs](https:/
 
 QualCoder 2.7 Video coding [https://www.youtube.com/watch?v=TjOfPvvXh7U](https://www.youtube.com/watch?v=TjOfPvvXh7U)
 
+QualCoder 2.7 Coding Reports [https://www.youtube.com/watch?v=tAnuLPUJVpc](https://www.youtube.com/watch?v=tAnuLPUJVpc)
+
 ## QualCoder 1.9
 
 Instalación de QualCoder 1.9 (Portuguese) [https://www.youtube.com/watch?v=D2vks2n9d1g](https://www.youtube.com/watch?v=D2vks2n9d1g)
