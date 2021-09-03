@@ -1,4 +1,6 @@
-The current v5 data structure is described to assist with developing sql queries. Tables are listed alphabetically.
+The current v5 data structure is described to assist with developing sql queries. This structure is used by QualCoder 2.8. Older database structures are changed when opened with QC 2.8 to match this newer format.
+
+Tables are listed alphabetically.
 
 # Table: annotation
 
@@ -238,6 +240,6 @@ If the mediapath begins with: 'images:' , 'audio:', 'video:' the image, audio or
 
 **description** _text_  A detailed description of the sql function.
 
-**group** _text_  Potential to organise sql into groups.
+**grouper** _text_  Potential to organise sql into groups.
 
 **ssql** _text_  The user generated sql.
