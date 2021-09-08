@@ -49,7 +49,7 @@ You can open an audio or video file to view. for video, this opens two windows, 
 
 **Important: When an audio or video file is loaded into QualCoder a blank text transcription file is automatically created. Version 2.7 and below it is named in this format: videoname.mp4.transcribed. Versions 2.8 and above are named in this format: videoname.mp4.txt.**
 
-The transcribed text file is created and stored within the database, and can be exported to a text file. The file can be edited.  **Important note: The edits occur within the database. An original text file is NOT changed. Transcriptions cannot be link as an external file. Transcription files can be exported as text files.** 
+The transcribed text file is created and stored within the database, and can be exported to a text file. The file can be edited.  **Important note: The edits occur within the database. An original text file is NOT changed. Transcriptions cannot be linked as an external file. Transcription files can be exported as text files.** 
 
 
 If you have a .srt file (a translation file that is read by VLC) you can place this alongside the video inside the project folder, in the video folder, shown in the image below. When the video is played, the translation wording will be shown as subtitles in the video. Also, if you open the .srt file in a text editor, copy and paste this into the video.mp4.transcribed text file. (version 2.7 and below. In 2.8 and above it would be video.mp4.txt) Then this text will be shown as the transcription for the video. 
