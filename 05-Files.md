@@ -28,7 +28,7 @@ Files can be viewed either by right-click menu on the file, or by clicking the e
 
 As a practical example: Open the Manage Files dialog. In the Examples folder import the following files: ID1.docx, ID2.odt, transcript.txt and the miguel-henriques.jpg.
 
-## Text files creation and editing
+## Text file creation and editing
 
 Manage Files > Create text file or View text file. Manage files View Audio/Video (with the transcribed text file shown).
 
@@ -47,7 +47,7 @@ You can select text that is not underlined and copy/replace without problems. Yo
 
 You can open an audio or video file to view. for video, this opens two windows, one for viewing the video and one for the controls and a transcript, shown below. The transcript text file must have the same name as the video file, but have a '.transcribed' suffix, e.g. video.mp4.transcribed (versions 2.7 and below). Version 2.8 and above, the transcription file name defaults to video.mp4.txt.
 
-**Important: When an audio or video file is loaded into QualCoder a blank text transcription file is automatically created. Version 2.7 and below it is named (or similar) video.mp4.transcribed. Versions 2.8 and above video.mp4.txt.**
+**Important: When an audio or video file is loaded into QualCoder a blank text transcription file is automatically created. Version 2.7 and below it is named in this format: videoname.mp4.transcribed. Versions 2.8 and above are named in this format: videoname.mp4.txt.**
 
 The transcribed text file is created and stored within the database, and can be exported to a text file. The file can be edited.  **Important note: The edits occur within the database. An original text file is NOT changed. Transcriptions cannot be link as an external file. Transcription files can be exported as text files.** 
 
