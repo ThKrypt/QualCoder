@@ -120,13 +120,15 @@ Under the codes tree is a button with a star symbol. This button toggles between
 # Editing text (Ctrl E)
 
 Text can be edited even after the text is coded or annotated or assigned (fully or partially) to a case. Click on the text area and press Ctrl E to enter and exit text mode.
-This feature is in the current code and will be in future releases 2.6 and up: Sections of the text file or audio/video transcribed file will have sections of text underlined in green (case assigned), yellow (annotation) or red (coded) by ALL coders. 
+This feature is in releases 2.7 and up: Sections of the text file or audio/video transcribed file will have sections of text underlined in green (case assigned), yellow (annotation) or red (coded) by ALL coders. 
 
 When entering the edit mode, the entire file is loaded for editing. Other functions such as the codes tree and file list are deactivated.
 
 You can select text that is not underlined and copy/replace without problems. You can click on a position (without selecting text) to then type, delete, or paste text. This can occur in underlined (coded, annotated, case-assigned) or not underlined (not coded/annotated/case-assigned) text locations. You will see the underlines shift as text is added or removed.
 
 There are some limitations: It is best to avoid selecting sections of text to delete (or to type or paste over). This is particularly an issue if any of those sections have been underlined (coded, annotated, case-assigned). It may also be an The reason is that positions of the underlying codes/annotations/case-assigned may not correctly match as intended. If you have made a change that you think has affected these coded/annotated/case-assigned positions badly, exit the text editing window by pressing the Cancel button.
+
+**Important note: The edits occur within the database. The original text file is NOT changed.** 
 
 
 #  Categories and codes
