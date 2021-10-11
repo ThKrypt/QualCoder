@@ -22,7 +22,13 @@ Install extra modules to Python. Type the letters "cmd" in the Windows Start sea
 
 Then click enter. Wait, until all modules are installed (the command phrase should be again visible: "C:\Users[Your Windows account name]> or similar).
 
-### Running for 2.7 and higher releases:
+### Setup and Running for 2.7 and higher releases:
+
+Finally run the setup.py script:
+
+`py setup.py install`
+
+The py command uses the most recent installed version of python. You can use a specific version on your Windows, if you have many python versions installed, e.g. py -3.8  (You can run the cmd.exe as described above, and type py and Enter. The first line will tell you which version of python that command runs. To exit, press Ctrl Z.)
 
 Run QualCoder from cmd.exe
 Move (cd) to the QualCoder-Master folder, or the release folder if you downloaded the release (e.g. QualCoder-2.7 folder). 
