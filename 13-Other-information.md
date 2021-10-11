@@ -25,9 +25,11 @@ Reports:
 
 General:
 
+* Possibly update to Qt6 and use Qt Multimedia to play A/V rather than use VLC.
+
 * Multi-language support - some work done but review of existing translations is needed
 
-* Improve REFI-QDA open standard for import and export to other software. Codebook import and export seems OK. Project import and export is experimental. Definitely need to review attribute import/export. A/V coded segments, AV sync-points. Use of Cases / Sets. Memos to text.
+* Improve REFI-QDA open standard for import and export to other software. Codebook import and export seems OK. Project import and export is experimental. To review: A/V coded segments, AV sync-points. Use of Cases / Sets.
 
 # Some videos of QualCoder
 
