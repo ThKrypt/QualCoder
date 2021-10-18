@@ -2,7 +2,7 @@
 
 Select Code text from the Coding menu. This is the central dialog for assigning codes to text. Once text segments are coded, hovering the mouse over the coding shows the code name as a tooltip. Clicking on the coded segment also shows the code name. 
 
-![Code text screen](https://qualcoder.files.wordpress.com/2021/05/code_text-1.png?resize=700%2C500)
+![Code text screen showing overlapping codes](https://qualcoder.files.wordpress.com/2021/10/coding_text.png)
 
 Select a file for coding from the selection list on the left. The file selection list contains buttons that allow you to move to the next file, to move to the most recently coded file and to go to a bookmarked position in a file. There is also a button to view the file memo.
 
@@ -16,8 +16,7 @@ Important coded texts, such as exemplars for a report, can be flagged Important 
 
 ## Overlapping codes
 
-Overlapping codes can be difficult to view clearly. Overlaps have an overline above the text to show overlapping sections and are italicised (coded text with a code memo is also italicised). Mouse hover will show coded text, including overlaps. Clicking in an overlap shows a selection box at the top of the screen where you can select to view one or the other highlighted coded text.
-You can also press 'O' after clicking on an overlapping section to cycle through the codes there.
+Overlapping codes can be difficult to view clearly. Overlapping sections and are italicised (coded text with a code memo is also italicised). Mouse hover will show coded text, including overlaps. You can press 'O' after clicking on an overlapping section to cycle through the codes at that location.
 
 ## Annotations
 Add an annotation (like a memo for a text segment) to a text selection. The text will become bold to mark the position of the annotation. To re-open an annotation, select some of the bolded-text and right-click to get the Annotate option. Alternatively, click the notepad and pencil icon on the left, or press the 'a' key.
