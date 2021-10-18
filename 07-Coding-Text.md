@@ -96,7 +96,7 @@ You can also right-click on a code and select change start position or change en
 
 ## Search text
 
-The coding text dialog contains a search for text function at the top middle, with tick boxes for searching case sensitive and for searching through all text files. When in the text area, selecting some text and pressing the shortcut key ‘s’ will fill the search text box and focus on the ‘next’ arrow button for quickly looking through the document for the selected text. The search requires a minimum of 3 characters. The Case sensitive check box will limit to case sensitive searching. The All files check box will continue the search through other text files.
+The coding text dialog contains a search for text function at the top middle, with tick boxes for searching case sensitive and for searching through all text files. When in the text area, selecting some text and pressing the shortcut key ‘s’ will fill the search text box and focus on the ‘next’ arrow button for quickly looking through the document for the selected text. The search requires a minimum of 3 characters as a default. Right-click to change the default to 5 characters, or to search only after Enter is pressed. The Case sensitive check box will limit to case sensitive searching. The All files check box will continue the search through other text files.
 
 The search uses Regex functions. 
 
