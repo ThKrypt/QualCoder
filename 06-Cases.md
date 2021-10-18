@@ -35,7 +35,8 @@ Try automatically assigning text to ID1 by selecting case ID1 then clicking the 
 
 Now select the case ID1 and see the assigned text.
 
-You can also select a case, manually highlight text, and right-click to mark – or assign -the text to the selected case.
+You can also select a case, manually highlight text portions within a larger text document, and right-click to mark – or assign -the text to the selected case. Assigning audio or video files to a case dot no automatically assign the transcription to that case. The reason is that portions of audio or video transcriptions may be assigned to different cases, for example assigning tex transcription portions to each speaker where the speaks is classed as a case.
+
 
 ## Importing cases and case attributes
 
