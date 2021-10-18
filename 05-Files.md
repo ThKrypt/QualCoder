@@ -21,7 +21,7 @@ Files can be linked to rather than imported into the QualCoder project folder. T
 
 Attributes are variables that can be used to describe or classify the files. These can be added here (using the blue + button) or through the Manage Attributes menu option.
 
-Each file is preceded with an icon that describes the type of file. An icon wit ha black T and red play button indicates text transcription stored in the database that is associated with and audio or video file.
+Each file is preceded with an icon that describes the type of file. An icon with a black T and red play button indicates text transcription stored in the database that is associated with and audio or video file. Other columns show the file name, date of creation/upload, association with cases and other attributes. 
 
 ![Manage Files tab](https://qualcoder.files.wordpress.com/2021/10/manage_files.png?)
 
