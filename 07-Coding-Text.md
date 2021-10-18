@@ -117,6 +117,10 @@ Select a code and then click on the forward and back arrows. These now traverse 
 
 Under the codes tree is a button with a star symbol. This button toggles between showing all coded text and the coded text flagged as Important.
 
+# Right-hand hidden pane
+
+The right hand side of the coding text pane has another pane tucked away. To open click and drag from the right-hand side of the window. This pane contains three options useful when coding. One option is when clicking on a code, the code name, code rule (memo) and random code examples are displayed. The J button displays an editable current journal, determined by the most recent date. The P button displays the editable project memo.
+
 # Editing text (Ctrl E)
 
 Text can be edited even after the text is coded or annotated or assigned (fully or partially) to a case. Click on the text area and press Ctrl E to enter and exit text mode.
