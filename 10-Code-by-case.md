@@ -4,7 +4,7 @@ https://qualcoder.files.wordpress.com/2021/10/code_by_case.png
 
 ## Useful for coding qualitative survey responses, where each row in a survey is a respondants data and free text responses.
 
-The code by case function will be useful when importing a survey and one or more of the survey columns is designated 'qualitative'. The qualitative data are converted into a single text entry on import. Sections of this text are assigned to the relevant case (relevant survey row) and can then be coded for each case (survey row entry).
+The code by case function will be useful when importing a survey and one or more of the survey columns is designated 'qualitative'. The qualitative data frm all the respodants answers are converted into a single text entry on import. Sections of this text are assigned to the relevant case (relevant survey row) and can then be coded for each case.
 
 ## There is reduced functionality in code by case 
 
