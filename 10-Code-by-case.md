@@ -2,7 +2,11 @@ This option allows you to select a case and move through the text, image and aud
 
 https://qualcoder.files.wordpress.com/2021/10/code_by_case.png
 
-## There is reduced functionality in the code by case section. 
+## Useful for coding qualitative survey responses, where each row in a survey is a respondants data and free text responses.
+
+The code by case function will be useful when importing a survey and one or more of the survey columns is designated 'qualitative'. The qualitative data are converted into a single text entry on import. Sections of this text are assigned to the relevant case (relevant survey row) and can then be coded for each case (survey row entry).
+
+## There is reduced functionality in code by case 
 
 Text cannot be auto-coded. Instead open the file in the Code text option. The reason is that auto-coding text may code beyond the text assigned to the case.
 
