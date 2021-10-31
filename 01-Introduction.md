@@ -4,7 +4,7 @@
 
 ## Microsoft Windows
 
-**For ease of use. The QualCoder 2.7 release has an exe for Windows 64 bit computers - this works on Windows 10 and does work on Windows 7: https://github.com/ccbogel/QualCoder/releases/tag/2.7 Please ensure you have VLC installed as well, for QualCoder to work. The QualCoder exe file bundles up all the python modules needed to run.**
+**For ease of use. The QualCoder 2.8 release has an exe for Windows 64 bit computers - this works on Windows 10 and does work on Windows 7: https://github.com/ccbogel/QualCoder/releases/tag/2.8 Please ensure you have VLC (64 bit version) installed as well, for QualCoder to work. The QualCoder exe file bundles up all the python modules needed to run.**
 
 ### Alternative installation instructions for Windows:
 
@@ -12,13 +12,13 @@ Download the QualCoder software from: https://github.com/ccbogel/QualCoder. This
 
 Open the unpacked folder "QualCoder-master", then open the inner folder "qualcoder" and make a shortcut of the file "qualcoder.py" on the desktop - for easier access. This file is the starting file for running software.
 
-The software is written in Python and does not have an exe file for Windows. Download and install the Python programming language. The minimum version is 3.6. Newer is better, e.g. 3.8.7 (https://www.python.org/downloads/release/python-387/). Download the file (at the bottom of the web site) "Windows installer (64-bit)" (or 32-bit if you have an older system) and install Python.
+The software is written in Python and does not have an exe file for Windows. Download and install the Python programming language. The minimum version is 3.6. Newer is better, e.g. 3.8.7 (https://www.python.org/downloads/release/python-387/). Download the file (at the bottom of the web site) "Windows installer (64-bit)" and install Python.
 
 IMORTANT: in the first window of the python installation mark the option "Add Python 3.8 to PATH" - it makes the last step easier.
 
 Install extra modules to Python. Type the letters "cmd" in the Windows Start searching engine, and click on the black software "cmd.exe" - this is the command console for Windows. In the console paste, using the right-click context menu (ctrl+v does not work) the following:
 
-`py -m pip install wheel pyqt5 lxml Pillow ebooklib ply chardet pdfminer.six openpyxl SpeechRecognition`
+`py -m pip install wheel pyqt5 lxml Pillow ebooklib ply chardet pdfminer.six openpyxl pydub SpeechRecognition`
 
 Then click enter. Wait, until all modules are installed (the command phrase should be again visible: "C:\Users[Your Windows account name]> or similar).
 
@@ -61,7 +61,7 @@ On some Linux versions you will need to install pip
 
 You also need to run this command from the terminal:
 
-`sudo python3 -m pip install pdfminer.six openpyxl ebooklib SpeechRecognition`
+`sudo python3 -m pip install pdfminer.six openpyxl ebooklib pydub SpeechRecognition`
 
 Install QualCoder by moving to the QualCoder-Master folder or the release folder, e.g. QualCoder-2.7:
 
@@ -106,7 +106,7 @@ Fedora uses wayland with does not work well with the Qt graphical interface (for
 
 QualCoder uses an Ebook library that you can currently install via a work-around, specified at https://github.com/ccbogel/QualCoder/issues/72#issuecomment-695962784 
 
-Move to the Qualcoder-master folder (or the release folder, if this was downloaded, e.g. QualCoder-2.7) and run:
+Move to the Qualcoder-master folder (or the release folder, if this was downloaded, e.g. QualCoder-2.8) and run:
 
 `python3 setup.py install`
 
@@ -138,7 +138,7 @@ python3 get-pip.py
 You might already have the modules. You do not need to do this again if you update QualCoder to a newer version.
 
 ```sh
-pip install pyqt5 lxml pillow six ebooklib ply chardet pdfminer.six openpyxl SpeechRecognition
+pip install pyqt5 lxml pillow six ebooklib ply chardet pdfminer.six openpyxl pydub SpeechRecognition
 ```
 
 
