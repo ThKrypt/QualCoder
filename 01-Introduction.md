@@ -18,7 +18,7 @@ IMORTANT: in the first window of the python installation mark the option "Add Py
 
 Install extra modules to Python. Type the letters "cmd" in the Windows Start searching engine, and click on the black software "cmd.exe" - this is the command console for Windows. In the console paste, using the right-click context menu (ctrl+v does not work) the following:
 
-`py -m pip install wheel pyqt5 lxml Pillow ebooklib ply chardet pdfminer.six openpyxl`
+`py -m pip install wheel pyqt5 lxml Pillow ebooklib ply chardet pdfminer.six openpyxl SpeechRecognition`
 
 Then click enter. Wait, until all modules are installed (the command phrase should be again visible: "C:\Users[Your Windows account name]> or similar).
 
@@ -61,7 +61,7 @@ On some Linux versions you will need to install pip
 
 You also need to run this command from the terminal:
 
-`sudo python3 -m pip install pdfminer.six openpyxl ebooklib`
+`sudo python3 -m pip install pdfminer.six openpyxl ebooklib SpeechRecognition`
 
 Install QualCoder by moving to the QualCoder-Master folder or the release folder, e.g. QualCoder-2.7:
 
@@ -138,7 +138,7 @@ python3 get-pip.py
 You might already have the modules. You do not need to do this again if you update QualCoder to a newer version.
 
 ```sh
-pip install pyqt5 lxml pillow six ebooklib ply chardet pdfminer.six openpyxl
+pip install pyqt5 lxml pillow six ebooklib ply chardet pdfminer.six openpyxl SpeechRecognition
 ```
 
 
