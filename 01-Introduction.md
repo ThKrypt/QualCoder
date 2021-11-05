@@ -2,125 +2,101 @@
 
 ![QualCoder Icon](https://qualcoder.files.wordpress.com/2019/01/qualcoder.png?w=500)
 
-## Microsoft Windows
+## INSTALLATION 
 
-**For ease of use. The QualCoder 2.8 release has an exe for Windows 64 bit computers - this works on Windows 10 and does work on Windows 7: https://github.com/ccbogel/QualCoder/releases/tag/2.8 Please ensure you have VLC (64 bit version) installed as well, for QualCoder to work. The QualCoder exe file bundles up all the python modules needed to run.**
+### Prerequisites
+You will need to have a python3.6 or newer version installed and a 64 bit VLC player installed. 
 
-### Alternative installation instructions for Windows:
+### Windows
 
-Download the QualCoder software from: https://github.com/ccbogel/QualCoder. This is the newest, but not yet officially released, version of code. Alternatively, choose the most recent release. Click the green button "Code", and then "Download ZIP". Then, unpack the file in a selected place (e.g. desktop).
+Install  [VLC](https://www.videolan.org/vlc/download-windows.html) or from the Windows Store. 
 
-Open the unpacked folder "QualCoder-master", then open the inner folder "qualcoder" and make a shortcut of the file "qualcoder.py" on the desktop - for easier access. This file is the starting file for running software.
+The 2.8 Release contains an exe file (created on Windows 10, 64 bit).Double-click to run. This doe swork on older Windows versions (e.g. Win 7).
 
-The software is written in Python and does not have an exe file for Windows. Download and install the Python programming language. The minimum version is 3.6. Newer is better, e.g. 3.8.7 (https://www.python.org/downloads/release/python-387/). Download the file (at the bottom of the web site) "Windows installer (64-bit)" and install Python.
+**Alternatively:**
 
-IMORTANT: in the first window of the python installation mark the option "Add Python 3.8 to PATH" - it makes the last step easier.
+1. Download the QualCoder software from: https://github.com/ccbogel/QualCoder. This is the newest, but not yet officially released code. Alternatively, choose the most recent release. Click the green button "Code", and then "Download ZIP". Then, unpack the file in a selected place (e.g. desktop).
 
-Install extra modules to Python. Type the letters "cmd" in the Windows Start searching engine, and click on the black software "cmd.exe" - this is the command console for Windows. In the console paste, using the right-click context menu (ctrl+v does not work) the following:
+2. Download and install the Python programming language. The minimum version for QualCoder is 3.6.  [Python3](https://www.python.org/downloads/). Download the file (at the bottom of the web site) "Windows installer (64-bit)"
+IMPORTANT: in the first window of the installation mark the option "Add Python to PATH"
+
+3. Install python modules from command. Type "cmd" in the Windows Start search engine, and click on the black software "cmd.exe" - the command console for Windows. In the console type or paste, using the right-click context menu (ctrl+v does not work) the following:
 
 `py -m pip install wheel pyqt5 lxml Pillow ebooklib ply chardet pdfminer.six openpyxl pydub SpeechRecognition`
 
-Then click enter. Wait, until all modules are installed (the command phrase should be again visible: "C:\Users[Your Windows account name]> or similar).
-
-### Setup and Running for 2.7 and higher releases:
-
-Finally run the setup.py script:
+ Wait, until all modules are installed .
+ 
+4. Build and install Qualcoder, from the downloaded folder type
 
 `py setup.py install`
 
-The py command uses the most recent installed version of python. You can use a specific version on your Windows, if you have many python versions installed, e.g. py -3.8  (You can run the cmd.exe as described above, and type py and Enter. The first line will tell you which version of python that command runs. To exit, press Ctrl Z.)
+The `py` command uses the most recent installed version of python. You can use a specific version on your Windows, if you have many python versions installed, e.g. `py -3.8`  See discussion here: [Difference between py and python](https://stackoverflow.com/questions/50896496/what-is-the-difference-between-py-and-python-in-the-terminal)
 
-Run QualCoder from cmd.exe
-Move (cd) to the QualCoder-Master folder, or the release folder if you downloaded the release (e.g. QualCoder-2.7 folder). 
-Then type:
+5. Run QualCoder from cmd.exe
+Move to the QualCoder-master folder, then type 
 
 `py -m qualcoder`
 
-Or running and hiding the command line box:
+Alternately, run by double-click. Open the QualCoder-master\qualcoder folder. Double-click the __main__.py file to run. You can make a shortcut to this file and keep the shortcut on the desktop.
 
-`C:\Windows\pyw.exe -m qualcoder`
+### Debian/Ubuntu Linux
 
-Run by mouse double-click
-Open the QualCoder-master\qualcoder folder. Double-click the \_\_main\_\_.py file to run. You can make a shortcut to this file and keep the shortcut on the desktop.
+1. Install  modules from the command line
 
-### Running for 2.5 and lower releases
+`sudo apt install python3-pip python3-lxml python3-ply python3-six python3-pdfminer python3-chardet python3-pyqt5 python3-pillow`
 
-To run QualCoder - double click on the qualcoder.py file which is located in the inner qualcoder folder. You can make a shortcut to this file on the Desktop.
-
-## Linux Ubuntu/Debian
-
-### Install and running for 2.7 and higher releases
-
-Install these modules from the terminal
-
-`sudo apt install python3-lxml python3-ply python3-six python3-pdfminer python3-chardet python3-qt5 python3-pillow`
-
-On some Linux versions you will need to install pip
-
-`sudo apt install python3-pip`
-
-You also need to run this command from the terminal:
+2. Install additional modules
 
 `sudo python3 -m pip install pdfminer.six openpyxl ebooklib pydub SpeechRecognition`
 
-Install QualCoder by moving to the QualCoder-Master folder or the release folder, e.g. QualCoder-2.7:
+3. Building and install QualCoder, from the downloaded folder type
 
 `sudo python3 setup.py install`
 
-Running, anytime the terminal is opened:
+4. To run type
 
 `qualcoder`
 
-### For releases 2.5 and earlier (Ubuntu, Debian)
 
-QualCoder can be installed using the latest Debian file found here: https://github.com/ccbogel/QualCoder-Debians
+### Arch/Manjaro Linux
 
-If you want to install using the _install.sh_ script, follow these instructions to create a program launcher:
-Go to your downloads folder. The example script below assumes you have downloaded the QualCoder-master.zip. Unzip QualCoder-master.zip. Open the uzipped folder and make the _install.sh_ script executable.  Open a terminal and type the following to install QualCoder:
+1. Install modules from the command line
 
-cd Downloads/QualCoder-master
+`sudo pacman -S python python-lxml python-ply python-six python-pdfminer python-chardet python-pyqt5 python-pillow python-pip`
 
-Run the _install.sh_ file. The install process will ask for your permission to install QualCoder into the /usr/share directory. It will also download the additional dependencies.
+2. Install additional python modules
 
-`./install.sh`
+`sudo python3 -m pip install pdfminer.six openpyxl ebooklib pydub SpeechRecognition`
 
-## Linux Fedora/CentOS/RHEL
+If success, all requirements are satisfied.
 
-### For releases 2.5 and earlier. Retrieve the current package code from this repository.
+3. Build and install QualCoder, from the downloaded folder type
+
+`sudo python3 setup.py install`
+
+4. To run type:
+
+`qualcoder`
+
+### Fedora/CentOS/RHEL linux
+
+These instructions may need revision.
+
+Retrieve the current package code from this repository
 
 `git clone https://github.com/ccbogel/QualCoder.git`
 
-Install dependencies
+Make `install_fedora.sh` executable (`chmod +x install_fedora.sh`) and run the `./install_fedora.sh` script from the terminal. Make sure the qualcoder folder is in the same directory as the install.sh script (i.e. as it appears when you download the QualCoder-master folder). The script is for python version 3.9.
 
-`sudo dnf install python3-pip python3-lxml python3-ply python3-pdfminer python3-six python3-chardet python3-qt5 python3-pillow`
-
-QualCoder uses an Ebook library that you can currently install via a work-around, specified at https://github.com/ccbogel/QualCoder/issues/72#issuecomment-695962784 
-
-The UNTESTED install_fedora.sh should install the dependencies and a desktop start icon for Fedora. The script is for python version 3.8.
+This script installs the dependencies using dnf and the ebook libraries with a work-around, specified at https://github.com/ccbogel/QualCoder/issues/72#issuecomment-695962784.
 
 Fedora uses wayland with does not work well with the Qt graphical interface (for now). I suggest you also install xwayland.
 
-### Running 2.7 and newer releases (untested).
-
-`sudo dnf install python3-pip python3-lxml python3-ply python3-pdfminer python3-six python3-chardet python3-qt5 python3-pillow`
-
-QualCoder uses an Ebook library that you can currently install via a work-around, specified at https://github.com/ccbogel/QualCoder/issues/72#issuecomment-695962784 
-
-Move to the Qualcoder-master folder (or the release folder, if this was downloaded, e.g. QualCoder-2.8) and run:
-
-`python3 setup.py install`
-
-Run by typing:
-
-`qualcoder`
-
-## MacOS
-
-Note: I do not often have access to a Mac to test these installation instructions.
+### MacOS
 
 1) Install recent versions of [Python3](https://www.python.org/downloads/) and [VLC](https://www.videolan.org/vlc/).
 
-2) Download the latest release "Source code" version in ZIP format, from the releases section of the project here on Github: https://github.com/ccbogel/QualCoder/releasesDownload and extract it into /Applications
+2) Download the latest release "Source code" version in ZIP format, from the releases section of the project here on Github: https://github.com/ccbogel/QualCoder/releases/tag/2.8 and extract it into /Applications
 
 3) Open the Terminal app (or any other command shell)
 
@@ -135,15 +111,13 @@ python3 get-pip.py
 
 5) Install Python dependency modules using `pip`:
 
-You might already have the modules. You do not need to do this again if you update QualCoder to a newer version.
+(you might already have them, don't do this again if you just update QualCoder to a newer version)
 
 ```sh
 pip install pyqt5 lxml pillow six ebooklib ply chardet pdfminer.six openpyxl pydub SpeechRecognition
 ```
 
-
-6) Note step 6 is not essential on Mac, but may be useful of you are trying to import encrypted pdf text.
-Install system dependencies using Homebrew (aka `brew`) 
+6) Install system dependencies using Homebrew (aka `brew`) 
 
 6.1) Install `brew` if do not already have it (try typing `brew` and hit ENTER):
 
@@ -155,15 +129,30 @@ Install system dependencies using Homebrew (aka `brew`)
 brew install qpdf
 ```
 
+From the QualCoder-Master directory run the setup script:
 
-### Running the 2.5 version. You can now run with:
+`python3 setup.py install`
+
+
+Assuming you downloaded the 2.8 version. You can now run with:
 
 ```
-python3 /applications/QualCoder-2.5/qualcoder/qualcoder.py
+python3 /applications/QualCoder-2.8/qualcoder/__main__.py
 ```
 
-### Running the 2.7 and higher versions (untested):
-python3 /applications/QualCoder-2.5/qualcoder/\_\_main\_\_.py
+Alternative commands to run QualCoder (Suggestions):
+
+From any directory:
+
+`qualcoder`
+
+From the QualCoder-Master directory:
+
+`python -m qualcoder`
+
+or
+
+`python qualcoder/__main__.py`
 
 You can install QualCoder anywhere you want, so the path above depends on where you extracted the archive.
 
@@ -177,8 +166,6 @@ Open the Terminal App and move to the unzipped Qualcoder-Master directory, then 
 `pip install -U py2app`  or for a system installation of python `sudo pip install -U py2app`
 
 `python3 setup.py py2app` 
-
-
 ## Backups
 
 I recommend that you make a backup before doing any substantial changes, such as reorganising codes and categories. QualCoder does perform hourly backups (keeping the most recent five) if backups is set in the settings.
