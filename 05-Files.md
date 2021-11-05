@@ -109,9 +109,17 @@ Ctrl D		Delete one or more speaker names.
 
 Ctrl 1 to 8	Insert speaker name in this format: [name]
 
+### Speech to text
+
+QualCoder 2.9 and and newer versions a Speech to text function is included. The [ffmpeg](https://www.ffmpeg.org/) software must be installed for this to work. When an audio or video file is added to the QualCoder project an empty transcription file is created. The cogs button activates this function, but only if there is no text entered into the transcription file.
+
+Speech to text allows use of several online third-party services. Most require sign up. Google does not but is limited to 50 requests of the service per day (e.g. 50 x 1 minute audio segments). QualCoder converts the audio file into 30 or 60 second chunks and adds a timestamp for each of these. Each chunk is provided to the online service which then takes a few second to convert to text.
+
+Language options are entered into the Language box, or might be configured when you signed up to a service such as Houndify or Wit.ai. Language options are entered as text in format like: en-US, fr-FR, de-DE, es-ES, pt-PT, pt-BR.
+
 ### Transcriptions that have codes, annotations and / or case-assigned
 
-Current (not in a release at 8 June 2021) and future releases 2.6 and up: Sections of the text file or audio/video transcribed file will have sections of text underlined in green (case assigned), yellow (annotation) or red (coded). Text can be edited even after the text is coded or annotated or assigned (fully or partially) to a case. 
+QualCoder releases 2.6 and up: Sections of the text file or audio/video transcribed file will have sections of text underlined in green (case assigned), yellow (annotation) or red (coded). Text can be edited even after the text is coded or annotated or assigned (fully or partially) to a case. 
 
 You can select text that is not underlined and copy/replace without problems. You can click on a position (**without selecting text**) to then type, delete, or paste text. This can occur in underlined (coded, annotated, case-assigned) or not underlined (not coded/annotated/case-assigned) text locations. You will see the underlines shift as text is added or removed.
 
