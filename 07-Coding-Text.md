@@ -16,7 +16,7 @@ Important coded texts, such as exemplars for a report, can be flagged Important 
 
 ## Overlapping codes
 
-Overlapping codes can be difficult to view clearly. Overlapping sections and are italicised (coded text with a code memo is also italicised). Mouse hover will show coded text, including overlaps. You can press 'O' after clicking on an overlapping section to cycle through the codes at that location.
+Overlapping codes can be difficult to view clearly. Overlapping sections are underlined (2.8 and earlier italicised). Mouse hover will show coded text, including overlaps. You can press 'O' after clicking on an overlapping section to cycle through the codes at that location.
 
 ## Annotations
 Add an annotation (like a memo for a text segment) to a text selection. The text will become bold to mark the position of the annotation. To re-open an annotation, select some of the bolded-text and right-click to get the Annotate option. Alternatively, click the notepad and pencil icon on the left, or press the 'a' key.
@@ -92,7 +92,7 @@ You can also right-click on a code and select change start position or change en
 
 * Shortcut i. Press i when on a coded section to mark that code as important. Useful for identifying exemplars. Important marks can be removed by right-click and selecting Remove important mark. Important marked codes are bolded.
 
-* Ctrl E. Enter and exit text edit mode.
+* Ctrl E. Enter and exit text edit mode. (Deprecated, version 2.9 and up, a button to enter and exit text mode).
 
 ## Search text
 
