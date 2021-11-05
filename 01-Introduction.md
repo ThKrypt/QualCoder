@@ -37,7 +37,7 @@ Move to the QualCoder-master folder, then type
 
 `py -m qualcoder`
 
-Alternately, run by double-click. Open the QualCoder-master\qualcoder folder. Double-click the __main__.py file to run. You can make a shortcut to this file and keep the shortcut on the desktop.
+Alternately, run by double-click. Open the QualCoder-master\qualcoder folder. Double-click the \_\_main\_\_.py file to run. You can make a shortcut to this file and keep the shortcut on the desktop.
 
 ### Debian/Ubuntu Linux
 
