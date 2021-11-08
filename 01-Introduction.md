@@ -33,7 +33,7 @@ IMPORTANT: in the first window of the installation mark the option "Add Python t
 The `py` command uses the most recent installed version of python. You can use a specific version on your Windows, if you have many python versions installed, e.g. `py -3.8`  See discussion here: [Difference between py and python](https://stackoverflow.com/questions/50896496/what-is-the-difference-between-py-and-python-in-the-terminal)
 
 5. Run QualCoder from cmd.exe
-Move to the QualCoder-master folder, then type 
+Move to the QualCoder-master folder, or (for a release, e.g.) the QualCoder-2.8 folder, then type 
 
 `py -m qualcoder`
 
@@ -49,7 +49,7 @@ Alternately, run by double-click. Open the QualCoder-master\qualcoder folder. Do
 
 `sudo python3 -m pip install pdfminer.six openpyxl ebooklib pydub SpeechRecognition`
 
-3. Building and install QualCoder, from the downloaded folder type
+3. Building and install QualCoder, from the downloaded folder (Qualcoder-master or a release e.g. QualCoder-2.8) type
 
 `sudo python3 setup.py install`
 
@@ -70,7 +70,7 @@ Alternately, run by double-click. Open the QualCoder-master\qualcoder folder. Do
 
 If success, all requirements are satisfied.
 
-3. Build and install QualCoder, from the downloaded folder type
+3. Build and install QualCoder, from the downloaded folder (Qualcoder-master or a release e.g. QualCoder-2.8) type
 
 `sudo python3 setup.py install`
 
