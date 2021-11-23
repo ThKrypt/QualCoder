@@ -1,7 +1,5 @@
 # QualCoder Installation and running instructions
 
-![QualCoder Icon](https://qualcoder.files.wordpress.com/2019/01/qualcoder.png?w=500)
-
 ## INSTALLATION 
 
 ### Prerequisites
