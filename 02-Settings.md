@@ -13,7 +13,7 @@ Checking the Dark mode box, changes the overall look of QualCoder from dark text
 
 For transcribing audio and video, the time format and bracket type can be selected.
 
-Project backup can be set to automatically backup every hour, or no backup. QualCoder keeping the most recent five backups with a date and hour time stamp. The backup name is: _projectname_BKP_yyyymmdd_hh.qda_  Where _hh_ is 24 hour time. This also means multiple backups are not done within an hour. So a new backup cannot overwrite another backup created within the same hour. Up to five backups are kept, **older backups are deleted**. 
+Project backup can be set to automatically backup every hour, or no backup. QualCoder keeping the most recent backups with a date and hour time stamp. The backup name is: _projectname_BKP_yyyymmdd_hh.qda_  Where _hh_ is 24 hour time. This also means multiple backups are not done within an hour. So a new backup cannot overwrite another backup created within the same hour. A limited number of backups are kept, **older backups are deleted**. Setting option allows you to choose from 1 to 10 backups.
 
 Rename or move to another location particular backups that you need to keep. When the backups are set, an additional option is to choose to backup the audio/video files. For completeness of backups it is recommended to back up audio and video, however this may slow down opening of the software if you have many large files. Alternatively you can link to large audio/video files rather than import them into the project folder.
 
