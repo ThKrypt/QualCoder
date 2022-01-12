@@ -43,6 +43,12 @@ _When cases are selected, another pane is displayed showing a table of cases (in
 
 * Shortcut H. Pressing h will hide and unhide the top controls section of the window.
 
+## Other functions
+QC2.9
+* Check box to add summary statistics to the report.
+* Matrix options. So have codes/categories by file or by case. The matrix can be transposed, using the check box.
+* Check bx for coding in context for text codings. This shows the surrounding 250 characters of text to help put the coded section in context in the report. The coded text segment is shown in bold.
+
 #  Coding Comparison
 This option shows the overall similarities and differences between two coders across all text files. Select two coders and click the run comparisons button. The statistics created here are only for coded text, not coded image nor media files. 
 
