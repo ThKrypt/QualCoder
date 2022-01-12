@@ -94,6 +94,8 @@ You can also right-click on a code and select change start position or change en
 
 * Ctrl E. Enter and exit text edit mode. (Deprecated, version 2.9 and up, a button to enter and exit text mode).
 
+* Ctrl Z. (QC 2.9) Restores the last coding that was unmarked.
+
 ## Search text
 
 The coding text dialog contains a search for text function at the top middle, with tick boxes for searching case sensitive and for searching through all text files. When in the text area, selecting some text and pressing the shortcut key ‘s’ will fill the search text box and focus on the ‘next’ arrow button for quickly looking through the document for the selected text. The search requires a minimum of 3 characters as a default. Right-click to change the default to 5 characters, or to search only after Enter is pressed. The Case sensitive check box will limit to case sensitive searching. The All files check box will continue the search through other text files.
@@ -116,7 +118,7 @@ Select a code and then click on the forward and back arrows. These now traverse 
 
 Under the codes tree is a button with a star symbol. This button toggles between showing all coded text and the coded text flagged as Important.
 
-## Right-hand hidden pane
+## Right-hand hidden pane (QC2.9)
 
 The right hand side of the coding text pane has another pane tucked away. To open click and drag from the right-hand side of the window. This pane contains three options useful when coding. One option is when clicking on a code, the code name, code rule (memo) and random coded text examples from the project are displayed. The J button displays an editable current journal, determined by the most recent date. The P button displays the editable project memo.
 
