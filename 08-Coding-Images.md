@@ -11,6 +11,8 @@ Important coded areas, such as exemplars for a report, can be flagged Important 
 
 * Press + or - buttons to enlarge or shrink the image.
 
+* Ctrl Z to restore the last unmarked coding area.
+
 ![Code image screen](https://qualcoder.files.wordpress.com/2021/05/code_image.png)
 
 ## Convenience buttons underneath the files list
