@@ -15,6 +15,7 @@ _Video with coded transcript. Shown in dark mode._
 * Ctrl S and Ctrl P will stop/start (play/pause)
 * Ctrl Shift < will slow play rate down to a minimum of 0.1
 * Ctrl Shift > will increase play rate up to two times.
+* Ctrl Z Restores the last unmarked coding.
 
 (These options are also available through the toolbar icons.)
 
