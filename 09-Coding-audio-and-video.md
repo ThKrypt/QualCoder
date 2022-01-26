@@ -13,7 +13,7 @@ Import the a/v file into qualcoder. QualCoder will make an empty text file assoc
 Then, while in Manage Files, double-click the a/v file to open it to view.
 Underneath the transcription text box is a cogs button. Click this to open the speech to text option:
 
-https://user-images.githubusercontent.com/5834638/151243057-f3504e0d-ab10-4628-9495-fcdff00be422.png
+![Transcription dialog](https://user-images.githubusercontent.com/5834638/151243057-f3504e0d-ab10-4628-9495-fcdff00be422.png)
 
 I have made it work only with a blank transcription file.
 
