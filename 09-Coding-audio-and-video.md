@@ -8,6 +8,20 @@ The transcription text can also be coded and annotated in this dialog window. Ri
 
 _Video with coded transcript. Shown in dark mode._
 
+## Generating Transcription using Speech-To-Text Engines
+Import the a/v file into qualcoder. QualCoder will make an empty text file associated with that a/v file.
+Then, while in Manage Files, double-click the a/v file to open it to view.
+Underneath the transcription text box is a cogs button. Click this to open the speech to text option:
+
+https://user-images.githubusercontent.com/5834638/151243057-f3504e0d-ab10-4628-9495-fcdff00be422.png
+
+I have made it work only with a blank transcription file.
+
+In the Speech to text dialog, select your online speech to text service of choice, add the necessary information (if required), and click on the cog at the bottom to start the speech to text conversion: 
+
+![image](https://user-images.githubusercontent.com/55474996/151250520-d635d0c8-bb65-4a20-b6b9-e7d942c842ef.png)
+
+
 ## Keyboard shortcuts
 
 * Ctrl R and Alt R are shortcuts to rewind 5 or 30 seconds
