@@ -111,7 +111,7 @@ Ctrl 1 to 8	Insert speaker name in this format: [name]
 
 ### Speech to text
 
-QualCoder 2.9 and and newer versions a Speech to text function is included. The [ffmpeg](https://www.ffmpeg.org/) software must be installed for this to work. When an audio or video file is added to the QualCoder project an empty transcription file is created. The cogs button activates this function, but only if there is no text entered into the transcription file.
+QualCoder 2.9 and and newer versions a Speech to text function is included. The [ffmpeg](https://www.ffmpeg.org/) software must be installed for this to work. When an audio or video file is added to the QualCoder project an empty transcription file is created. The cogs button activates this function, but only if there is no text entered into the transcription file. First, open (view) the audio/video from Manage Files.
 
 Speech to text allows use of several online third-party services. Most require sign up. Google does not but is limited to 50 requests of the service per day (e.g. 50 x 1 minute audio segments). QualCoder converts the audio file into 30 or 60 second chunks and adds a timestamp for each of these. Each chunk is provided to the online service which then takes a few second to convert to text.
 
