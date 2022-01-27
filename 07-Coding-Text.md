@@ -6,7 +6,7 @@ Select Code text from the Coding menu. This is the central dialog for assigning 
 
 Select a file for coding from the selection list on the left. The file selection list contains buttons that allow you to move to the next file, to move to the most recently coded file and to go to a bookmarked position in a file. There is also a button to view the file memo.
 
-Create a new code by right-clicking in the left hand window. Codes can  be assigned a colour by right-clicking on the code and selecting the change code colour option. Other options from the right-click menu include adding a memo to the code, deleting the code, renaming, adding a new code, and adding a new category.
+Create a new code by right-clicking in the left hand window. Codes can  be assigned a colour by right-clicking on the code and selecting the change code colour option. Other options from the right-click menu include adding a memo to the code, deleting the code, renaming, adding a new code, and adding a new category, showing codes like (a certain name). Rarely, when entering a new code name, QC may warn that the code name exists, even if it does not exist. To work around this, enter another different name and then change that code name to the code name that you desire.
 
 The easiest way to code text, is to select some text, then left-click with the mouse on a code. A second way is to select a code, then select some text. Right-click and mark the text to assign it to the selected code. Hover the mouse pointer over coded text to see a tooltip of the code. Coded text can be uncoded by clicking on the text segment and pressing the Unmark button.
 
