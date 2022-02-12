@@ -62,7 +62,7 @@ Install the needed python modules.
 
 `pip install lxml ply six pdfminer chardet pyqt5 pillow pdfminer.six openpyxl ebooklib pydub SpeechRecognition`
 
-Install QualCoder, type, (the dot is important):
+Install QualCoder (the dot is important):
 
 `python3 -m pip install .`
 
