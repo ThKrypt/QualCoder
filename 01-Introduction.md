@@ -56,9 +56,7 @@ Note: To exit venv type deactivate
 
 `source qualcoder/bin/activate`
 
-Move (cd) to the inner qualcoder folder.
-
-Install the needed python modules. 
+Install the required python modules:
 
 `pip install lxml ply six pdfminer chardet pyqt5 pillow pdfminer.six openpyxl ebooklib pydub SpeechRecognition`
 
@@ -72,9 +70,9 @@ To run type
 
 `qualcoder`
 
-After all this is done, you can deactivate to exit the virtual environment. At any time to start QualCoder in the virtual environment, cd to the Qualcoder-master (or Qualcoder-2.9 release folder), 
+After all this is done, you can deactivate to exit the virtual environment. At any time to start QualCoder in the virtual environment, cd to the Qualcoder-master folder (or Qualcoder-2.9 release folder), 
 
-Then type: `activate` 
+Then type: `source qualcoder/bin/activate` 
 
 Then type `qualcoder`
 
