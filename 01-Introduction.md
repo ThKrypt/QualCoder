@@ -43,37 +43,40 @@ It is best to run QualCoder inside a python virtual environment, so that the sys
 
 Install venv I am using python3.9 you can choose another recent version if you prefer. 
 
-sudo apt install python3.9-venv
+`sudo apt install python3.9-venv`
 
 Download and unzip the Qualcoder folder.
 
 Open a terminal and move (cd) into that folder. You should be inside the QualCoder-master folder or if using a release, e.g. the Qualcoder-2.9 folder. Inside the QualCoder-master folder: 
 
-python3.9 -m venv qualcoder 
+`python3.9 -m venv qualcoder`
 
-Activate venv, this changes the command prompt display using (brackets): (qualcoder) Note: To exit venv type deactivate source qualcoder/bin/activate
+Activate venv, this changes the command prompt display using (brackets): (qualcoder) 
+Note: To exit venv type deactivate 
+
+`source qualcoder/bin/activate`
 
 Move (cd) to the inner qualcoder folder.
 
 Install the needed python modules. 
 
-pip install lxml ply six pdfminer chardet pyqt5 pillow pdfminer.six openpyxl ebooklib pydub SpeechRecognition
+`pip install lxml ply six pdfminer chardet pyqt5 pillow pdfminer.six openpyxl ebooklib pydub SpeechRecognition`
 
 Install QualCoder, type, (the dot is important):
 
-python3 -m pip install .
+`python3 -m pip install .`
 
 You may get a warning which can be ignored: WARNING: Building wheel for Qualcoder failed
 
 To run type
 
-qualcoder
+`qualcoder`
 
 After all this is done, you can deactivate to exit the virtual environment. At any time to start QualCoder in the virtual environment, cd to the Qualcoder-master (or Qualcoder-2.9 release folder), 
 
-Then type: activate 
+Then type: `activate` 
 
-Then type qualcoder
+Then type `qualcoder`
 
 
 OLDER instructions below that can affect system installed python modules. It is better to use the virtual environment shown above.
