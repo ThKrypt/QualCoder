@@ -41,30 +41,42 @@ Alternately, run by double-click. Open the QualCoder-master\qualcoder folder. Do
 
 It is best to run QualCoder inside a python virtual environment, so that the system install python modules do not clash and cause problems. I have added the additional code to do this here.
 
-    Install venv I am using python3.9 you can choose another recent version if you prefer. sudo apt install python3.9-venv
+Install venv I am using python3.9 you can choose another recent version if you prefer. 
 
-    Download and unzip the Qualcoder folder.
+sudo apt install python3.9-venv
 
-    Open a terminal and move (cd) into that folder. You should be inside the QualCoder-master folder or if using a release, e.g. the Qualcoder-2.9 folder. Inside the QualCoder-master folder: python3.9 -m venv qualcoder Activate venv, this changes the command prompt display using (brackets): (qualcoder) Note: To exit venv type deactivate source qualcoder/bin/activate
+Download and unzip the Qualcoder folder.
 
-    Move (cd) to the inner qualcoder folder.
+Open a terminal and move (cd) into that folder. You should be inside the QualCoder-master folder or if using a release, e.g. the Qualcoder-2.9 folder. Inside the QualCoder-master folder: 
 
-    Install the needed python modules. pip install lxml ply six pdfminer chardet pyqt5 pillow pdfminer.six openpyxl ebooklib pydub SpeechRecognition
+python3.9 -m venv qualcoder 
 
-    Install QualCoder, type, (the dot is important):
+Activate venv, this changes the command prompt display using (brackets): (qualcoder) Note: To exit venv type deactivate source qualcoder/bin/activate
+
+Move (cd) to the inner qualcoder folder.
+
+Install the needed python modules. 
+
+pip install lxml ply six pdfminer chardet pyqt5 pillow pdfminer.six openpyxl ebooklib pydub SpeechRecognition
+
+Install QualCoder, type, (the dot is important):
 
 python3 -m pip install .
 
 You may get a warning which can be ignored: WARNING: Building wheel for Qualcoder failed
 
-    To run type
+To run type
 
 qualcoder
 
-After all this is done, you can deactivate to exit the virtual environment. At any time to start QualCoder in the virtual environment, cd to the Qualcoder-master (or Qualcoder-2.9 release folder), then type: activate Then type qualcoder
+After all this is done, you can deactivate to exit the virtual environment. At any time to start QualCoder in the virtual environment, cd to the Qualcoder-master (or Qualcoder-2.9 release folder), 
+
+Then type: activate 
+
+Then type qualcoder
 
 
-OLDER instructions that can affect system installed python modules. It is better to use the virtual environment shown above.
+OLDER instructions below that can affect system installed python modules. It is better to use the virtual environment shown above.
 1. Install  modules from the command line
 
 `sudo apt install python3-pip python3-lxml python3-ply python3-six python3-pdfminer python3-chardet python3-pyqt5 python3-pillow`
