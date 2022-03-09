@@ -9,11 +9,13 @@ You will need to have a python3.6 or newer version installed and a 64 bit VLC pl
 
 Install  [VLC](https://www.videolan.org/vlc/download-windows.html) or from the Windows Store. 
 
-The 2.8 Release contains an exe file (created on Windows 10, 64 bit). Double-click to run. This does work on older Windows versions (e.g. Win 7).
+The 2.9 Release contains an exe file (created on Windows 10, 64 bit). Double-click to run. This does work on older Windows versions (e.g. Win 7).
 
-**Alternatively:**
+**Alternatively install from source:**
 
-1. Download the QualCoder software from: https://github.com/ccbogel/QualCoder. This is the newest, but not yet officially released code. Alternatively, choose the most recent release. Click the green button "Code", and then "Download ZIP". Then, unpack the file in a selected place (e.g. desktop).
+Consider using a virtual environment, using venv.
+
+1. Download the QualCoder software from: https://github.com/ccbogel/QualCoder. This is the newest, but not yet officially released code. Alternatively, choose the most recent release and download the zip. For the latest code, click the green button "Code", and then "Download ZIP". Then, unpack the file in a selected place (e.g. desktop).
 
 2. Download and install the Python programming language. The minimum version for QualCoder is 3.6.  [Python3](https://www.python.org/downloads/). Download the file (at the bottom of the web site) "Windows installer (64-bit)"
 IMPORTANT: in the first window of the installation mark the option "Add Python to PATH"
@@ -24,14 +26,14 @@ IMPORTANT: in the first window of the installation mark the option "Add Python t
 
  Wait, until all modules are installed .
  
-4. Build and install Qualcoder, from the downloaded folder type
+4. Build and install Qualcoder. From the command line when in the downloaded folder type:
 
 `py setup.py install`
 
 The `py` command uses the most recent installed version of python. You can use a specific version on your Windows, if you have many python versions installed, e.g. `py -3.8`  See discussion here: [Difference between py and python](https://stackoverflow.com/questions/50896496/what-is-the-difference-between-py-and-python-in-the-terminal)
 
-5. Run QualCoder from cmd.exe
-Move to the QualCoder-master folder, or (for a release, e.g.) the QualCoder-2.8 folder, then type 
+5. Run QualCoder from the command line
+Move to the QualCoder-master folder, or (for a release, e.g.) the QualCoder-2.8 folder, then type: 
 
 `py -m qualcoder`
 
@@ -217,7 +219,7 @@ I recommend that you make a backup before doing any substantial changes, such as
 
 The MIT License (MIT)
 
-Copyright (c) 2021 Colin Curtain
+Copyright (c) 2022 Colin Curtain
 Permission is hereby granted, free of
  charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
