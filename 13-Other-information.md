@@ -19,17 +19,15 @@ Some potential plans for the future are to add functionality:
 
 Reports: 
 
-    • Text mining functionality - maybe.
-
     • Look at alternative ways to visualise codes
 
 General:
 
-* Possibly update to Qt6 and use Qt Multimedia to play A/V rather than use VLC.
+* Update to Qt6 and use Qt Multimedia to play A/V rather than use VLC.
 
 * Multi-language support - some work done but review of existing translations is needed
 
-* Improve REFI-QDA open standard for import and export to other software. Codebook import and export seems OK. Project import and export is experimental. To review: A/V coded segments, AV sync-points. Use of Cases / Sets.
+* Improve REFI-QDA open standard for import and export to other software. Codebook import and export seems OK. Project import and export seems OK but I would still say it is experimental. To review: A/V coded segments, AV sync-points.
 
 # Some videos of QualCoder
 
