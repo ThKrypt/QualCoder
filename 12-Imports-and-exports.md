@@ -45,3 +45,7 @@ QualCoder will determine if the other columns (attributes) are Numeric or Charac
 
 When you click on the OK button, the cases and their attributes will be added. The qualitative column will be converted to a file which will be named with the column name plus the current date and time. Each respondent's row will be prepended with [the unique id] so that you can identify each respondent. Also, the text for each respondent will be automatically linked to the corresponding case.
 
+# Merge QualCoder Projects
+
+In QualCoder 3.0 there is a function to merge a QualCoder project into the currently opened QualCoder project. This is located under Help > Special Functions.
+
