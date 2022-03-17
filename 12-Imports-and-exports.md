@@ -54,7 +54,7 @@ The following occurs:
 * Adds new (unmatched) source categories to destination database.
 * Adds new (unmatched) source code names to destination database.
 * Adds journals and stored_sql to destination database, only if they have names that do not match existing destination names.
-* Adds text codings, text annotations, image codings, A/V codings to destination database. (**TODO - still to test - duplicated codings e.g. same coder, and code positions in same file - currently may trow an Error and stop the merge**)
+* Adds text codings, text annotations, image codings, A/V codings to destination database. (**TODO - still to test - duplicated codings e.g. same coder, and code positions in same file - currently may throw an Error and stop the merge**)
 * Adds cases and case_text (links from cases to text file segments and images and A/V).
 * Add attributes for files and cases.
 * Adds attribute values. Existing destination attribute values are not over-written, unless they are blank.
