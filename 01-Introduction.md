@@ -99,15 +99,15 @@ OLDER instructions below that can affect system installed python modules. It is 
 
 ### Arch/Manjaro Linux
 
-Please see the Debian instructions above to run QualCoder in a virtual environment. I do not have an Arch/Manjaro distribution to test this.
+Please consider the Debian instructions above to run QualCoder in a virtual environment.
 
 1. Install modules from the command line
 
-`sudo pacman -S python python-lxml python-ply python-six python-pdfminer python-chardet python-pyqt5 python-pillow python-pip`
+`sudo pacman -S python python-chardet python-lxml python-openpyxl python-pillow python-ply python-pyqt5 python-pip`
 
 2. Install additional python modules
 
-`sudo python3 -m pip install pdfminer.six openpyxl ebooklib pydub SpeechRecognition`
+`sudo python3 -m pip install ebooklib pdfminer.six pydub SpeechRecognition`
 
 If success, all requirements are satisfied.
 
@@ -119,9 +119,13 @@ If success, all requirements are satisfied.
 
 `qualcoder`
 
+Or install from AUR as follows:
+
+`yay -S qualcoder`
+
 ### Fedora/CentOS/RHEL linux
 
-Please see the Debian instructions above to run QualCoder in a virtual environment. I do not have a Fedora/CentOS/RHEL distribution to test this.
+Please consider the Debian instructions above to run QualCoder in a virtual environment. I do not have a Fedora/CentOS/RHEL distribution to test this.
 
 Retrieve the current package code from this repository
 
