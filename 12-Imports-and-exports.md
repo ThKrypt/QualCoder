@@ -47,7 +47,7 @@ When you click on the OK button, the cases and their attributes will be added. T
 
 # Merge QualCoder Projects
 
-In QualCoder 3.0 (3.0 is not yet a release) there is a function to merge a QualCoder project into the currently opened QualCoder project. This is located under Help > Special Functions. Select a project to merge (source project) into the currently opened project (destination project), then click the _Run merge projects_, cogs button. Before performing the merge, make a backup of the destination project.
+In QualCoder 3.0 (3.0 is not yet a release) there is a function to merge a QualCoder project into the currently opened QualCoder project. This is located under Help > Special Functions. Select a project to merge (source project) into the currently opened project (destination project), then click the _Run merge projects_, cogs button. **Before performing the merge, make a backup of the destination project.**
 
 The following occurs:
 * Copies unmatched files from source project folders to destination project folders.
@@ -58,4 +58,8 @@ The following occurs:
 * Adds cases and case_text (links from cases to text file segments and images and A/V).
 * Add attributes for files and cases.
 * Adds attribute values. Existing destination attribute values are not over-written, unless they are blank.
+
+Warnings when merging:
+
+The main warning is if the source project and destination project contain the same text file. If the source project text file has been edited, and maybe longer or shorter, then the imported text coding positions and annotations will be incorrect. This is because the original destination project text file text stored in the database is not replaced with the edited text file from the source project.
 
