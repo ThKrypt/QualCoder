@@ -58,6 +58,10 @@ Note: To exit venv type deactivate
 
 `source qualcoder/bin/activate`
 
+Upgrade pip before installing the modules:
+
+`pip install --upgrade pip`
+
 Install the required python modules:
 
 `pip install lxml ply six pdfminer chardet pyqt5 pillow pdfminer.six openpyxl ebooklib pydub SpeechRecognition`
