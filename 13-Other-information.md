@@ -23,7 +23,7 @@ Reports:
 
 General:
 
-* Update to Qt6 and use Qt Multimedia to play A/V rather than use VLC.
+* Possibly use Qt Multimedia to play A/V rather than use VLC.
 
 * Multi-language support - some work done but review of existing translations is needed
 
