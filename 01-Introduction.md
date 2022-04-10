@@ -3,7 +3,7 @@
 ## INSTALLATION 
 
 ### Prerequisites
-You will need to have a python3.6 or newer version installed and a 64 bit VLC player installed. 
+You will need to have a python3.6 or newer version installed and a 64 bit VLC player installed. Optionally, install ffmpeg for speech to text and waveform display.
 
 ### Windows
 
