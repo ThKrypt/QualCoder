@@ -9,7 +9,7 @@ QualCoder is written in python 3(minimum 3.6 version) using Qt5 for the graphica
 
 # Future plans
 
-Currently QualCoder has only used on Ubuntu and Windows 10. With some use on Linux Mint, Lubuntu,Fedora, Raspberry Pi, and on MacOS. Further testing is required.
+Currently QualCoder is developed on Ubuntu 20.04 and Windows 10. Some user has used Qualcoder on Linux Mint, Lubuntu, Fedora, Manjaro/Arch Raspberry Pi, and on MacOS. Further testing may be required on these platforms.
 
 In Windows, reports exported in ODT format are okay, but some images may overlap when the ODT file opened with Microsoft Word rather than opened with LibreOffice.
 
@@ -17,25 +17,24 @@ In Windows, reports exported in ODT format are okay, but some images may overlap
 Some potential plans for the future are to add functionality:
 
 
-Reports: 
+## Reports: 
 
-    • Look at alternative ways to visualise codes
+**Look at alternative ways to visualise codes:**
+* Maybe word clouds, but I do not think they are very informative
+* Display code frequency - bar charts, mosaic plots or pie charts
+* Display code frequency in a comparative way - e.g. compare female versus males for the code frequencies using bar charts or other plots
 
-General:
+**Look at timeline reporting:**
+* Maybe add in a way to display coding from documents in a timeline - drawing from a file data attribute that is created by the end user.
+
+## General:
 
 * Possibly use Qt Multimedia to play A/V rather than use VLC.
 
-* Multi-language support - some work done but review of existing translations is needed
+* Multi-language support - review of existing translations is needed
 
 * Improve REFI-QDA open standard for import and export to other software. Codebook import and export seems OK. Project import and export seems OK but I would still say it is experimental. To review: A/V coded segments, AV sync-points.
 
-# Some videos of QualCoder
-
-https://www.youtube.com/watch?v=9teZO-KVwqk
-
-https://www.youtube.com/watch?v=D2vks2n9d1g&t=928s
-
-https://www.youtube.com/watch?v=cqAy_RJkhvY
 
 #  About the author
 
