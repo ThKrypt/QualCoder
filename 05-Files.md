@@ -58,6 +58,8 @@ If you have a .srt file (a translation file that is read by VLC) you can place t
 
 ![Audio Video viewing dialog](https://qualcoder.files.wordpress.com/2020/12/viewav3.png)
 
+If you have ffmpeg installed a waveform and spectrogram are shown. This work on Ubuntu - but have not tested this on Windows. To change the display from a waveform to a spectrogram and back use Ctrl I and Ctrl U. If the audio files has multiple audio tracks, only the first track is shown for the waveform or spectrogram.
+
 ## Transcribing audio and video
 
 To transcribe open the Mange files menu option, then view the audio or video file. The audio/video will load and there will be a text area to enter transcribed text. QualCoder does not have an automated audio to text feature. Other services such as otter.ai may assist you.
