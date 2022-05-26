@@ -118,14 +118,13 @@ Select a code and then click on the forward and back arrows. These now traverse 
 
 Under the codes tree is a button with a star symbol. This button toggles between showing all coded text and the coded text flagged as Important.
 
-## Right-hand hidden pane (QC2.9)
+## Right-hand hidden pane
 
 The right hand side of the coding text pane has another pane tucked away. To open click and drag from the right-hand side of the window. This pane contains three options useful when coding. One option is when clicking on a code, the code name, code rule (memo) and random coded text examples from the project are displayed. The J button displays an editable current journal, determined by the most recent date. The P button displays the editable project memo.
 
 # Editing text (Ctrl E)
 
-Text can be edited even after the text is coded or annotated or assigned (fully or partially) to a case. Click on the text area and press Ctrl E to enter and exit text mode.
-This feature is in releases 2.7 and up: Sections of the text file or audio/video transcribed file will have sections of text underlined in green (case assigned), yellow (annotation) or red (coded) by ALL coders. 
+Text can be edited even after the text is coded or annotated or assigned (fully or partially) to a case. Click on the text area and press Ctrl E to enter and exit text mode. Sections of the text file or audio/video transcribed file will have sections of text underlined in green (case assigned), yellow (annotation) or red (coded) by ALL coders. 
 
 When entering the edit mode, the entire file is loaded for editing. Other functions such as the codes tree and file list are deactivated.
 
@@ -133,7 +132,7 @@ You can select text that is not underlined and copy/replace without problems. Yo
 
 There are some limitations: It is best to avoid selecting sections of text to delete (or to type or paste over). This is particularly an issue if any of those sections have been underlined (coded, annotated, case-assigned). It may also be an The reason is that positions of the underlying codes/annotations/case-assigned may not correctly match as intended. If you have made a change that you think has affected these coded/annotated/case-assigned positions badly, exit the text editing window by pressing the Cancel button.
 
-**Important note: The edits occur within the database. The original text file is NOT changed.** 
+**Important note: The edits occur within the database stored text. The original text file is NOT changed.** 
 
 
 #  Categories and codes
