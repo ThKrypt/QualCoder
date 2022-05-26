@@ -115,6 +115,8 @@ Charts are displayed in the default web browser.
 
 Pie, Bar, Sunburst and Treemap charts can be created.
 
+Heatmaps of files or cases against codes can be created. These are limited to 40 rows and columns for quicker rendering and better visibility.
+
 #  SQL Statements (run SQL queries)
 
 This window contains three panes. The top pane is where SQL statements are entered and the bottom pane contains the results of queries. The left pane contains tables and field names. Double-clicking on a field name adds it to the SQL statement. Results can be exported to a delimited file. If you are not familiar with SQL take care as you will be able to update and delete the data as well as select data. Note: Some Unicode symbols are not converted to plain text and are ignored.
