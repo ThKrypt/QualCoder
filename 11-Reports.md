@@ -44,10 +44,10 @@ _When cases are selected, another pane is displayed showing a table of cases (in
 * Shortcut H. Pressing h will hide and unhide the top controls section of the window.
 
 ## Other functions
-QC2.9
+
 * Check box to add summary statistics to the report.
 * Matrix options. So have codes/categories by file or by case. The matrix can be transposed, using the check box.
-* Check bx for coding in context for text codings. This shows the surrounding 250 characters of text to help put the coded section in context in the report. The coded text segment is shown in bold.
+* Check box for coding in context for coded text segments. This shows the surrounding 250 characters of text to help put the coded section in context in the report. The coded text segment is shown in bold.
 
 #  Coding Comparison
 This option shows the overall similarities and differences between two coders across all text files. Select two coders and click the run comparisons button. The statistics created here are only for coded text, not coded image nor media files. 
@@ -68,7 +68,6 @@ Cohen’s Kappa is calculated based on the information in Wikipedia https://en.w
 
 #  Coding Comparison by file
 
-Versions greater than Qualcoder 2.7 release. (current development (Aug 2021) code here https://github.com/ccbogel/QualCoder).
 This option shows the overall similarities and differences between two coders in ONE selected file. Select one file, one code and two coders. Then click the run comparisons button. The statistics and comparisons for audio/video coded segments are in development. 
 Overall agreement, disagreement and Cohens Kappa are calculated for text and images. An image file is displayed in a separate window showing the two coders selections in yellow or blue boxed areas. Mouse hover provides additional information.
 
@@ -80,11 +79,13 @@ This window shows all the codes and categories and the frequency of use for each
 
 #  Node graph
 
-A graph of categories and codes is displayed. There are several options to change what is shown – such as Black and White, All or selected categories.
+A graph of categories and codes is displayed. You can choose all or selected categories.
 
-Each code or category can be moved around by clicking near the edge of the box and dragging it around. Clicking on the text allows you to temporarily change the code or category wording. Right-clicking in a code gives a menu of options such as displaying the memo, or displaying all the case or file text that has been coded with the selected code.
+Each code or category can be moved around by clicking near the edge of the box and dragging it around. Right-clicking in a code gives a menu of options such as displaying the memo, or displaying all the case or file text that has been coded with the selected code.
 
 ![Node graph](https://qualcoder.files.wordpress.com/2020/08/node-graph.png)
+
+Further changes to this graph are upcoming.
 
 # Code relations
 
