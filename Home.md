@@ -7,9 +7,9 @@ QualCoder is free, open source software for qualitative data analysis.
 With QualCoder you can code text, images, audio and video, write journal notes and memos. You can categorise codes into a tree-like hierarchical categorisation scheme. Coding for audio and video requires the VLC media player.
 Coder comparison reports can be generated for text coding using the Cohen’s Kappa statistic. A graph displaying codes and categories can be generated to visualise the coding hierarchy. Most reports can be exported as html, open document text (ODT) or as plain text files.
 
-QualCoder is designed to be used as client-based software to be used by one person at a time. (A second coder can use the same project on the same computer, or the project folder can be transferred to the second coder's computer). QualCoder is not designed to be multi-accessed at the same time. QualCoder is not designed to merge two projects into one.
+QualCoder is designed to be used as client-based software to be used by one person at a time. (A second coder can use the same project on the same computer, or the project folder can be transferred to the second coder's computer). QualCoder is not designed to be multi-accessed at the same time.
 
-QualCoder is written in python 3 (version 3.6 and up) using Qt5 for the graphical interface. A Sqlite database is used to store the coding data. There is also a wordpress site for QualCoder at https://qualcoder.wordpress.com/.
+QualCoder is written in python 3 (version 3.6 and up) using Qt6 for the graphical interface. A Sqlite database is used to store the coding data. There is also a wordpress site for QualCoder at https://qualcoder.wordpress.com/.
 
 ###  Why use QualCoder?
 **Qualcoder is free of charge.** Many qualitative analysis software requiring expensive one-time fees or monthly subscriptions. Not everyone can afford expensive fees.
