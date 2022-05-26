@@ -21,8 +21,8 @@ Some potential plans for the future are to add functionality:
 
 **Look at alternative ways to visualise codes:**
 * Maybe word clouds, but I do not think they are very informative
-* Display code frequency - bar charts, mosaic plots or pie charts
 * Display code frequency in a comparative way - e.g. compare female versus males for the code frequencies using bar charts or other plots
+* Improve Graph functionality
 
 **Look at timeline reporting:**
 * Maybe add in a way to display coding from documents in a timeline - drawing from a file data attribute that is created by the end user.
@@ -31,7 +31,7 @@ Some potential plans for the future are to add functionality:
 
 * Possibly use Qt Multimedia to play A/V rather than use VLC.
 
-* Multi-language support - review of existing translations is needed
+* Multi-language support - review of existing translations needed
 
 * Improve REFI-QDA open standard for import and export to other software. Codebook import and export seems OK. Project import and export seems OK but I would still say it is experimental. To review: A/V coded segments, AV sync-points.
 
