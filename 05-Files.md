@@ -12,7 +12,7 @@ Video (mov, mp4, wmv format) and audio files (wav, mp3 format) can be imported. 
 
 A right-click context menu allows you to view, export, delete a current file. The menu also allow you to re-order the files according to alphabet, date, and file-type and when right clicking in the name or date columns. You can show only selected attribute types, if the right-click occurs in an attribute column.
 
-Filenames cannot be changed once loaded. I suggest applying a brief names to your files. Then add these files into the QualCoder project.
+Filenames can be changed in the database. The original file names of the actual files will not be changed.
 
 The red X button is an option to select multiple files for deletion.
  The question mark '?' opens this help page.
@@ -35,8 +35,6 @@ As a practical example: Open the Manage Files dialog. In the Examples folder imp
 Manage Files > Create text file or View text file. Manage files View Audio/Video (with the transcribed text file shown).
 
 Text files can be edited providing no coding or annotations or case assignment have been performed with the text file. Copying and pasting text from elsewhere (e.g. web page) may show formatting from the copy/paste (e.g. bold, italic, foreground and background colours) until the text file is re-opened.
-
-**Release 2.5 and below:** If the file has already had some coding or annotations assigned, the sections of the text file will be shown underlined in red. Editing text is now restricted to small text selections up to 20 characters. This is achieved by selecting some text then right click and select the edit text option.
 
 **Releases 2.6 and up:** Sections of the text file or audio/video transcribed file will have sections of text underlined in green (case assigned), yellow (annotation) or red (coded). Text can be edited even after the text is coded or annotated or assigned (fully or partially) to a case. 
 
@@ -121,7 +119,7 @@ Language options are entered into the Language box, or might be configured when 
 
 ### Transcriptions that have codes, annotations and / or case-assigned
 
-QualCoder releases 2.6 and up: Sections of the text file or audio/video transcribed file will have sections of text underlined in green (case assigned), yellow (annotation) or red (coded). Text can be edited even after the text is coded or annotated or assigned (fully or partially) to a case. 
+Sections of the text file or audio/video transcribed file will have sections of text underlined in green (case assigned), yellow (annotation) or red (coded). Text can be edited even after the text is coded or annotated or assigned (fully or partially) to a case. 
 
 You can select text that is not underlined and copy/replace without problems. You can click on a position (**without selecting text**) to then type, delete, or paste text. This can occur in underlined (coded, annotated, case-assigned) or not underlined (not coded/annotated/case-assigned) text locations. You will see the underlines shift as text is added or removed.
 
