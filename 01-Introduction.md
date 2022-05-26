@@ -9,7 +9,7 @@ You will need to have a python3.6 or newer version installed and a 64 bit VLC pl
 
 Install  [VLC](https://www.videolan.org/vlc/download-windows.html) or from the Windows Store. 
 
-The 2.9 Release contains an exe file (created on Windows 10, 64 bit). Double-click to run. This does work on older Windows versions (e.g. Win 7).
+The 3.0 Release contains an exe file (created on Windows 10, 64 bit). Double-click to run.
 
 **Alternatively install from source:**
 
@@ -22,9 +22,9 @@ IMPORTANT: in the first window of the installation mark the option "Add Python t
 
 3. Install python modules from command. Type "cmd" in the Windows Start search engine, and click on the black software "cmd.exe" - the command console for Windows. In the console type or paste, using the right-click context menu (ctrl+v does not work) the following:
 
-`py -m pip install wheel pyqt5 lxml Pillow ebooklib ply chardet pdfminer.six openpyxl pydub SpeechRecognition`
+`py -m pip install wheel pyqt6 lxml Pillow ebooklib ply chardet pdfminer.six openpyxl pandas plotly pydub SpeechRecognition`
 
- Wait, until all modules are installed .
+ Wait, until all modules are installed.
  
 4. Build and install Qualcoder. From the command line when in the downloaded folder type:
 
@@ -33,7 +33,7 @@ IMPORTANT: in the first window of the installation mark the option "Add Python t
 The `py` command uses the most recent installed version of python. You can use a specific version on your Windows, if you have many python versions installed, e.g. `py -3.8`  See discussion here: [Difference between py and python](https://stackoverflow.com/questions/50896496/what-is-the-difference-between-py-and-python-in-the-terminal)
 
 5. Run QualCoder from the command line
-Move to the QualCoder-master folder, or (for a release, e.g.) the QualCoder-2.8 folder, then type: 
+Move to the QualCoder-master folder, or (for a release, e.g.) the QualCoder-3.0 folder, then type: 
 
 `py -m qualcoder`
 
@@ -49,7 +49,7 @@ Install venv I am using python3.9 you can choose another recent version if you p
 
 Download and unzip the Qualcoder folder.
 
-Open a terminal and move (cd) into that folder. You should be inside the QualCoder-master folder or if using a release, e.g. the Qualcoder-2.9 folder. Inside the QualCoder-master folder: 
+Open a terminal and move (cd) into that folder. You should be inside the QualCoder-master folder or if using a release, e.g. the Qualcoder-3.0 folder. Inside the QualCoder-master folder: 
 
 `python3.9 -m venv qualcoder`
 
@@ -64,7 +64,7 @@ Upgrade pip before installing the modules:
 
 Install the required python modules:
 
-`pip install lxml ply six pdfminer chardet pyqt5 pillow pdfminer.six openpyxl ebooklib pydub SpeechRecognition`
+`pip install lxml ply six pdfminer chardet pyqt6 pillow pdfminer.six openpyxl ebooklib pandas plotly pydub SpeechRecognition`
 
 Install QualCoder (the dot is important):
 
@@ -76,7 +76,7 @@ To run type
 
 `qualcoder`
 
-After all this is done, you can deactivate to exit the virtual environment. At any time to start QualCoder in the virtual environment, cd to the Qualcoder-master folder (or Qualcoder-2.9 release folder), 
+After all this is done, you can deactivate to exit the virtual environment. At any time to start QualCoder in the virtual environment, cd to the Qualcoder-master folder (or Qualcoder-3.0 release folder), 
 
 Then type: `source qualcoder/bin/activate` 
 
@@ -86,13 +86,13 @@ Then type `qualcoder`
 OLDER instructions below that can affect system installed python modules. It is better to use the virtual environment shown above.
 1. Install  modules from the command line
 
-`sudo apt install python3-pip python3-lxml python3-ply python3-six python3-pdfminer python3-chardet python3-pyqt5 python3-pillow`
+`sudo apt install python3-pip python3-lxml python3-ply python3-six python3-pdfminer python3-chardet python3-pyqt6 python3-pillow`
 
 2. Install additional modules
 
-`sudo python3 -m pip install pdfminer.six openpyxl ebooklib pydub SpeechRecognition`
+`sudo python3 -m pip install pdfminer.six openpyxl ebooklib pandas plotly pydub SpeechRecognition`
 
-3. Building and install QualCoder, from the downloaded folder (Qualcoder-master or a release e.g. QualCoder-2.8) type
+3. Building and install QualCoder, from the downloaded folder (Qualcoder-master or a release e.g. QualCoder-3.0) type
 
 `sudo python3 setup.py install`
 
@@ -107,15 +107,15 @@ Please consider the Debian instructions above to run QualCoder in a virtual envi
 
 1. Install modules from the command line
 
-`sudo pacman -S python python-chardet python-lxml python-openpyxl python-pillow python-ply python-pyqt5 python-pip`
+`sudo pacman -S python python-chardet python-lxml python-openpyxl python-pillow python-ply python-pyqt6 python-pip`
 
 2. Install additional python modules
 
-`sudo python3 -m pip install ebooklib pdfminer.six pydub SpeechRecognition`
+`sudo python3 -m pip install ebooklib pdfminer.six pandas plotly pydub SpeechRecognition`
 
 If success, all requirements are satisfied.
 
-3. Build and install QualCoder, from the downloaded folder (Qualcoder-master or a release e.g. QualCoder-2.8) type
+3. Build and install QualCoder, from the downloaded folder (Qualcoder-master or a release e.g. QualCoder-3.0) type
 
 `sudo python3 setup.py install`
 
@@ -160,10 +160,8 @@ python3 get-pip.py
 
 5) Install Python dependency modules using `pip`:
 
-(you might already have them, don't do this again if you just update QualCoder to a newer version)
-
 ```sh
-pip install pyqt5 lxml pillow six ebooklib ply chardet pdfminer.six openpyxl pydub SpeechRecognition
+pip install pyqt6 lxml pillow six ebooklib ply chardet pdfminer.six openpyxl pandas plotly pydub SpeechRecognition
 ```
 
 6) Install system dependencies using Homebrew (aka `brew`) 
@@ -183,10 +181,10 @@ From the QualCoder-Master directory run the setup script:
 `python3 setup.py install`
 
 
-Assuming you downloaded the 2.8 version. You can now run with:
+Assuming you downloaded the 3.0 version. You can now run with:
 
 ```
-python3 /applications/QualCoder-2.8/qualcoder/__main__.py
+python3 /applications/QualCoder-3.0/qualcoder/__main__.py
 ```
 
 Alternative commands to run QualCoder (Suggestions):
