@@ -1,7 +1,7 @@
 # YouTube videos showing how to use QualCoder
 
 ## QualCoder 2.9
-Installation QualCoder 2.9 (French) [https://www.youtube.com/watch?v=iTnr5vKxdys](https://www.youtube.com/watch?v=iTnr5vKxdys)
+Installation de Qualcoder sur PC (French) [https://www.youtube.com/watch?v=iTnr5vKxdys](https://www.youtube.com/watch?v=iTnr5vKxdys)
 
 ## QualCoder 2.7
 
