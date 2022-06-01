@@ -1,5 +1,8 @@
 # YouTube videos showing how to use QualCoder
 
+## QualCoder 2.9
+Installation QualCoder 2.9 (French) [https://www.youtube.com/watch?v=iTnr5vKxdys](https://www.youtube.com/watch?v=iTnr5vKxdys)
+
 ## QualCoder 2.7
 
 Instalación de Qualcoder 2.7 en Windows 10 con un sólo ejecutable (Portuguese) [https://www.youtube.com/watch?v=6J0IGrhc9kA](https://www.youtube.com/watch?v=6J0IGrhc9kA)  
