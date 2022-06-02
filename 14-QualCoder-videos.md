@@ -3,6 +3,9 @@
 ## QualCoder 2.9
 Installation de Qualcoder sur PC (French) [https://www.youtube.com/watch?v=iTnr5vKxdys](https://www.youtube.com/watch?v=iTnr5vKxdys)
 
+Nouveau projet sur Qualcoder : attributs, importation de documents, arbre hiérarchique (French) [https://www.youtube.com/watch?v=mSUYaLBfRrw](https://www.youtube.com/watch?v=mSUYaLBfRrw)
+
+
 ## QualCoder 2.7
 
 Instalación de Qualcoder 2.7 en Windows 10 con un sólo ejecutable (Portuguese) [https://www.youtube.com/watch?v=6J0IGrhc9kA](https://www.youtube.com/watch?v=6J0IGrhc9kA)  
