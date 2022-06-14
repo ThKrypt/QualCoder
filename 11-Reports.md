@@ -77,15 +77,15 @@ This window shows all the codes and categories and the frequency of use for each
 
 ![Code frequencies report](https://qualcoder.files.wordpress.com/2021/05/code_frequencies.png?resize=450%2C700)
 
-#  Node graph
+#  Graph
 
-A graph of categories and codes is displayed. You can choose all or selected categories.
-
+A graph of categories and codes is displayed. You can choose all or selected categories. 
 Each code or category can be moved around by clicking near the edge of the box and dragging it around. Right-clicking in a code gives a menu of options such as displaying the memo, or displaying all the case or file text that has been coded with the selected code.
+
+In the 3.1 version (not yet released) you can add files, cases, codings, coding memos and free text items to this graph. Graphs can also be saved, loaded and deleted. This means that the graph can be used for coding maps, or concept or mind maps.
 
 ![Node graph](https://qualcoder.files.wordpress.com/2020/08/node-graph.png)
 
-Further changes to this graph are upcoming.
 
 # Code relations
 
