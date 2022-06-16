@@ -62,6 +62,8 @@ Not A and Not B % shows the total of the uncoded text divided by the total chara
 
 Disagree % shows the percentage of all the coded and non-coded text that did not match between coders. It is the same as 100 – the Agree %.
 
+Agree coded only % shows the percentage of all the dual coded text divided by single plus dual coded text. (In version 3.1 +)
+
 Cohen’s Kappa is calculated based on the information in Wikipedia https://en.wikipedia.org/wiki/Cohen%27s_kappa
 
 ![Coder comparison](https://qualcoder.files.wordpress.com/2019/01/coder-comparison.png)
