@@ -3,7 +3,7 @@
 
 The settings dialog allows you to change several features including language, coder name and font type and font size. Multiple coders can code the same text. A new coder name can be entered in the text box. You can choose an existing coder from the drop down box.
 
-The current coder name is 'default' when first using QualCoder. The current coder name is stored in a file in your home directory, rather than in the project folder. When opening another existing project, please make sure the coder name is set to the name you want to use by checking and updating the Settings before you do work on your project.
+The coder name is 'default' when first using QualCoder. When opening another existing project, please make sure the coder name is set to the name you want to use by checking and updating the Settings before you do work on your project.
 
 The default language of QualCoder is English. Currently French, German, Italian, Portuguese and Spanish are alternative languages. These languages have not been thoroughly reviewed for accuracy of translations. When changing a language, you need to close then reopen QualCoder for the change to occur.
 
