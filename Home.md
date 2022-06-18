@@ -36,7 +36,7 @@ The first thing is that QualCoder is not set up to have multiple coders simultan
 
 The QualCoder project folder is a folder with a .qda ending. This folder contains sub-folders of files and a sqlite database file. You can zip the project folder and email (or transfer via removable media) the zipped project to another collaborator for them to work on the project. They unzip the folder, then open the project using QualCoder. 
 
-You can have a second coder use the same file on the same computer, change the name in setting to the new coder's name (enter a new coder name and click the Apply button, or select from the drop down list) so they can work on the project under their name, especially if you need to do a coder comparison.
+You can have a second coder use the same project folder on the same computer, change the name in setting to the new coder's name (enter a new coder name and click the Apply button, or select from the drop down list) so they can work on the project under their name, especially if you need to do a coder comparison.
 
 The coder name may remain the same as before or may be different. Please check this in Files>Settings before doing any work. Codings in code text, code images, code A/V will only show the coded segments of the currently selected coder in Settings. So if **nothing** shows, change the coder name using the drop down box in Settings.
 
