@@ -38,7 +38,7 @@ The QualCoder project folder is a folder with a .qda ending. This folder contain
 
 You can have a second coder use the same project folder on the same computer, change the name in setting to the new coder's name (enter a new coder name and click the Apply button, or select from the drop down list) so they can work on the project under their name, especially if you need to do a coder comparison.
 
-The coder name may remain the same as before or may be different. Please check this in Files>Settings before doing any work. Codings in code text, code images, code A/V will only show the coded segments of the currently selected coder in Settings. So if **nothing** shows, change the coder name using the drop down box in Settings.
+Please check the curernt coder's name in Files>Settings before doing any work. Codings in code text, code images, code A/V will only show the coded segments of the currently selected coder in Settings. So if **nothing** shows, change the coder name using the drop down box in Settings.
 
 The coder name is 'default' when first using QualCoder. When opening another existing project, please make sure the coder name is set to the name you want to use by checking and updating the Settings before you do work on your project. When you are in any of the coding sections (coding text, images or A/V).
 
