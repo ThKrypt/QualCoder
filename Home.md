@@ -34,7 +34,7 @@ QualCoder is written in python 3 (version 3.6 and up) using Qt6 for the graphica
 I get a few questions on how project collaboration works. So I have added this information on the first page of the wiki.
 The first thing is that QualCoder is not set up to have multiple coders simultaneously working on  project. One person at a time must open the project and use the project.
 
-The QualCoder project folder is a folder with a .qda ending. This folder contains sub-folders of files and a sqlite database file. You can zip the project folder and email (or transfer via removable media) it to another collaborator for them to work on it. They unzip the folder, then open the project using QualCoder. 
+The QualCoder project folder is a folder with a .qda ending. This folder contains sub-folders of files and a sqlite database file. You can zip the project folder and email (or transfer via removable media) the zipped project to another collaborator for them to work on the project. They unzip the folder, then open the project using QualCoder. 
 
 You can have a second coder use the same file on the same computer, change the name in setting to the new coder's name (enter a new coder name and click the Apply button, or select from the drop down list) so they can work on the project under their name, especially if you need to do a coder comparison.
 
