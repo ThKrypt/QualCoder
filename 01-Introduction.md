@@ -7,7 +7,7 @@ You will need to have a python3.6 or newer version installed and a 64 bit VLC pl
 
 ### Windows
 
-Install  [VLC]https://www.videolan.org/vlc/) or from the Windows Store. 
+Install  [VLC](https://www.videolan.org/vlc/) or from the Windows Store. 
 
 The 3.0 Release contains an exe file (created on Windows 10, 64 bit). Double-click to run.
 
