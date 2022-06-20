@@ -44,5 +44,7 @@ The coder name is 'default' when first using QualCoder. When opening another exi
 
 Do not use REFi-QDA Project export as a routine approach for collaboration when all coders are using QualCoder. Use the above approach instead. If you need to use open a project in different software (e.g. Taguette, NVivo, Atlas.ti, MAXQDA, Dedoose, Quirkos), only then you should use the REFI-QDA Project export. It is important to recognise that project features can be lost when transferring project between qualitative software using the REFI-QDA Project export.
 
+21 June 2022 - I have stopped anyone from editing wikipages. Potential risks there.
+
 
 
