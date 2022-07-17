@@ -8,6 +8,7 @@ You can right-click on a numeric attribute to convert to Character.
 The only options for attributes are numeric and character. There are no options for boolean, date or time or specific numeric types such as integer.  However, if you are running SQL queries you may need to cast the numeric attribute to an Integer or Real: cast(my_var as integer).
 
 Attributes to cases can be added in the Manage Cases section by clicking on the blue Plus button. Attributes to files can be added in the Manage Files section by clicking on he blue Plus button.
+![Add attribute to files](https://qualcoder.files.wordpress.com/2022/07/add_file_attribute.png?resize=219%2C219)
 
 Attributes can be imported from a survey, and also from an REFI-QDA project file (REFI-QDA is experimental).
 
