@@ -6,7 +6,7 @@ The following image files formats can be loaded: jpg, jpeg and png.
 
 You can create and enter text into a file stored in the database, by pressing the Create pencil icon. 
 
-If you import really large text files, when coding QualCoder can split he files into 50,000 character chunks to reduce the slowness of the program. The best option when importing large text files is to split them into separate sections and load those smaller sections instead. Give each filename some ordered logic too, e.g. book_chap01.txt, book_chap02.txt.
+If you import really large text files, when coding QualCoder can split the files into 50,000 character chunks to reduce the slowness of the program. The best option when importing large text files is to split them into separate sections and load those smaller sections as separate files instead. Give each filename some ordered logic too, e.g. book_chap01.txt, book_chap02.txt.
 
 There are a few sample files in the Examples folder. These can be used to test importing files of different document formats and of importing an image. There are also example files to test importing case attributes, and for importing a survey.
 
