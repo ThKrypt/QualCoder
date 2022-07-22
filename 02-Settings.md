@@ -20,7 +20,7 @@ Rename or move to another location particular backups that you need to keep. Whe
 The default project directory is where many file operations will default to, for export or looking to import files.
 
 
-![settings dialog](https://qualcoder.files.wordpress.com/2021/05/settings.png?resize=400%2C400)
+![settings dialog](https://qualcoder.files.wordpress.com/2022/07/settings.png?resize=400%2C400)
 
 #  Create a new project
 
