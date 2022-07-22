@@ -32,7 +32,7 @@ Create a new project under the ‘Project’ menu, call it test. The project wil
 
 Under the Project menu click on Project memo. This is where you can put notes about your overall project.
 
-The Action Log tab displays various changes that are made when using QualCoder. The main window has a menu bar at the top full of options. There are four tabs for: _action log_, _manage_, _reports_ and _coding_ (text coding shown below).
+The Action Log tab displays various changes that are made when using QualCoder. The main window has a menu bar at the top full of options. There are four tabs for: _action log_, _manage_, _reports_ and _coding_ (coding shown below). Switching directly between tabs is genrall OK. But if you are changing/editing/deleting files or changing codes/code categories in the coding area, it is better to refresh each tab by selecting an option in the Menu. For example, changing files in Manage files , then doing coding or reports - select an option in the Menu for coding or report, rather than clicking directly on the tab for coding or reports.
 
 ![Main screen, action log tab](https://qualcoder.files.wordpress.com/2022/07/main_page.png)   
 
