@@ -48,6 +48,7 @@ _When cases are selected, another pane is displayed showing a table of cases (in
 * Check box to add summary statistics to the report.
 * Matrix options. So have codes/categories by file or by case. The matrix can be transposed, using the check box.
 * Check box for coding in context for coded text segments. This shows the surrounding 250 characters of text to help put the coded section in context in the report. The coded text segment is shown in bold.
+* Memo display. A drop down box gives options to include no memos, various memo option, or to display text file annotations for selected text files.
 
 #  Coding Comparison
 This option shows the overall similarities and differences between two coders across all text files. Select two coders and click the run comparisons button. The statistics created here are only for coded text, not coded image nor media files. 
