@@ -12,7 +12,7 @@ This dialog gives a list of coded text based on your selections. One or more cod
 
 The Search button (Button containing cogs) will present the results.
 
-![Coding report](https://qualcoder.files.wordpress.com/2022/07/reports_codings.png?resize=600%2C300)
+![Coding report](https://qualcoder.files.wordpress.com/2022/07/reports_codings.png)
 
 _Coding report showing results of coded text and images, in dark mode_
 
