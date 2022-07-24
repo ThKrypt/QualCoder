@@ -14,7 +14,7 @@ The Search button (Button containing cogs) will present the results.
 
 ![Coding report](https://qualcoder.files.wordpress.com/2022/07/reports_codings.png)
 
-_Coding report showing results of coded text and images, in dark mode_
+_Coding report showing results of coded text_
 
 Coding results can be narrowed down by using the File selection, Case selection or Attribute selection buttons. Only codings within the selected files or cases will be presented. When case selections are used, file selections are ignored. Also when file selections are used, case selections are ignored. 
 
