@@ -26,7 +26,7 @@ In the Speech to text dialog, select your online speech to text service of choic
 
 * Ctrl R and Alt R are shortcuts to rewind 5 or 30 seconds
 * Alt F will forward 30 seconds
-* Ctrl P will stop/start (play/pause)
+* Ctrl P or Ctrl D will stop/start (play/pause). When resuming the audio/video rewinds one second.
 * Ctrl S will start/end A/V segment creation (QualCoder 3.1 and newer).
 * Ctrl Shift < will slow play rate down to a minimum of 0.1
 * Ctrl Shift > will increase play rate up to two times.
