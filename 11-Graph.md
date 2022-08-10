@@ -6,6 +6,6 @@ Each code or category can be moved around by clicking near the edge of the box a
 
 Right-clicking on a line allows you to change the thickness, change to dotted line style or change the line colour. This might be useful for emphasis. Right-clicking on empty space allows you to add free text boxes, files text boxes, and case text boxes., and also to insert extra lines between components.
 
-Coded text, image and av segments can be shown. Memos of coded text, image and av segments can be shown in text boxes. Each of these has tooltips to give more information.
+Coded text, coded images and coded A/V segments can be shown. Memos of coded text, coded image and coded A/V segments can be shown in text boxes. Each of these has tooltips to give more information. You cannot display the same coded segment multiple times in the graph.
 
 Graphs can be saved, loaded and deleted. Graphs can be exported as png files.
