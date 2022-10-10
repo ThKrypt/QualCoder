@@ -4,12 +4,12 @@ The qda data folder contains folders for imported documents, images and audio an
 
 QualCoder creates QualCoder.log and QualCoder_settings.txt files in a .qualcoder folder in your home directory. The settings file contains the name of the current coder, a default working directory and choice of font. The log file records program errors and some user actions.
 
-QualCoder is written in python 3(minimum 3.6 version) using Qt5 for the graphical interface.
+QualCoder is written in python 3(minimum 3.6 version) using Qt6 for the graphical interface.
 
 
 # Future plans
 
-Currently QualCoder is developed on Ubuntu 20.04 and Windows 10. Some user has used Qualcoder on Linux Mint, Lubuntu, Fedora, Manjaro/Arch Raspberry Pi, and on MacOS. Further testing may be required on these platforms.
+Currently QualCoder is developed on Ubuntu 22.04 and Windows 10. Some user has used Qualcoder on Linux Mint, Lubuntu, Fedora, Manjaro/Arch Raspberry Pi, and on MacOS. Further testing may be required on these platforms.
 
 In Windows, reports exported in ODT format are okay, but some images may overlap when the ODT file opened with Microsoft Word rather than opened with LibreOffice.
 
@@ -20,9 +20,7 @@ Some potential plans for the future are to add functionality:
 ## Reports: 
 
 **Look at alternative ways to visualise codes:**
-* Maybe word clouds, but I do not think they are very informative
 * Display code frequency in a comparative way - e.g. compare female versus males for the code frequencies using bar charts or other plots
-* Improve Graph functionality
 
 **Look at timeline reporting:**
 * Maybe add in a way to display coding from documents in a timeline - drawing from a file data attribute that is created by the end user.
