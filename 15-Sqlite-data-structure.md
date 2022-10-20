@@ -244,6 +244,6 @@ If the mediapath begins with: 'images:' , 'audio:', 'video:' the image, audio or
 
 **ssql** _text_  The user generated sql.
 
-* Graph visualisation tables
+# Graph visualisation tables
 
 TODO - TO ADD TABLES FOR THE GRAPH VISUALISATION
