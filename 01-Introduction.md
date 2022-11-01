@@ -3,13 +3,13 @@
 ## INSTALLATION 
 
 ### Prerequisites
-You will need to have a python3.6 or newer version installed and a 64 bit VLC player installed. Optionally, install ffmpeg for speech to text and waveform display.
+You will need to have a python3.7 or newer version installed and a 64 bit VLC player installed. Optionally, install ffmpeg for speech to text and waveform display.
 
 ### Windows
 
 Install  [VLC](https://www.videolan.org/vlc/) or from the Windows Store. 
 
-The 3.0 Release contains an exe file (created on Windows 10, 64 bit). Double-click to run.
+The 3.1 Release contains an exe file (created on Windows 10, 64 bit). Double-click to run.
 
 **Alternatively install from source:**
 
@@ -17,7 +17,7 @@ Consider using a virtual environment, using venv.
 
 1. Download the QualCoder software from: [https://github.com/ccbogel/QualCoder](https://github.com/ccbogel/QualCoder). This is the newest, but not yet officially released code. Alternatively, choose the most recent release and download the zip. For the latest code, click the green button "Code", and then "Download ZIP". Then, unpack the file in a selected place (e.g. desktop).
 
-2. Download and install the Python programming language. The minimum version for QualCoder is 3.6.  [Python3](https://www.python.org/downloads/). Download the file (at the bottom of the web site) "Windows installer (64-bit)"
+2. Download and install the Python programming language. The minimum version for QualCoder is 3.7.  [Python3](https://www.python.org/downloads/). Download the file (at the bottom of the web site) "Windows installer (64-bit)"
 IMPORTANT: in the first window of the installation mark the option "Add Python to PATH"
 
 3. Install python modules from command. Type "cmd" in the Windows Start search engine, and click on the black software "cmd.exe" - the command console for Windows. In the console type or paste, using the right-click context menu (ctrl+v does not work) the following:
@@ -30,7 +30,7 @@ IMPORTANT: in the first window of the installation mark the option "Add Python t
 
 `py -m pip install .`
 
-The `py` command uses the most recent installed version of python. You can use a specific version on your Windows, if you have many python versions installed, e.g. `py -3.8`  See discussion here: [Difference between py and python](https://stackoverflow.com/questions/50896496/what-is-the-difference-between-py-and-python-in-the-terminal)
+The `py` command uses the most recent installed version of python. You can use a specific version on your Windows, if you have many python versions installed, e.g. `py -3.10`  See discussion here: [Difference between py and python](https://stackoverflow.com/questions/50896496/what-is-the-difference-between-py-and-python-in-the-terminal)
 
 5. Run QualCoder from the command line
 Move to the the same drive, it does not have to be the same folder, then type: 
@@ -43,15 +43,15 @@ Alternately, run by double-click. Open the QualCoder-master\qualcoder folder. Do
 
 It is best to run QualCoder inside a python virtual environment, so that the system installed python modules do not clash and cause problems. I have added the additional code to do this here.
 
-Install venv I am using python3.9 you can choose another recent version if you prefer. 
+Install venv I am using python3.10 you can choose another recent version if you prefer. 
 
-`sudo apt install python3.9-venv`
+`sudo apt install python3.10-venv`
 
 Download and unzip the Qualcoder folder.
 
 Open a terminal and move (cd) into that folder. You should be inside the QualCoder-master folder or if using a release, e.g. the Qualcoder-3.0 folder. Inside the QualCoder-master folder: 
 
-`python3.9 -m venv qualcoder`
+`python3.10 -m venv qualcoder`
 
 Activate venv, this changes the command prompt display using (brackets): (qualcoder) 
 Note: To exit venv type deactivate 
