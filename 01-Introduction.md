@@ -22,7 +22,7 @@ IMPORTANT: in the first window of the installation mark the option "Add Python t
 
 3. Install python modules from command. Type "cmd" in the Windows Start search engine, and click on the black software "cmd.exe" - the command console for Windows. In the console type or paste, using the right-click context menu (ctrl+v does not work) the following:
 
-`py -m pip install chardet ebooklib ffmpeg-python lxml openpyxl pandas pyqt6 Pillow ply pdfminer.six plotly pydub python-vlc SpeechRecognition wheel`
+`py -m pip install chardet ebooklib lxml openpyxl pandas pyqt6 Pillow ply pdfminer.six plotly pydub python-vlc SpeechRecognition wheel`
 
  Wait, until all modules are installed.
  
@@ -64,7 +64,7 @@ Upgrade pip before installing the modules:
 
 Install the required python modules:
 
-`pip install chardet ebooklib ffmpeg-python lxml openpyxl pandas ply pdfminer pyqt6 pillow pdfminer.six plotly pydub python-vlc six SpeechRecognition`
+`pip install chardet ebooklib lxml openpyxl pandas ply pdfminer pyqt6 pillow pdfminer.six plotly pydub python-vlc six SpeechRecognition`
 
 Install QualCoder (the dot is important):
 
@@ -88,7 +88,7 @@ OLDER instructions below that can affect system installed python modules. It is 
 
 2. Install additional modules
 
-`sudo python3 -m pip install ebooklib ffmpeg-python openpyxl pandas pdfminer.six plotly pydub python-vlc SpeechRecognition`
+`sudo python3 -m pip install ebooklib openpyxl pandas pdfminer.six plotly pydub python-vlc SpeechRecognition`
 
 3. Building and install QualCoder, from the downloaded folder (Qualcoder-master or a release e.g. QualCoder-3.1) type
 
@@ -109,7 +109,7 @@ Please consider the Debian instructions above to run QualCoder in a virtual envi
 
 2. Install additional python modules
 
-`sudo python3 -m pip install ebooklib ffmpeg-python pdfminer.six pandas plotly pydub python-vlc SpeechRecognition`
+`sudo python3 -m pip install ebooklib pdfminer.six pandas plotly pydub python-vlc SpeechRecognition`
 
 If success, all requirements are satisfied.
 
@@ -159,7 +159,7 @@ python3 get-pip.py
 5) Install Python dependency modules using `pip`:
 
 ```sh
-pip install pyqt6 chardet ebooklib ffmpeg-python lxml pillow ply pdfminer.six openpyxl pandas plotly pydub python-vlc six SpeechRecognition
+pip install pyqt6 chardet ebooklib lxml pillow ply pdfminer.six openpyxl pandas plotly pydub python-vlc six SpeechRecognition
 ```
 
 6) Install system dependencies using Homebrew (aka `brew`) 
