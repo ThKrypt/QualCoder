@@ -27,9 +27,11 @@ Some potential plans for the future are to add functionality:
 
 ## General:
 
-* Possibly use Qt Multimedia to play A/V rather than rely on the installation of VLC.
+* Make Qualcoder work for text/image coding if VLC is not installed.
 
 * Multi-language support - review of existing translations needed
+
+* Maybe import RIS bibliography data for files.
 
 * Improve REFI-QDA open standard for import and export to other software. Codebook import and export seems OK. Project import and export seems OK but I would still say it is experimental. To review: A/V coded segments, AV sync-points.
 
