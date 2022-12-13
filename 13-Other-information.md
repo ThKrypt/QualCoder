@@ -27,20 +27,14 @@ Some potential plans for the future are to add functionality:
 
 ## General:
 
-* Make Qualcoder work for text/image coding if VLC is not installed.
-
 * Multi-language support - review of existing translations needed
-
-* Maybe import RIS bibliography data for files.
 
 * Improve REFI-QDA open standard for import and export to other software. Codebook import and export seems OK. Project import and export seems OK but I would still say it is experimental. To review: A/V coded segments, AV sync-points.
 
 
 #  About the author
 
-Hello, I have many interests including computer programming and research. I completed a PhD in 2014. When doing my PhD I used R as the statistics program of choice. This is where my interest in qualitative data analysis and the use of RQDA came from, which ultimately led to this project.
-
-Originally when doing my PhD I analysed qualitative survey data via a thematic approach using RQDA. I then thought this could be reproduced in Python, so I wrote an earlier version called PyQDA which worked OK at the time.
+Hello, I have many interests including computer programming and research.
 
 I thought I would share QualCoder in the hope that it may help others. Software bugs are possible and functionality could be further extended. I also generally work on Linux machines, and sometimes Windows, so this software probably needs further tweaking for best use on Windows. I work on the programming for this in my spare time, it is not my full time job for me.
 
