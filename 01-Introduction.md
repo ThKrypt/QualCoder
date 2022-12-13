@@ -41,7 +41,9 @@ Alternately, run by double-click. Open the QualCoder-master\qualcoder folder. Do
 
 ### Debian/Ubuntu Linux
 
-It is best to run QualCoder inside a python virtual environment, so that the system installed python modules do not clash and cause problems. I have added the additional code to do this here.
+There is an executable file in the releases page for Ubuntu 22.04 for the 3.1 release. Download and double click to run.
+
+Alternatively, run QualCoder inside a python virtual environment, so that the system installed python modules do not clash and cause problems. I have added the additional code to do this here.
 
 Install venv I am using python3.10 you can choose another recent version if you prefer. 
 
