@@ -83,24 +83,6 @@ Then type: `source qualcoder/bin/activate`
 Then type `qualcoder`
 
 
-OLDER instructions below that can affect system installed python modules. It is better to use the virtual environment shown above.
-1. Install  modules from the command line
-
-`sudo apt install python3-pip python3-lxml python3-ply python3-six python3-pdfminer python3-chardet python3-pyqt6 python3-pillow`
-
-2. Install additional modules
-
-`sudo python3 -m pip install ebooklib openpyxl pandas pdfminer.six plotly pydub python-vlc SpeechRecognition`
-
-3. Building and install QualCoder, from the downloaded folder (Qualcoder-master or a release e.g. QualCoder-3.1) type
-
-`sudo python3 -m pip install .`
-
-4. To run type
-
-`qualcoder`
-
-
 ### Arch/Manjaro Linux
 
 Please consider the Debian instructions above to run QualCoder in a virtual environment.
@@ -145,7 +127,7 @@ Fedora uses wayland with does not work well with the Qt graphical interface (for
 
 1) Install recent versions of [Python3](https://www.python.org/downloads/) and [VLC](https://www.videolan.org/vlc/).
 
-2) Download the latest release "Source code" version in ZIP format, from the releases section of the project here on Github: https://github.com/ccbogel/QualCoder/releases/tag/2.8 and extract it into /Applications
+2) Download the latest release "Source code" version in ZIP format, from the releases section of the project here on Github: https://github.com/ccbogel/QualCoder/releases/tag/3.1 and extract it into /Applications
 
 3) Open the Terminal app (or any other command shell)
 
