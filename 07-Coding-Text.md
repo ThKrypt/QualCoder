@@ -92,9 +92,7 @@ You can also right-click on a code and select change start position or change en
 
 * Shortcut i. Press i when on a coded section to mark that code as important. Useful for identifying exemplars. Important marks can be removed by right-click and selecting Remove important mark. Important marked codes are bolded.
 
-* Ctrl E. Enter and exit text edit mode. (Deprecated, version 2.9 and up, a button to enter and exit text mode).
-
-* Ctrl Z. (QC 2.9) Restores the last coding that was unmarked.
+* Ctrl Z. Restores the last coding that was unmarked.
 
 ## Search text
 
