@@ -142,7 +142,6 @@ To reduce the number of codes shown in the code tree. In the coding windows (cod
 In the codes tree on the left, right clicking on a code opens a context menu for various options.
 One option is Show coded files - this shows everywhere you have coded with the selected code. Clicking on a particular coded section will open that code in the original context for further insight.
 
-[YouTube Video QualCoder 2.7 - Coding Text](https://www.youtube.com/watch?v=-8LnXfcM0cw&t=0s)
 
 
 
