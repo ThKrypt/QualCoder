@@ -44,4 +44,3 @@ You can import attributes from a CSV or XLSX file. The first row must contain th
 
 For this example – delete all the cases shown. Then, import the attributes from the cases.csv file through the Import Attributes dialog. You will again need to link the files and file text to each case.
 
-[YouTube QualCoder 2.7 - Settings, files, cases, journals](https://www.youtube.com/watch?v=plwGHLw3Q2U)
