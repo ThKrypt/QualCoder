@@ -54,7 +54,7 @@ You can open an audio or video file to view. for video, this opens two windows, 
 The transcribed text file is created and stored within the database, and can be exported to a text file. The file can be edited.  **Important note: The edits occur within the database. An original text file is NOT changed. Transcriptions cannot be linked as an external file. Transcription files can be exported as text files.** 
 
 
-If you have a .srt file (a translation file that is read by VLC) you can place this alongside the video inside the project folder, in the video folder, shown in the image below. When the video is played, the translation wording will be shown as subtitles in the video. Also, if you open the .srt file in a text editor, copy and paste this into the video.mp4.transcribed text file. (version 2.7 and below. In 2.8 and above it would be video.mp4.txt) Then this text will be shown as the transcription for the video. 
+If you have a .srt file (a translation file that is read by VLC) you can place this alongside the video inside the project folder, in the video folder, shown in the image below. When the video is played, the translation wording will be shown as subtitles in the video. Also, if you open the .srt file in a text editor, copy and paste this into the video.mp4.transcribed text file. Then this text will be shown as the transcription for the video. 
 
 ![Audio Video viewing dialog](https://qualcoder.files.wordpress.com/2020/12/viewav3.png)
 
@@ -113,7 +113,7 @@ Ctrl 1 to 8	Insert speaker name in this format: [name]
 
 ### Speech to text
 
-QualCoder 2.9 and and newer versions a Speech to text function is included. The [ffmpeg](https://www.ffmpeg.org/) software must be installed for this to work. When an audio or video file is added to the QualCoder project an empty transcription file is created. The cogs button activates this function, but only if there is no text entered into the transcription file. First, open (view) the audio/video from Manage Files.
+QualCoder has a speech to text function. The [ffmpeg](https://www.ffmpeg.org/) software must be installed for this to work. When an audio or video file is added to the QualCoder project an empty transcription file is created. The cogs button activates this function, but only if there is no text entered into the transcription file. First, open (view) the audio/video from Manage Files.
 
 Speech to text allows use of several online third-party services. Most require sign up. Google does not but is limited to 50 requests of the service per day (e.g. 50 x 1 minute audio segments). QualCoder converts the audio file into 30 or 60 second chunks and adds a timestamp for each of these. Each chunk is provided to the online service which then takes a few second to convert to text.
 
@@ -127,5 +127,4 @@ You can select text that is not underlined and copy/replace without problems. Yo
 
 **There are some limitations: It is best to avoid selecting sections of text to delete (or to type or paste over) if those sections have a combination of not underlined (not coded/annotated/case-assigned) and underlined (coded, annotated, case-assigned). The reason is that positions of the underlying codes/annotations/case-assigned may not correctly match as intended. If you have made a change that you think has affected these coded/annotated/case-assigned positions badly, exit the text editing window by pressing the Cancel button.**
 
-[YouTube QualCoder 2.7 - Settings, files, cases, journals](https://www.youtube.com/watch?v=plwGHLw3Q2U)
 
