@@ -30,49 +30,54 @@ In the command prompt, move (using the cd command) into the QualCoder folder. Yo
 `cd Downloads\QualCoder-master`
 
 Install and activate the virtual environment. This step can be skipped, but I recommend you do not skip it.
-pip install virtualenv
+
+`pip install virtualenv`
 
 Create a virtual environment called env.
 
-virtualenv env
+`virtualenv env`
 
 Activate the virtual environment, this changes the command prompt display using (brackets): (env)
 
-env\Scripts\activate.bat
+`env\Scripts\activate.bat`
 
 Install python modules. Type the following:
-py -m pip install --upgrade pip
 
-py -m pip install wheel pyqt6 chardet ebooklib lxml openpyxl Pillow ply pdfminer.six pandas plotly pydub python-vlc rispy SpeechRecognition
+`py -m pip install --upgrade pip`
+
+`py -m pip install wheel pyqt6 chardet ebooklib lxml openpyxl Pillow ply pdfminer.six pandas plotly pydub python-vlc rispy SpeechRecognition`
 
 Wait, until all modules are installed .
 
-Install Qualcoder, from the downloaded folder type
-py -m pip install .
+Install Qualcoder, from the downloaded folder type:
+
+`py -m pip install .`
 
 The py command uses the most recent installed version of python. You can use a specific version on your Windows, if you have many python versions installed, e.g. py -3.10 See discussion here: [Difference between py and python](https://stackoverflow.com/questions/50896496/what-is-the-difference-between-py-and-python-in-the-terminal)
 
-Run QualCoder from the command prompt
-py -m qualcoder
+Run QualCoder from the command prompt:
+
+`py -m qualcoder`
 
 If running QualCoder in a virtual environment, to exit the virtual environment type:
-deactivate
+
+`deactivate`
 
 The command prompt will then remomove the (env) wording.
 
-To start QualCoder again
+To start QualCoder again:
 
 If you are not using virtual environment, as long as you are in the same drive letter, eg C:
 
-py -m qualcoder
+`py -m qualcoder`
 
 If you are using a virtual environment:
 
-cd to the Qualcoder-master (or Qualcoder release folder), then type:
+`cd` to the Qualcoder-master (or Qualcoder release folder), then type:
 
-env\Scripts\activate.bat 
+`env\Scripts\activate.bat`
 
-py -m qualcoder
+`py -m qualcoder`
 
 Note: 8 Dec 2022 - lxml may not install on python version 3.11 until a bug in lxml is fixed. Ignore errors related to this. lxml is only used to validate REFI-QDA data files.
 
