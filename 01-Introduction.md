@@ -3,42 +3,78 @@
 ## INSTALLATION 
 
 ### Prerequisites
-You will need a 64 bit VLC player installed for all versions up to version 3.1. For versions 3.2 and newer, VLC is optional, but you will need it installed if you need to do any audio/video coding.
+You will need a 64 bit VLC player installed for all versions up to version 3.1. For versions 3.2 and newer, VLC is optional, but you will need it installed if you need to do any audio/video coding. [VLC](https://www.videolan.org/vlc/)
 Optionally, install ffmpeg for speech to text and waveform display.
 
 ### Windows
 
-Install  [VLC](https://www.videolan.org/vlc/) or from the Windows Store. 
+**Use the exe**
 
-The 3.1 Release contains an exe file (created on Windows 10, 64 bit). Double-click to run.
+Current releases contain an exe file (created on Windows 10, 64 bit). Double-click to run.
 
-**Alternatively install from source:**
+**Alternatively install from source**
 
-Consider using a virtual environment, using venv.
+Seriously consider using a virtual environment (commands in point 6 below). Not using a virtual environment may affect other python software you may have installed.
 
-1. Download the QualCoder software from: [https://github.com/ccbogel/QualCoder](https://github.com/ccbogel/QualCoder). This is the newest, but not yet officially released code. Alternatively, choose the most recent release and download the zip. For the latest code, click the green button "Code", and then "Download ZIP". Then, unpack the file in a selected place (e.g. desktop).
-
-2. Download and install the Python programming language. The minimum version for QualCoder is 3.7.  [Python3](https://www.python.org/downloads/). Download the file (at the bottom of the web site) "Windows installer (64-bit)"
+Download and install the Python programming language. The minimum version for QualCoder is 3.7. I recommend 3.10 for now. [Python3](https://www.python.org/downloads/). Download the file (at the bottom of the web site) "Windows installer (64-bit)"
 IMPORTANT: in the first window of the installation mark the option "Add Python to PATH"
 
-3. Install python modules from command. Type "cmd" in the Windows Start search engine, and click on the black software "cmd.exe" - the command console for Windows. In the console type or paste, using the right-click context menu (ctrl+v does not work) the following:
+Download the QualCoder software from: https://github.com/ccbogel/QualCoder from the Green Code button. This is the newest, but not yet officially released code. Click the green button "Code", and then "Download ZIP". Alternatively, choose the most recent release zip, see right hand side of this page for the link to Releases.
 
-`py -m pip install chardet ebooklib lxml openpyxl pandas pyqt6 Pillow ply pdfminer.six plotly pydub python-vlc SpeechRecognition wheel`
+Unzip the folder to a location (e.g. downloads). (Tip, remove the doubled up folder extraction QualCoder-master\QualCoder-master when asked where to extract. Just QualCoder-master).
 
- Wait, until all modules are installed.
- 
-4. Build and install Qualcoder. From the command line when in the downloaded folder type:
+Use the Windows command prompt. Type "cmd" in the Windows Start search engine, and click on the black software "cmd.exe" - the command console for Windows. In the console type or paste, using the right-click mouse copy and paste (ctrl+v does not work)
 
-`py -m pip install .`
+In the command prompt, move (using the cd command) into the QualCoder folder. You should be inside the QualCoder-master folder or if using a release (the Qualcoder-3.1 folder). e.g.
 
-The `py` command uses the most recent installed version of python. You can use a specific version on your Windows, if you have many python versions installed, e.g. `py -3.10`  See discussion here: [Difference between py and python](https://stackoverflow.com/questions/50896496/what-is-the-difference-between-py-and-python-in-the-terminal)
+`cd Downloads\QualCoder-master`
 
-5. Run QualCoder from the command line
-Move to the the same drive, it does not have to be the same folder, then type: 
+Install and activate the virtual environment. This step can be skipped, but I recommend you do not skip it.
+pip install virtualenv
 
-`py -m qualcoder`
+Create a virtual environment called env.
 
-Alternately, run by double-click. Open the QualCoder-master\qualcoder folder. Double-click the \_\_main\_\_.py file to run. You can make a shortcut to this file and keep the shortcut on the desktop.
+virtualenv env
+
+Activate the virtual environment, this changes the command prompt display using (brackets): (env)
+
+env\Scripts\activate.bat
+
+Install python modules. Type the following:
+py -m pip install --upgrade pip
+
+py -m pip install wheel pyqt6 chardet ebooklib lxml openpyxl Pillow ply pdfminer.six pandas plotly pydub python-vlc rispy SpeechRecognition
+
+Wait, until all modules are installed .
+
+Install Qualcoder, from the downloaded folder type
+py -m pip install .
+
+The py command uses the most recent installed version of python. You can use a specific version on your Windows, if you have many python versions installed, e.g. py -3.10 See discussion here: [Difference between py and python](https://stackoverflow.com/questions/50896496/what-is-the-difference-between-py-and-python-in-the-terminal)
+
+Run QualCoder from the command prompt
+py -m qualcoder
+
+If running QualCoder in a virtual environment, to exit the virtual environment type:
+deactivate
+
+The command prompt will then remomove the (env) wording.
+
+To start QualCoder again
+
+If you are not using virtual environment, as long as you are in the same drive letter, eg C:
+
+py -m qualcoder
+
+If you are using a virtual environment:
+
+cd to the Qualcoder-master (or Qualcoder release folder), then type:
+
+env\Scripts\activate.bat 
+
+py -m qualcoder
+
+Note: 8 Dec 2022 - lxml may not install on python version 3.11 until a bug in lxml is fixed. Ignore errors related to this. lxml is only used to validate REFI-QDA data files.
 
 ### Debian/Ubuntu Linux
 
