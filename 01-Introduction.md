@@ -3,8 +3,7 @@
 ## INSTALLATION 
 
 ### Prerequisites
-You will need a 64 bit VLC player installed for all versions up to version 3.1. For versions 3.2 and newer, VLC is optional, but you will need it installed if you need to do any audio/video coding. [VLC](https://www.videolan.org/vlc/)
-Optionally, install ffmpeg for speech to text and waveform display.
+You will need a 64 bit [VLC](https://www.videolan.org/vlc/)player installed for all versions up to version 3.1. For versions 3.2 and newer, VLC is optional, but you will need it installed if you need to do any audio/video coding. Optionally, install ffmpeg for speech to text and waveform display, see https://phoenixnap.com/kb/ffmpeg-windows..
 
 ### Windows
 
