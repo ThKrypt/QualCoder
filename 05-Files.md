@@ -119,6 +119,8 @@ Speech to text allows use of several online third-party services. Most require s
 
 Language options are entered into the Language box, or might be configured when you signed up to a service such as Houndify or Wit.ai. Language options are entered as text in format like: en-US, fr-FR, de-DE, es-ES, pt-PT, pt-BR.
 
+Speech to text uses ffmpeg to split audio into 30 or 60 second chunks. This process seems to be a lot slower on Windows than on Linus. If it is too slow for you, use an alternative online service directly rather than using QualCoder itself to connect to online services.
+
 ### Transcriptions that have codes, annotations and / or case-assigned
 
 Sections of the text file or audio/video transcribed file will have sections of text underlined in green (case assigned), yellow (annotation) or red (coded). Text can be edited even after the text is coded or annotated or assigned (fully or partially) to a case. 
