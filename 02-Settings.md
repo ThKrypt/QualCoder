@@ -9,7 +9,7 @@ The default language of QualCoder is English. Currently French, German, Italian,
 
 Checking the Show IDs box displays the numeric IDs for codes files cases and more. These IDs may be useful when writing sql queries.
 
-Checking the Dark mode box, changes the overall look of QualCoder from dark text on a light background, to light text on a dark background.
+There area few options to change the overall look of QualCoder.
 
 For transcribing audio and video, the time format and bracket type can be selected.
 
