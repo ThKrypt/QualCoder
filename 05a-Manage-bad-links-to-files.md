@@ -4,4 +4,4 @@ The Mange bad links feature allows you to edit the existing link and replace it 
 
 If you are importing an REFI-QDA project with external links, you will likely need to update the links to files using this function.
 
-There is an automated search that looks through the user's home directory for up to 2 matching file names. This intended to speed up finding the link to files where the link is currently pointing to nothing.
+There might be a couple of seconds delay. There is an automated search that looks through the user's home directory for up to 2 matching file names. This intended to speed up finding the link to files where the link is currently pointing to nothing.
