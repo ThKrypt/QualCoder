@@ -26,7 +26,7 @@ Important coded areas, such as exemplars for a report, can be flagged Important 
 
 ## Export
 
-The image with coded areas can be exported to an html file. After opening the file in a browser, mouse hover over ocded areas shows the code name and memos.
+The image with coded areas can be exported to an html file. After opening the file in a browser, mouse hover over coded areas shows the code name and memos.
 
 #  Categories and codes
 
