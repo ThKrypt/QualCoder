@@ -111,10 +111,15 @@ Pie, Bar, Sunburst and Treemap charts can be created.
 
 Heatmaps of files or cases against codes can be created. These are limited to 40 rows and columns for quicker rendering and better visibility.
 
+_Chart selections_
+
 ![Chart selection](https://qualcoder.files.wordpress.com/2023/01/chart_selection.png)
-Chart selection options
+
+_Bar chart_
 
 ![Bar chart](https://qualcoder.files.wordpress.com/2022/04/pic11.png)
+
+_Sunburst chart_
 
 ![Sunburst chart](https://qualcoder.files.wordpress.com/2022/04/pic10.png)
 
