@@ -105,13 +105,18 @@ Click on a code to get a summary of that code. The coders who have used the code
 
 # Charts
 
-Charts are displayed in the default web browser.
+Charts are displayed in the default web browser. Various chart types and filter options are available.
 
 Pie, Bar, Sunburst and Treemap charts can be created.
 
 Heatmaps of files or cases against codes can be created. These are limited to 40 rows and columns for quicker rendering and better visibility.
 
 ![Chart selection](https://qualcoder.files.wordpress.com/2023/01/chart_selection.png?)
+Chart selection options
+
+![Bar chart](https://qualcoder.files.wordpress.com/2022/04/pic11.png?resize=219%2C219)
+
+![Sunburst chart](https://qualcoder.files.wordpress.com/2022/04/pic10.png?resize=219%2C219)
 
 
 #  SQL Statements (run SQL queries)
