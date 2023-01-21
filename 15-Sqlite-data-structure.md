@@ -1,4 +1,4 @@
-The current v5 data structure is described to assist with developing sql queries. This structure is used by QualCoder 2.8. Older database structures are changed when opened with QC 2.8 to match this newer format.
+The current v8 data structure is described to assist with developing sql queries. This structure is used by QualCoder 3.2. Older database structures are changed when opened to match this format.
 
 Tables are listed alphabetically.
 
@@ -244,6 +244,24 @@ If the mediapath begins with: 'images:' , 'audio:', 'video:' the image, audio or
 
 **ssql** _text_  The user generated sql.
 
+# Table: ris
+
 # Graph visualisation tables
 
-TODO - TO ADD TABLES FOR THE GRAPH VISUALISATION
+# Table: graph
+
+# Table: gr_av_item
+
+# Table: gr_case_text_item
+
+# Table: gr_cdct_line_item
+
+# Table: gr_cdct_text_item
+
+# Table: gr_file_text_item
+
+# Table: gr_free_line_item
+
+# Table: gr_free_text_item
+
+# Table: gr_pix_item
