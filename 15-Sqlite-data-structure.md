@@ -258,7 +258,21 @@ Used for RIS bibliography
 
 # Graph visualisation tables
 
+Several tables to store details of save graphs then the items within the graphs.
+
 # Table: graph
+
+**grid** _integer_  Unique identifier.
+
+**name** _text_  Unique graph name.
+
+**description** _text_  Text description.
+
+**date** _text_  Creation date.
+
+**scene_width** _integer_  Used to set scene size on load.
+
+**scene_height** _integer_  Used to set scene size on load.
 
 # Table: gr_av_item
 
