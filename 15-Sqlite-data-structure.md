@@ -246,6 +246,16 @@ If the mediapath begins with: 'images:' , 'audio:', 'video:' the image, audio or
 
 # Table: ris
 
+Used for RIS bibliography
+
+**risid** _integer_  Identifier for this bibliography entry.
+
+**tag** _text_  Short RIS tag.
+
+**longtag** _text_  Long text RIS tag.
+
+**value** _text_  text data for the tag.
+
 # Graph visualisation tables
 
 # Table: graph
