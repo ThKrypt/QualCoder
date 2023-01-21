@@ -3,7 +3,7 @@
 ## INSTALLATION 
 
 ### Prerequisites
-You will need a 64 bit [VLC](https://www.videolan.org/vlc/)player installed for all versions up to version 3.1. For versions 3.2 and newer, VLC is optional, but you will need it installed if you need to do any audio/video coding. Optionally, install ffmpeg for speech to text and waveform display, see https://phoenixnap.com/kb/ffmpeg-windows..
+For versions 3.2 and newer, VLC is optional, but you will need it installed if you need to do any audio/video coding. Optionally, install ffmpeg for speech to text and waveform display, see https://phoenixnap.com/kb/ffmpeg-windows..
 
 ### Windows
 
@@ -82,7 +82,7 @@ Note: 8 Dec 2022 - lxml may not install on python version 3.11 until a bug in lx
 
 ### Debian/Ubuntu Linux
 
-There is an executable file in the releases page for Ubuntu 22.04 for the 3.1 release. Download and double click to run.
+There is an executable file in the releases page for Ubuntu 22.04 for the 3.2 release. Download and double click to run.
 
 Alternatively, run QualCoder inside a python virtual environment, so that the system installed python modules do not clash and cause problems. I have added the additional code to do this here.
 
@@ -166,9 +166,11 @@ Fedora uses wayland with does not work well with the Qt graphical interface (for
 
 ### MacOS
 
+There is a QualCoder 3.2 version app made by Ben (GitHub userkampfg) for macOS 13. It might work on other versions.
+
 1) Install recent versions of [Python3](https://www.python.org/downloads/) and [VLC](https://www.videolan.org/vlc/).
 
-2) Download the latest release "Source code" version in ZIP format, from the releases section of the project here on Github: https://github.com/ccbogel/QualCoder/releases/tag/3.1 and extract it into /Applications
+2) Download the latest release "Source code" version in ZIP format, from the releases section of the project here on GitHub: https://github.com/ccbogel/QualCoder/releases/tag/3.2 and extract it into /Applications
 
 3) Open the Terminal app (or any other command shell)
 
