@@ -1,6 +1,6 @@
 # Coding Text
 
-Select Code text from the Coding menu. This is the central dialog for assigning codes to text. Once text segments are coded, hovering the mouse over the coding shows the code name as a tooltip. Clicking on the coded segment also shows the code name. 
+Select Code text from the Coding menu. Once text segments are coded, hovering the mouse over the coding shows the code name as a tooltip. Clicking on the coded segment also shows the code name. 
 
 ![Code text screen showing overlapping codes](https://qualcoder.files.wordpress.com/2021/10/coding_text.png)
 
@@ -12,7 +12,7 @@ The easiest way to code text, is to select some text, then left-click with the m
 
 Coded text segments can be memoed - through the right-click menu, by pressing 'm' or by clicking on the pencil and red notepad icon. Text under a code with a memo is italicised.
 
-Important coded texts, such as exemplars for a report, can be flagged Important by using the right-click menu when on the coded text and selecting Important. The button wit hthe start underneath the codes tree toggles between showing all coded text and coded text flagged as important.
+Important coded texts, such as exemplars for a report, can be flagged _Important_ by using the right-click menu when on the coded text and selecting the Important option. The button with the Star symbol underneath the codes tree toggles between showing all coded text and coded text flagged as important.
 
 ## Overlapping codes
 
@@ -28,7 +28,7 @@ Add an annotation (like a memo for a text segment) to a text selection. The text
 The top right of the dialog has icons for auto-coding text. The top right section has buttons for auto-coding text. 
 
 You can:
-* auto-code exact text
+* auto-code exact text (an extra window will ask which files you want to auto-code).
 * auto-code sentences based on a text fragment in the current file
 * auto-code sentences based on a text fragment for all files
 * auto-code the current file using start and end text marks. You can use ‘\n’ for a line ending character. The start mark text is included in the coded section.
@@ -36,6 +36,8 @@ You can:
 
 Automatic coding is case sensitive. You must also define the end of a sentence, there is a default setting with a period and space. \n can be used also to denote a line ending character.
 For auto-coding exact text matches, multiple sections of text can be assigned by auto code using the pipe ‘|’ symbol. For example, politics|politicians can be assigned to the same code at the same time (for exact auto code text matches only). There is an undo option to undo recently performed auto-coding. Although if the project is closed and reopened, the undo option will be lost.
+
+The _Auto-code exact text_ button has a right-click menu for more options. The default is to auto-code all text. There are options to autocode the first or the match matching text. The auto-code exact text asks which files you want auto-coded, so this is a useful option of you want to identify only one instance across many files.
 
 ## Maximise screen area
 To hide the top control panel, click in the text area and press the 'h' key. To show the top panel, press 'h' again.
@@ -120,7 +122,7 @@ Under the codes tree is a button with a star symbol. This button toggles between
 
 The right hand side of the coding text pane has another pane tucked away. To open click and drag from the right-hand side of the window. This pane contains three options useful when coding. One option is when clicking on a code, the code name, code rule (memo) and random coded text examples from the project are displayed. The J button displays an editable current journal, determined by the most recent date. The P button displays the editable project memo.
 
-# Editing text (Button or Ctrl E)
+# Editing text
 
 Text can be edited even after the text is coded or annotated or assigned (fully or partially) to a case. Sections of the text file or audio/video transcribed file will have sections of text underlined in green (case assigned), yellow (annotation) or red (coded) by ALL coders. 
 
