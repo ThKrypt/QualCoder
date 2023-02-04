@@ -48,7 +48,7 @@ When you click on the OK button, the cases and their attributes will be added. T
 # Bibliography import
 Import a bibliography. This must be in RIS formatted plain text. The file can have endings of .txt or .ris
 
-In the menu,go to Project > Import > Import > Import references in RIS format.
+In the menu,go to Project > Import > Import references in RIS format.
 
 Select the file.
 
