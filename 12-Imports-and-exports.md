@@ -45,6 +45,19 @@ QualCoder will determine if the other columns (attributes) are Numeric or Charac
 
 When you click on the OK button, the cases and their attributes will be added. The qualitative column will be converted to a file which will be named with the column name plus the current date and time. Each respondent's row will be prepended with [the unique id] so that you can identify each respondent. Also, the text for each respondent will be automatically linked to the corresponding case.
 
+# Bibliography import
+Import a bibliography. This must be in RIS formatted plain text. The file can have endings of .txt or .ris
+
+In the menu,go to Project > Import > Import > Import references in RIS format.
+
+Select the file.
+
+The Action Log tab will show how many references were imported.
+
+Once imported, go to the menu: Files and Cases > Manage references.
+
+In here you can link (and unlink) references to files. You can manually edit an imported reference. You can delete a reference.
+
 # Help - Special Functions
 
 ## Dynamic update text content
