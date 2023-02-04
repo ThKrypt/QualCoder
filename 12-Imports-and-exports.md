@@ -58,6 +58,11 @@ Once imported, go to the menu: Files and Cases > Manage references.
 
 In here you can link (and unlink) references to files. You can manually edit an imported reference. You can delete a reference.
 
+Once this is imported and files are linked to references, go to the Manage Files screen.
+In here there will be four new attribute columns: Ref_Authors, Ref_Title, Ref_Type, Ref_Year
+
+Files link to references will have details in those columns.
+
 # Help - Special Functions
 
 ## Dynamic update text content
