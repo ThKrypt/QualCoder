@@ -117,7 +117,14 @@ Speech to text allows use of several online third-party services. Most require s
 
 Language options are entered into the Language box, or might be configured when you signed up to a service such as Houndify or Wit.ai. Language options are entered as text in format like: en-US, fr-FR, de-DE, es-ES, pt-PT, pt-BR.
 
-Speech to text uses ffmpeg to split audio into 30 or 60 second chunks. This process seems to be a lot slower on Windows than on Linus. If it is too slow for you, use an alternative online service directly rather than using QualCoder itself to connect to online services.
+Speech to text uses ffmpeg to split audio into 30 or 60 second chunks. This process seems to be a lot slower on Windows than on Linux. If it is too slow for you, use an alternative online service directly rather than using QualCoder itself to connect to online services.
+
+There are other offline approaches to transcribing speech to text.
+Examples are:
+
+VOSK. https://alphacephei.com/vosk/install
+
+https://github.com/audapolis/audapolis
 
 ### Transcriptions that have codes, annotations and / or case-assigned
 
