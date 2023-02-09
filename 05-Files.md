@@ -124,7 +124,7 @@ Examples are:
 
 VOSK. https://alphacephei.com/vosk/install
 
-https://github.com/audapolis/audapolis
+audiopolis https://github.com/audapolis/audapolis
 
 ### Transcriptions that have codes, annotations and / or case-assigned
 
