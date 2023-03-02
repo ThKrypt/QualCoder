@@ -50,8 +50,7 @@ Improve graph display
 
 Hello, my name is Colin Curtain and I am a lecturer from Australia. I have many interests including clinical pharmacy, computer programming, research, statistics and clinical decision support. I completed a PhD evaluating computerised clinical decision support in 2014. When doing my PhD I used R as the statistics program of choice. This is where my interest in qualitative data analysis and the use of RQDA came from, which ultimately led to this project.
 
-Originally when doing my PhD I analysed qualitative survey data via a thematic approach using RQDA. After some installation difficulties with RQDA, I thought this could be reproduced in Python. I thought I would share QualCoder in the hope that it may help others. I generally work with Linux, and sometimes Windows. I work on the programming for this in my spare time, as a hobby.
-If you use QualCoder and publish your results, I would really appreciate it if you can let me know..
+Originally when doing my PhD I analysed qualitative survey data via a thematic approach using RQDA. After some installation difficulties with RQDA, I thought this could be reproduced in Python. 
 
 https://www.utas.edu.au/profiles/staff/umore/colin-curtain
 
