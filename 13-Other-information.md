@@ -32,9 +32,26 @@ Some potential plans for the future are to add functionality:
 * Improve REFI-QDA open standard for import and export to other software. Codebook import and export seems OK. Project import and export seems OK but I would still say it is experimental. To review: A/V coded segments, AV sync-points.
 
 
-#  About me
+The qda data folder contains folders for imported documents, images and audio and video. It also contains the sqlite database, named data.qda, to store coding data.
+QualCoder creates QualCoder.log and QualCoder_settings.txt files inside a .qualcoder folder in your home directory. The settings file contains the name of the current coder, a default working directory, font, languages and other options. The log file records program errors and some user actions. There maybe several rolling log files.
+QualCoder is written in python 3 using Qt6 for the graphical interface. A minimum python version of 3.7 should be used. A minimum screen resolution of 1024x600 pixels is recommended.
+Operating systems used
+QualCoder has been used on Ubuntu 22.04, Linux Mint, Lubuntu, Arch Linux, Manjaro Linix, Raspberry Pi, Windows 10, Windows 11 and MacOS. Testing has been performed on Ubuntu and Windows 10.
+Future plans
+Some potential plans for the future are to add the following functionality:
+Reports:
 
-Hello,my name is Colin Curtain, a lecturer and programmer from Australia. I have many interests including computer programming and research.
+Possibly look at text mining functionality, word clouds, word visualisations
+Possibly word counts -some have been enacted 
+Alternative ways to visualise codes - some have been enacted
+Improve graph display
+
+## About me
+
+Hello, my name is Colin Curtain and I am a lecturer from Australia. I have many interests including clinical pharmacy, computer programming, research, statistics and clinical decision support. I completed a PhD evaluating computerised clinical decision support in 2014. When doing my PhD I used R as the statistics program of choice. This is where my interest in qualitative data analysis and the use of RQDA came from, which ultimately led to this project.
+
+Originally when doing my PhD I analysed qualitative survey data via a thematic approach using RQDA. After some installation difficulties with RQDA, I thought this could be reproduced in Python. I thought I would share QualCoder in the hope that it may help others. I generally work with Linux, and sometimes Windows. I work on the programming for this in my spare time, as a hobby.
+If you use QualCoder and publish your results, I would really appreciate it if you can let me know..
 
 https://www.utas.edu.au/profiles/staff/umore/colin-curtain
 
