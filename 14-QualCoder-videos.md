@@ -1,7 +1,14 @@
 # YouTube videos showing how to use QualCoder
 
+## QualCoder 3.2
+[https://www.youtube.com/watch?v=119k-jNOl8I](https://www.youtube.com/watch?v=119k-jNOl8I)
+
+From University of Idaho
+
 ## QualCoder 3.1
 [https://www.youtube.com/watch?v=WRB5Y5JLO4I](https://www.youtube.com/watch?v=WRB5Y5JLO4I)
+
+Poor sound quality, sorry.
 
 ## QualCoder 2.9
 Installation de Qualcoder sur PC (French) [https://www.youtube.com/watch?v=iTnr5vKxdys](https://www.youtube.com/watch?v=iTnr5vKxdys)
