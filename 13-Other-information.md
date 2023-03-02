@@ -32,9 +32,9 @@ Some potential plans for the future are to add functionality:
 * Improve REFI-QDA open standard for import and export to other software. Codebook import and export seems OK. Project import and export seems OK but I would still say it is experimental. To review: A/V coded segments, AV sync-points.
 
 
-#  About the author
+#  About the creator / author
 
-Hello, I have many interests including computer programming and research.
+Hello,my name is Colin Curtain, a lecturer and programmer from Australia. I have many interests including computer programming and research.
 
 I thought I would share QualCoder in the hope that it may help others. Software bugs are possible and functionality could be further extended. I also generally work on Linux machines, and sometimes Windows, so this software probably needs further tweaking for best use on Windows. I work on the programming for this in my spare time, it is not my full time job for me.
 
