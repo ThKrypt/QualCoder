@@ -8,7 +8,7 @@ https://guides.temple.edu/qda/qualcoder
 
 ## QualCoder 3.2
 
-From University of Idaho
+From social sciences librarian at the University of Idaho
 
 [https://www.youtube.com/watch?v=119k-jNOl8I](https://www.youtube.com/watch?v=119k-jNOl8I)
 
