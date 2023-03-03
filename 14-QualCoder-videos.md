@@ -1,9 +1,16 @@
 # YouTube videos showing how to use QualCoder
 
+## QualCoder 3.3 
+
+While not yet released (video from 4 March 2023), this informative video from the social sciences librarian at Temple University is well worth a watch, the last video on the page:
+
+https://guides.temple.edu/qda/qualcoder 
+
 ## QualCoder 3.2
-[https://www.youtube.com/watch?v=119k-jNOl8I](https://www.youtube.com/watch?v=119k-jNOl8I)
 
 From University of Idaho
+
+[https://www.youtube.com/watch?v=119k-jNOl8I](https://www.youtube.com/watch?v=119k-jNOl8I)
 
 ## QualCoder 3.1
 [https://www.youtube.com/watch?v=WRB5Y5JLO4I](https://www.youtube.com/watch?v=WRB5Y5JLO4I)
