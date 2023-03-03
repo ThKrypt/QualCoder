@@ -2,7 +2,7 @@
 
 ## QualCoder 3.3 
 
-While not yet released (video from 4 March 2023), this informative video from the social sciences librarian at Temple University is well worth a watch, the last video on the page:
+While the 3.3 version yet officially released (video from 3 March 2023), this informative video from the social sciences librarian at Temple University is well worth a watch, the last video on the page:
 
 https://guides.temple.edu/qda/qualcoder 
 
