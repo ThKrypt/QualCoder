@@ -167,6 +167,7 @@ Fedora uses wayland with does not work well with the Qt graphical interface (for
 ### MacOS
 
 There is a QualCoder 3.2 version app made by Ben (GitHub userkampfg) for macOS 13. It might work on other versions.
+You will need to install developer tools for mac (sorry I am not sure how to describe how to do this).
 
 1) Install recent versions of [Python3](https://www.python.org/downloads/) and [VLC](https://www.videolan.org/vlc/).
 
