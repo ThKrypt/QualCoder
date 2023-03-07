@@ -11,8 +11,9 @@ _Video with coded transcript. Shown in dark mode._
 
 ## Keyboard shortcuts
 
-* Ctrl R and Alt R are shortcuts to rewind 5 or 30 seconds
-* Alt F will forward 30 seconds
+* Ctrl R Rewind 5 seconds
+* Alt R or Alt Minus (release 3.3+) Rewind 30 seconds
+* Alt F or Alt Plus (release 3.3+) Forward 30 seconds
 * Ctrl P or Ctrl D will stop/start (play/pause). When resuming the audio/video rewinds one second.
 * Ctrl S will start/end A/V segment creation (QualCoder 3.1 and newer).
 * Ctrl Shift < will slow play rate down to a minimum of 0.1
