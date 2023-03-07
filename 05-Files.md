@@ -89,9 +89,9 @@ The shortcuts available are:
 
 Ctrl R		Rewind 5 seconds
 
-Alt R		Rewind 30 seconds
+Alt R	Alt Minus (release 3.3+)	Rewind 30 seconds
 
-Alt F		Forward 30 seconds
+Alt F	Alt Plus (release 3.3+)	Forward 30 seconds
 
 Ctrl S or Ctrl P	Stop/Start toggle audio/video. From stop to play will rewind 2 seconds.
 
@@ -103,7 +103,7 @@ The above controls are also available from the toolbar icons.
 
 Ctrl T		Insert timestamp in this format: [hh.mm.ss]
 
-Ctrl +N		Add a speaker name. This also pauses the audio/video.
+Ctrl + N		Add a speaker name. This also pauses the audio/video.
 
 Ctrl D		Delete one or more speaker names.
 
