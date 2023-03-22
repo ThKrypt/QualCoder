@@ -190,27 +190,15 @@ python3 get-pip.py
 pip install pyqt6 chardet ebooklib lxml pillow ply pdfminer.six openpyxl pandas plotly pydub python-vlc six SpeechRecognition
 ```
 
-6) Install system dependencies using Homebrew (aka `brew`) 
-
-6.1) Install `brew` if do not already have it (try typing `brew` and hit ENTER):
-
-* Follow instructions here about installing Homebrew on your macOS: https://brew.sh/
-
-6.2) Install QPDF package (needed to deal with PDF files) using Homebrew package manager:
-
-```sh
-brew install qpdf
-```
-
 From the QualCoder-Master directory run the setup script:
 
-`python3 -m pip install .`
+6) `python3 -m pip install .`
 
 
-Assuming you downloaded the 3.1 version. You can now run with:
+Assuming you downloaded the 3.2 version. You can now run with:
 
 ```
-python3 /applications/QualCoder-3.1/qualcoder/__main__.py
+python3 /applications/QualCoder-3.2/qualcoder/__main__.py
 ```
 
 Alternative commands to run QualCoder (Suggestions):
@@ -221,11 +209,7 @@ From any directory:
 
 From the QualCoder-Master directory:
 
-`python -m qualcoder`
-
-or
-
-`python qualcoder/__main__.py`
+`python3 -m qualcoder`
 
 You can install QualCoder anywhere you want, so the path above depends on where you extracted the archive.
 
@@ -236,7 +220,7 @@ You can make an alias to the file and place it on your desktop.
 
 Open the Terminal App and move to the unzipped Qualcoder-Master directory, then run the following commands:
 
-`pip install -U py2app`  or for a system installation of python `sudo pip install -U py2app`
+`pip3 install -U py2app`  or for a system installation of python `sudo pip3 install -U py2app`
 
 `python3 setup.py py2app` 
 ## Backups
