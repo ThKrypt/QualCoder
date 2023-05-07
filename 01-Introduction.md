@@ -24,7 +24,7 @@ IMPORTANT: in the first window of the installation mark the option "Add Python t
 
 4. Use the Windows command prompt. Type "cmd" in the Windows Start search engine, and click on the black software "cmd.exe" - the command console for Windows. In the console type or paste, using the right-click mouse copy and paste (ctrl+v does not work)
 
-5. In the command prompt, move (using the `cd` command) into the QualCoder folder. You should be inside the QualCoder-master folder or if using a release (the Qualcoder-3.1 folder). e.g.
+5. In the command prompt, move (using the `cd` command) into the QualCoder folder. You should be inside the QualCoder-master folder or if using a release (the Qualcoder-3.2 folder). e.g.
 
 `cd Downloads\QualCoder-master`
 
@@ -44,11 +44,11 @@ Activate the virtual environment, this changes the command prompt display using 
 
 `py -m pip install --upgrade pip`
 
-`py -m pip install wheel pyqt6 chardet ebooklib lxml openpyxl Pillow ply pdfminer.six pandas plotly pydub python-vlc rispy SpeechRecognition`
+`py -m pip install wheel pyqt6 chardet ebooklib openpyxl Pillow ply pdfminer.six pandas plotly pydub python-vlc rispy SpeechRecognition`
 
 Wait, until all modules are installed .
 
-8. Install Qualcoder, from the downloaded folder type:
+8. Install QualCoder, from the downloaded folder type:
 
 `py -m pip install .`
 
@@ -78,8 +78,6 @@ If you are using a virtual environment:
 
 `py -m qualcoder`
 
-Note: 8 Dec 2022 - lxml may not install on python version 3.11 until a bug in lxml is fixed. Ignore errors related to this. lxml is only used to validate REFI-QDA data files.
-
 ### Debian/Ubuntu Linux
 
 There is an executable file in the releases page for Ubuntu 22.04 for the 3.2 release. Download and double click to run.
@@ -107,7 +105,7 @@ Upgrade pip before installing the modules:
 
 Install the required python modules:
 
-`pip install chardet ebooklib lxml openpyxl pandas ply pdfminer pyqt6 pillow pdfminer.six plotly pydub python-vlc six SpeechRecognition`
+`pip install chardet ebooklib openpyxl pandas ply pdfminer pyqt6 pillow pdfminer.six plotly pydub python-vlc six SpeechRecognition`
 
 Install QualCoder (the dot is important):
 
@@ -130,7 +128,7 @@ Please consider the Debian instructions above to run QualCoder in a virtual envi
 
 1. Install modules from the command line
 
-`sudo pacman -S python python-chardet python-lxml python-openpyxl python-pillow python-ply python-pyqt6 python-pip`
+`sudo pacman -S python python-chardet python-openpyxl python-pillow python-ply python-pyqt6 python-pip`
 
 2. Install additional python modules
 
@@ -166,9 +164,6 @@ Fedora uses wayland with does not work well with the Qt graphical interface (for
 
 ### MacOS
 
-There is a QualCoder 3.2 version app made by Ben (GitHub userkampfg) for macOS 13. It might work on other versions.
-You will need to install developer tools for mac (sorry I am not sure how to describe how to do this).
-
 1) Install recent versions of [Python3](https://www.python.org/downloads/) and [VLC](https://www.videolan.org/vlc/).
 
 2) Download the latest release "Source code" version in ZIP format, from the releases section of the project here on GitHub: https://github.com/ccbogel/QualCoder/releases/tag/3.2 and extract it into /Applications
@@ -187,7 +182,7 @@ python3 get-pip.py
 5) Install Python dependency modules using `pip`:
 
 ```sh
-pip install pyqt6 chardet ebooklib lxml pillow ply pdfminer.six openpyxl pandas plotly pydub python-vlc six SpeechRecognition
+pip install pyqt6 chardet ebooklib pillow ply pdfminer.six openpyxl pandas plotly pydub python-vlc six SpeechRecognition
 ```
 
 From the QualCoder-Master directory run the setup script:
