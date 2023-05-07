@@ -44,7 +44,7 @@ Activate the virtual environment, this changes the command prompt display using 
 
 `py -m pip install --upgrade pip`
 
-`py -m pip install wheel pyqt6 chardet ebooklib openpyxl Pillow ply pdfminer.six pandas plotly pydub python-vlc rispy SpeechRecognition`
+`py -m pip install wheel pyqt6 chardet ebooklib openpyxl Pillow ply pdfminer.six pandas plotly pydub python-vlc rispy SpeechRecognition xmlschema`
 
 Wait, until all modules are installed .
 
@@ -105,7 +105,7 @@ Upgrade pip before installing the modules:
 
 Install the required python modules:
 
-`pip install chardet ebooklib openpyxl pandas ply pdfminer pyqt6 pillow pdfminer.six plotly pydub python-vlc six SpeechRecognition`
+`pip install chardet ebooklib openpyxl pandas ply pdfminer pyqt6 pillow pdfminer.six plotly pydub python-vlc six SpeechRecognition xmlschema`
 
 Install QualCoder (the dot is important):
 
@@ -182,7 +182,7 @@ python3 get-pip.py
 5) Install Python dependency modules using `pip`:
 
 ```sh
-pip install pyqt6 chardet ebooklib pillow ply pdfminer.six openpyxl pandas plotly pydub python-vlc six SpeechRecognition
+pip install pyqt6 chardet ebooklib pillow ply pdfminer.six openpyxl pandas plotly pydub python-vlc six SpeechRecognition xmlschema
 ```
 
 From the QualCoder-Master directory run the setup script:
