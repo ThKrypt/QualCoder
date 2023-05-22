@@ -17,6 +17,11 @@ The buttons here:
 
 ![Manage cases tab](https://qualcoder.files.wordpress.com/2021/05/cases.png?resize=600%2C550)
 
+## Hiding and showing rows and columns
+
+Hide columns by right-click on the table header row for options to hide that column or to hide columns beginning with specific text. Or to show columns starting with a text value. Hide rows by right-click menu and selecting a text value that equals or 'is like' some chosen text. Right click to order by case name or by attribute value, ascending or descending.
+
+
 Practical example: Add the three students (or cases) by clicking the Add case icon. Name each student: ID1, ID2 and ID3.
 
 ## Case file manager
