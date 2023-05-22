@@ -101,3 +101,9 @@ To reduce the number of codes shown in the code tree. In the coding windows (cod
 
 In the codes tree on the left, right clicking on a code opens a context menu for various options.
 One option is Show coded files - this shows everywhere you have coded with the selected code. Clicking on a particular coded section will open that code in the original context for further insight.
+
+## Accessibility and code colours
+
+In the Coding menu there is an option called **Colour scheme**.
+
+You can apply a range of colours to a range of selected codes, rather than rely in the random generated colours or a one at a time change of colours for each code. In this area you can also view how the code colours may appear to someone who has a variety of colour blindness: red-weak, red blind, green-weak or green blind.
