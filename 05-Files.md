@@ -32,6 +32,18 @@ Files can be viewed either by right-click menu on the file, or by clicking the e
 
 As a practical example: Open the Manage Files dialog. In the Examples folder import the following files: ID1.docx, ID2.odt, transcript.txt and the miguel-henriques.jpg.
 
+## Column visibility
+
+Sometimes a lot of columns can be displayed which can be overwhelming. You can hide columns by right-click on the table header row for options to hide that column or to hide columns beginning with specific text. Or to show columns where the column name starts with specific text.
+
+## Open attribute URLs
+
+Right-click on a URL in an attribute and open the URL with the default web browser. This is only if the attribute is a URL and it passes URL validation.
+
+## Assign a selected file to a case
+
+You can assign a file to a case via right-click menu when in the cases column.
+
 ## Text file creation and editing
 
 Manage Files > Create text file or View text file. Manage files View Audio/Video (with the transcribed text file shown).
