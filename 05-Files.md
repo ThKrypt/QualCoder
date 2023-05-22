@@ -149,7 +149,7 @@ There might be a couple of seconds delay. There is an automated search that look
 Import twitter data from a fully quoted csv file.
 There is an example file - rtweet_judo_tweets_data.csv - in Examples folder.
 
-The csv file requires these exact column names: **id **and **full_text ** column names for tweet data and **screen_name **for the column for user data.
+The csv file requires these exact column names: **id** and **full_text** column names for tweet data and **screen_name** for the column for user data.
 
 
 Additional tweet fields can be these exact column names:
