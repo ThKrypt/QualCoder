@@ -73,6 +73,8 @@ This is useful for updating text files such as blog post extract that change ove
 
 Select a QualCoder project to merge (source project) into the currently opened project (destination project), then click the _Run merge projects_, cogs button. **Before performing the merge, make a backup of the destination project.**
 
+Caution: If each project to be merged has the same coder name, e.g. 'default' then these will merge as such, and you will not be able to separate out which coder performed their own coding. This may or may not be an important consideration to your final merged project.
+
 The following occurs:
 * Copies unmatched files from source project folders to destination project folders.
 * Adds new (unmatched) source categories to destination database.
