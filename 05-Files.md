@@ -144,5 +144,22 @@ If you are importing an REFI-QDA project with external links, you will likely ne
 
 There might be a couple of seconds delay. There is an automated search that looks through the user's home directory for up to 2 matching file names. This intended to speed up finding the link to files where the link is currently pointing to nothing.
 
+# Twitter data
+
+Import twitter data from a fully quoted csv file.
+There is an example file - rtweet_judo_tweets_data.csv - in Examples folder.
+
+The csv file requires these exact column names: id and full_text headers for tweet data and screen_name for user data.
+
+
+Additional tweet fields can be these exact column names:
+created_at, coordinates, retweet_count, favorite_count, lang
+Additional user fields can be:
+location, url, description, followers_count, friends_count, listed_count, favourites_count, statuses_count
+
+The twitter import page also has an example of how to use R with RTweet to extract tweet data. This was tested and worked before twitter applied a fee for service. Note that currently there is a cost associated with accessing twitter data. I cannot give advice on any problems you may have getting twitter data.
+
+The tweet data is loaded into individual database files (Manage Files), The user data is loaded into cases (Manage cases). Multiple tweets (stored as files are assigned to the matching user (case).
+
 
 
