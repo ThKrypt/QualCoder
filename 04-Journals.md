@@ -16,6 +16,14 @@ www.rexegg.com/regex-quickstart.html
 
 ![Journals screenshot](https://qualcoder.files.wordpress.com/2021/07/journals.png)
 
+## Highlight journal text using markdown
+
+Some markdown is enacted to make viewing journal entries nicer:
+Using one to three hash symbols for heading levels. Single asterixis surrounding words for italic text. Double asterixis surround text for bold text.
+
+![Image showing markdown symbols for highlighting text](https://qualcoder.files.wordpress.com/2023/02/markdown.png)
+
+
 
 
 
