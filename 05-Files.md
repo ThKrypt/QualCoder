@@ -149,13 +149,13 @@ There might be a couple of seconds delay. There is an automated search that look
 Import twitter data from a fully quoted csv file.
 There is an example file - rtweet_judo_tweets_data.csv - in Examples folder.
 
-The csv file requires these exact column names: id and full_text headers for tweet data and screen_name for user data.
+The csv file requires these exact column names: **id **and **full_text ** column names for tweet data and **screen_name **for the column for user data.
 
 
 Additional tweet fields can be these exact column names:
-created_at, coordinates, retweet_count, favorite_count, lang
+**created_at, coordinates, retweet_count, favorite_count, lang**
 Additional user fields can be:
-location, url, description, followers_count, friends_count, listed_count, favourites_count, statuses_count
+**location, url, description, followers_count, friends_count, listed_count, favourites_count, statuses_count**
 
 The twitter import page also has an example of how to use R with RTweet to extract tweet data. This was tested and worked before twitter applied a fee for service. Note that currently there is a cost associated with accessing twitter data. I cannot give advice on any problems you may have getting twitter data.
 
