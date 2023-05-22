@@ -11,8 +11,6 @@ QualCoder is written in python 3 using the Qt6 for the graphical interface.
 
 Currently QualCoder is developed on Ubuntu 22.04 and Windows 10/11. Some people have used Qualcoder on Linux Mint, Lubuntu, Fedora, Manjaro/Arch Raspberry Pi, and on MacOS. 
 
-In Windows, reports exported in ODT format are okay, but some images may overlap when the ODT file opened with Microsoft Word rather than opened with LibreOffice Writer.
-
 
 Some potential plans for the future are to add functionality:
 
@@ -36,7 +34,7 @@ The qda data folder contains folders for imported documents, images and audio an
 QualCoder creates QualCoder.log and QualCoder_settings.txt files inside a .qualcoder folder in your home directory. The settings file contains the name of the current coder, a default working directory, font, languages and other options. The log file records program errors and some user actions. There maybe several rolling log files.
 QualCoder is written in python 3 using Qt6 for the graphical interface. A minimum python version of 3.7 should be used. A minimum screen resolution of 1024x600 pixels is recommended.
 Operating systems used
-QualCoder has been used on Ubuntu 22.04, Linux Mint, Lubuntu, Arch Linux, Manjaro Linix, Raspberry Pi, Windows 10, Windows 11 and MacOS. Testing has been performed on Ubuntu and Windows 10.
+QualCoder has been used on Ubuntu 22.04, FEdora, Linux Mint, Lubuntu, Arch Linux, Manjaro Linux, Raspberry Pi, Windows 10, Windows 11 and MacOS. Testing has been performed on Ubuntu 22 and Windows 10.
 Future plans
 Some potential plans for the future are to add the following functionality:
 Reports:
@@ -44,7 +42,6 @@ Reports:
 Possibly look at text mining functionality, word clouds, word visualisations
 Possibly word counts -some have been enacted 
 Alternative ways to visualise codes - some have been enacted
-Improve graph display
 
 ## About me
 
