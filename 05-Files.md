@@ -138,6 +138,9 @@ VOSK. https://alphacephei.com/vosk/install
 
 audiopolis https://github.com/audapolis/audapolis
 
+noScribe is a fully offline transcriber that can transcribe 99 different languages. See their gitHub to download, install and use:
+https://github.com/kaixxx/noScribe
+
 ### Transcriptions that have codes, annotations and / or case-assigned
 
 Sections of the text file or audio/video transcribed file will have sections of text underlined in green (case assigned), yellow (annotation) or red (coded). Text can be edited even after the text is coded or annotated or assigned (fully or partially) to a case. 
