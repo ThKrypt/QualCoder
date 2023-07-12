@@ -1,4 +1,7 @@
-# YouTube videos showing how to use QualCoder
+# Videos showing how to use QualCoder
+
+## QualCoder 3.3
+Swedish video tutorials (from Malin the Uppsala University librarian) for text analysis, are available: [https://libguides.ub.uu.se/databearbetning/kvalitativ/analys](https://protect-au.mimecast.com/s/3n19CjZryVCnzvK4xsWhQIq?domain=libguides.ub.uu.se)
 
 ## QualCoder 3.3 
 
