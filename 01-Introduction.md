@@ -15,7 +15,7 @@ Current releases contain an exe file (created on Windows 10, 64 bit). Double-cli
 
 Seriously consider using a virtual environment (commands in point 6 below). Not using a virtual environment may affect other python software you may have installed.
 
-1. Download and install the Python programming language. The minimum version for QualCoder is 3.7. I recommend 3.10 for now. [Python3](https://www.python.org/downloads/). Download the file (at the bottom of the web site) "Windows installer (64-bit)"
+1. Download and install the Python programming language. The minimum version for QualCoder is 3.8. [Python3](https://www.python.org/downloads/). Download the file (at the bottom of the web site) "Windows installer (64-bit)"
 IMPORTANT: in the first window of the installation mark the option "Add Python to PATH"
 
 2. Download the QualCoder software from: https://github.com/ccbogel/QualCoder from the Green Code button. This is the newest, but not yet officially released code. Click the green button "Code", and then "Download ZIP". Alternatively, choose the most recent release zip, see right hand side of this page for the link to Releases.
@@ -24,11 +24,11 @@ IMPORTANT: in the first window of the installation mark the option "Add Python t
 
 4. Use the Windows command prompt. Type "cmd" in the Windows Start search engine, and click on the black software "cmd.exe" - the command console for Windows. In the console type or paste, using the right-click mouse copy and paste (ctrl+v does not work)
 
-5. In the command prompt, move (using the `cd` command) into the QualCoder folder. You should be inside the QualCoder-master folder or if using a release (the Qualcoder-3.2 folder). e.g.
+5. In the command prompt, move (using the `cd` command) into the QualCoder folder. You should be inside the QualCoder-master folder or if using a release (the Qualcoder-3.3 folder). e.g.
 
 `cd Downloads\QualCoder-master`
 
-6. Install and activate the virtual environment. This step can be skipped, but I recommend you do not skip it.
+6. Install and activate the virtual environment.
 
 `pip install virtualenv`
 
@@ -80,7 +80,7 @@ If you are using a virtual environment:
 
 ### Debian/Ubuntu Linux
 
-There is an executable file in the releases page for Ubuntu 22.04 for the 3.2 release. Download and double click to run.
+There is an executable file in the releases page for Ubuntu 22.04 for the 3.3 release. Download and double click to run.
 
 Alternatively, run QualCoder inside a python virtual environment, so that the system installed python modules do not clash and cause problems. I have added the additional code to do this here.
 
@@ -90,7 +90,7 @@ Install venv I am using python3.10 you can choose another recent version if you 
 
 Download and unzip the Qualcoder folder.
 
-Open a terminal and move (cd) into that folder. You should be inside the QualCoder-master folder or if using a release, e.g. the Qualcoder-3.0 folder. Inside the QualCoder-master folder: 
+Open a terminal and move (cd) into that folder. You should be inside the QualCoder-master folder or if using a release, e.g. the Qualcoder-3.3 folder. Inside the QualCoder-master folder: 
 
 `python3.10 -m venv qualcoder`
 
@@ -115,7 +115,7 @@ To run type
 
 `qualcoder`
 
-After all this is done, you can deactivate to exit the virtual environment. At any time to start QualCoder in the virtual environment, cd to the Qualcoder-master folder (or Qualcoder-3.0 release folder), 
+After all this is done, you can deactivate to exit the virtual environment. At any time to start QualCoder in the virtual environment, cd to the Qualcoder-master folder (or Qualcoder-3.3 release folder), 
 
 Then type: `source qualcoder/bin/activate` 
 
@@ -166,7 +166,7 @@ Fedora uses wayland with does not work well with the Qt graphical interface (for
 
 1) Install recent versions of [Python3](https://www.python.org/downloads/) and [VLC](https://www.videolan.org/vlc/).
 
-2) Download the latest release "Source code" version in ZIP format, from the releases section of the project here on GitHub: https://github.com/ccbogel/QualCoder/releases/tag/3.2 and extract it into /Applications
+2) Download the latest release "Source code" version in ZIP format, from the releases section of the project here on GitHub: https://github.com/ccbogel/QualCoder/releases/tag/3.3 and extract it into /Applications
 
 3) Open the Terminal app (or any other command shell)
 
@@ -190,10 +190,10 @@ From the QualCoder-Master directory run the setup script:
 6) `python3 -m pip install .`
 
 
-Assuming you downloaded the 3.2 version. You can now run with:
+Assuming you downloaded the 3.3 version. You can now run with:
 
 ```
-python3 /applications/QualCoder-3.2/qualcoder/__main__.py
+python3 /applications/QualCoder-3.3/qualcoder/__main__.py
 ```
 
 Alternative commands to run QualCoder (Suggestions):
