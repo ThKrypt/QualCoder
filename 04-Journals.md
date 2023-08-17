@@ -19,7 +19,7 @@ www.rexegg.com/regex-quickstart.html
 ## Highlight journal text using markdown
 
 Some markdown is available to highlight wording in a journal.
-Using one to three hash symbols for heading levels. Single asterixis surrounding words for italic text. Double asterixis surround text for bold text.
+Using one to three hash symbols for heading levels. Single asterix surrounding words for italic text. Double asterix surround text for bold text.
 
 ![Image showing markdown symbols for highlighting text](https://qualcoder.files.wordpress.com/2023/02/markdown.png)
 
