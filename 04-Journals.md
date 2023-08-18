@@ -14,6 +14,8 @@ There is a search option to search through journal text. The search uses regex s
 Regex cheatsheet: 
 www.rexegg.com/regex-quickstart.html
 
+QualCoder version 3.4 and up. Can order journals by name or modified date. Can add attributes to journals. Can show rows of journals with a matching text name, coder or attribute value.
+
 ![Journals screenshot](https://qualcoder.files.wordpress.com/2021/07/journals.png)
 
 ## Highlight journal text using markdown
