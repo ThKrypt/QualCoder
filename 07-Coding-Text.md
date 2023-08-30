@@ -92,7 +92,11 @@ You can also right-click on a code and select change start position or change en
 
 * Shortcut H. Press h will hide and unhide the top section of controls on the screen. This provides a bigger area to view the text and to code.
 
-* Shortcut i. Press i when on a coded section to mark that code as important. Useful for identifying exemplars. Important marks can be removed by right-click and selecting Remove important mark. Important marked codes are bolded.
+* Shortcut I. Press i when on a coded section to mark that code as important. Useful for identifying exemplars. Important marks can be removed by right-click and selecting Remove important mark. Important marked codes are bolded.
+
+* Shortcut U. Press u to unmark one or more codes at a clicked text position. (QC Release 3.4)
+
+* Shortcut V. Press v to code selected text with a new code made from the selected text. Also called *in vivo* coding.
 
 * Ctrl Z. Restores the last coding that was unmarked.
 
