@@ -29,6 +29,8 @@ QualCoder is written in python 3 (version 3.8 and up) using Qt6 for the graphica
 
 **QualCoder can be modified.** You can modify and adapt QualCoder to your needs, or if you do not how you ask someone to do it for you, as long as you release your changes to everyone. This also means you can copy the software and give it to your colleagues or students free of charge.
 
+**QualCoder is a software option to support open science. [UNECO recommendations on open science](https://www.unesco.org/en/open-science?hub=686)
+
 ## Collaboration on a Qualcoder project
 
 I get a few questions on how project collaboration works. So I have added this information on the first page of the wiki.
