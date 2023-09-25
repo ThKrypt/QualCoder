@@ -16,3 +16,7 @@ Also, at the top of the window are several check boxes to show or hide PDF eleme
 
 The right hand side pane shows the plain text in the same way the text would be displayed in Code text. You can mark, unmark, memo the coded text, mark the coding as important and annotate text here.
 
+In the PDF window itself. You can zoom in an out by clicking on the shown PDF and pressing +_ or -
+
+To code, left-click and drag the mouse to select PDF text boxes. The click on a code to assign the selection to the code. Further adjustments and be made on the right-hand side plain text pane using the shift left or right arrows to extend, or the alt left and right arrows to shrink the coded text section.
+
