@@ -14,4 +14,5 @@ Also, at the top of the window are several check boxes to show or hide PDF eleme
 
 ![pdf_screen01](https://github.com/ccbogel/QualCoder/assets/5834638/33bb51f6-a67c-456b-94ae-46e3c833eaf9)
 
-more here
+The right hand side pane shows the plain text in the same way the text would be displayed in Code text. You can mark, unmark, memo the coded text, mark the coding as important and annotate text here.
+
