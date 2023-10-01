@@ -164,7 +164,7 @@ Fedora uses wayland with does not work well with the Qt graphical interface (for
 
 ### MacOS
 
-1) Install recent versions of [Python3](https://www.python.org/downloads/) and [VLC](https://www.videolan.org/vlc/).
+1) Install recent versions of [Python3](https://www.python.org/downloads/) and [VLC](https://www.videolan.org/vlc/). You will also need to install developer tools for macOS. See here: [https://www.cnet.com/tech/computing/install-command-line-developer-tools-in-os-x/](https://www.cnet.com/tech/computing/install-command-line-developer-tools-in-os-x/)
 
 2) Download the latest release "Source code" version in ZIP format, from the releases section of the project here on GitHub: https://github.com/ccbogel/QualCoder/releases/tag/3.3 and extract it into /Applications
 
@@ -184,6 +184,12 @@ python3 get-pip.py
 ```sh
 pip install pyqt6 chardet ebooklib pillow ply pdfminer.six openpyxl pandas plotly pydub python-vlc six SpeechRecognition wordcloud xmlschema
 ```
+
+Be sure that you are in the QualCoder-Master directory before doing Step 6.
+
+To change the directory, enter or copy and run the script below.
+
+`cd /Applications/QualCoder-3.3`
 
 From the QualCoder-Master directory run the setup script:
 
