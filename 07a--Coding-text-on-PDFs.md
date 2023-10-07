@@ -31,8 +31,6 @@ Ctrl 1 Go to next file.
 Ctrl 2 Go to latest coded file.
 Ctrl 4 View and edit file memo.
 Ctrl 5 Get files list from attributes.
-Ctrl 6 Show selected code previous.
-Ctrl 7 Show selected code next.
 Ctrl 8 
 
 In the PDF window itself. You can zoom in an out by clicking on the shown PDF and pressing + or - keys.
