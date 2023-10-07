@@ -40,7 +40,7 @@ Ctrl 5 Get files list from attributes.
 
 Ctrl 8 
 
-Ctrl 9 Show important coded segments.
+Ctrl 9 Show important coded segments. Toggles on and off.
 
 Ctrl 0 Show Help page in browser.
 
