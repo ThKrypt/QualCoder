@@ -25,15 +25,46 @@ Right-click for the context menu on coded area. This menu allows you to add a me
 ### Key presses
 
 H Show or hide the top sections of the screen.
+
 Ctrl F jump to text search box.
+
 Ctrl Z undo the last unmarked code.
+
 Ctrl 1 Go to next file.
+
 Ctrl 2 Go to latest coded file.
+
 Ctrl 4 View and edit file memo.
+
 Ctrl 5 Get files list from attributes.
+
 Ctrl 8 
 
-In the PDF window itself. You can zoom in an out by clicking on the shown PDF and pressing + or - keys.
+Ctrl 9
+
+Ctrl 0 Show Help page in browser.
+
+#### In the PDF display area:
+
+You can zoom in an out by clicking on the shown PDF and pressing + or - keys.
 Press Q to quick mark selection with the recent code.
 Press R to quick mark selection with a choice of recently used codes.
+
+#### In the plain text area:
+
+A annotate - for current selection - text edit only
+
+Q Quick Mark with code - for current selection
+
+I Tag important
+
+M memo code - at clicked position
+
+O Shortcut to cycle through overlapping codes - at clicked position
+
+R opens a context menu for recently used codes for marking text
+
+U Unmark at selected location
+
+V assign 'in vivo' code to selected text
 
