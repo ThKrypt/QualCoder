@@ -18,7 +18,24 @@ Also, at the top of the window are several check boxes to show or hide PDF eleme
 
 The right hand side pane shows the plain text in the same way the text would be displayed in Code text. You can mark, unmark, memo the coded text, mark the coding as important and annotate text here.
 
-In the PDF window itself. You can zoom in an out by clicking on the shown PDF and pressing + or - keys.
-
 To code, left-click and drag the mouse to select PDF text boxes. The click on a code to assign the selection to the code. Further adjustments and be made on the right-hand side plain text pane using the shift left or right arrows to extend, or the alt left and right arrows to shrink the coded text section.
+
+Right-click for the context menu on coded area. This menu allows you to add a memo, mark important or unmark the coded segment.
+
+### Key presses
+
+H Show or hide the top sections of the screen.
+Ctrl F jump to text search box.
+Ctrl Z undo the last unmarked code.
+Ctrl 1 Go to next file.
+Ctrl 2 Go to latest coded file.
+Ctrl 4 View and edit file memo.
+Ctrl 5 Get files list from attributes.
+Ctrl 6 Show selected code previous.
+Ctrl 7 Show selected code next.
+Ctrl 8 
+
+In the PDF window itself. You can zoom in an out by clicking on the shown PDF and pressing + or - keys.
+Press Q to quick mark selection with the recent code.
+Press R to quick mark selection with a choice of recently used codes.
 
