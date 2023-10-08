@@ -6,11 +6,11 @@ Project menu
 
 This is an option under the Project Menu > Exports.
 
-A codebook is a list of your codes. Each code memo should detail the reasons for the purpose of each code. The codebook can be exported to a text file. The codebook also shows the frequency of the codes used (from all coders). Example codebook output is shown below. As codes and categories are put in a tree like structure the double minus ‘–‘ indicates the subordinate codes and categories within a category.
+A codebook is a list of your codes. Each code memo should detail the reasons for the purpose of each code. The codebook can be exported to a text file. The codebook also shows the frequency of the codes used (from all coders). As codes and categories are put in a tree like structure the double minus ‘–‘ indicates the subordinate codes and categories within a category.
 
 # Codebook import
 
-Import a codebook as a plain text (.txt) file or as a .csv file.
+Import a codebook as a plain text (.txt) file or as a .csv file. Use two greater than symbols to separate category and code.
 
 ## Plain text
 
@@ -18,7 +18,8 @@ Use the tab to then add a memo.
 
 code1
 category1>>category2>>code2	memo
-category3>>code3
+category1>>code3
+category3>>code4
 
 ## CSV
 
