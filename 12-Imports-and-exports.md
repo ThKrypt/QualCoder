@@ -2,12 +2,31 @@ Project menu
 * Exports
 * Imports
 
-#  Codebook
+#  Codebook export
 
 This is an option under the Project Menu > Exports.
 
 A codebook is a list of your codes. Each code memo should detail the reasons for the purpose of each code. The codebook can be exported to a text file. The codebook also shows the frequency of the codes used (from all coders). Example codebook output is shown below. As codes and categories are put in a tree like structure the double minus ‘–‘ indicates the subordinate codes and categories within a category.
 
+# Codebook import
+
+Import a codebook as a plain text (.txt) file or as a .csv file.
+
+## Plain text
+
+Use the tab to then add a memo.
+
+code1
+category1>>category2>>code2	memo
+category3>>code3
+
+## CSV
+
+The categories and codes are in the first column. Any code memos are in the second column.
+
+code1
+category1>>category2>>code2
+category3>>code3
 
 #  REFI-QDA
 The Rotterdam Exchange Format Initiative (REFI) is an open standard for exporting and importing codebooks and projects from and to different computer-aided qualitative data analysis software. The website for the exchange initiative is www.qdasoftware.org
