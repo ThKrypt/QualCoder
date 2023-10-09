@@ -74,7 +74,11 @@ When in the text area, click on a code with the mouse (Note the code must not be
 * Alt + left arrow               Shrinks coded text from the right hand side towards the left
 * Alt + right arrow            Shrinks coded text from the left hand side towards the right
 
-You can also right-click on a code and select change start position or change end position by  a number of characters.
+It is always best to save a copy of the project before editing the text, to avoid the need to edit coding positions, in case after editing text the coding positions are shifted incorrectly. The below key strokes may help to recover the correct positions. (QC version 3.4 plus)
+
+* Hash symbol - Shift + 3      Displays clicked character position.
+* Caret symbol ^  Shift + 6    Shift code positions, after the clicked character position. May be needed after the text is edited (added or deleted) to shift subsequent coding segments by a number of characters. 
+
 
 ## Other shortcut keys for text coding
 
