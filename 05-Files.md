@@ -12,9 +12,9 @@ There are a few sample files in the Examples folder. These can be used to test i
 
 Video (mov, mp4, wmv format) and audio files (wav, mp3 format) can be imported. Loading an audio or video file will also automatically create a blank text transcribed file. This file will have the same name as the audio or video file, but have a '.transcribed' suffix. Initially, this text transcription will be empty. You can transcribe the file yourself or get the file professionally transcribed and copy and paste the text into this file.
 
-A right-click context menu allows you to view, export, delete a current file. The menu also allow you to re-order the files according to alphabet, date, and file-type and when right clicking in the name or date columns. You can show only selected attribute types, if the right-click occurs in an attribute column.
-
 Filenames can be changed in the database. The original file names of the actual files will not be changed.
+
+A right-click context menu allows you to view, export, delete a current file.
 
 The red X button is an option to select multiple files for deletion.
  The question mark '?' opens this help page.
@@ -31,6 +31,11 @@ Each file is preceded with an icon that describes the type of file. An icon with
 Files can be viewed either by right-click menu on the file, or by clicking the eye icon. This is where transcripts for audio and video can be entered, when viewing an audio or video file.
 
 As a practical example: Open the Manage Files dialog. In the Examples folder import the following files: ID1.docx, ID2.odt, transcript.txt and the miguel-henriques.jpg.
+
+## Filtering rows
+
+The right-click context menu also allow you to re-order the files according to alphabet, date, and file-type and when right clicking in the name or date columns. You can show only selected attribute types: Choose Show this value option
+You can also select Show values like. Show values like can be applied multiple times to further shorten the list of displayed rows.
 
 ## Column visibility
 
