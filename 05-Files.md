@@ -45,6 +45,10 @@ Sometimes a lot of columns can be displayed which can be overwhelming. You can h
 
 Right-click on a URL in an attribute and open the URL with the default web browser. This is only if the attribute is a URL and it passes URL validation.
 
+## Copy reference to clipboard
+
+Use the right-click menu option for reference columns (Ref_Authors, Ref_Title, Ref_Journal, Ref_Type, Ref_Year). This allows copying reference to the clipboard as a Vancouver or APA style reference.
+
 ## Assign a selected file to a case
 
 You can assign a file to a case via right-click menu when in the cases column.
@@ -53,7 +57,7 @@ You can assign a file to a case via right-click menu when in the cases column.
 
 Manage Files > Create text file or View text file. Manage files View Audio/Video (with the transcribed text file shown).
 
-Text files can be edited providing no coding or annotations or case assignment have been performed with the text file. Copying and pasting text from elsewhere (e.g. web page) may show formatting from the copy/paste (e.g. bold, italic, foreground and background colours) until the text file is re-opened.
+Text files can be edited providing no coding or annotations or case assignment have been performed with the text file. Copying and pasting text from elsewhere (e.g. web page) may show formatting from the copy/paste (e.g. bold, italic, foreground and background colours) until the text file is re-opened. **BEST PRACTICE: Save a copy of the project before editing the text of a coded text file.**
 
 Sections of the text file or audio/video transcribed file will have sections of text underlined in green (case assigned), yellow (annotation) or red (coded). Text can be edited even after the text is coded or annotated or assigned (fully or partially) to a case. 
 
