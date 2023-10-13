@@ -128,7 +128,7 @@ Under the codes tree is a button with a star symbol. This button toggles between
 
 ## Right-hand hidden pane
 
-The right hand side of the coding text pane has another pane tucked away. To open click and drag from the right-hand side of the window. This pane contains three options useful when coding. One option is when clicking on a code, the code name, code rule (memo) and random coded text examples from the project are displayed. The J button displays an editable current journal, determined by the most recent date. The P button displays the editable project memo.
+The right-hand side of the coding text pane has another pane tucked away. To open click and drag from the right-hand side of the window. This pane contains options useful when coding. One option is when clicking on a code, the code name, code rule (memo) and random coded text examples from the project are displayed. The P button displays the editable project memo.
 
 # Editing text
 
