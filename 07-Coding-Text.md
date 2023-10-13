@@ -134,6 +134,8 @@ The right-hand side of the coding text pane has another pane tucked away. To ope
 
 Text can be edited even after the text is coded or annotated or assigned (fully or partially) to a case. Sections of the text file or audio/video transcribed file will have sections of text underlined in green (case assigned), yellow (annotation) or red (coded) by ALL coders. 
 
+**BEST PRACTICE: Save a copy of the project before editing an already coded text file. This is just in case thecode positions are re-positioned incorrectly.**
+
 When entering the edit mode, the entire file is loaded for editing. Other functions such as the codes tree and file list are deactivated.
 
 You can select text that is not underlined and copy/replace without problems. You can click on a position (without selecting text) to then type, delete, or paste text. This can occur in underlined (coded, annotated, case-assigned) or not underlined (not coded/annotated/case-assigned) text locations. You will see the underlines shift as text is added or removed.
