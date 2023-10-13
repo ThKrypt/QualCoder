@@ -123,6 +123,10 @@ _Sunburst chart_
 
 ![Sunburst chart](https://qualcoder.files.wordpress.com/2022/04/pic10.png)
 
+_Word cloud_
+
+A word cloud is available with different background colour options. This option is not available in the Window exe.
+
 
 #  SQL Statements (run SQL queries)
 
