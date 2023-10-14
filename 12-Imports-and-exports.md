@@ -29,7 +29,9 @@ category3>>code4
 The categories and codes are in the first column. Any code memos are in the second column.
 
 code1
+
 category1>>category2>>code2
+
 category3>>code3
 
 #  REFI-QDA
