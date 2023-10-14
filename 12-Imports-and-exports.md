@@ -17,8 +17,11 @@ Import a codebook as a plain text (.txt) file or as a .csv file. Use two greater
 Use the tab to then add a memo.
 
 code1
+
 category1>>category2>>code2	memo
+
 category1>>code3
+
 category3>>code4
 
 ## CSV
