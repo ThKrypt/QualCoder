@@ -1,11 +1,13 @@
 # Videos showing how to use QualCoder
 
 ## QualCoder 3.3
+
+Video in Spanish showing coding and coding reports.
+[https://www.youtube.com/watch?v=K2zzA8l0mAk](https://www.youtube.com/watch?v=K2zzA8l0mAk)
+
 Swedish video tutorials (from Malin the Uppsala University librarian) for text analysis, are available on this page: [https://libguides.ub.uu.se/databearbetning/kvalitativ/analys](https://protect-au.mimecast.com/s/3n19CjZryVCnzvK4xsWhQIq?domain=libguides.ub.uu.se)
 
-## QualCoder 3.3 
-
-While the 3.3 version yet officially released (video from 3 March 2023), this informative video from the social sciences librarian at Temple University is well worth a watch, the last video on the page:
+Informative video from the social sciences librarian at Temple University is well worth a watch, the last video on the page:
 
 https://guides.temple.edu/qda/qualcoder 
 
