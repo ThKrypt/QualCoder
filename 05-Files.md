@@ -1,5 +1,7 @@
 #  Manage Files
-Load text files into QualCoder prior to coding. You can import text from plain text documents, docx, epub, md, odt and pdf documents. 
+Load files into QualCoder prior to coding. 
+
+You can import text from plain text documents, docx, epub, md, odt and pdf documents. 
 Pdf importing is problematic and may need editing as formatting is lost. Large Pdf files take a long time to import. QualCoder extracts text from the Pdf files using pdfminer.six, but you may choose to use another extraction program for the plain text, suggestions include: www.pdf2go.com/  www.pdfmate.com/pdf-converter-free.html  https://pandoc.org/ and then copy the plain text across.
 
 The following image files formats can be loaded: jpg, jpeg and png. 
