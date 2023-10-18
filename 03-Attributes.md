@@ -1,7 +1,7 @@
 
 # Attributes
 
-Attributes are variables associated with files or cases. They can be useful to add context to the text analysis. Open the Manage Attributes dialog. You can add, delete, rename and add memo notes to attributes.
+Attributes are variables associated with files, cases or journals. They can be useful to add context to the text analysis. Open the Manage Attributes dialog. You can add, delete, rename and add memo notes to attributes.
 
 You can right-click on a numeric attribute to convert to Character.
 
