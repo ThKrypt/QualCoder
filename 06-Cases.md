@@ -2,7 +2,7 @@
 
 Cases are useful for seeing text and images linked to a particular circumstance or person and for assigning attributes such as age and gender to interview participants. You can add a memo of notes to each case and rename a case by double-clicking on a case name.
 
-A table lists the cases and their attributes. The number of files associated with a case is shown. Click on the files cell in the table to add or changes files associated with a case. This displays the case file manager dialog, described below.
+A table lists the cases and their attributes. The number of files associated with a case is shown. Click on the Files cell in the table to add or change files associated with that case. This displays the case file manager dialog, described below.
 
 When a survey is imported, each survey row is assigned to a case. The case name is the unique identifier in the first column of the csv or Excel spreadsheet. Large surveys (e.g. 1000 or more rows) can take a long time to import as cases take some time to create.
 
