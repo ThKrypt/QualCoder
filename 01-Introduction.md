@@ -3,7 +3,7 @@
 ## INSTALLATION 
 
 ### Prerequisites
-For versions 3.2 and newer, VLC is optional, but you will need it installed if you need to do any audio/video coding. Optionally, install ffmpeg for speech to text and waveform display, see https://phoenixnap.com/kb/ffmpeg-windows..
+VLC is optional, but you will need it installed if you need to do any audio/video coding. Optionally, install ffmpeg for speech to text and waveform display, see https://phoenixnap.com/kb/ffmpeg-windows..
 
 ### Windows
 
@@ -24,7 +24,7 @@ IMPORTANT: in the first window of the installation mark the option "Add Python t
 
 4. Use the Windows command prompt. Type "cmd" in the Windows Start search engine, and click on the black software "cmd.exe" - the command console for Windows. In the console type or paste, using the right-click mouse copy and paste (ctrl+v does not work)
 
-5. In the command prompt, move (using the `cd` command) into the QualCoder folder. You should be inside the QualCoder-master folder or if using a release (the Qualcoder-3.3 folder). e.g.
+5. In the command prompt, move (using the `cd` command) into the QualCoder folder. You should be inside the QualCoder-master folder or if using a release (the Qualcoder-3.4 folder). e.g.
 
 `cd Downloads\QualCoder-master`
 
@@ -90,7 +90,7 @@ Install venv I am using python3.10 you can choose another recent version if you 
 
 Download and unzip the Qualcoder folder.
 
-Open a terminal and move (cd) into that folder. You should be inside the QualCoder-master folder or if using a release, e.g. the Qualcoder-3.3 folder. Inside the QualCoder-master folder: 
+Open a terminal and move (cd) into that folder. You should be inside the QualCoder-master folder or if using a release, e.g. the Qualcoder-3.4 folder. Inside the QualCoder-master folder: 
 
 `python3.10 -m venv qualcoder`
 
@@ -136,7 +136,7 @@ Please consider the Debian instructions above to run QualCoder in a virtual envi
 
 If success, all requirements are satisfied.
 
-3. Build and install QualCoder, from the downloaded folder (Qualcoder-master or a release e.g. QualCoder-3.3) type
+3. Build and install QualCoder, from the downloaded folder (Qualcoder-master or a release e.g. QualCoder-3.4) type
 
 `sudo python3 -m pip install .`
 
@@ -166,7 +166,7 @@ Fedora uses wayland with does not work well with the Qt graphical interface (for
 
 1) Install recent versions of [Python3](https://www.python.org/downloads/) and [VLC](https://www.videolan.org/vlc/). You will also need to install developer tools for macOS. See here: [https://www.cnet.com/tech/computing/install-command-line-developer-tools-in-os-x/](https://www.cnet.com/tech/computing/install-command-line-developer-tools-in-os-x/)
 
-2) Download the latest release "Source code" version in ZIP format, from the releases section of the project here on GitHub: https://github.com/ccbogel/QualCoder/releases/tag/3.3 and extract it into /Applications
+2) Download the latest release "Source code" version in ZIP format, from the releases section of the project here on GitHub: https://github.com/ccbogel/QualCoder/releases/tag/3.4 and extract it into /Applications
 
 3) Open the Terminal app (or any other command shell)
 
@@ -189,17 +189,17 @@ Be sure that you are in the QualCoder-Master directory before doing Step 6.
 
 To change the directory, enter or copy and run the script below.
 
-`cd /Applications/QualCoder-3.3`
+`cd /Applications/QualCoder-3.4`
 
 From the QualCoder-Master directory run the setup script:
 
 6) `python3 -m pip install .`
 
 
-Assuming you downloaded the 3.3 version. You can now run with:
+Assuming you downloaded the 3.4 version. You can now run with:
 
 ```
-python3 /applications/QualCoder-3.3/qualcoder/__main__.py
+python3 /applications/QualCoder-3.4/qualcoder/__main__.py
 ```
 
 Alternative commands to run QualCoder (Suggestions):
