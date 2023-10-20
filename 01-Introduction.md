@@ -2,6 +2,8 @@
 
 ## INSTALLATION 
 
+For the manual (command line or terminal installations) I mention a specific release version, for example version 3.4. Please check on the [releases page](https://github.com/ccbogel/QualCoder/releases) for the most current version, as it may be newer. 
+
 ### Prerequisites
 VLC is optional, but you will need it installed if you need to do any audio/video coding. Optionally, install ffmpeg for speech to text and waveform display, see https://phoenixnap.com/kb/ffmpeg-windows..
 
