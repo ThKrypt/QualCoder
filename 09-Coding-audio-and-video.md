@@ -12,10 +12,10 @@ _Video with coded transcript. Shown in dark mode._
 ## Keyboard shortcuts
 
 * Ctrl R Rewind 5 seconds
-* Alt R or Alt Minus (release 3.3+) Rewind 30 seconds
-* Alt F or Alt Plus (release 3.3+) Forward 30 seconds
+* Alt R or Alt Minus Rewind 30 seconds
+* Alt F or Alt Plus Forward 30 seconds
 * Ctrl P or Ctrl D will stop/start (play/pause). When resuming the audio/video rewinds one second.
-* Ctrl S will start/end A/V segment creation (QualCoder 3.1 and newer).
+* Ctrl S will start/end A/V segment creation.
 * Ctrl Shift < will slow play rate down to a minimum of 0.1
 * Ctrl Shift > will increase play rate up to two times.
 * Ctrl Z Restores the last unmarked coding.
@@ -48,10 +48,7 @@ Important coded texts, such as exemplars for a report, can be flagged Important 
 
 **Linking text to coded segments**
 
-There are two ways to link text and coded segments. One way is to select text (it can be coded or preferably uncoded) then assign it to a segment. First select the text and right-click Prepare text link to segment. Then right-click on the receiving segment, choose Link text to segment, to assign the text.
-
-A second way is to select a segment and link it to a text selection via a similar process.
-
+Select text (it can be coded or preferably uncoded) then assign it to a segment. First select the text. Then right-click the segment stripe to open the menu. Choose Link text to segment, to assign the text.
 
 ## Modifying code positions in the text area
 
