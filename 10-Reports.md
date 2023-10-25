@@ -8,7 +8,7 @@
 
 # Coding Reports
 
-This dialog gives a list of coded text based on your selections. One or more codes need to be selected. If a category is selected all codes in that category are also selected. Multiple categories can be selected using the mouse and the ‘ctrl’ button. 
+This report gives a list, or matrix, of coded data based on your selections. One or more codes need to be selected. If a category is selected all codes in that category are also selected. Multiple categories can be selected using the mouse and the ‘ctrl’ button. 
 
 The Search button (Button containing cogs) will present the results.
 
