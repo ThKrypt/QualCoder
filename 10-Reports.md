@@ -34,8 +34,8 @@ The Attribute selection button opens a window where you can select attributes fo
 f you are creating a report and selecting one of the matrix options, then the results pane will be split into two panes. The left pane shows the coded data in a list, and the right pane shows a matrix of rows and columns. The column types can be codes, categories, or top-level categories.
 
 The  panes can be widened or narrowed by dragging with the mouse on the bar that splits each section.
-Reports can be exported to text, open document (ODT), html or csv files. Currently, case matrices are not able to be exported.
-The second pane with show all the results in a list allows you to view the coded portion in context of the original text file, image, audio or video. To do this, click on the row of text that begins with [VIEW].
+
+Reports can be exported to text, open document (ODT), html or csv files.
 
 ![Case matrix in reports](https://qualcoder.files.wordpress.com/2022/07/reports_case_matrix.png)
 
