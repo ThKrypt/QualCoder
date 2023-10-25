@@ -26,12 +26,12 @@ There is a tick box to select only the Important codings. This is useful for qui
 
 ## Attribute selection in reports
 
-The Attribute selection button opens a dialog window where you can select attributes for files and cases, for example: only interview files for people aged > 60.
+The Attribute selection button opens a window where you can select attributes for files and cases, for example: only interview files for people aged > 60.
 
 ![Attribute selection](https://qualcoder.files.wordpress.com/2019/02/attribute_selection.png)
 
-## Case selection in reports
-If you are creating a report and selecting cases, then the code tree pane is narrowed. Three panes are shown. The left pane shows the codings in a list, the middle pane shows the highlighted codes, the right pane shows a matrix with one case on each row in columns. The column types can be codes, categories, or top-level categories.
+## File or Case matrix
+If you are creating a report and select a Matrix option, the right pane shows a matrix with one case on each row in columns. The column types can be codes, categories, or top-level categories.
 
 Each of the three panes can be widened or narrowed by dragging with the mouse on the bar that splits each section.
 Reports can be exported to text, open document (ODT), html or csv files. Currently, case matrices are not able to be exported.
