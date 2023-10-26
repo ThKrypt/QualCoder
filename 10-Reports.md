@@ -125,7 +125,7 @@ _Sunburst chart_
 
 _Word cloud_
 
-A word cloud is available with different background colour options. This option is not available in the Window exe.
+A word cloud is available with different background colour options. This option is not available in the Windows 3.4 exe.
 
 
 #  SQL Statements (run SQL queries)
