@@ -15,7 +15,7 @@ The buttons here:
 * Delete a case
 * Help button
 
-![Manage cases tab](https://qualcoder.files.wordpress.com/2021/05/cases.png?resize=600%2C550)
+![Manage cases tab](https://qualcoder.files.wordpress.com/2024/01/cases.png?resize=438%2C438?resize=600%2C550)
 
 ## Hiding and showing rows and columns
 
