@@ -147,7 +147,9 @@ There are some limitations: It is best to avoid selecting sections of text to de
 
 #  Categories and codes
 
-Categories are used to organise codes. Categories are organised hierarchically in a tree structure. You can move codes into categories and move categories into larger categories. You can move categories and codes out of their current position. Codes and categories can be merged by dropping a code onto a code or a category onto a category. Categories and codes can be assigned memos. Right-click on a category or code to rename. Right click on a code to change the color.
+Categories are used to organise codes. Categories are organised hierarchically in a tree structure. You can move codes into categories and move categories into larger categories. You can move categories and codes out of their current position. Codes and categories can be merged by dropping a code onto a code or a category onto a category. Right-click on a category or code to rename. Right click on a code to change the color.
+
+Categories and codes can be assigned memos. Memos can contain symbols such as those shown here: [https://www.alt-codes.net//](https://www.alt-codes.net//). See the how to link to insert them - Laptop num lock on, hold the Alt key down then enter the number useing the number keypad on the right.
 
 To reduce the number of codes shown in the code tree. In the coding windows (code text, code, a/v or code image), right-click on the code tree and select _Show codes like_ from the menu. Then enter text in the text box. This will then only show codes that contain that text. To show all the codes again, enter nothing into the text box and press OK to show all the codes.
 
