@@ -8,10 +8,12 @@ There are several strategies for organising collaborative work on the same proje
 This approach can be applied to both inductive and deductive coding. It is based on the principle that all team members work on the same project files, albeit not simultaneously.
 
 ### Working With a Network Drive
-The simplest method for sequential editing involves saving your project on a network drive accessible to all team members. Caution: Cloud-based shared folders such as OneDrive, Dropbox, etc., are unsuitable for this purpose. You must use a genuine network drive where QualCoder can directly write, such as on your university's file server. Moreover, a very stable network connection is crucial to avoid errors.
-QualCoder can now automatically manage concurrent access. Attempting to open a project that someone else is already using results in an error message. This message also displays the username of the person currently working on the project.
+
+* The simplest method for sequential editing involves saving your project on a network drive accessible to all team members. Caution: Cloud-based shared folders such as OneDrive, Dropbox, etc., are unsuitable for this purpose. You must use a genuine network drive where QualCoder can directly write, such as on your university's file server. Moreover, a very stable network connection is crucial to avoid errors.
+* QualCoder can now automatically manage concurrent access. Attempting to open a project that someone else is already using results in an error message. This message also displays the username of the person currently working on the project.
 
 ### Coordinating the Sequence of Work Manually
+
 You can do this via email so that each person, upon completing their tasks, mails the zipped project folder to the subsequent individual on the list.
 You can also work sequentially on the same computer, using the same project folder.
 
