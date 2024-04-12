@@ -9,7 +9,7 @@ This approach can be applied to both inductive and deductive coding. It is based
 
 ### Working With a Network Drive
 
-DRAFT FUNCTIONALITY - DO NOT USE THIS PAPPROACH  NOW
+DRAFT FUNCTIONALITY - DO NOT USE THIS APPPROACH NOW - WILL RISK DATA CORRUPTION
 
 * The simplest method for sequential editing involves saving your project on a network drive accessible to all team members. Caution: Cloud-based shared folders such as OneDrive, Dropbox, etc., are unsuitable for this purpose. You must use a genuine network drive where QualCoder can directly write, such as on your university's file server. Moreover, a very stable network connection is crucial to avoid errors.
 * QualCoder can now automatically manage concurrent access. Attempting to open a project that someone else is already using results in an error message. This message also displays the username of the person currently working on the project.
