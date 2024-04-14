@@ -9,7 +9,7 @@ QualCoder is written in python 3 using the Qt6 for the graphical interface.
 
 # Future plans
 
-Currently QualCoder is developed on Ubuntu 22.04 and Windows 10/11. Some people have used Qualcoder on Linux Mint, Lubuntu, Fedora, Manjaro/Arch Raspberry Pi, and on MacOS. 
+Currently QualCoder is developed on Windows 11. Some people have used Qualcoder on Linux Mint, Lubuntu, Fedora, Manjaro/Arch Raspberry Pi, and on MacOS. 
 
 
 Some potential plans for the future are to add functionality:
