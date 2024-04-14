@@ -1,4 +1,4 @@
-# DRAFT PAGE  - Some functions discussed below are not active
+# DRAFT PAGE  - one function discussed below is not active
 
 
 # Working Together in a Team
