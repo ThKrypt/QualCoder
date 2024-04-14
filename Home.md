@@ -33,18 +33,8 @@ QualCoder is written in python 3 (version 3.8 and up) using Qt6 for the graphica
 
 ## Collaboration on a Qualcoder project
 
-I get a few questions on how project collaboration works. So I have added this information on the first page of the wiki.
-The first thing is that QualCoder is not set up to have multiple coders simultaneously working on  project. One person at a time must open the project and use the project.
+[Page on how to work as a team with QualCoder](https://github.com/ccbogel/QualCoder/wiki/13-Working-in-a-team)
 
-The QualCoder project folder is a folder with a .qda ending. This folder contains sub-folders of files and a sqlite database file. You can zip the project folder and email (or transfer via removable media) the zipped project to another collaborator for them to work on the project. They unzip the folder, then open the project using QualCoder. 
-
-You can have a second coder use the same project folder on the same computer, change the name in setting to the new coder's name (enter a new coder name and click the Apply button, or select from the drop down list) so they can work on the project under their name, especially if you need to do a coder comparison.
-
-Please check the current coder's name in Files>Settings before doing any work. Codings in code text, code images, code A/V will only show the coded segments of the currently selected coder in Settings. So if **nothing** shows, change the coder name using the drop down box in Settings.
-
-The coder name is 'default' when first using QualCoder. When opening another existing project, please make sure the coder name is set to the name you want to use by checking and updating the Settings before you do work on your project. When you are in any of the coding sections (coding text, images or A/V).
-
-Do not use REFi-QDA Project export as a routine approach for collaboration when all coders are using QualCoder. Use the above approach instead. If you need to use open a project in different software (e.g. Taguette, NVivo, Atlas.ti, MAXQDA, Dedoose, Quirkos), only then you should use the REFI-QDA Project export. It is important to recognise that project features can be lost when transferring project between qualitative software using the REFI-QDA Project export.
 
 **If you use and like QualCoder please support the development.**
 
