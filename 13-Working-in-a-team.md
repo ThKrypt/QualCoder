@@ -34,7 +34,7 @@ Follow these steps:
 * Ideally, import all empirical documents at this stage. Avoid linking to external files as this complicates the distribution of the project.
 * Zip your project folder, including all subfolders and files, and send it to your collaborators (or use an USB-stick).
 * Decide on a strategy for handling coder names in your team, as explained in the notes below.
-* Now, each team member can unzip their local copy of the project and work on it independently, adding codes, codings, memos, etc. However, do not edit the text of the empirical documents themselves, since this will cause problems during the merging process later.
+* Now, each team member can unzip their local copy of the project and work on it independently, adding codes, codings, memos, etc. However, do not edit the imported text of the empirical documents themselves, since this will potentially cause problems during the merging process later.
 * Finally, gather all the local copies and sequentially merge them into your master project, using the process described here: https://github.com/ccbogel/QualCoder/wiki/12-Imports-and-exports#merge-qualcoder-projects
 
 ## Important Considerations Regarding Coder Names
