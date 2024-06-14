@@ -30,21 +30,24 @@ The Attribute selection button opens a window where you can select attributes fo
 
 ![Attribute selection](https://qualcoder.files.wordpress.com/2019/02/attribute_selection.png)
 
-### Text file has multiple cases assigned to portion of the text
+### Text file has multiple cases assigned to portions of the text
 
 Problem with applying case attributes.
 This most commonly occurs with survey imports.
 The case attribute selection option will select the entire text file, rather than the sections assigned to cases.
 
-One option for now is to use Reports > Database queries SQL query like the following example.
+One option for now is to use Reports > Database queries.
+
+Create and run a SQL query like the following example:
 
 ```
-SELECT case_text.caseid, attribute.name as 'Case attribute', attribute.value, case_text.pos0, case_text.pos1,code_name.name,  code_text.pos0, code_text.pos1, seltext 
+SELECT case_text.caseid, attribute.name as 'Case attribute', attribute.value, case_text.pos0, 
+case_text.pos1, code_name.name,  code_text.pos0, code_text.pos1, seltext 
 from 
 case_text join attribute on attribute.id=case_text.caseid join source on source.id = case_text.fid 
 join code_text on  code_text.fid=source.id join code_name on code_name.cid = code_text.cid 
 where
- code_name.name = 'code1' -- example code name
+code_name.name = 'code1' -- example code name
 and attribute.name='District' -- example Case attribute name
 and attribute.value='north'  -- example case attribute value
 and case_text.pos0 <= code_text.pos0 
