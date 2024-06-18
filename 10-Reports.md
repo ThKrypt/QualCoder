@@ -153,7 +153,7 @@ _Word cloud_
 A word cloud is available with different options for background colour, foreground colour or colour range, size, number of words (n-grams) from 1 to 4, and maximum number of words to include. The maximum words is determined by the most frequent to the least frequent and changing this option will change how crowded or sparse the word cloud appears.
 ![Options](https://qualcoder.wordpress.com/wp-content/uploads/2024/06/wordcloud_options.png)
 
-Example:
+
 ![Word Cloud](https://qualcoder.wordpress.com/wp-content/uploads/2023/12/wc.png)
 
 #  SQL Statements (run SQL queries)
