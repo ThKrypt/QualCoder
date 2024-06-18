@@ -37,8 +37,9 @@ This most commonly occurs with survey imports.
 The case attribute selection option will select the entire text file, rather than the sections assigned to cases.
 
 One option for now is to use Reports > Database queries.
+In the upcoming 3.6 version onwards there is a default query that will do this.
 
-Create and run a SQL query like the following example:
+In earlier versions do this below, create and run a SQL query like the following example:
 
 ```
 SELECT case_text.caseid, attribute.name as 'Case attribute', attribute.value, case_text.pos0, 
@@ -149,7 +150,7 @@ _Sunburst chart_
 
 _Word cloud_
 
-A word cloud is available with different background colour options. This option is not available in the Windows 3.4 exe.
+A word cloud is available with different background colour options. 
 
 
 #  SQL Statements (run SQL queries)
