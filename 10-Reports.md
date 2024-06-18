@@ -151,7 +151,7 @@ _Sunburst chart_
 _Word cloud_
 
 A word cloud is available with different background colour options. 
-
+![Word Cloud](https://qualcoder.wordpress.com/wp-content/uploads/2023/12/wc.png)
 
 #  SQL Statements (run SQL queries)
 
