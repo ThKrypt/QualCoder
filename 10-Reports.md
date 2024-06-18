@@ -150,9 +150,10 @@ _Sunburst chart_
 
 _Word cloud_
 
-A word cloud is available with different options for background colour, foreground colour or colour range, size, number of words (n-grams) from 1 to 4, and maximum number of words to include. The maximum words is determined by the most frequent to the least frequent and changing this option will change how crowded or sparse the word cloud appears.
+A word cloud is available with different options for background colour, foreground colour or colour range, rectangle size, number of words (n-grams) from 1 to 4, and maximum number of words to include. The maximum words is determined by the most frequent to the least frequent and changing this option will change how crowded or sparse the word cloud appears.
 ![Options](https://qualcoder.wordpress.com/wp-content/uploads/2024/06/wordcloud_options.png)
 
+There are a list of stop words that are used to exclude common words from the word cloud display (e.g. an, a, the). This can be overridden by creating your own stopwords.txt file with one word on each line. This file should be put inside the .qualcoder folder. This folder is located in the users home directory.
 
 ![Word Cloud](https://qualcoder.wordpress.com/wp-content/uploads/2023/12/wc.png)
 
