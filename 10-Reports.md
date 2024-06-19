@@ -161,8 +161,9 @@ There are a list of stop words that are used to exclude common words from the wo
 
 This window contains three panes. The top pane is where SQL statements are entered and the bottom pane contains the results of queries. The left pane contains tables and field names. Double-clicking on a field name adds it to the SQL statement. Results can be exported to a delimited file. If you are not familiar with SQL take care as you will be able to update and delete the data as well as select data. Note: Some Unicode symbols are not converted to plain text and are ignored.
 
-There are several prepared join statements listed:
+There are several prepared statements listed:
 * Case text
+* Coded text using a case attribute selection (v3.6+)
 * Codes fileid and coded text
 * Get coding table - an implementation of an RQDA function that returns the code name, table, text length and text start and end positions.
 * Coded text with each case
