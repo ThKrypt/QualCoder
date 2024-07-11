@@ -1,5 +1,9 @@
 # Videos showing how to use QualCoder
 
+## QualCoder 3.5
+
+[Spanish or Portugese, looks at coding videos](https://www.youtube.com/watch?v=Fcqq9XaGUzY)
+
 ## QualCoder 3.3
 
 Video in Spanish showing coding and coding reports.
