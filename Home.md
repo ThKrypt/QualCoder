@@ -9,7 +9,7 @@ Coder comparison reports can be generated for text coding using the Cohen’s Ka
 
 QualCoder is designed to be used as client-based software to be used by one person at a time. (A second coder can use the same project on the same computer, or the project folder can be transferred to the second coder's computer). QualCoder is not designed to be multi-accessed at the same time. Accessing the project in a cloud location is not recommended, it may corrupt the database if a database connection is lost during any database updating processes. 
 
-QualCoder is written in python 3 (version 3.8 and up) using Qt6 for the graphical interface. A Sqlite database is used to store the coding data. There is also a Wordpress site for QualCoder at https://qualcoder.wordpress.com/.
+QualCoder is written in python 3 (version 3.10 and up) using Qt6 for the graphical interface. A Sqlite database is used to store the coding data. There is also a Wordpress site for QualCoder at https://qualcoder.wordpress.com/.
 
 ##  Why use QualCoder?
 **Qualcoder is free of charge.** Many qualitative analysis software requiring expensive one-time fees or monthly subscriptions. Not everyone can afford expensive fees.
