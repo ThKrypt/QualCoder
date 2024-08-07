@@ -30,7 +30,7 @@ The default project directory is where many file operations will default to, for
 
 Create a new project under the ‘Project’ menu, call it test. The project will be saved as test.qda. Test.qda is actually a folder containing subfolders which hold the database and other files. Additionally, in your home folder QualCoder will create a .qualcoder folder with a QualCoder.log file for logging events and a config.ini file which will contain a lot of settings such as the current coder’s name, preferred fonts, language and a preferred working directory. 
 
-If you are using Windows, do not actively use your QualCoder project in the cloud (OneDrive). Instead, use it locally on your computer, but you can store the project folder as a backup in the cloud (OneDrive).
+If you are using Windows, do not actively use your QualCoder project in the cloud (OneDrive). Instead, use it locally on your computer, but you can store the project folder as a backup in the cloud (OneDrive). The reason is that sometimes files may not import into the project.
 
 Under the Project menu click on Project memo. This is where you can put notes about your overall project.
 
