@@ -2,6 +2,8 @@
 
 ## QualCoder 3.5
 
+[English](https://www.youtube.com/watch?v=wj5fY4F5Jxo)
+
 [Spanish or Portugese, looks at coding videos](https://www.youtube.com/watch?v=Fcqq9XaGUzY)
 
 ## QualCoder 3.3
