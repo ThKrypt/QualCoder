@@ -12,6 +12,7 @@ VLC is optional, but you will need it installed if you need to do any audio/vide
 **Use the exe**
 
 Current releases contain an exe file (created on Windows 10, 64 bit). Double-click to run.
+See [https://github.com/ccbogel/QualCoder/releases/](https://github.com/ccbogel/QualCoder/releases/)
 
 **Alternatively install from source**
 
