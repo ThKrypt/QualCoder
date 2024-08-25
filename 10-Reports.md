@@ -32,7 +32,7 @@ The Attribute selection button opens a window where you can select attributes fo
 
 ### Text file has multiple cases assigned to portions of the text
 
-Problem with applying case attributes.
+**There is a problem with applying case attributes.**
 This most commonly occurs with survey imports.
 The case attribute selection option will select the entire text file, rather than the sections assigned to cases.
 
