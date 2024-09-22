@@ -7,13 +7,6 @@ There are several strategies for organising collaborative work on the same proje
 ## Sequential Editing of the Same Project
 This approach can be applied to both inductive and deductive coding. It is based on the principle that all team members work on the same project files, albeit not simultaneously.
 
-### Working With a Network Drive
-
-DRAFT FUNCTIONALITY - DO NOT USE THIS APPPROACH NOW - WILL RISK DATA CORRUPTION
-
-* The simplest method for sequential editing involves saving your project on a network drive accessible to all team members. Caution: Cloud-based shared folders such as OneDrive, Dropbox, etc., are unsuitable for this purpose. You must use a genuine network drive where QualCoder can directly write, such as on your university's file server. Moreover, a very stable network connection is crucial to avoid errors.
-* QualCoder can now automatically manage concurrent access. Attempting to open a project that someone else is already using results in an error message. This message also displays the username of the person currently working on the project.
-
 ### Coordinating the Sequence of Work Manually
 
 * You can do this via email so that each person, upon completing their tasks, mails the zipped project folder to the subsequent individual on the list.
@@ -44,3 +37,10 @@ No matter which strategy you use to organize the collaborative coding process, y
 * The coder name is 'default' when first using QualCoder. When opening another existing project, please make sure the coder name is set to the name you want to use by checking and updating the Settings before you work on your project. You can either select an existing coder name from the dropdown list or enter a new one and click the Apply button.
 * Be aware that in the coding workspaces (text, images, A/V), only the coded segments of the currently selected coder in Settings will be visible. So, if nothing shows, change the coder name using the dropdown box in Settings.
 * This also indicates a potential downside of using individual coder names: You cannot easily see what others have already coded in your document (applies only to the sequential work process described above). If you need that, use the same name for all coders throughout.
+
+### Working With a Network Drive
+
+DRAFT FUNCTIONALITY - DO NOT USE THIS APPPROACH NOW - WILL RISK DATA CORRUPTION
+
+* The simplest method for sequential editing involves saving your project on a network drive accessible to all team members. Caution: Cloud-based shared folders such as OneDrive, Dropbox, etc., are unsuitable for this purpose. You must use a genuine network drive where QualCoder can directly write, such as on your university's file server. Moreover, a very stable network connection is crucial to avoid errors.
+* QualCoder can now automatically manage concurrent access. Attempting to open a project that someone else is already using results in an error message. This message also displays the username of the person currently working on the project.
