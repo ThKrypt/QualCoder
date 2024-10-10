@@ -18,7 +18,7 @@ See [https://github.com/ccbogel/QualCoder/releases/](https://github.com/ccbogel/
 
 Seriously consider using a virtual environment (commands in point 6 below). Not using a virtual environment may affect other python software you may have installed.
 
-1. Download and install the Python programming language. The minimum version for QualCoder is 3.8. [Python3](https://www.python.org/downloads/). Download the file (at the bottom of the web site) "Windows installer (64-bit)"
+1. Download and install the Python programming language. The minimum version for QualCoder is 3.10. [Python3](https://www.python.org/downloads/). Download the file (at the bottom of the web site) "Windows installer (64-bit)"
 IMPORTANT: in the first window of the installation mark the option "Add Python to PATH"
 
 2. Download the QualCoder software from: https://github.com/ccbogel/QualCoder from the Green Code button. This is the newest, but not yet officially released code. Click the green button "Code", and then "Download ZIP". Alternatively, choose the most recent release zip, see right hand side of this page for the link to Releases.
@@ -51,7 +51,7 @@ Type the following:
 
 `py -m pip install --upgrade pip`
 
-`py -m pip install wheel pyqt6 chardet ebooklib openpyxl Pillow ply pdfminer.six pandas plotly pydub python-vlc rispy SpeechRecognition`
+`py -m pip install chardet diff-match-patch ebooklib openpyxl wheel pyqt6 Pillow ply pdfminer.six pandas plotly pydub python-vlc rispy SpeechRecognition`
 
 Wait, until all modules are installed .
 
@@ -81,7 +81,7 @@ If you are using a virtual environment:
 
 ### Debian/Ubuntu Linux
 
-There is an executable file in the releases page for Ubuntu 22.04 for the 3.3 release. Download and double click to run.
+There is an executable file in the releases page for Ubuntu 22.04 for the 3.5 release. Download and double click to run.
 
 Alternatively, run QualCoder inside a python virtual environment, so that the system installed python modules do not clash and cause problems. I have added the additional code to do this here.
 
@@ -106,7 +106,7 @@ Upgrade pip before installing the modules:
 
 Install the required python modules:
 
-`pip install chardet ebooklib openpyxl pandas ply pdfminer pyqt6 pillow pdfminer.six plotly pydub python-vlc six SpeechRecognition`
+`pip install chardet diff-match-patch ebooklib openpyxl pandas ply pdfminer pyqt6 pillow pdfminer.six plotly pydub python-vlc six SpeechRecognition`
 
 Install QualCoder (the dot is important):
 
@@ -133,7 +133,7 @@ Please consider the Debian instructions above to run QualCoder in a virtual envi
 
 2. Install additional python modules
 
-`sudo python3 -m pip install ebooklib pdfminer.six pandas plotly pydub python-vlc SpeechRecognition`
+`sudo python3 -m pip install diff-match-patch ebooklib pdfminer.six pandas plotly pydub python-vlc SpeechRecognition`
 
 If success, all requirements are satisfied.
 
@@ -183,7 +183,7 @@ python3 get-pip.py
 5) Install Python dependency modules using `pip`:
 
 ```sh
-pip install pyqt6 chardet ebooklib pillow ply pdfminer.six openpyxl pandas plotly pydub python-vlc six SpeechRecognition
+pip install chardet diff-match-patch ebooklib pillow ply pyqt6  pdfminer.six openpyxl pandas plotly pydub python-vlc six SpeechRecognition
 ```
 
 Be sure that you are in the QualCoder-Master directory before doing Step 6.
