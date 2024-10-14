@@ -31,6 +31,8 @@ QualCoder is written by an Auatralian developer in python 3 (version 3.10 and up
 
 **QualCoder is a software option to support open science. [UNECO recommendations on open science](https://www.unesco.org/en/open-science?hub=686)
 
+
+
 ## Collaboration on a Qualcoder project
 
 [Page on how to work as a team with QualCoder](https://github.com/ccbogel/QualCoder/wiki/13-Working-in-a-team)
