@@ -18,7 +18,7 @@ See [https://github.com/ccbogel/QualCoder/releases/](https://github.com/ccbogel/
 
 Seriously consider using a virtual environment (commands in point 6 below). Not using a virtual environment may affect other python software you may have installed.
 
-1. Download and install the Python programming language. The minimum version for QualCoder is 3.10. [Python3](https://www.python.org/downloads/). Download the file (at the bottom of the web site) "Windows installer (64-bit)"
+1. Download and install the Python programming language. The minimum recommended version for QualCoder is 3.10. [Python3](https://www.python.org/downloads/). Download the file (at the bottom of the web site) "Windows installer (64-bit)"
 IMPORTANT: in the first window of the installation mark the option "Add Python to PATH"
 
 2. Download the QualCoder software from: https://github.com/ccbogel/QualCoder from the Green Code button. This is the newest, but not yet officially released code. Click the green button "Code", and then "Download ZIP". Alternatively, choose the most recent release zip, see right hand side of this page for the link to Releases.
@@ -52,6 +52,10 @@ Type the following:
 `py -m pip install --upgrade pip`
 
 `py -m pip install chardet diff-match-patch ebooklib openpyxl wheel pyqt6 Pillow ply pdfminer.six pandas plotly pydub python-vlc rispy SpeechRecognition`
+
+OR if using the latest code, which is currently pre-release. Qualcoder 3.6:
+
+`py -m pip install -r requirements.txt`
 
 Wait, until all modules are installed .
 
@@ -107,6 +111,10 @@ Upgrade pip before installing the modules:
 Install the required python modules:
 
 `pip install chardet diff-match-patch ebooklib openpyxl pandas ply pdfminer pyqt6 pillow pdfminer.six plotly pydub python-vlc six SpeechRecognition`
+
+OR if using the latest code, which is currently pre-release. Qualcoder 3.6:
+
+`py -m pip install -r requirements.txt`
 
 Install QualCoder (the dot is important):
 
@@ -185,6 +193,10 @@ python3 get-pip.py
 ```sh
 pip install chardet diff-match-patch ebooklib pillow ply pyqt6  pdfminer.six openpyxl pandas plotly pydub python-vlc six SpeechRecognition
 ```
+
+OR if using the latest code, which is currently pre-release. Qualcoder 3.6:
+
+`pip install -r requirements.txt`
 
 Be sure that you are in the QualCoder-Master directory before doing Step 6.
 
