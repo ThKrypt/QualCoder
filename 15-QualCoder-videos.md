@@ -1,5 +1,11 @@
 # Videos showing how to use QualCoder
 
+## QualCoder 3.6
+
+QualCoder 3.6 is not 'released' yet but, the currently work on code, is avaible from the main github page via the Greed Code button for download.
+
+[Qualitativ Forschen - AI-based horizontal coding](https://www.youtube.com/watch?v=FrQyTOTJhCc)
+
 ## QualCoder 3.5
 
 [English youtube video](https://www.youtube.com/watch?v=wj5fY4F5Jxo)
