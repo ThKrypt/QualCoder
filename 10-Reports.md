@@ -93,7 +93,7 @@ In versions up to 3.5, the html contains absolute links to the image/audio/video
 To convert the absolute links to relative links you need to delete some text. Open the html file and Find and Replace with nothing:
 look for src=" then remove all the text from here up to images.
 
-Example:
+Example, replacing absolute links with relative links:
 
 From:
 
