@@ -91,12 +91,16 @@ html is a web browser format. For plain text there will only be an html file, e.
 
 In versions up to 3.5, the html contains absolute links to the image/audio/video files. So it is best opened in a web browser from where it was downloaded. 
 To convert the absolute links to relative links you need to delete some text. Open the html file and Find and Replace with nothing:
-look for src=" then remove all the text from here up to images
+look for src=" then remove all the text from here up to images.
+
 Example:
+
 From:
+
 src="**C:/Users/yourname/Documents/myresults/**images/3-artifact4-pub.jpg
 
 To:
+
 src="images/3-artifact4-pub.jpg
 
 From 3.6 up, you can move the html file and its folder to another location and it will still work.
