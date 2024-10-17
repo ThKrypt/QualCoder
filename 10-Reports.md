@@ -75,6 +75,22 @@ _When cases are selected, another pane is displayed showing a table of cases (in
 * Check box for coding in context for coded text segments. This shows the surrounding 250 characters of text to help put the coded section in context in the report. The coded text segment is shown in bold.
 * Memo display. A drop down box gives options to include no memos, various memo option, or to display text file annotations for selected text files.
 
+## Exporting coding reports
+
+Reports can be exported as html, odt, txt, csv, xlsx.
+
+txt is a plain text file
+
+csv is a plain text spreadsheet format
+
+xlsx is a Microsoft Word spreadsheet, containing only text.
+
+odt is Open Document Text. This is a format that can be opened with Microsoft Word or LibreOffice Writer. It will contain text, colours and images. For example, if you have images coded.
+
+html is a web browser format. For plain text there will only be an html file, e.g. myresults.html. If your coding contains images, video or audio, there will be a supplementary folder, e.g. myresults folder. This folder contains the audio, video and image files needed for display.
+
+In versions up to 3.5, the html contains absolute links to the image/audio/video files. So it is best opened in a web browser from where it was downloaded. From 3.6 up, you can move the html file and its folder to another location and it will still work.
+
 #  Coding Comparison
 This option shows the overall similarities and differences between two coders across all text files. Select two coders and click the run comparisons button. The statistics created here are only for coded text, not coded image nor media files. 
 
