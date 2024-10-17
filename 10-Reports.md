@@ -89,7 +89,17 @@ odt is Open Document Text. This is a format that can be opened with Microsoft Wo
 
 html is a web browser format. For plain text there will only be an html file, e.g. myresults.html. If your coding contains images, video or audio, there will be a supplementary folder, e.g. myresults folder. This folder contains the audio, video and image files needed for display.
 
-In versions up to 3.5, the html contains absolute links to the image/audio/video files. So it is best opened in a web browser from where it was downloaded. From 3.6 up, you can move the html file and its folder to another location and it will still work.
+In versions up to 3.5, the html contains absolute links to the image/audio/video files. So it is best opened in a web browser from where it was downloaded. 
+To convert the absolute links to relative links you need to delete some text. Open the html file and Find and Replace with nothing:
+look for src=" then remove all the text from here up to images
+Example:
+From:
+src="**C:/Users/yourname/Documents/myresults/**images/3-artifact4-pub.jpg
+
+To:
+src="images/3-artifact4-pub.jpg
+
+From 3.6 up, you can move the html file and its folder to another location and it will still work.
 
 #  Coding Comparison
 This option shows the overall similarities and differences between two coders across all text files. Select two coders and click the run comparisons button. The statistics created here are only for coded text, not coded image nor media files. 
