@@ -1,0 +1,70 @@
+QualCoder’s built-in AI features (version 3.6 and up) can assist the coding process in various ways:
+- **AI Search:** Leverage the AI's ability to quickly analyze large amounts of text to find and explore specific topics or concepts within your corpus.
+- **Search for concepts, not keywords:** QualCoder uses a combination of semantic search technologies and Large Language Models like GPT-4. As a result, you don’t need to enter exact keywords but can also search for much more abstract concepts, e.g. "changing gender roles" or "recognition in the workplace". 
+- **Interpret your data interactively with the AI:** The AI not only suggests relevant data but also provides interpretation, offering a different perspective that can enrich your understanding of the data.
+- **Adapt it to your methodology:** Direct the AI’s analysis by choosing from several predefined prompts or creating your own.
+- **Assisted, not automated coding:** Unlike the keyword-based [auto coding]( https://github.com/ccbogel/QualCoder/wiki/07-Coding-Text#auto-code), this is not an automated process. You must review the AI's suggestions.
+
+## Preconditions
+- The AI must be enabled, fully loaded, and ready for new queries (see the status bar for current state).
+- It is **highly recommended** to use the project memo (Menu "AI > Project Memo") to include a short description of your project's research topics, questions, objectives, and the empirical data collected. This information will accompany every prompt sent to the AI, resulting in much more targeted results.
+
+## Start AI Assisted Coding
+AI assisted coding is integrated into the text coding workspace. Navigate to "Coding > Code Text", select the "AI Search" tab on the left, and click on "Start AI Search."
+
+![Screenshot AI Search tab](https://qualcoder.wordpress.com/wp-content/uploads/2024/10/09-start-ai-search.png)
+
+In the next window, choose between "Code search" or "Free search" and configure your options:
+
+![Screenshot AI Search Options](https://qualcoder.wordpress.com/wp-content/uploads/2024/10/10-start-ai-search-window.png) 
+
+### Code Search
+
+Use this to add more data from your entire corpus to an already existing code. This can transform traditional coding practices, as [demonstrated in this video tutorial]( https://www.youtube.com/watch?v=FrQyTOTJhCc).
+
+**Options:**
+
+- **Select a code or a category:** QualCoder will send not only the code name to the AI but the complete hierarchy path in the code tree, e.g., "Monitoring of CM ADEs > resources needed" in the example shown above. 
+- **Send memo to AI:** Describe or define your code in a code memo to help the AI understand and yield better results. You can also add personal notes to the code memo by inserting "#####" in the text; anything below this will not be sent to the AI.
+- **Include coded segments:** Defaulted to off, meaning the AI search will return only new data not yet coded with this particular code. Activate this option to include previously coded data also.
+
+### Free Topic Search
+Search for any topic, phenomenon, or concept in your entire corpus of data without a predefined code. Enter a name and a description to communicate to the AI what you are looking for. 
+
+### Prompts 
+A prompt instructs the AI how to analyze your data. Select them in the bottom left of the window. 
+
+QualCoder offers a range of prompts for different approaches. These allow, for instance, to modify the AI search to be either very open, interpretative and inclusive ("Open search" prompt) or to be more focused, adhering to predefined coding rules outlined in the code’s memo ("content analysis" prompt). 
+
+Explore these prompts by hovering your mouse over the items in the drop down list. Click on "change prompt" for more info and the option to [define your own prompts](MISSING: ADVANCED OPTIONS PROMPTS LIBRARY PAGE).
+
+### Filter
+Narrow your search by selecting specific documents or cases on the right side of the window (Ctrl + Click to select multiple). You can also define a filter based on selected attribute variables.
+
+## The Process of AI Assisted Coding
+The AI Search is a two-step process:
+
+**Step 1:** The AI queries its local database for potentially relevant data in your corpus.
+
+**Step 2:** This data is then sent to the large language model for a detailed analysis based on the selected prompt.
+
+Please be patient as it might take some time for the initial results to appear. Clicking on a result loads the document in the main window and highlights the relevant quote. Make sure to also look at the text surrounding the quote to understand its context. 
+
+### Working through the Results
+
+You can **code the selected text** as you would any other text in the [code-text workspace] (https://github.com/ccbogel/QualCoder/wiki/07-Coding-Text). Expand or modify the selection as needed. 
+
+You can also view the **AI's interpretation** by hovering your mouse over a result in the list on the left, which will display a tooltip window. If you choose to code the text, you will have the option to add the AI's interpretation as a memo to the coding.
+
+When you reach the **end of the list,** you'll often see a "find more" link, which means that more data from the first step of the search is available for closer inspection. QualCoder will only examine 10 pieces of data at a time to conserve resources. 
+
+Internally, QualCoder uses a **ranking algorithm** to display the most relevant results at the top of the list. Note that this algorithm is not perfect, you may still find interesting data further down the list. 
+
+Over time, however, the results returned by the AI will begin to **diverge from the original topic** and become less and less relevant. This is the point where you should stop the investigation and move on to the next topic or code. You don't need to click "find more" until there is absolutely no data left to analyze from step one of the search. Compare this to a Google search: There's no need to click through every single page of results if you already understand what you want to know.
+
+### If You Get No Results
+
+1) **If step one does not return any potentially relevant data:** Remember that by default, the code search only extracts new data. If you have already thoroughly coded your documents, there may simply be nothing new to explore on a particular topic. Also, think about your search query, especially the name of the code or search topic: Is it too specific or not clear enough?
+2) **If step two does not yield any results:** Click on "find more" (if available) to analyze more data. If this does not produce any results either, you may want to start a new search with a more open, inclusive prompt (e.g., "open search"). 
+
+In general, getting no, very few, or mosty irrelevant results is a strong indication that a particular topic is not very prominent in your data. However, we cannot guarantee that the AI will find every single piece of data related to your code or free search without missing anything.
