@@ -1,9 +1,11 @@
+## Introduction
+
 QualCoder’s built-in AI features (version 3.6 and up) can assist the coding process in various ways:
 - **AI Search:** Leverage the AI's ability to quickly analyze large amounts of text to find and explore specific topics or concepts within your corpus.
 - **Search for concepts, not keywords:** QualCoder uses a combination of semantic search technologies and Large Language Models like GPT-4. As a result, you don’t need to enter exact keywords but can also search for much more abstract concepts, e.g. "changing gender roles" or "recognition in the workplace". 
 - **Interpret your data interactively with the AI:** The AI not only suggests relevant data but also provides interpretation, offering a different perspective that can enrich your understanding of the data.
 - **Adapt it to your methodology:** Direct the AI’s analysis by choosing from several predefined prompts or creating your own.
-- **Assisted, not automated coding:** Unlike the keyword-based [auto coding]( https://github.com/ccbogel/QualCoder/wiki/07-Coding-Text#auto-code), this is not an automated process. You must review the AI's suggestions.
+- **Assisted, not automated coding:** Unlike the keyword-based [auto coding](https://github.com/ccbogel/QualCoder/wiki/07-Coding-Text#auto-code), this is not an automated process. You must review the AI's suggestions.
 
 ## Preconditions
 - The AI must be enabled, fully loaded, and ready for new queries (see the status bar for current state).
@@ -34,6 +36,8 @@ Search for any topic, phenomenon, or concept in your entire corpus of data witho
 ### Prompts 
 A prompt instructs the AI how to analyze your data. Select them in the bottom left of the window. 
 
+![grafik](https://github.com/user-attachments/assets/45715024-e729-45f9-bad0-87db2be17bcd)
+
 QualCoder offers a range of prompts for different approaches. These allow, for instance, to modify the AI search to be either very open, interpretative and inclusive ("Open search" prompt) or to be more focused, adhering to predefined coding rules outlined in the code’s memo ("content analysis" prompt). 
 
 Explore these prompts by hovering your mouse over the items in the drop down list. Click on "change prompt" for more info and the option to [define your own prompts](MISSING: ADVANCED OPTIONS PROMPTS LIBRARY PAGE).
@@ -52,9 +56,11 @@ Please be patient as it might take some time for the initial results to appear. 
 
 ### Working through the Results
 
-You can **code the selected text** as you would any other text in the [code-text workspace] (https://github.com/ccbogel/QualCoder/wiki/07-Coding-Text). Expand or modify the selection as needed. 
+You can **code the selected text** as you would any other text in the [code-text workspace](https://github.com/ccbogel/QualCoder/wiki/07-Coding-Text). Expand or modify the selection as needed. 
 
 You can also view the **AI's interpretation** by hovering your mouse over a result in the list on the left, which will display a tooltip window. If you choose to code the text, you will have the option to add the AI's interpretation as a memo to the coding.
+
+![AI interpretation](https://github.com/user-attachments/assets/83e4e641-1e9d-4b2c-b80d-6c6e5b7c2e97)
 
 When you reach the **end of the list,** you'll often see a "find more" link, which means that more data from the first step of the search is available for closer inspection. QualCoder will only examine 10 pieces of data at a time to conserve resources. 
 
@@ -62,9 +68,9 @@ Internally, QualCoder uses a **ranking algorithm** to display the most relevant 
 
 Over time, however, the results returned by the AI will begin to **diverge from the original topic** and become less and less relevant. This is the point where you should stop the investigation and move on to the next topic or code. You don't need to click "find more" until there is absolutely no data left to analyze from step one of the search. Compare this to a Google search: There's no need to click through every single page of results if you already understand what you want to know.
 
-### If You Get No Results
+### What to Do If You Get No Results
 
 1) **If step one does not return any potentially relevant data:** Remember that by default, the code search only extracts new data. If you have already thoroughly coded your documents, there may simply be nothing new to explore on a particular topic. Also, think about your search query, especially the name of the code or search topic: Is it too specific or not clear enough?
 2) **If step two does not yield any results:** Click on "find more" (if available) to analyze more data. If this does not produce any results either, you may want to start a new search with a more open, inclusive prompt (e.g., "open search"). 
 
-In general, getting no, very few, or mosty irrelevant results is a strong indication that a particular topic is not very prominent in your data. However, we cannot guarantee that the AI will find every single piece of data related to your code or free search without missing anything.
+In general, getting no, very few, or mostly irrelevant results is a strong indication that a particular topic is not very prominent in your data. However, we cannot guarantee that the AI will find every single piece of data related to your code or free search without missing anything.
