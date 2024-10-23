@@ -12,9 +12,9 @@ QualCoder’s built-in AI features (version 3.6 and up) can assist the coding pr
 - It is **highly recommended** to use the project memo (Menu "AI > Project Memo") to include a short description of your project's research topics, questions, objectives, and the empirical data collected. This information will accompany every prompt sent to the AI, resulting in much more targeted results.
 
 ## Start AI Assisted Coding
-AI assisted coding is integrated into the text coding workspace. Navigate to "Coding > Code Text", select the "AI Search" tab on the left, and click on "Start AI Search."
+AI assisted coding is integrated into the text coding workspace. Navigate to "Coding > Code Text", select the "AI Assistance" tab on the left, and click on "Start AI Search."
 
-![Screenshot AI Search tab](https://qualcoder.wordpress.com/wp-content/uploads/2024/10/09-start-ai-search.png)
+![Screenshot AI Assistance Tab](https://github.com/user-attachments/assets/1eeca42f-2e4e-48a6-aca7-68e4b13df6c4)
 
 In the next window, choose between "Code search" or "Free search" and configure your options:
 
@@ -36,14 +36,14 @@ Search for any topic, phenomenon, or concept in your entire corpus of data witho
 ### Prompts 
 A prompt instructs the AI how to analyze your data. Select them in the bottom left of the window. 
 
-![grafik](https://github.com/user-attachments/assets/45715024-e729-45f9-bad0-87db2be17bcd)
+![Prompt selection](https://github.com/user-attachments/assets/45715024-e729-45f9-bad0-87db2be17bcd)
 
-QualCoder offers a range of prompts for different approaches. These allow, for instance, to modify the AI search to be either very open, interpretative and inclusive ("Open search" prompt) or to be more focused, adhering to predefined coding rules outlined in the code’s memo ("content analysis" prompt). 
+**QualCoder offers a range of prompts for different approaches.** These allow, for instance, to modify the AI search to be either very open, interpretative and inclusive ("Open search" prompt) or to be more focused, adhering to predefined coding rules outlined in the code’s memo ("content analysis" prompt). 
 
-Explore these prompts by hovering your mouse over the items in the drop down list. Click on "change prompt" for more info and the option to [define your own prompts](MISSING: ADVANCED OPTIONS PROMPTS LIBRARY PAGE).
+**Explore these prompts** by hovering your mouse over the items in the drop down list. Click on "change prompt" for more info and the option to [define your own prompts](MISSING: ADVANCED OPTIONS PROMPTS LIBRARY PAGE).
 
 ### Filter
-Narrow your search by selecting specific documents or cases on the right side of the window (Ctrl + Click to select multiple). You can also define a filter based on selected attribute variables.
+Narrow your search by selecting specific **documents** or **cases** on the right side of the window (Ctrl + Click to select multiple). You can also define a filter based on selected **attribute variables.**
 
 ## The Process of AI Assisted Coding
 The AI Search is a two-step process:
