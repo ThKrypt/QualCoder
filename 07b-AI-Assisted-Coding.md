@@ -46,7 +46,7 @@ A prompt instructs the AI how to analyze your data. Select them in the bottom le
 Narrow your search by selecting specific **documents** or **cases** on the right side of the window (Ctrl + Click to select multiple). You can also define a filter based on selected **attribute variables.**
 
 ## The Process of AI Assisted Coding
-The AI Search is a two-step process:
+First, perform the AI Search. This is a two-step process:
 
 **Step 1:** The AI queries its local database for potentially relevant data in your corpus.
 
