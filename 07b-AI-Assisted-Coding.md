@@ -62,9 +62,9 @@ You can also view the **AI's interpretation** by hovering your mouse over a resu
 
 ![AI interpretation](https://github.com/user-attachments/assets/83e4e641-1e9d-4b2c-b80d-6c6e5b7c2e97)
 
-When you reach the **end of the list,** you'll often see a "find more" link, which means that more data from the first step of the search is available for closer inspection. QualCoder will only examine 10 pieces of data at a time to conserve resources. 
+When you reach the **end of the list,** you'll often see a "find more" link, which means that more data from the first step of the search is available for closer inspection. Click on this link to examine the next 10 pieces of data. 
 
-Internally, QualCoder uses a **ranking algorithm** to display the most relevant results at the top of the list. Note that this algorithm is not perfect, you may still find interesting data further down the list. 
+QualCoder uses a **ranking algorithm** to display the most relevant results at the top of the list. Note that this algorithm is not perfect, you may still find interesting data further down the list. 
 
 Over time, however, the results returned by the AI will begin to **diverge from the original topic** and become less and less relevant. This is the point where you should stop the investigation and move on to the next topic or code. You don't need to click "find more" until there is absolutely no data left to analyze from step one of the search. Compare this to a Google search: There's no need to click through every single page of results if you already understand what you want to know.
 
