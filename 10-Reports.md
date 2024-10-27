@@ -158,6 +158,12 @@ Click on a code to get a summary of that code. The coders who have used the code
 
 ![Code summary](https://qualcoder.files.wordpress.com/2021/05/code_summary_report.png?resize=700%2C500)
 
+#  Codes by test segments report
+
+This report shows rows of coded text segments and columns of which code has been applied.
+For some users, e.g. legal area, it is convenient to see which codes have been applied to the same text segment.
+A Excel file can be exported.
+
 # Charts
 
 Charts are displayed in the default web browser. Various chart types and filter options are available.
