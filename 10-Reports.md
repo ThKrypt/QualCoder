@@ -37,7 +37,7 @@ This most commonly occurs with survey imports.
 The case attribute selection option will select the entire text file, rather than the sections assigned to cases.
 
 One option for now is to use Reports > Database queries.
-In the upcoming 3.6 version onwards there is a default query that will do this.
+In the upcoming 3.6 version onwards this is fixed.
 
 In earlier versions do this below, create and run a SQL query like the following example:
 
