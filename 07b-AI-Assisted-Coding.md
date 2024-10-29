@@ -16,11 +16,13 @@ AI assisted coding is integrated into the text coding workspace. Navigate to "Co
 
 ![Screenshot AI Assistance Tab](https://github.com/user-attachments/assets/1eeca42f-2e4e-48a6-aca7-68e4b13df6c4)
 
-In the next window, choose between "Code search" or "Free search" and configure your options:
+In the next window, you have to (1) define the object of your search (code or free topic), (2) instruct the AI how to analyze your data, and, if needed, (3) define filters for your data:
 
-![Screenshot AI Search Options](https://qualcoder.wordpress.com/wp-content/uploads/2024/10/10-start-ai-search-window.png) 
+![Screenshot AI Search Dialog](https://github.com/user-attachments/assets/38c2916e-4be8-49bc-9c6d-9d3715726acd)
 
-### Code Search
+### What to Search For: Code vs. Free Topic Search
+
+#### Code Search
 
 Use this to add more data from your entire corpus to an already existing code. This can transform traditional coding practices, as [demonstrated in this video tutorial]( https://www.youtube.com/watch?v=FrQyTOTJhCc).
 
@@ -30,20 +32,21 @@ Use this to add more data from your entire corpus to an already existing code. T
 - **Send memo to AI:** Describe or define your code in a code memo to help the AI understand and yield better results. You can also add personal notes to the code memo by inserting "#####" in the text; anything below this will not be sent to the AI.
 - **Include coded segments:** Defaulted to off, meaning the AI search will return only new data not yet coded with this particular code. Activate this option to include previously coded data also.
 
-### Free Topic Search
+#### Free Topic Search
 Search for any topic, phenomenon, or concept in your entire corpus of data without a predefined code. Enter a name and a description to communicate to the AI what you are looking for. 
 
-### Prompts 
+### How to Analyze the Data: The Prompt for the AI
+
 A prompt instructs the AI how to analyze your data. Select them in the bottom left of the window. 
 
-![Prompt selection](https://github.com/user-attachments/assets/45715024-e729-45f9-bad0-87db2be17bcd)
+![Prompt selection](https://github.com/user-attachments/assets/4545d2af-b2ac-40e9-a822-67a84301207c)
 
 **QualCoder offers a range of prompts for different approaches.** These allow, for instance, to modify the AI search to be either very open, interpretative and inclusive ("Open search" prompt) or to be more focused, adhering to predefined coding rules outlined in the code’s memo ("content analysis" prompt). 
 
-**Explore these prompts** by hovering your mouse over the items in the drop down list. Click on "change prompt" for more info and the option to [define your own prompts](MISSING: ADVANCED OPTIONS PROMPTS LIBRARY PAGE).
+**Explore these prompts** by hovering your mouse over the items in the drop down list. Click on "Edit Prompt" to [edit the prompts or define your own](MISSING: ADVANCED OPTIONS PROMPTS LIBRARY PAGE) (advanced option).
 
-### Filter
-Narrow your search by selecting specific **documents** or **cases** on the right side of the window (Ctrl + Click to select multiple). You can also define a filter based on selected **attribute variables.**
+### Filter: Narrow Your Search Down
+Select specific **documents** or **cases** on the right side of the window to limit your search to these (Ctrl + Click to select multiple). You can also define a filter based on selected **attribute variables.**
 
 ## The Process of AI Assisted Coding
 First, perform the AI Search. This is a two-step process:
