@@ -30,7 +30,7 @@ Use this to add more data from your entire corpus to an already existing code. T
 
 **Options:**
 
-- **Select a code or a category:** QualCoder will send not only the code name to the AI but the complete hierarchy path in the code tree, e.g., "Monitoring of CM ADEs > resources needed" in the example shown above. 
+- **Select a code or a category:** QualCoder will send not only the code name to the AI but the complete hierarchy path in the code tree, e.g., "Work > Meanings of work > Work as a necessity" in the example shown above. 
 - **Send memo to AI:** Describe or define your code in a code memo to help the AI understand and yield better results. You can also add personal notes to the code memo by inserting "#####" in the text; anything below this will not be sent to the AI.
 - **Include coded segments:** Defaulted to off, meaning the AI search will return only new data not yet coded with this particular code. Activate this option to include previously coded data also.
 
