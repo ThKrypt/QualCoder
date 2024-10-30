@@ -7,6 +7,8 @@ QualCoder’s built-in AI features (version 3.6 and up) can assist the coding pr
 - **Adapt it to your methodology:** Direct the AI’s analysis by choosing from several predefined prompts or creating your own.
 - **Assisted, not automated coding:** Unlike the keyword-based [auto coding](https://github.com/ccbogel/QualCoder/wiki/07-Coding-Text#auto-code), this is not an automated process. You must review the AI's suggestions.
 
+Note that "AI Assisted Coding" is not a method in its own right; it's a set of techniques that can be adapted to many methods working with codes, from grounded theory to content or thematic analysis.
+
 ## Preconditions
 - The AI must be enabled, fully loaded, and ready for new queries (see the status bar for current state).
 - It is **highly recommended** to use the project memo (Menu "AI > Project Memo") to include a short description of your project's research topics, questions, objectives, and the empirical data collected. This information will accompany every prompt sent to the AI, resulting in much more targeted results.
