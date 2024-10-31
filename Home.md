@@ -35,7 +35,7 @@ QualCoder is written by an Auatralian developer in python 3 (version 3.10 and up
 
 ## Collaboration on a Qualcoder project
 
-[Page on how to work as a team with QualCoder](https://github.com/ccbogel/QualCoder/wiki/13-Working-in-a-team)
+[Page on how to work as a team with QualCoder](https://github.com/ccbogel/QualCoder/wiki/2.4.-Working-in-a-Team)
 
 
 **If you use and like QualCoder please support the development.**
