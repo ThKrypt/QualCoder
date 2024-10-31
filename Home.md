@@ -32,7 +32,7 @@ QualCoder is written by an Australian developer in python 3 (version 3.10 and up
 
 **QualCoder supports open standards.** QualCoder aims to support the REFI-QDA Standard, see https://www.qdasoftware.org/ You may exchange codebooks and projects with your colleagues even if they do not use QualCoder, as long as the software they use supports the REFI-QDA Standard. It means that you do not risk your data being unavailable. Note, as of December 2020 REFI-QDA Project is still experimental so there may be bugs. Further testing particularly for audio and video exports and imports and relatively-linked files is needed.
 
-**QualCoder can be modified.** You can modify and adapt QualCoder to your needs, or if you do not how you ask someone to do it for you, as long as you release your changes to everyone. This also means you can copy the software and give it to your colleagues or students free of charge.
+**QualCoder can be modified.** You can modify and adapt QualCoder to your needs, or if you do not how you ask someone to do it for you, as long as you release your changes to everyone. This also means you can copy the software and give it to your colleagues or students free of charge. It is released from 3.6 and up under the LGPL v3 license.
 
 **QualCoder is a software option to support open science. [UNECO recommendations on open science](https://www.unesco.org/en/open-science?hub=686)
 
