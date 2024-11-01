@@ -27,9 +27,9 @@
 
      4.1. [Coding Text](https://github.com/ccbogel/QualCoder/wiki/4.1.-Coding-Text)
 
-     4.2. [Coding Text on PDFs](https://github.com/ccbogel/QualCoder/wiki/4.2.-Coding-Text-on-PDFs)
+     4.2. [AI Assisted Coding](https://github.com/ccbogel/QualCoder/wiki/4.2.-AI-Assisted-Coding)
 
-     4.3. [AI Assisted Coding](https://github.com/ccbogel/QualCoder/wiki/4.3.-AI-Assisted-Coding)
+     4.3. [Coding Text on PDFs](https://github.com/ccbogel/QualCoder/wiki/4.3.-Coding-Text-on-PDFs)
 
      4.4. [Coding Images](https://github.com/ccbogel/QualCoder/wiki/4.4.-Coding-Images)
 
